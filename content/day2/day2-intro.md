@@ -6,19 +6,19 @@ has_children: true
 ---
 # Day 2: Mapping and Spatial Analysis with QGIS
 
-Description
-
-
+Day 2 will focus on Static Maps and Spatial Analysis. In addition to a conceptual orientation to geographic information systems (GIS), spatial analysis, and different kinds of static maps, you will gain practical experience with QGIS, a free and open-source GIS software. At a beginner-friendly pace, you will develop familiarity with the QGIS interface by solving puzzles involving common tools and workflows. By the end of Day 2, you will be able to create static maps of your own. 
 
 ## Lesson Plan 
-- AM - static maps/reference maps
-- PM - spatial analysis + choropleth map
-
-
-
-## Activities
+**Morning Session** 
+- Reference maps vs. thematic maps 
 - Introducing Some sort of humanities dataset? Montreal data set? Historical dataset
-- Choropleth map creation?
+- advantages to mapping with QGIS
+- intro to qgis interface and project setup, if not covered in day 1
+- make a reference map 
+
+**Afternoon Session** 
+- Spatial analysis
+- selections, tools etc. 
 - computational/spatial questions - puzzles in groups 
 
 
