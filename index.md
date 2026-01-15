@@ -1,26 +1,19 @@
 ---
 layout: default
-title: Outline
+title: Course Overview
 nav_order: 1
+has_children: true
 ---
 
-## Note: this workshop is in development and not yet complete.
 
-Description...
+# Spatial Visualization in/for Digital Humanities Research
 
-## Learning objectives
 
-At the end of this workshop, you will be able to:
-1.
-2.
-3.
 
-## Schedule
 
-| 0:00 | Welcome and using Zoom|
-| 0:05 | Introduction |  
-| 0:15 |  |
-| 0:30 |  |   
-| 0:45 |  |
-| 1:00 | Wrap-up and Discussion |
 
+
+
+
+<p style="margin-top:90px"></p>
+<p style="color:grey; font-size:13px">This workshop was authored by Lily Demet and Alex Alisauskas, and taught at the 2026 Digital Humanities Summer Institute.</p>
