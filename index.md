@@ -28,11 +28,11 @@ Throughout the week, we will think about what it means to approach research spat
 
 | Day | Topics | Tools/Learning Outcomes
 | --- | --- | ---
-| Monday | **Introduction to Spatial Data and GIS** | asdf
-| Tuesday | **Mapping and Spatial Analysis with QGIS** | asdf 
-| Wednesday | **Web Mapping** | asdf
-| Thursday | **Storymaps + Georeferencing** | asdfasd 
-| Friday | **Wrap-up** | asdfas
+| Monday | **Introduction to Spatial Data and GIS** | Day 1 will introduce key ideas and critical methods in cartography and geographic information science, and, discuss how maps, as spatial representations, function in digital scholarship and humanities research.
+| Tuesday | **Mapping and Spatial Analysis with QGIS** | Day 2 will focus on Static Maps and Spatial Analysis. In addition to a conceptual orientation to geographic information systems (GIS), spatial analysis, and different kinds of static maps, you will gain practical experience with QGIS, a free and open-source GIS software.
+| Wednesday | **Web Mapping** | Day 3 will concern web mapping, that is, making dynamic, interactive maps that are hosted on the web and can be shared to others via a link. You'll have a chance to experiment with different web mapping technologies including uMap, Google MyMaps, Leaflet, and a QGIS plugin for web mapping. 
+| Thursday | **Storymaps + Georeferencing** | On Day 4, you will learn how to georeference historical maps and build multi-media narratives using the free version of ArcGIS StoryMaps, as well as its open-source alternate, Knightlab StoryMaps. 
+| Friday | **Wrap-up** | Our last day together will provide a space to wrap-up projects, review skills learned, etc. 
 
 <!-- 
 We will also scaffold our week some project planning fundamentals to help make sure you leave the week with a project plan to move forward -->
