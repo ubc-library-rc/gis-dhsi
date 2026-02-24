@@ -1,9 +1,9 @@
-# Name of workshop
+# Spatial Visualization in/for Digital Humanities Research
 ### UBC Library Research Commons
 
 :heavy_exclamation_mark: This workshop is in development and not yet complete. :heavy_exclamation_mark:    
 
-Description: Website resource for a 2026 Digital Humanities Summer Institute course taught by Lily Demet and Alex Alisauskas.  
+Description: Website resource for a 2026 Digital Humanities Summer Institute course, developed and taught by Lily Demet and Alex Alisauskas. 
 
 Link to workshop: [https://ubc-library-rc.github.io/gis-dhsi/](https://ubc-library-rc.github.io/gis-dhsi/)
 
