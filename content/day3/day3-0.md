@@ -6,7 +6,7 @@ has_children: true
 ---
 # Day 3: Web Mapping 
 
-Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). Web maps are dynamic, interactive maps that are hosted on the web and can be shared to others via a link. Web maps are ubiquitous in our everyday: for example, you likely use a web map on your phone to navigate around the city, track an online order, ride, or bus, and check the weather forecast near you. You will learn how to create web maps in 3 different ways: through online platforms such as uMap and Google MyMaps, through coding powered by Leaflet, and through QGIS using the qgis2web plugin.
+Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). Web maps are a means of dynamically and interactively visualizing geospatial data. You will learn how to create web maps in 3 different ways: through online platforms such as uMap and Google MyMaps, through coding powered by Leaflet, and through QGIS using the qgis2web plugin.
 
 Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it equally important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map — the code that structures it's styling and interactivity — together in a code editor. 
 

@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Leaflet
+title: Webmapping with Code
 nav_order: 3
 parent: Day 3
 ---
+# Explain
 
-# Leaflet 
+
+
+
+## Leaflet 
 <img src="../images/leaflet-logo.png" alt="Leaflet Logo" style="margin: auto; width:35%"/>
 
 [Leaflet](https://leafletjs.com/) is a set of instructions that your web browser or mobile device uses to display maps and let you interact with them. For example, when you double click your mouse on a map, leaflet tells your browser to zoom in. Leaflet defines the style of your map and includes things like zoom controls, attribution links, pop-ups, colors for markers and more. Leaflet is made up of only 38kb of Javascript, so it is really fast and lightweight - meaning browsers don’t have to work very hard to load it. Leaflet is open source, free, and hugely customizable. And, because of this, Leaflet is widely used. There are lots of alternatives to Leaflet, but most require an API key to use.

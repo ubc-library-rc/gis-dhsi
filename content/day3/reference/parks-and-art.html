@@ -1,0 +1,69 @@
+<html>
+
+<head>
+
+  <title>Leaflet Example</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Source for your Leaflet JavaScript and CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!--Add scripts that link to data sources here-->
+  <script src="./public-art.js" charset="utf-8"></script>
+  <script src="./green-spaces.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+  <!-- Your map's HTML container -->
+  <div id="mapid" style="height: 100%;"></div>
+
+  <!-- Data layers, their interactivity, and styling are contained within <script> </script> elements -->
+  <script>
+
+    // Initialize your map
+    var mymap = L.map('mapid').setView([43.72, -79.42], 11);
+
+    //Load the tile layer
+ var OpenStreetMap_HOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
+}).addTo(mymap);
+
+    // Add your marker(s) here
+
+
+    // Add point layer (public art) here
+    // L.geoJson(art).addTo(mymap);
+
+  
+    L.geoJson(art, {onEachFeature: function(feature, layer){
+            layer.bindPopup(
+                "<img src='" + feature.properties.ImageURL + "' width='200px'/><br><b>Title: </b>" + feature.properties.Title + "<br><b>Artist: </b>"+ feature.properties.Artist);
+        }
+    }).addTo(mymap);
+
+    
+    // Add polygon layer (green spaces) here
+     L.geoJson(green, { style: style }).addTo(mymap);
+
+    function style(feature, green) {
+      return {
+        fillColor: '#3A8559',
+        color: '#71c791',
+        weight: .5,
+        fillOpacity: 0.5
+      };
+    }
+
+  </script>
+
+
+</body>
+
+</html>
