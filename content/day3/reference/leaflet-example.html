@@ -20,11 +20,18 @@
 
 
   <!--marker cluster libraries-->
-  <link rel="stylesheet" href="./Leaflet.markercluster-1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+
+  <script src='https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js'></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+
+  <!-- <link rel="stylesheet" href="./Leaflet.markercluster-1.4.1/dist/MarkerCluster.css" />
 
   <link rel="stylesheet" href="./Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css" />
 
-  <script src="./Leaflet.markercluster-1.4.1/dist/leaflet.markercluster-src.js"></script>
+  <script src="./Leaflet.markercluster-1.4.1/dist/leaflet.markercluster-src.js"></script> -->
 
 
 </head>
@@ -77,16 +84,16 @@
     //     fillOpacity: 0.8
     //   };
     // }
-    
+
 
     //Add polygon layer (Heritage Conservation Areas) here
-     L.geoJson(heritage, {onEachFeature, style: style}).addTo(mymap);
+    L.geoJson(heritage, { onEachFeature, style: style }).addTo(mymap);
 
-      function onEachFeature(feature, heritage) {
-      { if (feature.properties && feature.properties.HCD_NAME) {heritage.bindPopup(feature.properties.HCD_NAME); } }
+    function onEachFeature(feature, heritage) {
+      { if (feature.properties && feature.properties.HCD_NAME) { heritage.bindPopup(feature.properties.HCD_NAME); } }
     }
 
-     function style(feature, heritage) {
+    function style(feature, heritage) {
       return {
         fillColor: '#5E3A85',
         color: '#EBE1F0',
@@ -95,7 +102,7 @@
       };
     }
 
-    
+
   </script>
 
 
