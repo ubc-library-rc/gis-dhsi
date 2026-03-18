@@ -2,7 +2,7 @@
 layout: default
 title: Georeferencing Activity
 nav_order: 2
-parent: Day 4
+parent: Georeferencing Overview
 has_children: true
 ---
 # Georeference a historical map with QGIS
