@@ -2,7 +2,7 @@
 
 <head>
 
-  <title>Example 1</title>
+  <title>Example 2</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,6 +17,12 @@
   <script src="./public-art.js" charset="utf-8"></script>
   <script src="./heritage-conservation-districts.js" charset="utf-8"></script>
 
+    <!--marker cluster libraries-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+
+  <script src='https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js'></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
 
 
 </head>
@@ -37,13 +43,17 @@
     }).addTo(mymap);
 
 
-    //load art point layer 
-    L.geoJson(art, {
+     //  add art layer as cluster group 
+    var markers = L.markerClusterGroup();
+
+    L.geoJSON(art, {
       onEachFeature: function (feature, layer) {
-        layer.bindPopup(
-          "<img src='" + feature.properties.ImageURL + "' width='200px'/><br><b>Title: </b>" + feature.properties.Title + "<br><b>Artist: </b>" + feature.properties.Artist);
-      }
-    }).addTo(mymap);
+        var popupContent =
+          "<img src='" + feature.properties.ImageURL + "' width='200px'/><br><b>Title: </b>" + feature.properties.Title + "<br><b>Artist: </b>" + feature.properties.Artist
+        layer.bindPopup(popupContent);
+      },
+    }).addTo(markers);
+    markers.addTo(mymap);
 
 
     //Add polygon layer (Heritage Conservation Areas) here

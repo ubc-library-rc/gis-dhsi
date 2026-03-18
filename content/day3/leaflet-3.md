@@ -18,29 +18,50 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <!-- Source for your Leaflet JavaScript and CSS -->
+  <!-- Source for your Leaflet JavaScript and CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!--Add links to Leaflet MarkerCluster here-->
+
+
+
+  <!--Add scripts that link to data sources here-->
+
+
+
 
 </head>
 
 <body>
-
+  <!-- Your map's HTML container -->
   <div id="mapid" style="height: 100%;"></div>
 
 
   <script>
 
-    // Initialize's map
-    var mymap = L.map('mapid').setView([43.96, -79.89], 9);
+    // Initialize your map
+    var mymap = L.map('mapid').setView( [45.65, -73.58], 9);
 
-    // Loads tile layer
+
+    //Load your tile layer
     var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mymap);
+
+
+    // Add marker(s) here
+
+
+    // Add point layer here
+
+    
+    // Add polygon layer here
+
 
   </script>
 

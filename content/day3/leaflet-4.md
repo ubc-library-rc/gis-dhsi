@@ -15,13 +15,15 @@ Everything you add to the boilerplate during this workshop will be within the `<
 
 
 ```js
-    // Initialize's map
-    var mymap = L.map('mapid').setView([43.96, -79.89], 9);
+// Initialize your map
+    var mymap = L.map('mapid').setView( [45.65, -73.58], 9);
 
-    // Loads tile layer
+
+    //Load your tile layer
     var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mymap);
+
 ```
 
 ----
@@ -29,7 +31,7 @@ Everything you add to the boilerplate during this workshop will be within the `<
 ## Map Variable
 
 ```js
-var mymap = L.map('mapid').setView([43.96, -79.89], 9);
+var mymap = L.map('mapid').setView( [45.65, -73.58], 9);
 ```
 The first line is our map variable. A JavaScript variable is something that holds values. Here, the `mymap` variable holds values for the starting view location and zoom level of the map upon initial load.
 
@@ -44,10 +46,10 @@ The other variable `osm` hold values for the map tile layer that we are using fo
 
 
 ## Configure the Starting View
-In the <code>mymap</code> variable you can see a couple of recognizable elements - most noticeably the latitude and longitude coordinate pair `[43.96, -79.89]`. That location is the geographic center point for the city of Toronto. When your browser loads the map, it starts with that point in the center of your screen.
+In the <code>mymap</code> variable you can see a couple of recognizable elements - most noticeably the latitude and longitude coordinate pair `[45.65, -73.58]`. That location is the geographic center point for the city of Montreal. When your browser loads the map, it starts with that point in the center of your screen.
 
-Say we want to load the map over Toronto. We'd need to change that coordinate pair to be the center point of the city. There are several ways to find this, but an easy one is to copy/paste coordinate pairs from Google Maps. Open Google Maps and zoom/pan until Toronto is in the middle of your screen. Then, right-click and select the coordinate pair to copy it to your clipboard. Replace the current coordinates in your boilerplate with these. 
-<!-- Remember, these are specific to the projection used by that webmap. Both Google Maps and Leaflet use the same default coordinate reference system - WGS84 Web Mercator - so you're all set. -->
+Since we want to load the map over Toronto, we need to change that coordinate pair to be the center point of the city. There are several ways to find this, but an easy one is to copy/paste coordinate pairs from Google Maps. Open Google Maps and zoom/pan until Toronto is in the middle of your screen. Then, right-click and select the coordinate pair to copy it to your clipboard. Replace the current coordinates in your boilerplate with these. 
+<!-- Remember, these are specific to the projection used by that webmap. Both Google Maps and Leaflet use the same default coordinate reference system - WGS84 Web Mercator - so you're all set. Also, lat, long, which is y, x-->
  
 
 
@@ -55,13 +57,12 @@ To Do
 {: .label .label-green }
 Modify the coordinate pair so your map loads over Toronto. If Live Server is enabled, you should immediately see the results of this change. Otherwise, save your HTML file, and reload your browser. If everything went as planned, you should see this:
 
-CHANGE THIS IMAGE
-![Map loads over the center of Vancouver](./images/map02.png "Your second map loads over Vancouver")
+<img src="./images/leaflet3.png" style="width:100%">
 
 If you don't see a map like the one above, undo your edit in your source code editor (**ctl + z**), and, when it's working again, save (**ctl + s**). Then, try again making sure your code syntax is exactly as shown:
 
 ```js
-var mymap = L.map('mapid').setView([49.259, -123.137], 9);
+ var mymap = L.map('mapid').setView([43.69, -79.39], 9);
 ```
 
 ## Zoom Levels
@@ -75,13 +76,13 @@ Looking again at our <code>mymap</code> variable, the loading view is set at the
 
 You should see this if you save and refresh your map:
 
-CHANGE IMAGE
-![Map loads over the center of Vancouver!](./images/map03.png "Map loads over Vancouver!")
+<img src="./images/leaflet4a.png" style="width:100%">
+<img src="./images/leaflet4b.png" style="width:100%">
 
 If you don't see a map like the one above, undo your edit in your source code editor (**ctl + z**), and, when it's working again, save (**ctl + s**). Then, try again making sure your code syntax is exactly as shown:
 
 ```js
-var mymap = L.map('mapid').setView([43.72, -79.42], 11);
+  var mymap = L.map('mapid').setView([43.69, -79.39], 12);
 ```
 
 
@@ -99,6 +100,13 @@ Experiment with different basemaps! If you don't know where to start or keep get
 
 
 ```js
+var OpenStreetMap_HOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
+    }).addTo(mymap);
+```
+
+```js
 var Stadia_StamenWatercolor = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}', {
       minZoom: 1,
       maxZoom: 16,
@@ -107,8 +115,16 @@ var Stadia_StamenWatercolor = L.tileLayer('https://tiles.stadiamaps.com/tiles/st
     }).addTo(mymap);
 ```   
 
-
 ```js
+var Stadia_Outdoors = L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}', {
+	minZoom: 0,
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+}).addTo(mymap);
+```
+
+<!-- ```js
 var Stadia_StamenTonerLite = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}', {
 	minZoom: 0,
 	maxZoom: 20,
@@ -116,11 +132,9 @@ var Stadia_StamenTonerLite = L.tileLayer('https://tiles.stadiamaps.com/tiles/sta
 	ext: 'png',
       scrollWheelZoom: false,
     }).addTo(mymap);
-```    
+```     -->
 
 If it all went as planned, you should see the new basemap rendered by your browser. 
 
 
-CHANGE EXAMPLE 
-
-![map basemap](./images/map-basemap.png "Map loads over Vancouver!")
+<img src="./images/leaflet5.png" style="width:100%">

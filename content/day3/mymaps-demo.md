@@ -155,7 +155,7 @@ Finally, below your layers, there is an option to change your Basemap from a sel
 <img src="./images/mymap-demo21.png" style="width:100%">
 
 
-## Saving and Sharing your map
+## Saving and Sharing your Google MyMap
 When you're ready to share your map, simply click the Share option at the top of your layers. You will be prompted to adjust the visibility settings, and given a shortened link to your new Google MyMap!
 
 

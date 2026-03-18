@@ -6,11 +6,14 @@ parent: Hands on with Leaflet
 ---
 
 # Leaflet Basemap & Map Tiles
-Let’s first see what the basic Leaflet web map looks like. If you haven't already, click "Go Live" to launch a live server that renders your boilerplate web map in a browser window. If you didn't install this extension to VS Code, navigate to `boilerplate.html` from your computer's finder, and open it with a web browser such as Google Chrome. (To do this, you can likely just double click the file. If that fails, control-click (i.e. right-click) the file and choose your web browser as the application to "open with".) 
+Let’s first see what the basic Leaflet web map looks like. If you haven't already, click "Go Live" to launch a live server that renders your `boilerplate` web map in a browser window. Otherwise, you can simply open-with browser of your choice. Google Chrome is recommended. 
+
+
+<!-- If you didn't install this extension to VS Code, navigate to `boilerplate.html` from your computer's finder, and open it with a web browser such as Google Chrome. (To do this, you can likely just double click the file. If that fails, control-click (i.e. right-click) the file and choose your web browser as the application to "open with".)  -->
 
 In your browser window, you should see a map that looks like this:
 
-![first-view](./images/first-view.png)
+<img src="./images/leaflet2.png" style="width:100%">
 
 Keep this browser tab open - we’ll return to it in the next section.
 

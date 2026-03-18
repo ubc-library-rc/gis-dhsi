@@ -6,7 +6,20 @@ nav_order: 2
 ---
 
 # uMap Demo
-<br>
+{: .no_toc}
+
+<details open markdown="block">
+  <summary>
+    On this page:
+  </summary>
+  {: .text-delta }
+ - TOC
+{:toc}
+</details>
+
+-----
+
+## Creating and naming a new map
 
 1. Go to [umap.openstreetmap.fr/en/](https://umap.openstreetmap.fr/en/) and **Log in/Sign in**. This ensures any map/work you create will be saved so you can return to it later.<br>
 <img src="./images/umap-demo1.png" style="width:90%">
@@ -28,6 +41,13 @@ Here is your working interface. Along the top is a menu bar. You'll notice the v
  - <img src="./images/umap-demo6.png" style="width:5%"> allows you to change the basemap. (You might need to extend your browser window if you can't see all the basemap options.) Try changing the baseamp.
 <br><br>
 4. The toolbar on the right** allows you to add and manipulate data. The first three tools allow you to add markers, lines, and polygons directly to your map. No need to create a data layer elsewhere first. However, if you *have* datasets you want to add to the map, you can upload them.
+
+
+<!-- ## Basemaps  -->
+
+
+## Adding Data Layers
+
 <br>
  - <img src="./images/umap-demo7.png" style="width:5%"> allows you to import datasets. Try importing `neighborhoods.geojson` from the `webmapping-workshop` folder. Notice that in the drop-down menu of "Choose the format", `.js` files are not listed. Each web mapping tool/platform has its own specifications for what data formats can be uploaded and displayed. You can go to the [Vancouver Open Data portal](https://opendata.vancouver.ca/explore/?disjunctive.features&disjunctive.theme&disjunctive.keyword&disjunctive.data-owner&disjunctive.data-team&sort=modified) and download any other kind of data in `.geojson` format if you wish to add it to your uMap web map. 
 <br><br>
@@ -42,6 +62,9 @@ https://ubc-library-rc.github.io/gis-intro-leaflet/content/umap.html
 <br><br>
 <img src="./images/umap04-2.png" style="width:100%">
 <br><br>
+
+## Modifying Layers - Modifying Layer Properties 
+
 5. Map and layer properties...<br>
  - Notice you can also change the basemap from the right-hand toolbar. <img src="./images/umap05a.png" style="width:5%"><br>
  - The **Layer Properties** <img src="./images/umap05b.png" style="width:5%"> allow you to add pop-ups to your map that share further information about each layer. Here, you can change the symbology of each layer. You can also tell uMap to cluster or create a heat map fro your data! This is great if you have a large point layer. 
@@ -49,3 +72,9 @@ https://ubc-library-rc.github.io/gis-intro-leaflet/content/umap.html
 Take some time to play around with the settings and layers. 
 <br><br>
 6. When you're happy with your web map, save your draft and change the visibility in the main banner menu at the top of your screen. Then, head to the share icon in the left-hand menu. Here you can get the link to share your map with others, the iframe information to embed it in another website, or even download the full code and data package of your map. That's the power of open-source! 
+
+
+
+
+## Saving and Sharing your uMap
+- different options
