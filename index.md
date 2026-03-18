@@ -25,8 +25,8 @@ Throughout the week, we will think about what it means to approach research spat
 
 | Day | Topics | Tools/Learning Outcomes
 | --- | --- | ---
-| Monday | **Introduction to Spatial Data and GIS** | Day 1 will introduce key ideas and critical methods in cartography and geographic information science, and, discuss how maps, as spatial representations, function in digital scholarship and humanities research. We will talk about spatial data and how to find, download, and properly format data for use in various spatial visualization platforms. Finally, we will provide a project design worksheet to structure your learning throughout the week.
-| Tuesday | **Mapping and Spatial Analysis with QGIS** | Day 2 will provide a conceptual orientation to geographic information systems (GIS), a software often used to analyze, modify, and visualize spatial data. You will develop familiarity with QGIS—a free and open-source GIS—by solving puzzles involving common tools and workflows. Finally, you will gain practical experience making maps of your own with QGIS. 
+| Monday | **Spatial Visualization in/for DH** | Day 1 will introduce key ideas and critical methods in cartography and geographic information science, and, discuss how maps, as spatial representations, function in digital scholarship and humanities research. We will talk about spatial data and how to find, download, and properly format data for use in various spatial visualization platforms. Finally, we will provide a project design worksheet to structure your learning throughout the week.
+| Tuesday | **Mapping with QGIS** | Day 2 will provide a conceptual orientation to geographic information systems (GIS), a software often used to analyze, modify, and visualize spatial data. You will develop familiarity with QGIS—a free and open-source GIS—by solving puzzles involving common tools and workflows. Finally, you will gain practical experience making maps of your own with QGIS. 
 | Wednesday | **Web Mapping** | Day 3 will concern web mapping, that is, making dynamic, interactive maps that are hosted on the web and can be shared with others via a link. You will learn how to create web maps in 2 different manners: first, through online platforms such as uMap and Google MyMaps, then ,through coding powered by Leaflet. 
 | Thursday | **Storymaps + Georeferencing** | On Day 4, you will learn how to georeference historical maps and build multi-media narratives using the free version of ArcGIS StoryMaps, as well as its open-source alternate, Knightlab StoryMaps.
 | Friday | **Wrap-up** | Our last day together will provide a space to wrap-up projects and review skills learned. 
@@ -70,5 +70,14 @@ Throughout the week, we will think about what it means to approach research spat
 
 
 
+
+### Site Acknowledgements
+This extended workshop was authored by [Lily Demet](https://geog.ubc.ca/profile/lily-crandall-oral/) and Alex Alisauskas, and taught at the 2026 [Digital Humanities Summer Institute](https://dhsi.org/).
+
+Site template adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs) Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill) and available under the [MIT License](http://opensource.org/licenses/MIT)
+
+Copyright: UBC Library Research Commons, [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+
+
 <p style="margin-top:90px"></p>
-<p style="color:grey; font-size:13px">This workshop was authored by Lily Demet and Alex Alisauskas, and taught at the 2026 Digital Humanities Summer Institute.</p>
+<p style="color:grey; font-size:13px">This extended workshop was authored by Lily Demet and Alex Alisauskas, and taught at the 2026 Digital Humanities Summer Institute.</p>
