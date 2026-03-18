@@ -6,27 +6,19 @@ has_children: true
 ---
 # Day 3: Web Mapping 
 
-Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). Web maps are a means of dynamically and interactively visualizing geospatial data. You will learn how to create web maps in 3 different ways: through online platforms such as uMap and Google MyMaps, through coding powered by Leaflet, and through QGIS using the qgis2web plugin.
+Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). Web maps are a means of dynamically and interactively visualizing geospatial data. Today, you will learn how to create web maps in 3 different ways: 
 
-Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it equally important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map — the code that structures it's styling and interactivity — together in a code editor. 
+1. **online**, through platforms such as [uMap](https://umap.openstreetmap.fr/en/) and [Google MyMaps](https://www.google.com/maps/about/mymaps/), 
+2. with **coding**, powered by [Leaflet](https://leafletjs.com/), and 
+3. with **QGIS**, using the [qgis2web plugin](https://plugins.qgis.org/plugins/qgis2web/).
 
-
-<!-- Although web mapping can be done entirely online without any coding or geospatial knowledge whatsoever, it's important to understand the anatomy of a web map, that is, the various components that work together to power an interactive and dynamic map hosted on the web. For this reason, 
--->
-<br>
-
-##### **Day 3 Learning Objectives:**
-
-1. Understand the anatomy of a web map, that is, the various components that work together to power an interactive and dynamic map hosted on the web;
-2. Become familiar with the different tools and platforms available for web mapping, including the advantages and disadvantages of each; and
-3. Be equipped with the fundamental knowledge and skills to begin web mapping on your own.  
-
+Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map together in a code editor in order to understand how the various components of a web map work together. By the end of the day, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
 
 
 <br>
 
 #### **Morning Session** 9am - 12pm
-- Introduce and Demo uMap and Google MyMaps, two online platforms for webmapping
+- Introduce and demo uMap and Google MyMaps, two online platforms for webmapping
 - Hands on activity 1 - small groups assigned different datasets to map using either GoogleMy Maps or uMap 
 - Anatomy of a webmap - conceptual intro to leaflet
 
@@ -37,45 +29,65 @@ Each of these methods of web mapping has its advantages and disadvantages which 
 - hosting with github (make sure there's time for that)
 
 
+<br>
 
+-----
 
-Below is an example webmap made from umap, Google MyMaps, Leaflet, and QGIS.
+COULD MOVE the following content TO NEXT PAGE - ON INTRO TO WEBMAPS
+
+## What we will make
+
+Below are examples of webmap made with uMap, Google MyMaps, Leaflet, and QGIS.
+
+<br>
 
 <iframe src="./reference/leaflet-example.html" style="width:100%; height:520px; border:none;"> </iframe>
+<sub>[View in Full Screen](./reference/leaflet-example.html)</sub> 
 
 
 <br>
 
-<iframe src="https://www.google.com/maps/d/embed?mid=11gHGxEF2Uxx7zbn00htegHybzWBS3ro&hl=en&ehbc=2E312F" style="width:100%; height:520px; border:none;"></iframe>
+
+<iframe src="https://www.google.com/maps/d/embed?mid=11gHGxEF2Uxx7zbn00htegHybzWBS3ro&ehbc=2E312F&noprof=1" style="width:100%; height:520px; border:none;"></iframe>
+<sub>[View in Full Screen](https://www.google.com/maps/d/embed?mid=11gHGxEF2Uxx7zbn00htegHybzWBS3ro&ehbc=2E312F&noprof=1)</sub> 
 
 <br>
 
-<iframe style="width: 100%; height: 520px; border: 0;" allowfullscreen src="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42"></iframe><p><a href="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42" target="_blank">See full screen</a></p>
-
+<iframe style="width: 100%; height: 520px; border: 0;" allowfullscreen src="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42"></iframe>
+<!-- 
+<p style="font-size:11pt;"><a href="//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42" target="_blank">View in full screen</a></p> -->
+<sub>[See full screen](//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42)</sub>   
 
 <br>
 
 <iframe src="https://lilydemet.github.io/qgis2web-example-map/" style="width:100%; height:520px; border:none;"> </iframe>
+<sub>[View GitHub repo](https://github.com/lilydemet/qgis2web-example-map)</sub>   
 
 
+## Before the day (or make this reminder at end of day 2)
+To do - make sure you have google and umaps account. 
 
 
+## Data
+We will be working from the `Day3` subfolder of your `DHSI-workshop-data` folder. Inside, you will see today's data further organized into 3 subfolders relevant to webmapping online, webmapping with Leaflet, and webmapping with QGIS respectively.
+
+We will webmap using data primarily from the [City of Toronto's open data portal](https://open.toronto.ca/catalogue/). This data is licensed under the [Open Government Licence - Toronto](https://open.toronto.ca/open-data-licence/). This allows us to modify and adapt the data! The following datasets are from the City of Toronto. They have been reformatted to be legible to the various tools and platforms we will work with today. Take a moment to browse the datasets online. 
+
+- [Public Art](https://open.toronto.ca/dataset/public-art/)
+- [Heritage Conservation Districts](https://open.toronto.ca/dataset/heritage-conservation-districts/)
+
+<br>
+
+- [Green Spaces](https://open.toronto.ca/dataset/green-spaces/)
+- [City Wards](https://open.toronto.ca/dataset/city-wards/)
+- [Regional Municipal Boundary](https://open.toronto.ca/dataset/regional-municipal-boundary/)
 
 
-super sub script - view github repo https://github.com/lilydemet/qgis2web-example-map
+The QGIS Project includes province (and water features?), data from government of canada as well as - ?? from natural earth data. Data from The Government of Canada is licensced under the Open Government Licence - Canada; Data from [Natural Earth](https://www.naturalearthdata.com/) is [public domain](https://www.naturalearthdata.com/about/terms-of-use/) and therefore free to use.  
 
 
 
 <br><br>
-
-----
-
-#### Resources 
-- [Introduction to Webmapping with Leaflet](https://ubc-library-rc.github.io/gis-intro-leaflet/)
-- [Webmapping with QGIS qgis2web](https://ubc-library-rc.github.io/gis-plugins-qgis/content/webmapping.html)
-- [Hosting your webmap with GitHub Pages](https://ubc-library-rc.github.io/gis-intro-leaflet/content/hands-on9.html)
-
-
 
 
 
