@@ -16,6 +16,7 @@
   <!--Add scripts that link to data sources here-->
   <script src="./public-art.js" charset="utf-8"></script>
   <script src="./green-spaces.js" charset="utf-8"></script>
+  <script src="./heritage-conservation-districts.js" charset="utf-8"></script>
 
 
   <!--marker cluster libraries-->
@@ -66,16 +67,35 @@
 
 
     // Add polygon layer (green spaces) here
-    L.geoJson(green, { style: style }).addTo(mymap);
+    // L.geoJson(green, { style: style }).addTo(mymap);
 
-    function style(feature, green) {
+    // function style(feature, green) {
+    //   return {
+    //     fillColor: '#2aa858',
+    //     color: '#71c791',
+    //     weight: .5,
+    //     fillOpacity: 0.8
+    //   };
+    // }
+    
+
+    //Add polygon layer (Heritage Conservation Areas) here
+     L.geoJson(heritage, {onEachFeature, style: style}).addTo(mymap);
+
+      function onEachFeature(feature, heritage) {
+      { if (feature.properties && feature.properties.HCD_NAME) {heritage.bindPopup(feature.properties.HCD_NAME); } }
+    }
+
+     function style(feature, heritage) {
       return {
-        fillColor: '#2aa858',
-        color: '#71c791',
+        fillColor: '#5E3A85',
+        color: '#EBE1F0',
         weight: .5,
         fillOpacity: 0.8
       };
     }
+
+    
   </script>
 
 
