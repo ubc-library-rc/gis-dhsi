@@ -137,6 +137,9 @@ Artist: {Artist}
 practice updating heritage districts. 
 
 
+## Updating Basemap 
+You can customoize your tile layers
+<img src="./images/umap20.png" style="width:100%">
 
 ## Saving and Sharing your uMap
 
