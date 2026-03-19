@@ -19,62 +19,137 @@ nav_order: 2
 
 -----
 
-## Creating and naming a new map
+## Creating a new map
 
 1. Go to [umap.openstreetmap.fr/en/](https://umap.openstreetmap.fr/en/) and **Log in/Sign in**. This ensures any map/work you create will be saved so you can return to it later.<br>
-<img src="./images/umap-demo1.png" style="width:90%">
+<img src="./images/umap1.png" style="width:90%">
 <br><br>
 2. Click **Create a map**. <br>
-<img src="./images/umap-demo2.png" style="width:90%">
+<img src="./images/umap2.png" style="width:90%">
 <br><br>
+
+### The Interface 
+{: .no_toc}
+
 Here is your working interface. Along the top is a menu bar. You'll notice the visibility is set to private. This will remain so until you go to share it, when you'll be prompted to update visibility settings so anyone can see it. You can give your map a name, save your draft as you're working, and preview it as soon as you make any changes. 
 <br><br>
-<img src="./images/umap-demo3.png" style="width:100%">
+<img src="./images/umap3.png" style="width:100%">
 <br><br>
-3. Along the two sides of your screen you'll notice two vertical toolbars. 
+
+> Click on "Untitled map" and replace with your title. Let's **title** our map "Public Art and Heritage Districts in Toronto". In the **description**, add a data source statement such as: "Data curtesy of the City of Toronto Open Data portal, and licensed under the Open Government Licence – Toronto." You could also add this in the **Credits** section. 
+
+Then, **save your draft**! uMap does not autosave. Once saved, the little asterisk beside your map title will disappear. 
+
+<img src="./images/umap4.png" style="width:100%">
+
+
+Along the two sides of your screen you'll notice two vertical toolbars. **The toolbar on the left allows you to zoom in and out, to share and download the map, and to browse any data layers you add.** If you click the drop down arrow even more options will appear.
+
+Use the **Search location** tool to search for Toronto. This will center your basemap map over Toronto. 
 <br><br>
-<img src="./images/umap-demo4.png" style="width:100%">
-<br><br>
-**The toolbar on the left** allows you to zoom in and out, to share and download the map, and to browse any data layers you add. **If you click the drop down arrow even more options will appear.**
+<img src="./images/umap5.png" style="width:100%">
 <br>
- - <img src="./images/umap-demo5.png" style="width:5%"> allows you to center your map on a particular location. Try centering it on Vancouver. To do this, pan/zoom to Vancouver and then click the icon. You can use the magnifying glass tool above to search for a specific location rather than finding it on the map. 
- - <img src="./images/umap-demo6.png" style="width:5%"> allows you to change the basemap. (You might need to extend your browser window if you can't see all the basemap options.) Try changing the baseamp.
+<img src="./images/umap6.png" style="width:100%">
+<img src="./images/umap7.png" style="width:100%">
 <br><br>
-4. The toolbar on the right** allows you to add and manipulate data. The first three tools allow you to add markers, lines, and polygons directly to your map. No need to create a data layer elsewhere first. However, if you *have* datasets you want to add to the map, you can upload them.
+
+<br>
+
+**The toolbar on the right allows you to add and manipulate data.** The first three tools allow you to add markers, lines, and polygons directly to your map. If you just want a few shapes or drop-pins, no need to create a data layer elsewhere first. However, if you *have* datasets you want to add to the map, you can upload them.
 
 
-<!-- ## Basemaps  -->
+
 
 
 ## Adding Data Layers
 
-<br>
- - <img src="./images/umap-demo7.png" style="width:5%"> allows you to import datasets. Try importing `neighborhoods.geojson` from the `webmapping-workshop` folder. Notice that in the drop-down menu of "Choose the format", `.js` files are not listed. Each web mapping tool/platform has its own specifications for what data formats can be uploaded and displayed. You can go to the [Vancouver Open Data portal](https://opendata.vancouver.ca/explore/?disjunctive.features&disjunctive.theme&disjunctive.keyword&disjunctive.data-owner&disjunctive.data-team&sort=modified) and download any other kind of data in `.geojson` format if you wish to add it to your uMap web map. 
+Use the **Importa data** tool <img src="./images/umap9.png" style="width:5%"> to add datasets to your map. 
+
+> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `DHSI-workshop-data/Day3/Online-webmapping/`. 
+
+Notice that the drop-down menu of "Choose the format" indicates what formats are acceptable for upload. Many more than in Google MyMaps! So, while geoJSON layers were provided for you, you could re-use the CSV and KML files from Google MyMaps if you'd like. 
+
+<img src="./images/umap10.png" style="width:100%">
+<img src="./images/umap11.png" style="width:100%">
+
+
+Once uploaded, **save your draft** again. 
 <br><br>
 
-UPDATE FROM HERE - CUSTOMIZE TO TORONTO PUBLIC ART
+## Manage Layers
 
-[FOR REFERNCE ](https://ubc-library-rc.github.io/gis-intro-leaflet/content/umap.html)
+You can manage your layers, including toggling their visibility, updating their symbology, and configuring their pop-ups from the **Manage layers** tool in the right-hand toolbar. 
+<img src="./images/umap12.png" style="width:100%">
 
-https://ubc-library-rc.github.io/gis-intro-leaflet/content/umap.html
+The eyeball icon - toggle visiblity. The table icon - view tabular data associated with each layer. The magnifying glass icon - zoom to layer extent. Pencil icon - edit layer, and finally, the trashcan - remove layer. Also able to add a new layer below. 
 
-<img src="./images/umap04-1.png" style="width:100%">
-<br><br>
-<img src="./images/umap04-2.png" style="width:100%">
-<br><br>
+<img src="./images/umap13.png" style="width:50%">
 
-## Modifying Layers - Modifying Layer Properties 
+### Layer Properties 
 
-5. Map and layer properties...<br>
- - Notice you can also change the basemap from the right-hand toolbar. <img src="./images/umap05a.png" style="width:5%"><br>
- - The **Layer Properties** <img src="./images/umap05b.png" style="width:5%"> allow you to add pop-ups to your map that share further information about each layer. Here, you can change the symbology of each layer. You can also tell uMap to cluster or create a heat map fro your data! This is great if you have a large point layer. 
- - The settings tool allows you to customize interface interactivity. <img src="./images/umap05c.png" style="width:5%"><br> 
-Take some time to play around with the settings and layers. 
-<br><br>
-6. When you're happy with your web map, save your draft and change the visibility in the main banner menu at the top of your screen. Then, head to the share icon in the left-hand menu. Here you can get the link to share your map with others, the iframe information to embed it in another website, or even download the full code and data package of your map. That's the power of open-source! 
+Click the pencil icon to edit a layer. This will take you to the **Layer Properties**, where you can give your layer a title if you uploaded it without one. 
 
+Open the **Layer Properties** of the Public Art layer. 
+
+
+<img src="./images/umap14.png" style="width:100%">
+
+Change from default point layer to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art - value. ward number - not relevent value for sizing symbols. choropleth - would need polygon layer. 
+
+Either keep default, or Let's change to clustered. You can then adjust the clustering radius. 
+
+Collapse cluster settings. 
+
+
+Now, expand **Shape properties**. Here, you can customize the icon color *and* shape.
+
+<img src="./images/umap15.png" style="width:100%">
+
+
+**save your map**
+
+### Layer Interactivity 
+Now, expand **Interaction options**. As it stands, if you click on any public art feature, you get a pop-up with the name of the layer. Let's change this so relevant details like Title, Artist, and the artwork image appear in the popup. 
+
+Under Interaction options, expand the option **Popup content template**. If you click on the information icon, you'll see you can use "placeholders" to call the values of various attributes. What's currently there doesn't change anything because "name" and "description" don't refer to any column headings in Public Art - umap is case sensitive!!  
+
+<img src="./images/umap16.png" style="width:100%">
+
+```
+{Title}
+{Artist}
+ImageURL with three curly brackets on either side
+```
+
+Then, if you wanted to add labels to your Title and Artist, you 
+
+```
+**{Title}**
+Artist: {Artist}
+```
+
+{{{ImageURL}}}
+[[{link_url}|{{{ImageURL}}}]] 
+
+<img src="./images/umap18.png" style="width:100%">
+
+
+practice updating heritage districts. 
 
 
 
 ## Saving and Sharing your uMap
-- different options
+
+When you're happy with your web map, save your draft and change the visibility in the main banner menu at the top of your screen. 
+Update visibility to Everyone then save your map. 
+
+
+
+Then, head to the share icon in the left-hand menu.
+
+<img src="./images/umap19.png" style="width:100%">
+
+ Here you can get the link to share your map with others, the iframe information to embed it in another website, or even download the full code and data package of your map. That's the power of open-source! 
+
+
+- share, embed, download - customomize embed too. 
