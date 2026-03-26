@@ -6,7 +6,7 @@ parent: Hands on with Leaflet
 ---
 
 # Map Boilerplate
-Now that we've seen what the boilerplate basemap for this workshop looks like, let’s explore the code behind it. Return to VS Code (your code editer). Double click `boilerplate.html ` in the Explorer panel to open it. The contents of your boilerplate should look like this: 
+Now that we've seen what the boilerplate basemap for this workshop looks like, let’s explore the code behind it. Return to VS Code (your code editor). Double click `boilerplate.html ` in the Explorer panel to open it. The contents of your boilerplate should look like this: 
 
 
 ```html

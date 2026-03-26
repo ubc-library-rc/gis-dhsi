@@ -101,40 +101,46 @@ Either keep default, or Let's change to clustered. You can then adjust the clust
 Collapse cluster settings. 
 
 
-Now, expand **Shape properties**. Here, you can customize the icon color *and* shape.
+Now, expand **Shape properties**. Here, you can customize the icon color *and* shape. Remember to **Save your map**.
 
 <img src="./images/umap15.png" style="width:100%">
 
 
-**save your map**
-
 ### Layer Interactivity 
 Now, expand **Interaction options**. As it stands, if you click on any public art feature, you get a pop-up with the name of the layer. Let's change this so relevant details like Title, Artist, and the artwork image appear in the popup. 
 
-Under Interaction options, expand the option **Popup content template**. If you click on the information icon, you'll see you can use "placeholders" to call the values of various attributes. What's currently there doesn't change anything because "name" and "description" don't refer to any column headings in Public Art - umap is case sensitive!!  
-
 <img src="./images/umap16.png" style="width:100%">
 
-```
-{Title}
+Under Interaction options, expand the option **Popup content template**. If you click on the information icon, you'll see you can use "placeholders" to call the values of various attributes. What's currently there doesn't change anything because "name" and "description" don't refer to any column headings in Public Art - umap is case sensitive!!  
+
+<img src="./images/umap17a.png" style="width:50%">
+
+<img src="./images/umap17.png" style="width:50%">
+
+
+<br>
+Then, if you wanted to bold the Title and add a label to the Artist, you could update your pop-up entry to the following:
+<img src="./images/umap17b.png" style="width:50%">
+
+<!-- {{{ImageURL}}}
+[[{link_url}|{{{ImageURL}}}]]  -->
+
+<img src="./images/umap18.png" style="width:100%">
+
+
+<!-- ```{Title}
 {Artist}
 ImageURL with three curly brackets on either side
-```
-
-Then, if you wanted to add labels to your Title and Artist, you 
-
-```
 **{Title}**
 Artist: {Artist}
 ```
 
 {{{ImageURL}}}
-[[{link_url}|{{{ImageURL}}}]] 
-
-<img src="./images/umap18.png" style="width:100%">
+[[{link_url}|{{{ImageURL}}}]]  --> 
 
 
-practice updating heritage districts. 
+
+Add as many fields to your pop-up as you'd like. For instance, you could add description. Then, practice updating heritage districts. 
 
 
 ## Updating Basemap 

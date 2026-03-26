@@ -39,7 +39,7 @@ CHECK MY NOTES FOR IMPORTANT THINGS TO REMEMBER HERE
 ## Creating a webmap with qgis2web plugin
 
 Open the example QGIS project in your workshop folder: `DHSI-workshop-data/Day3/QGIS-webmapping/example-project.qgz`. Zoom to the group city of toronto. 
-<img src="./images/qgis1" style="width:100%"
+<img src="./images/qgis1.png" style="width:100%">
 
 
 

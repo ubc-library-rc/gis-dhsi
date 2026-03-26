@@ -12,7 +12,7 @@ Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). W
 2. with **coding**, powered by [Leaflet](https://leafletjs.com/), and 
 3. with **QGIS**, using the [qgis2web plugin](https://plugins.qgis.org/plugins/qgis2web/).
 
-Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map together in a code editor in order to understand how the various components of a web map work together. By the end of the day, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
+Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map in a code editor in order to understand how the various components of a web map work together. By the end of the day, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
 
 
 <br>

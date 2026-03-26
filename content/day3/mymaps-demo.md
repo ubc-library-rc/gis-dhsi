@@ -20,6 +20,7 @@ nav_order: 1
 
 ## Creating and naming a new map
 1. Go to [Google MyMaps](https://www.google.com/maps/d/u/0/). Create and/or login to your Google Account. 
+<img src="./images/mymaps0.png" style="width:100%">
 <br><br>
 
 2. Click CREATE A NEW MAP  
@@ -59,34 +60,49 @@ Each layer of your map will initially be untitled. You can change the name any t
 
 <!-- *6*{: .circle .circle-purple} -->
 
-### Adding simple marker pop-ups//draw shapes and lines
+### Adding simple markers, shapes and lines
+You can add stand-alone points and lines using the "Add marker" and "Draw a line" tools. Adding a marker will add a point to the current Untitled layer. You can always add a new layer, then drag markers between layers to stay organized. 
+
+<img src="./images/mymaps4a.png" style="width:100%">
+<img src="./images/mymaps4b.png" style="width:100%">
+
+Alternatively, you can search for a place in the search bar, then choose to add it to your map. If you add it to your map as a marker, it will nest under your first Untitled layer. 
+
+<img src="./images/mymaps4c.png" style="width:100%">
+<img src="./images/mymaps4d.png" style="width:100%">
+
+<br>
 
 
 ### Importing Data 
 
-1. Let's upload data to the Untitled layer. To do so, click on the **Import** button. When you hover over it, you'll notice it says you can only import data from a CSV file, spreadsheet, or KML. Import `public-art.csv` from the course data folder. It will be in the online-webmapping subfolder of Day 3. 
+Now, let's upload a dataset to the Untitled layer. To do so, click on the **Import** button. When you hover over it, you'll notice it says you can only import data from a CSV file, spreadsheet, or KML. Import `public-art.csv` from the course data folder. It will be in the online-webmapping subfolder of Day 3. 
 <img src="./images/mymap-demo5.png" style="width:40%; padding-left: 20px;">
 
-2. You will be prompted to "Choose columns to position your placemarks". This means Google is asking you which columns it should use to locate each feature. If you scroll down, you'll see that latitude and longitude have already been identified as the spatial component of your dataset. Click **Continue**. 
+<br>
+You will be prompted to "Choose columns to position your placemarks". This means Google is asking you which columns it should use to locate each feature. If you scroll down, you'll see that latitude and longitude have already been identified as the spatial component of your dataset. Click **Continue**. 
 <img src="./images/mymap-demo6.png" style="width:45%; padding-left: 20px;">
 
-3. Next, you will be prompted to "Choose a column to title your markers". Here, you can choose "Title". Then, click **Finish**. You should now see `public-art.csv` added as a layer to your Google MyMap. 
+<br>
+Next, you will be prompted to "Choose a column to title your markers". Here, you can choose "Title". Then, click **Finish**. You should now see `public-art.csv` added as a layer to your Google MyMap. 
 
 <img src="./images/mymap-demo7.png" style="width:100%">
 
 <br>
 
-4. Click "Add layer" <img src="./images/mymap-demo8.png" style="width:10%"> and repeat the process to import and add `heritage-conservation-districts.kml` to your map. You likely won't need to prompt Google as to which columns contain spatial information as KML is a spatial data file already. 
+Click "Add layer" <img src="./images/mymap-demo8.png" style="width:10%"> and repeat the process to import and add `heritage-conservation-districts.kml` to your map. You likely won't need to prompt Google as to which columns contain spatial information as KML is a spatial data file already. 
 
 <img src="./images/mymap-demo9.png" style="width:100%">
 
 
 ## Modifying Layers
-1. To select a layer, simply click on the layer name. You can modify each layer by clicking the three dots to the right of the layer name.   
+To select a layer, simply click on the layer name. You can modify each layer by clicking the three dots to the right of the layer name.   
 
-2. Check and un-check the box beside each layer to hide/show the layer. 
+To Do
+{: .label .label-green }
+Check and un-check the box beside each layer to hide/show the layer. 
 
-3. If you haven't made a name for each Untitled layer before importing data, layers will automatically take on the name of your uploaded file. To change the name of a layer, simply double-click the existing name. Alternatively, you can click the three dots to the right of the layer name, and choose "Rename this layer". 
+If you haven't made a name for each Untitled layer before importing data, layers will automatically take on the name of your uploaded file. To change the name of a layer, simply double-click the existing name. Alternatively, you can click the three dots to the right of the layer name, and choose "Rename this layer". 
 
 > Let's rename each layer to "Public Art" and "Heritage Conservation Areas" respectively. 
 
@@ -111,20 +127,23 @@ We can change the styling of a layer by clicking the paint-roller icon.
 <img src="./images/mymap-demo14.png" style="width:100%">
 
 
+<br>
+
 Furthermore, you can continue to edit the styling individual points/places even after they are styled by data column. For example, you can change both the ICON and the Color. however, be careful not to set the color of two categories the same unless they are related. 
 
 <img src="./images/mymap-demo15.png" style="width:40%">
 <img src="./images/mymap-demo16.png" style="width:40%">
 
-
+<br>
 Now let's look at Heritage Conservation Districts. Uncheck public art so we can focus on the other layer. Currently, its set to individual styles. 
 
 Change to uniform style, then update the color to something else. 
 <img src="./images/mymap-demo17.png" style="width:100%">
 
 
-Now turn back on Public Art. 
+Now turn the Public Art layer back on. 
 
+<br>
 
 ### Layer interactivity & popups
 
