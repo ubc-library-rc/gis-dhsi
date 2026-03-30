@@ -81,7 +81,7 @@ Once uploaded, **save your draft** again.
 You can manage your layers, including toggling their visibility, updating their symbology, and configuring their pop-ups from the **Manage layers** tool in the right-hand toolbar. 
 <img src="./images/umap12.png" style="width:100%">
 
-The eyeball icon - toggle visiblity. The table icon - view tabular data associated with each layer. The magnifying glass icon - zoom to layer extent. Pencil icon - edit layer, and finally, the trashcan - remove layer. Also able to add a new layer below. 
+The eyeball icon allows you to toggle layer visibility. The table icon allows you to view the tabular data associated with each layer. The magnifying glass icon allows you to zoom to a layer's extent. The pencil icon allows you to edit a layer. Finally, the trashcan allows you to remove a layer altogether. You are also able to add a new layer. 
 
 <img src="./images/umap13.png" style="width:50%">
 
@@ -94,9 +94,9 @@ Open the **Layer Properties** of the Public Art layer.
 
 <img src="./images/umap14.png" style="width:100%">
 
-Change from default point layer to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art - value. ward number - not relevent value for sizing symbols. choropleth - would need polygon layer. 
+You can change the type of layer - that is, how your (point) layer is rendered - from default to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art have a size or quantity value. To create a choropleth map, you would need to be working on a polygon layer. 
 
-Either keep default, or Let's change to clustered. You can then adjust the clustering radius. 
+Let's change to clustered. You can then adjust the clustering radius. 
 
 Collapse cluster settings. 
 
