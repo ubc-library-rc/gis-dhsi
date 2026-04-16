@@ -2,7 +2,7 @@
 layout: default
 title: Create a map
 nav_order: 4
-parent: Hands On with QGIS
+parent: Reference Mapping
 ---
 # Create a map
 

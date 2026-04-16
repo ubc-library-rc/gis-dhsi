@@ -2,7 +2,7 @@
 layout: default
 title: Modifying Layers
 nav_order: 2
-parent: Hands On with QGIS
+parent: Reference Mapping
 ---
 # Modifying Layers
 {: .no_toc}
