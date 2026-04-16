@@ -5,12 +5,15 @@ nav_order: 2
 parent: Day 1
 ---
 # Thematic vs. Reference maps 
+<!-- 
+MAYBE THIS SHOULD GO ON DAY 2
+Unless - fits in to key concepts in cartography. OR, move whole learning objective to day 2.  -->
+Spatial data -> Maps. 
 
-Maps can be physical or digital, static or interactive/webmaps. 
-however, 2 main kinds of spatial visualizations: 
+Maps can be physical or digital, static or interactive. However, there are 2 broad categories spatial visualizations can be categorized into: reference maps, thematic maps. Later in the week you'll also be introduced to multimedia narratives that use (often reference) maps and spatial data to tell an interactive story using a web-based platform. 
 
 
-The following pages outline the two main kinds of maps: reference maps and thematic maps. Reference maps are descriptive, showing “the lay of the land”, whereas thematic maps render the results of spatial analysis
+Let's review the two main kinds of maps: reference maps and thematic maps. Reference maps are descriptive, showing “the lay of the land”, whereas thematic maps render the results of spatial analysis
 
 
 ## Reference Maps

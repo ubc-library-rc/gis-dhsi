@@ -22,7 +22,6 @@ As you reflect on the following questions, it can be useful to write down your a
 
 
 
-
 Now, let’s go through each step, asking some basic questions to articulate your objectives, constraints, and resources. This, in turn, will help you decide on an output format and tools to make it happen. Fill in what you know now, and add to it throughout the week. Remember, this is an iterative processes, and depending on where you are in your project ideation, you may have a clearer or more vague picture of what you want to make. Hopefully, as you are introduced to the variety of tools we'll share, the kind of tools and output you will use will become clearer. 
 
 
