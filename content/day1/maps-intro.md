@@ -8,7 +8,7 @@ parent: Day 1
 <!-- 
 MAYBE THIS SHOULD GO ON DAY 2
 Unless - fits in to key concepts in cartography. OR, move whole learning objective to day 2.  -->
-Spatial data -> Maps. 
+Spatial data -> Maps. HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH. (if moved, move entire objective of "key concepts in cartography" to day 2. this might be wise.)
 
 Maps can be physical or digital, static or interactive. However, there are 2 broad categories spatial visualizations can be categorized into: reference maps, thematic maps. Later in the week you'll also be introduced to multimedia narratives that use (often reference) maps and spatial data to tell an interactive story using a web-based platform. 
 
