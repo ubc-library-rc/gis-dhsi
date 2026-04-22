@@ -6,7 +6,7 @@ parent: Hands On with QGIS
 has_children: true 
 ---
 # Thematic Mapping QGIS
-thematic mapping scenario
+thematic mapping scenario - in this section, dont focus on making final output map, just making the choropleth. in reference mapping teach how to export actual map, and look at attribute table. 
 
 how to adjust symbology - make choropleth and proportional symbol map 
 intro spatial analysis vector tools first, and then make thematic maps after? 

@@ -1,61 +1,80 @@
 ---
 layout: default
-title: Modifying Layers
+title: 2. The Attribute Table
 nav_order: 2
 parent: Reference Mapping
 ---
-# Modifying Layers
+# The Attribute Table
 {: .no_toc}
 
-based on [https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html)
+Attribute table and selections!! 
 
-As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. This page (and the next) will guide you through modifying your layers' symbology to create a more polished looking map where what's deemed important stands out. 
+https://ubc-library-rc.github.io/gis-thematic-mapping/content/hands-on1.html
 
-## Attribute Table
-The **Attribute Table** contains the tabular data associated with a layer. Though not relevant to today's focus on reference mapping, it is important you know what the attribute table is, and how to access it. To open a layer's attribute table, right-click the layer in the Layers Panel and go to "Open Attribute Table". 
+
+# The **Attribute Table**
+The **Attribute Table** is where you can view the tabular data associated with vector datasets. Here, you can query your data by running complex selections, directly edit individual features, and perform mathematical operations on your layers. See the <a href="https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/attribute_table.html" target="_blank">QGIS documentation on working with the attribute table</a> for more.
+
+
+To open a layer's attribute table, right-click the layer in the Layers Panel and go to "Open Attribute Table". 
+
+<img src="./images/table1.png" style="width:100%">
+
+
+ALSO TOOLBAR TOOL
+
+
+## Exploring the Attribute Table 
+
 
 To Do
 {: .label .label-green }
-Open the attribute table of the `Provinces` layer. 
+Open the attribute table of the `X` layer. 
 Note that there are several attributes (columns) that describe each feature (row) in this dataset. Manually re-size the column widths until you can read each attribute.
 
-[images]
+
+The column headings are called **Attributes**. Each column is called a **Field** and each row is called a **Feature**. Each feature corresponds to one point on your map. (If you were looking at the attribute table of `vanHoods`, each feature would correspond to a polygon, and so on.) At the top of the Attribute Table you can see there are 3,224 features, or trees, in this dataset. Each feature, or tree, has 10 attributes, including the `common_name` and `height_m`. Notice that text values are left-justified whereas numerical values are right-justified. Sometimes cell values will be `NULL` meaning the feature contains no information for a given value. For instance, very few trees have information for the data planted. 
+
+<img src="./images/table2.png" style="width:100%">
 
 
-## Layer Properties 
-{: .no_toc}
-Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection. 
+Notice that text values are left-justified whereas numerical values are right-justified. Sometimes QGIS will read numbers as text, disabling mathematical operations. If this happens, you will have to create a new field and set the type to either integer or decimal.
+
+<br>
+
+You can order Features in descending or ascending order by clicking on the attribute. 
+- Click `height_m` to sort all Features from shortest to tallest. Click `height_m` again to sort from tallest to shortest. (Notice some of the shortest trees were planted just last month.) 
+- Click `common_name` to sort the trees in alphabetical order. 
+
+sort by occupation
 
 
-## Symbology
-The other important layer property for reference mapping is Symbology. Symbology governs the outline and color fill of points, lines, and polygons. The symbology style for any given vector layer can be Single, Categorized, Graduated, etc. For now, let's stick with Single. This means that each layer will have a single symbology, or color/outline. 
+<!-- *4*{: .circle .circle-yellow}
+Form and Table view.  -->
 
-Depending on the audience and publisher of your reference map, you might have constraints such as Black and White. Keep this in mind. For now, we'll map in color.
+## Selecting by Attribute
+Selections are different than using the **Identify tool** to highlight a feature and expose its attributes. Selections select a set of features in the Attribute Table. Once attributes are thus selected, you can edit them, export them, or perform more analysis. 
 
-To Do
-{: .label .label-green }
-Change the color of the ocean.
-
-1. Right-click the ocean layer and go to Properties --> Symbology. 
-2. Click down to Simple Fill. 
-3. Click on the color bar to change the color. Expand the dialogue window if necessary. 
-4. You can also change the "stroke", or outline color, or, by setting Stroke style to "No line", remove it all together. 
-
-[images]
-
- If you want to make your map in Black & White, change the Color Model from RGB to CYMK. Then set everything but K to 0. You can also color sample from the eye-dropper tab. 
-
-[images]
+There are many ways to make selections in QGIS. 
+- You may **manually select** features from the map canvas using the **Selection Toolbar** <img src="./images/selections-toolbar.png" style="width:30%; display:inline">;
+- You may **select features by location** using the **Select by location** vector analysis tool; 
+- And you can **select features by attribute** within the Attribute Table. 
 
 
-### Categorized Symbology
+Other selections - we'll explore more in the afternoon. right now - select bakers from xyz.
+
+or pick occupation
+
+run selections for bakers from all 3 demographic layers, then from businesses to find bakeries??? 
 
 
-## Labelling 
-Two project properties we _will_ concern ourselves with are **Labels** and **Symbology**. Labels allow you to add labels to a layer based on an attribute value. You can turn off the labels at any time by returning to a layer's properties, or by right-clicking the layer and clicking "Show Labels" again. 
+To run a select by attribute... 
 
-To Do
-{: .label .label-green }
-Add provincial labels based on `PRENAME`. You can customize your labels by increasing the text size, adding a buffer, or changing the label placement. 
+### Select bakers from x
 
-[images]
+
+we will use same skill to select religion? later on... and map by census tracts. or population density by ward or sensus tracts. 
+
+
+
+
