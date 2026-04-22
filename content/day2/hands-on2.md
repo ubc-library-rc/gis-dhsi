@@ -9,6 +9,12 @@ parent: Reference Mapping
 
 Attribute table and selections!! 
 
+Joins
+
+Field Calculator
+
+Edit Attribute Table too.... here... otherwise do more indept in the afternoon and just introduce as part of layer properties here,...
+
 https://ubc-library-rc.github.io/gis-thematic-mapping/content/hands-on1.html
 
 
