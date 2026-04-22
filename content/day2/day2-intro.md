@@ -20,23 +20,18 @@ Day 2 will provide a conceptual and practical orientation to geographic informat
 
 #### **Afternoon Session** 1:30pm - 4pm
 - Tools and workflows in Thematic Mapping 
-- Activity 1: solving spatial computation puzzles
+- Activity 1: Solving spatial computation puzzles
 - Activity 2: Make a thematic map
 
 
+<br>
 
+-----
 
+<br>
 
-<br><br>
+EXAMPLES OF WHAT WE'LL MAKE HERE! 
 
-----
-
-#### Resources 
-- [Reference Mapping with QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/)
-- [Thematic Mapping with QGIS](https://ubc-library-rc.github.io/gis-thematic-mapping/)
-- [Tools and Workflows in QGIS](https://ubc-library-rc.github.io/gis-tools-workflows/)
-
-
-
+------
 
 
