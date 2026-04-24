@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 4. The Attribute Table
+title: The Attribute Table
 nav_order: 4
-parent: Reference Mapping
+parent: Thematic Mapping
 ---
 # The Attribute Table
 {: .no_toc}
