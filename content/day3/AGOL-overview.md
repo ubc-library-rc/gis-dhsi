@@ -20,6 +20,32 @@ As an online platform, ArcGIS StoryMap is part of Esri's larger ArcGIS Online su
  - Easily embed web maps, StoryMaps, and other ArcGIS Online apps in external websites
 
 
+
+> #### Storymaps Advantages  ⇡
+> {: .no_toc}
+> - Straightforward to learn, with easy drag-and-drop components
+> - Produces aesthetic out-of-the box visuals
+> - Can contain multimedia, including images, audio, and static maps as well as dynamic maps made with ArcGIS Online
+> - See Esri's [Introduction to ArcGIS Storymaps](https://doc.arcgis.com/en/arcgis-storymaps/get-started/what-is-arcgis-storymaps.htm) to get started.
+> - The Research Commons also offers a workshop on [StoryMaps and ArcGIS Online](https://ubc-library-rc.github.io/gis-storymaps/). 
+
+
+> #### Storymaps Disadvantages ⇣
+> {: .no_toc}
+> - ArcGIS Online is proprietary, meaning it is not free to use
+> - Licensing is a hassle, and collaboration can only occur between people who both own an active license
+> - Once your license lapses, your project will disappear
+> - You have to make all the maps and graphics yourself, the Storymap is simply the aesthetic container that gathers all the components together
+
+
+#### Examples
+{: .no_toc}
+- [Mapping Amazon 2.0](https://storymaps.arcgis.com/stories/144d21045a794cf8b7834b0c49fdd0c0)
+- [City of Abbotsford](https://storymaps.arcgis.com/stories/9d2a3452e2a141399ae6226a627b4a36)
+- [Isolation Psychogeography](https://storymaps.arcgis.com/stories/4ab243f6d7b3490bbfa884d18a788236)
+- [Resilient Woodlands](https://storymaps.arcgis.com/stories/2e02a0b503fb469d8e66fd53a482dffd)
+
+
 ## Supported Data Type of ArcGIS Online
 The most common data type that we use is Shapefile. If you have ArcGIS online *organizational account*, you can zip the shapefiles in a folder and upload the zip file to your ArcGIS online account **Content**. Otherwise, if you only have access to *free public account*, convert your shapefiles to other geospatial file formats such as KML or geoJSON before uploading them. You can convert them inside a GIS, or using an online file converter. 
 
