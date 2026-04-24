@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Project Set-up
-nav_order: 1
-parent: Hands On with QGIS
+title: 2. Project Set up
+nav_order: 2
+parent: Reference Mapping
 ---
 # Project Set-up
 {: .no_toc}

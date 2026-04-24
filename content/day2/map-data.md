@@ -2,7 +2,7 @@
 layout: default
 title: MAP data
 nav_order: 3
-parent: Day 2
+parent: Thematic Mapping
 ---
 # Today's Data
 <img src="./images/MAP-data.png" style="width:100%">

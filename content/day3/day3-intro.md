@@ -4,7 +4,7 @@ title: Day 3
 nav_order: 4
 has_children: true
 ---
-# Day 3: Narrative Maps
+# Day 3: More on QGIS + Narrative Maps
 
 Today we will learn how to georeference historical maps and build multi-media narratives. Multi-media narratives combine text, maps, videos, timelines, and more to convey spatial information in the form of an interactive story.
 
@@ -24,7 +24,6 @@ https://github.com/digidem/maplibre-storymap
 - Georeferencing digitized maps using [IIIF](https://iiif.io/) and [QGIS georeferencer](https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html). 
 - Allmaps
 - vector analysis 
-- attribute table extended (create shapefile; edit attribute table, join, merge, field calculator)
 - qgis plugin webmap
 
 <br>

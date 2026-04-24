@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Reference Mapping
-nav_order: 2
-parent: Hands On with QGIS
+nav_order: 3
+parent: Day 2
 has_children: true 
 ---
 # Reference Mapping

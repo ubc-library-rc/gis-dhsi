@@ -1,10 +1,11 @@
 ---
 layout: default
-title: 4. Create a map
-nav_order: 4
+title: 6. Create a map
+nav_order: 6
 parent: Reference Mapping
 ---
-# Create a map
+# Create a map: Print Layout
+{: .no_toc}
 
 Once you are satisfied with your layer symbology, it’s time to create a **Print Layout**. A Print Layout in QGIS is like a drawing board where you add the map you created, as well as other elements like a north arrow, legend, scale bar, text boxes, and other marginalia. You can create multiple Print Layouts per QGIS project. By giving each Print Layout you make a unique name, and saving it (and your QGIS project) regularly, you can return to a Print Layout from the at any time (Project menu –> Layouts) and continue working.
 

@@ -1,10 +1,11 @@
 ---
 layout: default
-title: 1. Layer Properties
-nav_order: 1
+# title: 3. Modifying Layers
+title: 3. Layer Properties
+nav_order: 3
 parent: Reference Mapping
 ---
-# Modifying Layers
+# Modifying Layers / Layer Properties
 {: .no_toc}
 
 Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection. 

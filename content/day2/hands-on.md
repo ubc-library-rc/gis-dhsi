@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hands On with QGIS
-nav_order: 4
+nav_order: 2
 parent: Day 2
-has_children: true 
+# has_children: true 
 ---
 # Hands On with QGIS
 Outline what we will do now and in afternoon. 

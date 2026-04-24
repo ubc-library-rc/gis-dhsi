@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 2. The Attribute Table
-nav_order: 2
+title: 4. The Attribute Table
+nav_order: 4
 parent: Reference Mapping
 ---
 # The Attribute Table
