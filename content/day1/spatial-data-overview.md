@@ -3,6 +3,7 @@ layout: default
 title: What is Spatial Data?
 nav_order: 1
 parent: Day 1
+has_children: true
 ---
 # What is Spatial Data?
 

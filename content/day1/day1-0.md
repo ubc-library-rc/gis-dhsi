@@ -35,6 +35,13 @@ Day 1 Learning Objectives:
 
 
 
+
+
+## For tomorrow 
+- review reference vs. thematic mapping
+- download and install QGIS
+- download and unzip workshop folder
+
 <!-- ----
 #### Resources 
 - [Introduction to Mapmaking with QGIS](https://ubc-library-rc.github.io/gis-mapping-intro/)
