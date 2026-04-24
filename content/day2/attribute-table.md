@@ -1,7 +1,7 @@
 ---
 layout: default
-title: The Attribute Table
-nav_order: 4
+title: 2. The Attribute Table
+nav_order: 2
 parent: Thematic Mapping
 ---
 # The Attribute Table

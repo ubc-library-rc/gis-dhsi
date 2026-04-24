@@ -1,10 +1,10 @@
 ---
 layout: default
-title: MAP data
-nav_order: 3
+title: 1. MAP data
+nav_order: 1
 parent: Thematic Mapping
 ---
-# Today's Data
+# Thematic Mapping 
 <img src="./images/MAP-data.png" style="width:100%">
 
 The data for today's lesson is from the public history project *[Montréal, l’avenir du passé (MAP)]([Montréal, l’avenir du passé (MAP)](https://mun.ca/mapm/fra/accueil_cadre.html))*, directed by Sherry Olson and Robert C.H. Sweeny. Translating to *Montréal, The Future of the Past*, MAP digitizes, geocodes, and georeferences data from historical atlases, city directories, census records, and municipal tax rolls to show demographic change over time and space in Montréal. For more about the MAP project 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Choropleth
-nav_order: 1
+title: 3. Choropleth Mapping
+nav_order: 3
 parent: Thematic Mapping
 ---
 # Choropleth Mapping
