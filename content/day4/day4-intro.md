@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Day 3
-nav_order: 4
+title: Day 4
+nav_order: 5
 has_children: true
 ---
-# Day 3: Web Mapping 
+# Day 4: Web Mapping 
 
 Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). Web maps are a means of dynamically and interactively visualizing geospatial data. Today, you will learn how to create web maps in 3 different ways: 
 
@@ -30,6 +30,10 @@ Each of these methods of web mapping has its advantages and disadvantages which 
 
 
 <br>
+
+
+Also, i want to integrate this in somehow to webmapping - its a tool from the data collector tool Digital Democracy (now "awana digital") you pointed out way back when http://lab.digital-democracy.org/code/leaflet-side-by-side/
+
 
 -----
 

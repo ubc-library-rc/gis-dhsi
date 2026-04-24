@@ -2,7 +2,7 @@
 layout: default
 title: 2. Open Georeferencer
 nav_order: 2
-parent: Georeferencing Activity
+parent: Georeferencing
 ---
 # Open Georeferencer
 Open the Georeferencer tool from the Layers menu at the top of your screen.

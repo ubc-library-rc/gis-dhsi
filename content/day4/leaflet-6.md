@@ -90,7 +90,7 @@ If all went well, your map should now look like this:
  <img src="./images/leaflet10.png" style="width:100%">
 <br>
 
-If you find it busy, you can always remove the `L.geoJson(communityGardens).addTo(mymap);` line that loads community gardens, or "comment it out" by hitting `command + /`. 
+If you find it busy, you can always remove the `L.geoJson(heritage).addTo(mymap);` line that loads heritage districts, or "comment it out" by hitting `command + /`. 
 <br>
 
  <img src="./images/leaflet11.png" style="width:100%">

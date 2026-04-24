@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Georeferencing Activity
-nav_order: 2
-parent: Georeferencing Overview
-has_children: true
+nav_order: 0
+parent: Georeferencing
 ---
 # Georeference a historical map with QGIS
 

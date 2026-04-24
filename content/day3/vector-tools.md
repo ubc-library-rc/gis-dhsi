@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Vector Analysis Tools
-nav_order: 3
-parent: Hands On with QGIS
+nav_order: 1
+parent: Tools and Workflows in QGIS
 has_children: true 
 ---
 

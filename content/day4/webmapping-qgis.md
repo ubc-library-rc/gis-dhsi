@@ -2,7 +2,7 @@
 layout: default
 title: Webmapping with QGIS
 nav_order: 10
-parent: Day 3
+parent: Day 4
 ---
 # Webmapping with QGIS using qgis2web plugin
 

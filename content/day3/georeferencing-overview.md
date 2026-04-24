@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Georeferencing Overview
-nav_order: 1
-parent: Day 4
+title: Georeferencing
+nav_order: 3
+parent: Tools and Workflows in QGIS
 ---
 # Georeferencing Overview
 Georeferencing appends coordinate information to non-spatial data, such as images. While historical maps represent a place, tracing geographic features such as roads, rivers, buildings, cities, and political boundaries, they cannot be read by a Geographic Information System (GIS) because the locational data for these features is not stored in a manner legible to the GIS––i.e., in latitude/longitude coordinate pairs. Georeferencing is the process of warping an image so that its geographic features match the location of those on a known geospatial layer.

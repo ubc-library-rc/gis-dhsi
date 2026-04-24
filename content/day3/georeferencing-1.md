@@ -2,7 +2,7 @@
 layout: default
 title: 1. Prepare Project
 nav_order: 1
-parent: Georeferencing Activity
+parent: Georeferencing
 ---
 
 

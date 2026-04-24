@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Multimedia Narratives
-nav_order: 2
-parent: Day 4
+nav_order: 4
+parent: Day 3
 ---
 # Multimedia Narratives
 
-AGOL Storymaps, KnightLab
+AGOL Storymaps, KnightLab (focus on this)

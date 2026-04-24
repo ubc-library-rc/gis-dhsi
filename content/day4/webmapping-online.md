@@ -2,7 +2,7 @@
 layout: default
 title: Webmapping Online
 nav_order: 2
-parent: Day 3
+parent: Day 4
 has_children: true
 ---
 # Online Platforms for Web Mapping
