@@ -13,7 +13,6 @@ Day 2 will provide a conceptual and practical orientation to geographic informat
 <br>
 
 #### **Morning Session** 9am - 12pm
-- Thematic v. Reference maps (MAYBE, if not covered on day 1) 
 - Conceptual introduction to GIS
 - Practical introduction to QGIS
 - Activity: Make a reference map 
