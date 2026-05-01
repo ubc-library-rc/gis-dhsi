@@ -15,12 +15,13 @@ Day 2 will provide a conceptual and practical orientation to geographic informat
 #### **Morning Session** 9am - 12pm
 - Conceptual introduction to GIS
 - Practical introduction to QGIS
-- Activity: Make a reference map 
+- Reference Mapping 
 
 #### **Afternoon Session** 1:30pm - 4pm
-- Tools and workflows in Thematic Mapping 
-- Activity 1: Solving spatial computation puzzles
-- Activity 2: Make a thematic map
+- Tools and workflows in QGIS
+- Thematic Mapping 
+<!-- - Activity 1: Solving spatial computation puzzles
+- Activity 2: Make a thematic map -->
 
 
 <br>
