@@ -36,17 +36,23 @@ Install QGIS for your operating system. From [qgis.org's Downloads page](https:/
 
 <br>
 
-### For Mac, choose the "Regular Version for macOS"
+### For Mac, choose the "Long Term Release" (if available)
+The long term release is less buggy and won't crash (as often). If no long term version exists, download the "regular verion". Avoid nightly builds as they can be more buggy. 
+
 {: .no_toc} 
 
 <img src="./content/images/download-qgis-mac.png" style="width:100%">
 
   
-### For Windows, scroll down and choose the Long Term Release
+### For Windows, choose the Long Term Release
 {: .no_toc}
+
 <img src="./content/images/download-qgis-windows1.png" style="width:100%">
+<img src="./content/images/download-qgis-windows3.png" style="width:100%">
+
+<!-- <img src="./content/images/download-qgis-windows1.png" style="width:100%">
 <img src="./content/images/download-qgis-windows2.png" style="width:100%">
-    
+     -->
 Later on in this workshop, you will be given a tour of the interface, as well as guided through adding data to a project and saving your project. For now, just make sure you have properly downloaded QGIS and are able to launch it. See below for troubleshooting tips if you're working on a Mac computer. 
 
 <br>
