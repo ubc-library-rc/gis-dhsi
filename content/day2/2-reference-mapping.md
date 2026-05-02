@@ -13,6 +13,10 @@ As a reminder, **reference maps** show the lay of the land, such as the geograph
 In what follows you will be guided in gathering data, adding it to a QGIS project and managing layers, and finally, creating a map for export. 
 
 ----
+<img src="./images/baths-map3.png" style="width:60%">
+
+<img src="./images/baths-map1.png" style="width:60%">
+
+<img src="./images/baths-map2.png" style="width:60%">
 
 
-EXAMPLE MAP
