@@ -313,7 +313,7 @@ Giving an outline to the lakes in a color slightly darker than their fill emphas
 
 <!--outline carousel-->
 <html>
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="./styles.css">
 <div class="slideshow-container1">
 <div class="mySlides1">
   <div class="numbertext">1 / 3</div>
