@@ -5,21 +5,16 @@ nav_order: 3
 parent: Reference Mapping
 ---
 # Layer Symbology
-{: .no_toc}
+{: .no_toc} 
+
+Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection, or CRS. 
 
 
-Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection. 
-
-projection/ CRS etc. 
-
-focus now symbology
-
-Symbology governs the outline and color fill of points, lines, and polygons. The symbology style for any given vector layer can be Single, Categorized, Graduated, etc. For now, let's stick with Single. This means that each layer will have a single symbology, or color/outline. 
+**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black and White. Keep this in mind. For now, we'll map in color.
 
 
-As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. 
+As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. Before we compose our map for export, let's take some time to modify our layers' symbology to create a more polished looking map.
 
-This page will guide you through modifying your layers' symbology to create a more polished looking map where what's deemed important stands out.
 
 
 <details open markdown="block">
@@ -33,93 +28,174 @@ This page will guide you through modifying your layers' symbology to create a mo
 
 ----
 
-<!-- 
-based on https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html) -->
-
-
 
 ## Changing Layer Symbology
-Depending on the audience and publisher of your reference map, you might have constraints such as Black and White. Keep this in mind. For now, we'll map in color.
+
+### 1. Increase the size/color/icon of Public Baths
+
+Let's begin by changing the size of our points representing historic public baths across Montreal. The default symbology when the layer was added renders them quite small and hard to see. Let's increase the size of these points.
+
+
+To Do
+{: .label .label-green }
+Open the Properties for the layer `public-baths`, and navigate to **Symbology**. 
+
+> - Click down to **Simple Marker**. 
+> - Here you can increase the size of your points, change the fill color (the color of the point itself), or add a stroke color (outline). (Line features will only have a stroke.)
+
+
+<img src="./images/symbol1.png" style="width:100%">
+
+
+<br>
+
+If you want to use a stylized/specific icon to demarcate your points, switch the **Symbol layer type** from "Simple Marker" to "SVG Marker". SVGs are scalable vector graphics. 
+
+<img src="./images/symbol2.png" style="width:90%">
+
+
+> You can then choose from a range of loaded icons, or [add your own](https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html)
+
+[see also](https://gis.stackexchange.com/questions/137855/importing-svg-symbols-into-qgis)
+
+<img src="./images/symbol3.png" style="width:80%">
+
+<br>
+
+
+### 2. Change water feature color 
+Now let's update the color of the water features. Unlike points, these are polygon features. However, they similarly will have a fill to change. 
+
 
 To Do
 {: .label .label-green }
 
-Changing poloygon color. Let's try changing the color of one of the water features to blue. 
+Zoom to `CARTO_DRA_EAU_JOUR`. Then, open the **Symbology** for the layer. You can also open the symbology by double clicking the layer's symbol icon in the Layers Panel. 
 
-> zoom to `CARTO_DRA_EAU_JOUR` 
-> right click on the layer and go to Properties --> Symbology.
-> Click down to Simple Fill. 
-> Click on the color bar to change the color. Expand the dialogue window if necessary. 
-> Fill is shading of polygon, stroke is outline. if line feature, only have stroke. You can change the "stroke", or outline color, or, by setting Stroke style to "No line", remove it all together.  try changing stroke to be one. 
-> hit apply to see your changes
+<!-- <img src="./images/symbology2.png" style="width:100%"> -->
 
+> - **Click down to Simple Fill**. 
+> - Click on the color bar to change the color. Expand the dialogue window if necessary. 
+> - You can change the "stroke", or outline color. Or, by setting Stroke style to "No line", remove it all together.  try changing stroke to be one. 
+> Hit apply to see your changes
 
-<img src="./images/symbology1.png" style="width:100%">
+<img src="./images/symbology3.png" style="width:90%">
 
-<img src="./images/symbology2.png" style="width:100%">
+<img src="./images/symbology1.png" style="width:49%"> <img src="./images/symbology4.png" style="width:49%">
 
-<img src="./images/symbology3.png" style="width:100%">
-
-<img src="./images/symbology4.png" style="width:100%">
-
-
-
-
-
-### Copy and Pasting Symbology
-- **Copy/Paste Symbology** Right-click the layer whose symbology you want to copy in the Layers Panel, go to "Styles" --> "Copy Style" --> "Symbology". Then right-click the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
-
-you can copy and paste symbology until all water features are the same color!!
-
-
-<img src="./images/symbology5.png" style="width:100%">
-
-<img src="./images/symbology6.png" style="width:100%">
-
-<img src="./images/symbology7.png" style="width:100%">
-
-
-**SAVE YOUR PROJECT**
+<!-- <img src="./images/symbology4.png" style="width:80%"> -->
 
 If you want to make your map in Black & White, change the Color Model from RGB to CYMK. Then set everything but K to 0. You can also color sample from the eye-dropper tab. 
 
+<br>
 
-### Increase the size/color/icon of the public baths
-{: .no_toc}
+### Tip: Copy and Pasting Symbology
+- **Copy/Paste Symbology** Right-click the layer whose symbology you want to copy in the Layers Panel, go to "Styles" --> "Copy Style" --> "Symbology". Then right-click the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
 
-<img src="./images/symbology8.png" style="width:100%">
-
+<!--copy paste symbology slide deck-->
+<html>
+<link rel="stylesheet" href="../style.css">
+<div class="slideshow-container3">
+<div class="mySlides3">
+  <div class="numbertext">1 / 3</div>
+  <img src="./images/symbology5.png" style="width:100%">
+</div>
+<div class="mySlides3">
+  <div class="numbertext">2 / 3</div>
+  <img src="./images/symbology6.png" style="width:100%">
+</div>
+<div class="mySlides3">
+  <div class="numbertext">3 / 3</div>
+  <img src="./images/symbology7.png" style="width:100%">
+</div>
+<a class="prev1" onclick="plusSlides3(-1)">❮</a>
+<a class="next1" onclick="plusSlides3(1)">❯</a>
+</div>
+<div style="text-align:center">
+  <span class="dot3" onclick="currentSlide3(1)"></span> 
+  <span class="dot3" onclick="currentSlide3(2)"></span> 
+  <span class="dot3" onclick="currentSlide3(3)"></span> 
+</div>
+<script>
+let slideIndex3 = 1;
+showSlides3(slideIndex3);
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
+}
+function showSlides3(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides3");
+  let dots = document.getElementsByClassName("dot3");
+  if (n > slides.length) {slideIndex3 = 1}    
+  if (n < 1) {slideIndex3 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex3-1].style.display = "block";  
+  dots[slideIndex3-1].className += " active";
+}
+</script>
+</html>
 
 <br>
 
+> - You can copy and paste symbology until all water features are the same color!!
+
+**SAVE YOUR PROJECT**
+
+
+<br><br>
+
+
+
 ### Categorized Symbology
 
-each ward/borough a different color. 
+The symbology style for any given vector layer can be Single, Categorized, or Graduated. So far, we've been using Single Symbol symbology. This means that each layer will have a single symbology, or color/outline.
 
-more about this when we practice thematic mapping. 
+However, if you wanted to have each borough a different color, you could change the symbology to categorized and categorize by name - random colors. 
+
+Make sure to hit classify. 
+
+
+
 
 <img src="./images/symbology9.png" style="width:100%">
+<br>
 
 <img src="./images/symbology10.png" style="width:100%">
 
 
+Learn more about how to edit the resulting symbology [here](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html#symbology). 
 
+> Also rule-based etc. 
 
-<br>
-
-Before we give you some time to change your layers' symbology, we want to introduce the idea of visual hierarchy. 
 
 
 ---
 
+**Before we give you some time to modify your layers' symbology, we want to introduce the idea of visual hierarchy.**
+
+---
+
+
+
+
 # Visual Hierarchy
 Visual hierarchy describes the order in which elements on a map grasp the viewer's attention. What elements do you want to prioritize and what is the order of importance? Maps can become busy places when everything is vying for attention. The following are considerations and techniques for foregrounding what's important, and backgrounding what's less so. 
 
-Note: Some of the elements mentioned below aren't things you currently have on your map, but rather items you'll add to your final map layout like a scalebar, north arrow, and legend. 
+<!-- Note: Some of the elements mentioned below aren't things you currently have on your map, but rather items you'll add to your final map layout like a scalebar, north arrow, and legend. just add in that section about visual hierarchy... -->
 
 -----
 
 ## Color 
+{: .no_toc}
+
 You can create a background/foreground contrast with color by modifying a colors value (its lightness or darkness) or its saturation. Generally, highly-saturated colors will come to the fore, as will light colors if the majority is dark, or vice versa. 
 (When working in Black & White, think about your grayscale as a palette in and of itself.) 
 
@@ -156,11 +232,11 @@ A lot is subjective - also eyes different.
 </div>
 <div class="mySlides">
   <div class="numbertext">2 / 4</div>
-    <img src="./images/vh2.png" style="width:100%">
+    <img src="./images/vh3.png" style="width:100%">
 </div>
 <div class="mySlides">
   <div class="numbertext">3 / 4</div>
-    <img src="./images/vh3.png" style="width:100%">
+    <img src="./images/vh2.png" style="width:100%">
 </div>
 <div class="mySlides">
   <div class="numbertext">4 / 4</div>
@@ -224,6 +300,8 @@ If you want your map to be all around softer, you can set the background element
 
 
 ## Outlines
+{: .no_toc}
+
 An outline brings something to your attention, adding crispness to form. To send elements to the background, consider removing their outlines. A light-colored outline against a darker foregrounded element will help it stand out and vice versa. 
 
 If both foreground and background are outlined, consider color matching by adding light-colored outlines to light objects, and dark outlines to darker objects.  light-colored outlines  Consider removing outlines from background layers, such as ocean, lakes, and countries. Consider adding a light outline to provinces of all once color, or removing all together if provinces symbolized in a categorized manner. Keep in mind the color of an outline also impacts visual hierarchy.
@@ -243,11 +321,11 @@ Giving an outline to the lakes in a color slightly darker than their fill emphas
 </div>
 <div class="mySlides1">
   <div class="numbertext">2 / 3</div>
-  <img src="./images/vh6.png" style="width:100%">
+  <img src="./images/vh7.png" style="width:100%">
 </div>
 <div class="mySlides1">
   <div class="numbertext">3 / 3</div>
-  <img src="./images/vh7.png" style="width:100%">
+  <img src="./images/vh6.png" style="width:100%">
 </div>
 <a class="prev1" onclick="plusSlides1(-1)">❮</a>
 <a class="next1" onclick="plusSlides1(1)">❯</a>
@@ -288,6 +366,7 @@ function showSlides1(n) {
 
 
 ## Transparency
+{: .no_toc}
 
 Transparency allows overlapping layers to be seen, as well as lightens the overall hue of a layer. Transparency helps elements fade into the background, like the backing of a legend or a north arrow. 
 
@@ -310,7 +389,6 @@ Transparency allows overlapping layers to be seen, as well as lightens the overa
 <div style="text-align:center">
   <span class="dot2" onclick="currentSlide2(1)"></span> 
   <span class="dot2" onclick="currentSlide2(2)"></span> 
-
 </div>
 <script>
 let slideIndex2 = 1;
@@ -343,20 +421,8 @@ function showSlides2(n) {
 Transparency also serves to de-accentuate things like outlines and text buffers. 
 
 
-## Lettering
-
-Lettering will come into play in the next step of adding text to a print layout, but it also matters when configuring labels from the main QGIS interface. Halos and buffers make text stand out, whereas you can use size and color of labels to send less relevant ones to the background. 
-
-<img src="./images/labelling-example_20250917.jpeg" style="width:100%">
-
-While more comprehensive design work on your map can be managed in an illustration software like Inkscape or Adobe Illustrator, with some time and patience, a great deal of customization can be done right within QGIS. For example, categorizing features and styling their labels differently. In the above map, you'll notice I've added leader lines for the maritime provinces but not for the others. 
-
-
-
-
-
-
 ## Practice
+{: .no_toc}
 
 To Do
 {: .label .label-green }
