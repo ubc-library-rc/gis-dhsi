@@ -7,6 +7,7 @@ parent: Reference Mapping
 # Layer Symbology
 {: .no_toc}
 
+
 Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection. 
 
 projection/ CRS etc. 
@@ -15,84 +16,193 @@ focus now symbology
 
 Symbology governs the outline and color fill of points, lines, and polygons. The symbology style for any given vector layer can be Single, Categorized, Graduated, etc. For now, let's stick with Single. This means that each layer will have a single symbology, or color/outline. 
 
-Depending on the audience and publisher of your reference map, you might have constraints such as Black and White. Keep this in mind. For now, we'll map in color.
+
+As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. 
+
+This page will guide you through modifying your layers' symbology to create a more polished looking map where what's deemed important stands out.
 
 
+<details open markdown="block">
+  <summary>
+    On this page:
+  </summary>
+  {: .text-delta }
+ - TOC
+{:toc}
+</details>
 
+----
 
 <!-- 
 based on https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html) -->
 
 
 
-
-
-
 ## Changing Layer Symbology
-As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. 
-
-<!-- 
-This page (and the next) will guide you through modifying your layers' symbology to create a more polished looking map where what's deemed important stands out.  -->
-
-
+Depending on the audience and publisher of your reference map, you might have constraints such as Black and White. Keep this in mind. For now, we'll map in color.
 
 To Do
 {: .label .label-green }
-Change the color of the ocean.
 
-1. Right-click the ocean layer and go to Properties --> Symbology. 
-2. Click down to Simple Fill. 
-3. Click on the color bar to change the color. Expand the dialogue window if necessary. 
-4. You can also change the "stroke", or outline color, or, by setting Stroke style to "No line", remove it all together. 
+Changing poloygon color. Let's try changing the color of one of the water features to blue. 
 
-[images]
+> zoom to `CARTO_DRA_EAU_JOUR` 
+> right click on the layer and go to Properties --> Symbology.
+> Click down to Simple Fill. 
+> Click on the color bar to change the color. Expand the dialogue window if necessary. 
+> Fill is shading of polygon, stroke is outline. if line feature, only have stroke. You can change the "stroke", or outline color, or, by setting Stroke style to "No line", remove it all together.  try changing stroke to be one. 
+> hit apply to see your changes
 
- If you want to make your map in Black & White, change the Color Model from RGB to CYMK. Then set everything but K to 0. You can also color sample from the eye-dropper tab. 
 
-[images]
+<img src="./images/symbology1.png" style="width:100%">
 
+<img src="./images/symbology2.png" style="width:100%">
+
+<img src="./images/symbology3.png" style="width:100%">
+
+<img src="./images/symbology4.png" style="width:100%">
+
+
+
+
+
+### Copy and Pasting Symbology
+- **Copy/Paste Symbology** Right-click the layer whose symbology you want to copy in the Layers Panel, go to "Styles" --> "Copy Style" --> "Symbology". Then right-click the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
+
+you can copy and paste symbology until all water features are the same color!!
+
+
+<img src="./images/symbology5.png" style="width:100%">
+
+<img src="./images/symbology6.png" style="width:100%">
+
+<img src="./images/symbology7.png" style="width:100%">
+
+
+**SAVE YOUR PROJECT**
+
+If you want to make your map in Black & White, change the Color Model from RGB to CYMK. Then set everything but K to 0. You can also color sample from the eye-dropper tab. 
+
+
+### Increase the size/color/icon of the public baths
+{: .no_toc}
+
+<img src="./images/symbology8.png" style="width:100%">
+
+
+<br>
 
 ### Categorized Symbology
 
-eg each ward a different color ... 
-etc. discuss
+each ward/borough a different color. 
+
 more about this when we practice thematic mapping. 
 
+<img src="./images/symbology9.png" style="width:100%">
+
+<img src="./images/symbology10.png" style="width:100%">
 
 
 
 
+<br>
 
-- **Copy/Paste Symbology** Right-click the layer whose symbology you want to copy in the Layers Panel, go to "Styles" --> "Copy Style" --> "Symbology". Then right-click the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
-
-> do this for all water features. 
+Before we give you some time to change your layers' symbology, we want to introduce the idea of visual hierarchy. 
 
 
 ---
 
 # Visual Hierarchy
-{: .no_toc}
-
-*Perhaps combine somehow with symbology section, or gloss over or give some time to work on maps before exporting. *
-
 Visual hierarchy describes the order in which elements on a map grasp the viewer's attention. What elements do you want to prioritize and what is the order of importance? Maps can become busy places when everything is vying for attention. The following are considerations and techniques for foregrounding what's important, and backgrounding what's less so. 
 
 Note: Some of the elements mentioned below aren't things you currently have on your map, but rather items you'll add to your final map layout like a scalebar, north arrow, and legend. 
 
 -----
 
-## **Color** 
-*Bright* and *dark* colors jump forwards, whereas pale and desaturated hues fade to the back. (When working in Black & White, think about your grayscale as a palette in and of itself.) 
+## Color 
+You can create a background/foreground contrast with color by modifying a colors value (its lightness or darkness) or its saturation. Generally, highly-saturated colors will come to the fore, as will light colors if the majority is dark, or vice versa. 
+(When working in Black & White, think about your grayscale as a palette in and of itself.) 
+
+For example - both relatively de-saturated, but one is brighter and darker than the other. montreal comes to the fore. 
+
+*Bright*, *saturated*, and *dark* colors jump forwards, whereas pale and desaturated hues fade to the back. (When working in Black & White, think about your grayscale as a palette in and of itself.) 
+
+If combining - same brightness level, saturated will come forward
 
 First, establish which elements are your foreground and which are your background. These are not often clear divisions, so perhaps you can list them out in descending order of importance. 
 
 When using light vs. dark colors to establish a visual hierarchy between foreground and background, you can *either* choose for your focus elements to be much darker or much lighter. This is especially the case if there are multiple elements that need to be foregrounded. 
 
+
+> Use same color but slightly desaturated for background. make sure water features etc. still differentiated. 
+
+> use lighter for foreground, darker for background
+
+> use color for foreground and greyscale or desaturated for background.
+
+A lot is subjective - also eyes different.  
+
+
 <br>
 
 <!--carousel styling and code adapted from W3schools-->
+<html>
+<link rel="stylesheet" href="./styles.css">
+<div class="slideshow-container">
+<div class="mySlides">
+  <div class="numbertext">1 / 4</div>
+  <img src="./images/vh1.png" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+<div class="mySlides">
+  <div class="numbertext">2 / 4</div>
+    <img src="./images/vh2.png" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">3 / 4</div>
+    <img src="./images/vh3.png" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">4 / 4</div>
+    <img src="./images/vh4.png" style="width:100%">
+</div>
+<a class="prev1" onclick="plusSlides(-1)">❮</a>
+<a class="next1" onclick="plusSlides(1)">❯</a>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>
 
-[carousel of example images]
+
 
 <br>
 
@@ -108,7 +218,7 @@ Be careful, however, not to make colors too light, lines to thin, or text too sm
 If you want your map to be all around softer, you can set the background elements in a grey or desaturated color, and give a warmer color to your foregrounded elements.
 
 
-<img src="./images/soft-colors-exaple.jpeg" style="width:100%">
+
 
 <br>
 
@@ -119,20 +229,116 @@ An outline brings something to your attention, adding crispness to form. To send
 If both foreground and background are outlined, consider color matching by adding light-colored outlines to light objects, and dark outlines to darker objects.  light-colored outlines  Consider removing outlines from background layers, such as ocean, lakes, and countries. Consider adding a light outline to provinces of all once color, or removing all together if provinces symbolized in a categorized manner. Keep in mind the color of an outline also impacts visual hierarchy.
 
 
-[images]
 
 
 Giving an outline to the lakes in a color slightly darker than their fill emphasizes them nicely:
 
+<!--outline carousel-->
+<html>
+<link rel="stylesheet" href="../style.css">
+<div class="slideshow-container1">
+<div class="mySlides1">
+  <div class="numbertext">1 / 3</div>
+  <img src="./images/vh5.png" style="width:100%">
+</div>
+<div class="mySlides1">
+  <div class="numbertext">2 / 3</div>
+  <img src="./images/vh6.png" style="width:100%">
+</div>
+<div class="mySlides1">
+  <div class="numbertext">3 / 3</div>
+  <img src="./images/vh7.png" style="width:100%">
+</div>
+<a class="prev1" onclick="plusSlides1(-1)">❮</a>
+<a class="next1" onclick="plusSlides1(1)">❯</a>
+</div>
+<div style="text-align:center">
+  <span class="dot1" onclick="currentSlide1(1)"></span> 
+  <span class="dot1" onclick="currentSlide1(2)"></span> 
+  <span class="dot1" onclick="currentSlide1(3)"></span> 
+</div>
+<script>
+let slideIndex1 = 1;
+showSlides1(slideIndex1);
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
+}
+function showSlides1(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides1");
+  let dots = document.getElementsByClassName("dot1");
+  if (n > slides.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex1-1].style.display = "block";  
+  dots[slideIndex1-1].className += " active";
+}
+</script>
+</html>
 
-<!--carousel styling and code adapted from W3schools-->
+
 
 
 ## Transparency
 
 Transparency allows overlapping layers to be seen, as well as lightens the overall hue of a layer. Transparency helps elements fade into the background, like the backing of a legend or a north arrow. 
 
-  <img src="./images/line-transparency_20250915.png" style="width:60%">
+
+<!--transparency carousel-->
+<html>
+<link rel="stylesheet" href="../style.css">
+<div class="slideshow-container1">
+<div class="mySlides2">
+  <div class="numbertext">1 / 2</div>
+  <img src="./images/vh8.png" style="width:100%">
+</div>
+<div class="mySlides2">
+  <div class="numbertext">2 / 2</div>
+  <img src="./images/vh9.png" style="width:100%">
+</div>
+<a class="prev1" onclick="plusSlides2(-1)">❮</a>
+<a class="next1" onclick="plusSlides2(1)">❯</a>
+</div>
+<div style="text-align:center">
+  <span class="dot2" onclick="currentSlide2(1)"></span> 
+  <span class="dot2" onclick="currentSlide2(2)"></span> 
+
+</div>
+<script>
+let slideIndex2 = 1;
+showSlides2(slideIndex2);
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+function currentSlide1(n) {
+  showSlides2(slideIndex2 = n);
+}
+function showSlides2(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  let dots = document.getElementsByClassName("dot2");
+  if (n > slides.length) {slideIndex2 = 1}    
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex2-1].style.display = "block";  
+  dots[slideIndex2-1].className += " active";
+}
+</script>
+</html>
+
 
 Transparency also serves to de-accentuate things like outlines and text buffers. 
 
@@ -154,7 +360,9 @@ While more comprehensive design work on your map can be managed in an illustrati
 
 To Do
 {: .label .label-green }
-While there is more to Visual Hierarchy, that is enough to get you started. Take 5-10 minutes to change symbology of each layer with visual hierarchy in mind. You may choose to symbolize Canadian provinces & territories as a single symbol, or as categorized symbols.
+While there is more to Visual Hierarchy, that is enough to get you started. Take 15 minutes to change symbology of each layer with visual hierarchy in mind. And, catch up if you need. we will circulate. 
+
+MAKE SURE TO BE ZOOMED INTO BATHS WHEN YOU PRACTICE 
 
 
 ----
