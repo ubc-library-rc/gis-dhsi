@@ -12,29 +12,48 @@ Another Layer Property useful to know is **Labels**. Labels allows you to add la
 
 ----
 
-practice - demo
+## Add labels to Public Baths
+
+Open the Layer Properties for `public-baths`. Navigate to **Labels** just beneath Symbology. 
+
+> - Change **No Labels** to **Single Labels**. 
+
+<img src="./images/labelling1.png" style="width:90%">
+
+> - Set the **Value** to `Bath Name`. This way the labels will appear as each bath's name. 
+
+<img src="./images/labelling2.png" style="width:80%">
+
+<br>
+
+Now you can customize your labels quite a bit. 
+
+First, you can change the size, font, color, and opacity (or transparency) of your text. 
+
+<img src="./images/labelling3.png" style="width:90%">
 
 
-To Do
-{: .label .label-green }
-Add labels to baths based on `x`. You can customize your labels by increasing the text size, adding a buffer, or changing the label placement. 
+If your text is difficult to read, you can add a buffer to highlight it from the background. Considering visual hierarchy, it can be a good idea to use a semi-transparent color that's already predominant in the map's background to highlight your text. 
+
+
+<img src="./images/labelling4.png" style="width:80%">
+
+
+Finally, you can adjust the labels' placement around a point by going down to **Placement**. This is most useful when labelling polygons. 
+
+<img src="./images/labelling5.png" style="width:100%">
 
 
 
 
+<br>
 
 
 
 
+<!-- While more comprehensive design work on your map can be managed in an illustration software like Inkscape or Adobe Illustrator, with some time and patience, a great deal of customization can be done right within QGIS. For example, categorizing features and styling their labels differently. 
 
-## Visual Hierarchy for Lettering
-
-Lettering will come into play in the next step of adding text to a print layout, but it also matters when configuring labels from the main QGIS interface. Halos and buffers make text stand out, whereas you can use size and color of labels to send less relevant ones to the background. 
-
-<img src="./images/" style="width:100%">
-
-While more comprehensive design work on your map can be managed in an illustration software like Inkscape or Adobe Illustrator, with some time and patience, a great deal of customization can be done right within QGIS. For example, categorizing features and styling their labels differently. In the above map, you'll notice I've added leader lines for the maritime provinces but not for the others. 
-
+Leader lines etc.  -->
 
 
 
