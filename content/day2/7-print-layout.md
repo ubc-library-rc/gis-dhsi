@@ -122,13 +122,17 @@ Now that we've set the scale of our map, let's add a scalebar to the Print Layou
 Once you've added the scalebar, you can customize it. Choose a scalebar **Style** from the dropdown menu. The scalebar will adjust automatically if you adjust the scale of your map.
 
 <img src="./images/layout10.png" style="width:100%">
+<img src="./images/layout10a.png" style="width:100%">
+<img src="./images/layout10b.png" style="width:100%">
+<img src="./images/layout10c.png" style="width:100%">
+
 
 
 Best practice is for your scale bar to be in **metric units**. 
 
 To customize the symbology of your scalebar as well as its lettering, scroll down and expand the **Appearance** option. Click on **Font** in Appearance to change the font family and color of your scalebar labels. Thinking about Visual Hierarchy, perhaps the scalebar and lettering could be a lighter in color, or slightly transparent. Consider matching the lettering and line color with the water or other extensive features.  
 
-<img src="./images/layout11.png" style="width:50%">
+
 
 
 <br>
@@ -137,7 +141,11 @@ To customize the symbology of your scalebar as well as its lettering, scroll dow
 
 Add a north arrow. 
 
-<img src="./images/layout12.png" style="width:100%">
+<img src="./images/layout11.png" style="width:100%">
+
+<img src="./images/layout11a.png" style="width:100%">
+
+<img src="./images/layout11b.png" style="width:100%">
 
 If you scroll down to "Image Rotation" in Item Properties, you will notice there's an option to choose either Grid North or True North. Grid North is relative to the projection used, whereas True North, like the name implies, is a fixed geographic location. According to [QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/print_composer/composer_items/composer_image.html), **Grid north** is the direction of a grid line which is parallel to the central meridian of the national/local grid, whereas **True north** is direction of a meridian of longitude. You can try changing - for the localization we're looking at it won't matter. 
 <!-- There is also Magnetic North, which is Earth's magnetic pole and which shifts slightly. Depending on what projection is used and whereabouts your map is zoomed in to (near a pole or the equator; showing a large geographic area vs. a small one), which north orientation choose will be more or less important. Today's workshop won't go into the specifics, but Grid North is generally okay for maps not close to either poles and which cover a large area. [Read more on north arrows here](https://docs.os.uk/more-than-maps/geographic-data-visualisation/guide-to-cartography/north-arrows). -->
@@ -153,16 +161,16 @@ Although you can add a title and other labels to your map based on layer attribu
 
 Go ahead and add a label for this map such as "Montreal's Historic Public Baths". To increase the font size and spacing, scroll down in the Item properties and click on Appearance. You can increase the spacing to stretch a title label across the extent of a feature. 
 
-<img src="./images/layout13.png" style="width:100%">
+<img src="./images/layout12.png" style="width:100%">
 
 
 You can up the size, font, and color by going to FONT under the Appearance option. 
 
-<img src="./images/layout14.png" style="width:100%">
+<img src="./images/layout12a.png" style="width:100%">
 
 You can click over to add a buffer. My go to when color mapping for screen is a semi transparent buffer in the same color as the background. 
 
-<img src="./images/layout15.png" style="width:100%">
+<img src="./images/layout12b.png" style="width:100%">
 
 <br><br>
 
@@ -200,6 +208,8 @@ We don't need a legend here but if you were to add one, you'd add it from the Ad
 Only features symbolized by your map should be included in your legend. Additionally, the names of relevant layers should be updated so they are understandable to the viewer.
 
 To change the names or remove items from the legend, In the Legend Items section, collapse Main Properties so you can see Legend Items. Now, **uncheck the ‘Auto update’ box**. To remove any unnecessary layers, select the layer you want to remove and then click the big red minus sign. You may need to collapse the layer and scroll down. To rename a Legend item, simply double-click on the item and type in the text box that opens. Remember to click the back button to return to the the item properties. You can also go down to the background property and adjust transparency or remove altogether. 
+
+
 
 
 
