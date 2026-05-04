@@ -52,9 +52,9 @@ To prepare for the course, please download the following data and software, and 
  While this course will involve some basic HTML, no previous coding experience is required.
 
 
-3.  **Download and unzip the workshop data folder** below. This will be available on the course website in May. You will receive an email when the course website and data are ready to download. Download it to a location on your physical computer, such as Desktop or Downloads, *not OneDrive*. 
+3.  **Download and unzip the workshop data folder** below. This will be available on the course website in May. You will receive an email when the course website and data are ready to download. Download it to a location on your physical computer, such as Desktop or Downloads, *not OneDrive*. This item is quite large, so please download to an external thumbdrive if needed. 
 
-[Download Data](./dhsi-workshop.zip){: .btn .btn-blue}
+[Download Data](https://drive.google.com/file/d/1MOtLVJnhnvr3bcR_G0S_-_3Y8Lt0piL4/view?usp=sharing){: .btn .btn-blue}
 
 
 4. **Create a free account for the various platforms we will use.**
