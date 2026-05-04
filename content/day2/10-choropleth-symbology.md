@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 3. Choropleth Mapping
+title: 3. Choropleth Symbology
 nav_order: 3
 parent: Thematic Mapping
 ---
-# Choropleth Mapping
+# Choropleth Symbology
 
 reminder of what a choropleth map is
 
