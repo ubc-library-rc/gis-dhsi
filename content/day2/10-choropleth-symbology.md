@@ -9,7 +9,7 @@ As it is, we can't glean any information regarding the spatial distribution of F
 
 ----
 
-## 
+## Making a Choropleth Map
 
 *1*{: .circle .circle-yellow} Remove or turn off all point layers. Turn off `total-pop` for now. Then, open the symbology for `fc-count`. 
 <!-- In the Layers Panel, right-click on `vanHoodsCount` and go to **Properties**. Then, in the Layer Properties window, navigate to the **Symbology** tab.  -->
