@@ -5,6 +5,15 @@ nav_order: 1
 parent: Tools and Workflows in QGIS
 has_children: true 
 ---
+Tools and workflows to cover just this section 
+- attribute table extended (create shapefile; edit attribute table, join, merge, field calculator)
+<!-- > how to download data from web -->
+<!-- > joins, clean up -->
+> spatial joins with word/tract, naming is inconsistent - cleanup
+<!-- > attribute tables - edit, calculate -->
+> selections - within distance and by location
+<!-- > filter, visibility  -->
+
 
 puzzles
 how many bakers (from all datasets - could run merge) are not within 5 km from a bakery? or something. idk. could do a better question that doesnt presume bakers work at nearest bakery, 
