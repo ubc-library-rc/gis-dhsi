@@ -7,11 +7,16 @@ has_children: true
 ---
 
 # Tools and Workflows in QGIS
-(extended from yesterday)
 
-- georeferencing
-- vector analysis 
-- attribute table extended (create shapefile; edit attribute table, join, merge, field calculator)
-- qgis plugin webmap
 
-- dissolve to get rid of lines demarkating boroughs 
+
+
+1. vector analysis/tools / geoprocessing (?which to call it?)
+    - geoprocessing; merge; dissolve (all on reference mapping data)
+
+2. create and edit shapefiles/spatial data (special mention: geolocating)
+
+3. qgis plugin webmap (reference mapping qgis project)
+
+
+4. georeferencing
