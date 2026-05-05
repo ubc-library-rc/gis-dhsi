@@ -1,13 +1,9 @@
 ---
 layout: default
 title: Optional - Add a Basemap
-nav_order: 2
-parent: Day 3
+nav_order: 3
+parent: Tools and Workflows in QGIS
 ---
-
-
-
-
 
 # Add a Basemap
 
