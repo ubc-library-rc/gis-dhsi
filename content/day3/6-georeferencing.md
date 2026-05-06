@@ -17,10 +17,24 @@ What do you hope to gain from georeferencing? How might georeferencing be useful
 - to make comparison calculations
 - to serve as reference for creating shapefiles for spatial analysis or reference mapping
 
-<br>
 
 *Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
 
+<br>
+
+Here are some examples of and literature on Georeferencing in the Digital Humanities
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c)
+- [special issue](https://www.tandfonline.com/toc/wmgl20/9/1-2) in the Journal of Map & Geography Libraries on Working Digitally with Historical Maps. 
+- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2)
+- [resource tutorial](https://geospatialhistorian.wordpress.com/lessons/)
+- [Georeferencing in QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis)
+- [georeferencing in arcgis](https://geospatialhistorian.wordpress.com/lessons/arcgis-lesson-4-digitizing/)
+- [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis)
+- [intro to map warper ](https://programminghistorian.org/en/lessons/introduction-map-warper)
+
+
+
+WILL WE use map warper? IIIF? 
 
 <details open markdown="block">
   <summary>
@@ -52,10 +66,13 @@ The points matched between the two layers are called **Ground Control Points (GC
 
 <br>
 
-## 1. Open the QGIS Project
+## 1. Prepare the QGIS Project
+
 
 
 ## 2. Load source data layers
+
+- basemap? would need then a historical map relatively recent? how else to match 
 
 ## 3. Load Target Layers
 We also want as a Target Layer a map of Vancouver that has street intersections since these will make excellent GCPs. We will use a plugin to connect a web-based map of the city hosted by Open Street Maps. QGIS plugins are user developed tools that extend QGIS functionality beyond the basics. To access a range of web-based maps, we’ll first install the QuickMapServices plugin. Click on the Plugin menu at the top of your screen and select Manage and Install Plugins…
