@@ -5,18 +5,22 @@ nav_order: 1
 parent: Day 3
 has_children: true 
 ---
-
 # Tools and Workflows in QGIS
 
 
 
 
-1. vector analysis/tools / geoprocessing (?which to call it?)
-    - geoprocessing; merge; dissolve (all on reference mapping data)
+1. basemap
 
-2. create and edit shapefiles/spatial data (special mention: geolocating)
+2. vector tools
 
-3. qgis plugin webmap (reference mapping qgis project)
+3. create and edit shapefiles/spatial data (special mention: geolocating)
+
+4. qgis plugin webmap (reference mapping qgis project) (unless move to end of tomorrow)
 
 
-4. georeferencing
+5. georeferencing
+
+----
+
+WE'll be working in sandbox - go ahead and launch the project now. 
