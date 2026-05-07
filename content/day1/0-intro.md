@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Day 1
-nav_order: 2
+nav_order: 1
 has_children: true
 ---
 # Day 1: Introduction to spatial visualization in/for digital humanities research
