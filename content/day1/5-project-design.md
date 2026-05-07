@@ -33,6 +33,9 @@ Inventory and assemble the necessary resources to begin mapping. -->
 
 -----
 
+I will update these questions according to the edits you make in the google doc
+{: .warn}
+
 ## 1. Articulating Objectives
 The first question to ask yourself is: **What are my overarching project objectives?** 
 
