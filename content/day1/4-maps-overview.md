@@ -5,15 +5,18 @@ nav_order: 2
 parent: Day 1
 ---
 # Thematic vs. Reference maps 
+
+
+More text on HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH.
+{: .warn}
+
+
 <!-- 
 MAYBE THIS SHOULD GO ON DAY 2
 Unless - fits in to key concepts in cartography. OR, move whole learning objective to day 2.  -->
-Spatial data -> Maps. HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH. (if moved, move entire objective of "key concepts in cartography" to day 2. this might be wise.)
+<!-- Spatial data -> Maps. HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH. (if moved, move entire objective of "key concepts in cartography" to day 2. this might be wise.) -->
 
-Maps can be physical or digital, static or interactive. However, there are 2 broad categories spatial visualizations can be categorized into: reference maps, thematic maps. Later in the week you'll also be introduced to multimedia narratives that use (often reference) maps and spatial data to tell an interactive story using a web-based platform. 
-
-
-Let's review the two main kinds of maps: reference maps and thematic maps. Reference maps are descriptive, showing “the lay of the land”, whereas thematic maps render the results of spatial analysis
+Maps can be physical or digital, static or interactive. However, there are 2 broad categories spatial visualizations can be categorized into: reference maps, thematic maps. Later in the week you'll also be introduced to multimedia narratives that use (often reference) maps and spatial data to tell an interactive story using a web-based platform. For now, let's review the two main kinds of maps: reference maps and thematic maps. Reference maps are descriptive, showing “the lay of the land”, whereas thematic maps render the results of spatial analysis
 
 
 ## Reference Maps
@@ -50,16 +53,23 @@ Other reference maps include road atlases, pocket atlases, or transport specific
 
 <br>
 
+
+Maybe some more DH map examples - can pull in the historical shoreline maps
+{: .warn}
+
 ----
 
 ## Thematic Maps
 Another kind of map is a thematic map. Writes Statistics Canada: “A thematic map shows the spatial distribution of one or more specific data themes for standard geographic areas.” 
 
+Some text describing how each kind is useful in DH research
+{: .warn}
 
 
 ### Choropleth maps
 
-IF I HAVE TIME I COULD CHANGE THE EXAMPLES TO BE MORE DIGITAL HUMANITIES ORIENTED
+<!-- IF I HAVE TIME I COULD CHANGE THE EXAMPLES TO BE MORE DIGITAL HUMANITIES ORIENTED -->
+
 
 Choropleth maps are useful to show and compare the density, frequency, or quantity of a value generalized across standardized geographic areas (such as zip-codes, provinces, or countries). Unless you specifically want to emphasize differences in total number of events/data points, it is best practice to normalize your data when choropleth mapping. Normalization is when you divide the values for each geographic area by something like the area in square kilometers or total population of that area. For instance, mapping winter flu cases across census tracts in British Columbia, you’d want to normalize the total cases in each census tract by that tract’s total population. Normalization enables better comparison across multiple geographic areas.
 
@@ -102,7 +112,8 @@ There is a case to be made that all maps are thematic, as the definition of boun
 
 
 ### Univeriate vs multivariate 
-
+<!--do this-->
 
 ### Static maps vs web maps
 All the above maps just introduced are static maps. On day 3, we will explore web maps. web maps such as xyz are interactive, on the web, xyz. however, webmaps can still be either reference or thematic. 
+<!--fix this>
