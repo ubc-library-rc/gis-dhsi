@@ -7,9 +7,9 @@ parent: Course Overview
 # Resources
 {: .no_toc}
 
-tools
+<!-- tools
 resources
-considerations 
+considerations  -->
 
 <details open markdown="block">
   <summary>
@@ -25,28 +25,35 @@ considerations
 
 
 ## Data wrangling
+- [Considerations for downloading data](https://ubc-library-rc.github.io/gis-spatial-stories/content/resources-for-data-assembly.html) 
+- [Exhaustive list of spatial data formats](https://gisgeography.com/gis-formats/)
+- [Adding CSV data as a layer to a QGIS Project](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on7.html)
+- [Creating a new shapefiles in QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on8.html)
+- [Georeferencing Historical Maps with QGIS](https://ubc-library-rc.github.io/gis-georeferencing/)
+- [Georeferencing with KnightLab](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
+- [Terrastories](https://terrastories.app/) and [Awana Digital ](https://awana.digital/mapeo) are two great resources for collecting place-based data on the go.
 
-### Considerations
+
+<!-- ### Considerations
 {: .no_toc}
 - [Exhaustive list of spatial data formats](https://gisgeography.com/gis-formats/)
 - [Considerations for downloading data](https://ubc-library-rc.github.io/gis-spatial-stories/content/resources-for-data-assembly.html) 
-- Places to look for data... see spatial stories breakdown. 
+- Places to look for data... see spatial stories breakdown.  -->
 
-### Workflows
+<!-- ### Workflows
 {: .no_toc}
-- [Adding CSV data as a layer to a QGIS Project](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on7.html)
-- [Creating a new shapefiles in QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on8.html)
-- [Geocoding]
-- [Georeferencing Historical Maps with QGIS](https://ubc-library-rc.github.io/gis-georeferencing/)
-- [Georeferencing with KnightLab](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
 
-### Tools 
+- [geocoding in qgis](https://programminghistorian.org/en/lessons/geocoding-qgis)
+- [Victorian Britain Author Addresses Geocoding project](https://libguides.ucalgary.ca/c.php?g=706878&p=5030657)
+see victoria writers project -->
 
 
-### Tools 
+
+
+<!-- ### Tools 
 {: .no_toc}
-- [Terrastories](https://terrastories.app/) and [Awana Digital ](https://awana.digital/mapeo) are two great resources for collecting place-based data on the go
-- Geocoders
+- [Terrastories](https://terrastories.app/) and [Awana Digital ](https://awana.digital/mapeo) are two great resources for collecting place-based data on the go.
+- Geocoders -->
 
 
 
@@ -65,14 +72,15 @@ The best way to learn QGIS is through the experience that comes with hands-on pr
 - [QGIS Project Properties](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#project-properties)
 
 
-### More Research Commons Tutorials 
+<!-- ### More Research Commons Tutorials 
 {: .no_toc}
 - [Reference Mapping with QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/)
 - [Thematic Mapping with QGIS](https://ubc-library-rc.github.io/gis-thematic-mapping/)
-- [Tools and Workflows in QGIS](https://ubc-library-rc.github.io/gis-tools-workflows/)
+- [Tools and Workflows in QGIS](https://ubc-library-rc.github.io/gis-tools-workflows/) -->
 
 
-
+* [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
+> * [Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/)
 
 
 ## Making static maps
@@ -91,10 +99,12 @@ considerations
 {: .no_toc}
 - umap
 - google mymap
-- arcgis online
+- arcgis online 
+For more on - webmapping with arcgis online - https://ubc-library-rc.github.io/gis-storymaps/content/understanding-the-platform.html
 - leaflet
 - felt
 - other things?
+
 
 
 
@@ -110,22 +120,43 @@ considerations
 ### Leaflet resources...
 {: .no_toc}
 
+[this](https://ucdavisdatalab.github.io/workshop_web_maps/add-a-popup.html)
+
+[Building web maps with Leaflet](https://ucdavisdatalab.github.io/workshop_web_maps/) tutorial 
 
 
-## Narrative Mapping
-tools
+## Story Mapping
+<!-- tools
 resources
-considerations 
+considerations  -->
 
 ### Tools 
 {: .no_toc}
 - [Storymaps with AGOL](https://ubc-library-rc.github.io/gis-storymaps/)
 - knightlab 
-- IIIF
-- map warper 
+<!-- - IIIF
+- map warper  -->
+
+
+> ### Additional Resources for StoryMapping
+> * [The tale of two ArcGIS Online map viewers: functionality guidance](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/tale-of-two-arcgis-online-map-viewers-functionality-guidance/)
+> * [ArcGIS Online Relationship Style](https://enterprise.arcgis.com/en/portal/latest/use/style-numbers.htm#ESRI_SECTION1_C7FAB061D60344CAB6AC9A190DAED1D2)
+> * [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
+> * [Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/)
+> * [ArcGIS Arcade for Creating Expressions and Coding within your Map](https://storymaps.arcgis.com/stories/e5c8528325c84d56b24afddaa796bfac)
 
 
 
 
 
 
+
+## general DH readings
+- [Towards the Spatial Analysis of Vague and Imaginary Place and Space: Evolving the Spatial Humanities through Medieval Romance](https://www.tandfonline.com/doi/full/10.1080/15420353.2017.1307302)
+- [Programming Historian](https://programminghistorian.org/en/lessons/?topic=mapping) lessons
+- [other google maps and google earth](https://programminghistorian.org/en/lessons/googlemaps-googleearth)
+- [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis)
+- [The Geospatial Historian](https://geospatialhistorian.wordpress.com/)
+
+
+## Critical/creative cartography lit?
