@@ -25,11 +25,6 @@ Day 2 will provide a conceptual and practical orientation to geographic informat
 
 <br>
 
------
-
-<br>
-
-EXAMPLES OF WHAT WE'LL MAKE HERE! 
 
 
 

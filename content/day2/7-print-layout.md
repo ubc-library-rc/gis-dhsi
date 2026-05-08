@@ -7,10 +7,10 @@ parent: Reference Mapping
 # Create a map: Print Layout
 {: .no_toc}
 
-Once you are satisfied with your layer symbology, it’s time to create a **Print Layout**. A Print Layout in QGIS is like a drawing board where you add the map you created, as well as other elements like a north arrow, legend, scale bar, text boxes, and other marginalia. You can create multiple Print Layouts per QGIS project. By giving each Print Layout you make a unique name, and saving it (and your QGIS project) regularly, you can return to a Print Layout from the at any time (Project menu –> Layouts) and continue working.
+Once you are satisfied with your layer symbology, it’s time to create a **Print Layout**. A Print Layout in QGIS is like a drawing board where you add the map you created, as well as other elements like a north arrow, legend, scale bar, text boxes, and other marginalia. You can create multiple Print Layouts per QGIS project. By giving each Print Layout you make a unique name, and saving it (and your QGIS project) regularly, you can return to a Print Layout from the at any time (from the Project menu –> Layouts) and continue working.
 
 
-See The QGIS user guide here for a comprehensive introduction to the [QGIS Print Layout](https://docs.qgis.org/3.40/en/docs/training_manual/map_composer/map_composer.html).
+See he QGIS User Guide here for a comprehensive introduction to the [QGIS Print Layout](https://docs.qgis.org/3.40/en/docs/training_manual/map_composer/map_composer.html).
 
 
 <details open markdown="block">
@@ -149,8 +149,10 @@ Add a north arrow.
 
 If you scroll down to "Image Rotation" in Item Properties, you will notice there's an option to choose either Grid North or True North. Grid North is relative to the projection used, whereas True North, like the name implies, is a fixed geographic location. According to [QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/print_composer/composer_items/composer_image.html), **Grid north** is the direction of a grid line which is parallel to the central meridian of the national/local grid, whereas **True north** is direction of a meridian of longitude. You can try changing - for the localization we're looking at it won't matter. 
 <!-- There is also Magnetic North, which is Earth's magnetic pole and which shifts slightly. Depending on what projection is used and whereabouts your map is zoomed in to (near a pole or the equator; showing a large geographic area vs. a small one), which north orientation choose will be more or less important. Today's workshop won't go into the specifics, but Grid North is generally okay for maps not close to either poles and which cover a large area. [Read more on north arrows here](https://docs.os.uk/more-than-maps/geographic-data-visualisation/guide-to-cartography/north-arrows). -->
-<!-- The [central meridian](https://gisgeography.com/central-meridian/) is where the 2-dimensional surface that's wrapped around the globe in a projection intersects with that globe. If your mapped area is around a central meridian, which is likely if you're using a UTM projection (in a specific Zone) or otherwise projection that's specifically designed for your region because of it's central meridian, then you can go ahead and use Grid North. If your map is centered on a region near the north (or south) pole, you might be better served using Truth North as that will angle the north arrow along the lines of longitude.  -->
+<!-- The [central meridian](https://gisgeography.com/central-meridian/) is where the 2-dimensional surface that's wrapped around the globe in a projection intersects with that globe. If your mapped area is around a central meridian, which is likely if you're using a UTM projection (in a specific Zone) or otherwise projection that's specifically designed for your region because of it's central meridian, then you can go ahead and use Grid North. If your map is centered on a region near the north (or south) pole, you might be better served using Truth North as that will angle the north arrow along the lines of longitude.  
 {: .note}
+-->
+
 
 
 
@@ -177,24 +179,24 @@ You can click over to add a buffer. My go to when color mapping for screen is a 
 At the bottom of your map, just above the neatline, it's customary to include the map author and data sources. This can be added as a label. The sources for this map are the City of Montreal and the Government of Canada, as well as Alex Alisauskas. 
 
 
-
+<!-- 
 Some notes on labelling: 
 Visual Hierarchy is relevant to labelling in a couple ways. 
 Color, transparency, size, yes
 Also font style. 
 
-All labels horizontal, with one exception for rivers and roadways which can follow shape of curve. 
+All labels horizontal, with one exception for rivers and roadways which can follow shape of curve.  -->
 
 
 <br>
 
-### 5. Add a neatline
+### 5. Add a Neatline
 
-The border around your map frame is called a neatline. You can add a neatline by turning on the **Frame** option of your map item, and then styling it. Be sure to click back into your Map item in order to expose this item's properties. 
+The border around your map frame is called a **neatline**. You can add a neatline by turning on the **Frame** option of your map item, and then styling it. Be sure to click back into your Map item in order to expose this item's properties. 
 
 <img src="./images/layout16.png" style="width:100%">
 
-Note - alighing map to horizontal and vertical center if need be. 
+<!-- Note - alighing map to horizontal and vertical center if need be.  -->
 
 <br>
 
@@ -214,7 +216,8 @@ To change the names or remove items from the legend, In the Legend Items section
 
 
 <br><Br>
----
+
+
 
 ## Export your map
 You can export your map as an image, PDF, or scalable vector graphic (`.svg`) from the Print Layout toolbar, or from the Layout menu. You can also print your map directly from QGIS. 

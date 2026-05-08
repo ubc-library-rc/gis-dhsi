@@ -26,16 +26,16 @@ If you haven't already, launch the `thematic-mapping.qgz` project in the folder 
 
 <br>
 
-- To open a layer's attribute table, right-click the layer in the Layers Panel and go to "Open Attribute Table". 
+> * To open a layer's attribute table, right-click the layer in the Layers Panel and go to "Open Attribute Table". **Open the Attribute Table for `census1881`.
 
 <img src="./images/table2.png" style="width:100%">
 
-You can also use the Attributes Toolbar (so long as it's turned on) to open the Attribute Table of a layer highlighted in the Layers Panel. 
-<img src="./images/table2b.png" style="width:7%">
+<!-- You can also use the Attributes Toolbar (so long as it's turned on) to open the Attribute Table of a layer highlighted in the Layers Panel. 
+
+<img src="./images/table2b.png" style="width:35%"> -->
 
 The attribute table might take a while to load as there are over a hundred thousand points. Additionally, since the attribute table will open in a new window, sometimes this can get lost behind the main QGIS interface. 
 
-<br>
 
 Note that there are several attributes (columns) that describe each feature (row) in this dataset. Manually re-size the column widths until you can read each attribute.
 
@@ -160,7 +160,7 @@ Click Okay. The new layer should be created and automatically added with a new d
 
 <br>
 
-**Save your project**. 
+<img src="./images/setup3.png" style="width:6%;"> **SAVE YOUR PROJECT**
 
 <br>
 
@@ -253,7 +253,7 @@ Click Okay in this window, and then OK in the Joins Layer Property. Open the att
 
 <img src="./images/joins3.png" style="width:90%">
 
-**Save your project.**
+<img src="./images/setup3.png" style="width:6%;"> **SAVE YOUR PROJECT**
 
 
 <br>
@@ -275,7 +275,7 @@ Once you've toggled on editing mode, more tools will become available in the Att
 <img src="./images/calculator1.png" style="width:95%">
 
 
-<br>
+
 
 *2*{: .circle .circle-yellow} Open the **Field Calculator** by clicking on the abacus icon <img src="./images/edit-mode-icon.png" style="width:7%">. The Field Calculator window is similar in format to Select by Expression, but here we build an expression to populate a new or existing column. In Field Calculator, you can calculate the area of features, run mathematical operations between columns (as we will do), or update or reformat an existing column. 
 
@@ -302,7 +302,9 @@ Now click **OK** and return to the Attribute Table. You will see a new field.
 
 <img src="./images/calculator3.png" style="width:100%">
 
-**SAVE YOUR QGIS PROJECT**. 
+<br>
+
+<img src="./images/setup3.png" style="width:6%;"> **SAVE YOUR PROJECT**
 
 
 

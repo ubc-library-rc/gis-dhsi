@@ -10,7 +10,7 @@ parent: Reference Mapping
 Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection, or CRS. 
 
 
-**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black and White. Keep this in mind. For now, we'll map in color.
+**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black & White. Keep this in mind. For now, we'll map in color. See the [QGIS Lesson on Symbology](https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/symbology.html) for more. 
 
 
 As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. Before we compose our map for export, let's take some time to modify our layers' symbology to create a more polished looking map.
@@ -54,30 +54,29 @@ If you want to use a stylized/specific icon to demarcate your points, switch the
 <img src="./images/symbol2.png" style="width:90%">
 
 
-> You can then choose from a range of loaded icons, or [add your own](https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html)
-
-[see also](https://gis.stackexchange.com/questions/137855/importing-svg-symbols-into-qgis)
+<!-- [see also](https://gis.stackexchange.com/questions/137855/importing-svg-symbols-into-qgis) -->
 
 <img src="./images/symbol3.png" style="width:80%">
 
+> You can then choose from a range of loaded icons, or [add your own](https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html). 
 <br>
 
 
 ### 2. Change water feature color 
-Now let's update the color of the water features. Unlike points, these are polygon features. However, they similarly will have a fill to change. 
+Now let's update the color of the water features. Unlike points, these are polygon features. However, they similarly will have a "fill" color we can change. 
 
 
 To Do
 {: .label .label-green }
 
-Zoom to `CARTO_DRA_EAU_JOUR`. Then, open the **Symbology** for the layer. You can also open the symbology by double clicking the layer's symbol icon in the Layers Panel. 
+Zoom to `CARTO_DRA_EAU_JOUR`. Then, open the **Symbology** for the layer. Note that you can also open the symbology by double clicking the layer's symbol icon in the Layers Panel. 
 
 <!-- <img src="./images/symbology2.png" style="width:100%"> -->
 
 > - **Click down to Simple Fill**. 
 > - Click on the color bar to change the color. Expand the dialogue window if necessary. 
 > - You can change the "stroke", or outline color. Or, by setting Stroke style to "No line", remove it all together.  try changing stroke to be one. 
-> Hit apply to see your changes
+> Hit **apply** to see your changes.
 
 <img src="./images/symbology3.png" style="width:90%">
 
@@ -92,8 +91,14 @@ If you want to make your map in Black & White, change the Color Model from RGB t
 ### Tip: Copy and Pasting Symbology
 - **Copy/Paste Symbology** Right-click the layer whose symbology you want to copy in the Layers Panel, go to "Styles" --> "Copy Style" --> "Symbology". Then right-click the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
 
+> - Copy and paste symbology until all water features are the same color.
+
+  <img src="./images/symbology5.png" style="width:100%">
+    <img src="./images/symbology6.png" style="width:100%">
+      <img src="./images/symbology7.png" style="width:100%">
+
 <!--copy paste symbology slide deck-->
-<html>
+<!-- <html>
 <link rel="stylesheet" href="../style.css">
 <div class="slideshow-container3">
 <div class="mySlides3">
@@ -141,13 +146,12 @@ function showSlides3(n) {
   dots[slideIndex3-1].className += " active";
 }
 </script>
-</html>
+</html> -->
 
 <br>
 
-> - You can copy and paste symbology until all water features are the same color!!
 
-**SAVE YOUR PROJECT**
+<img src="./images/setup3.png" style="width:6%;"> **SAVE YOUR PROJECT**
 
 
 <br><br>
@@ -158,10 +162,9 @@ function showSlides3(n) {
 
 The symbology style for any given vector layer can be Single, Categorized, or Graduated. So far, we've been using Single Symbol symbology. This means that each layer will have a single symbology, or color/outline.
 
-However, if you wanted to have each borough a different color, you could change the symbology to categorized and categorize by name - random colors. 
+However, if you wanted to have each borough a different color, you could change the symbology to categorized and categorize by name using random colors. 
 
-Make sure to hit classify. 
-
+Make sure to hit **classify** to see the results. 
 
 
 
@@ -171,9 +174,9 @@ Make sure to hit classify.
 <img src="./images/symbology10.png" style="width:100%">
 
 
-Learn more about how to edit the resulting symbology [here](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html#symbology). 
+<!-- Learn more about how to edit the resulting symbology [here](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on3.html#symbology). 
 
-> Also rule-based etc. 
+> Also rule-based etc.  -->
 
 
 
@@ -191,7 +194,10 @@ Visual hierarchy describes the order in which elements on a map grasp the viewer
 
 <!-- Note: Some of the elements mentioned below aren't things you currently have on your map, but rather items you'll add to your final map layout like a scalebar, north arrow, and legend. just add in that section about visual hierarchy... -->
 
------
+<br>
+
+I need to work on this part still
+{: .warn}
 
 ## Color 
 {: .no_toc}

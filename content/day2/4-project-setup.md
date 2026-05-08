@@ -8,9 +8,9 @@ parent: Reference Mapping
 {: .no_toc}
 
 
-Before we begin mapping, let's take a moment to familiarize ourselves with the QGIS interface by way of project set-up. QGIS can be opened by opening a prepared QGIS project file, or simply by launching the application. So that you can practice, we'll start from scratch. 
+Before we begin mapping, let's take a moment to familiarize ourselves with the QGIS interface by way of project set-up. QGIS can be opened by opening a prepared QGIS project file, or simply by launching the application. This morning we'll start from scratch so that you can practice setting up a project as you would in the real world.  
 
-**Launch the QGIS application now!**
+
  <!-- ?? For today, a nearly-blank project has been prepared for you. (Tomorrow you'll learn to create and save a project from scratch.) -->
 
 <!-- Navigate to `dhsi-workshop/Day 2`. Inside you will find a file called `QGIS-hands-on.qgz` as well as a subfolder of `data`. It's best practice to save your QGIS projects to the folder where you keep your data for the project. Once you save your project to your computer, you'll notice the file extension is `.qgz`. Learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).  -->
@@ -28,11 +28,15 @@ Before we begin mapping, let's take a moment to familiarize ourselves with the Q
 
 
 ## Open & Save a new QGIS project
-<!-- Now, double-click the QGIS project to open it. -->
-If you have successfully downloaded and installed QGIS, the application should open and look like this:
 
 
-Click new empty project to begin. 
+<br>
+
+**Launch the QGIS application now!** Click new empty project to begin. 
+<!-- If you have successfully downloaded and installed QGIS, the application should open and look like this: -->
+
+
+
 
 <img src="./images/setup0.png" style="width:100%">
 
@@ -43,15 +47,17 @@ Click new empty project to begin.
 {: .label .label-green } -->
 To save your project, navigate to the `Project` Menu at the stop of your screen and go down to "Save". Just like with documents in a text editor, you can also "Save As" to save your project as a new file, thus creating multiple back-up versions of an original.  It is important to regularly save your project while working in case QGIS crashes. Remember, what is saved is your styling etc., the data is elsewhere. 
 
+- Save this project to the folder `dhsi-workshop/Day3/reference-mapping` as `reference-mapping_YOURNAME.qgz`. Be sure to change the file extension to .qgz.  You can learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).
+
+
 
 <img src="./images/setup1.png" style="width:100%">
 
 <br>
 
-- Save this project to the folder `dhsi-workshop/Day3/reference-mapping` as `reference-mapping_YOURNAME.qgz`. Be sure to change the file extension to .qgz.  You can learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).
 
 
-<img src="./images/setup2.png" style="width:90%">
+<img src="./images/setup2.png" style="width:85%">
 
 <br>
 
@@ -76,7 +82,7 @@ Note: moving forwards, you can also use the save icon in your **Toolbar** to sav
 
 - **Map Canvas or Map View** - Call it either one. This is where the map is displayed and updated as layers are loaded. You can zoom/pan the map canvas as well as select features and other operations.
 
-
+<br>
 
 
 ## Customizing the interface
@@ -102,7 +108,7 @@ The application Options window looks like the image below. Most customizations y
 ## Loading Data 
 Once you've acquainted yourself with the QGIS interface, it's time to add data you gathered to your project. 
 
-There are a couple ways to add data to your map canvas. 
+There are a couple ways to add data to your map canvas: 
 
 
 - **Browser panel** From the Browser panel, likely docked to the left of your screen, expand the `Home` directory (aka folder) and navigate to your workshop data folder. Expand that folder to see the data inside, then double-click or drag and drop each file to add it to your project. Alternatively, you can add a **Favorite** connection in the Browser panel to save you the trouble of finding your data folder. To do this, click “Favorites” at the top of the Browser panel's list and connect the workshop data folder as a favorite directory. Make sure not to click *into*, merely select it. 
@@ -111,33 +117,31 @@ There are a couple ways to add data to your map canvas.
 - **Drag and drop** files from your data folder directly onto your map canvas. This method is not recommended as it can easily lead to data disorganization. >>> see what it looks like Data - discussed previously. 
 
 
-This is what folder looks like from folder view. remember, `.shp` file what we want. 
+<!-- This is what folder looks like from folder view. remember, `.shp` file what we want.  -->
 
-<img src="./images/setup6.png" style="width:100%">
  
 
-- note on file and folder naming - part of the process!
+<!-- - note on file and folder naming - part of the process! -->
 
 
 To Do
 {: .label .label-green }
 
-Drag and drop data from workshop folder to your QGIS project in the following order:
+Drag and drop data from workshop folder to your QGIS project *in the following order*:
 
 1. **Provinces**, a shapefile named `lpr_000b21a_e.shp` from the `lpr_000b21a_e` folder. 
-2. **Montreal Admin Boundaries** given layer `montreal.shp`
+2. **Montréal Admin Boundaries**, a given layer named `montreal.shp`
 3. **Parks and Green Spaces**, a shapefile named `Espace_Vert.shp` in the folder `Shapefile`. 
-4. And then water features: `CARTO_DRA_EAU_JOUR` AND `CARTO_DRA_BASSIN` from the folder `hydrographie-2020`, and `MERN_DRA_HYDROGRAPHIE.shp` from the folder `mern_dra_hydrographie_2020_shapefile`.
+4. And then water features, *specifically* `CARTO_DRA_EAU_JOUR` AND `CARTO_DRA_BASSIN` from the folder `hydrographie-2020`, and `MERN_DRA_HYDROGRAPHIE.shp` from the folder `mern_dra_hydrographie_2020_shapefile`.
 
-<!-- 6. Add given layer `canals.shp`. -->
 
-Your canvas will now look like this. 
+Your map canvas will now look like this. 
 
 <img src="./images/setup6.png" style="width:100%">
 
 <br>
 
-Thats because - loading to "Extent" of most geographically expansive layer. Let's **zoom to   Montreal**. Right-click `montreal` in the **Layers Panel** and click **zoom-to**. 
+Your map canvas has zoomed out to the "Extent" of most geographically expansive layer loaded — provinces. Let's **zoom to Montréal**. Right-click `montreal` in the **Layers Panel** and click **zoom-to**. Don't worry about default colors - we'll learn how to change change them shortly.
 
 <img src="./images/setup7.png" style="width:100%">
 <br>
@@ -145,24 +149,44 @@ Thats because - loading to "Extent" of most geographically expansive layer. Let'
 <img src="./images/setup8.png" style="width:100%">
 
 <br>
-<br>
+
 
 <img src="./images/setup3.png" style="width:6%;"> **SAVE YOUR PROJECT**
 
+<br>
 
 
 ## Loading CSV data to QGIS
+Tabular data stored in CSV (comma separated value) files can be uploaded to a GIS and rendered spatial so long as latitude and longitude are given in two distinct columns and their values stored as numbers. *Tabular data must be in a CSV file format with latitude and longitude stored as numbers in two separate columns before uploading to QGIS.* 
+
+Would you like to demo this?
+{: .warn}
+
+> * From the **Layer** menu at the top of your screen, go to **Add Layer** -> **Add delimited text layer…**
 
 <img src="./images/setup9.png" style="width:100%">
 
+
+> * The Data Source Manager will open. Click the three dots beside File name to navigate to `public-baths.csv` and select it.
+
+> * Change **Geometry Definition** to Point Coordinates. Now look below to the Sample Data section. This gives a preview of your dataset. The data is difficult to see because you cannot expand it, but scroll horizontally until you reach the last two fields (or whichever fields contain your personal data’s latitude and longitude). If you scroll vertically (I recommend using the up & down arrows, otherwise you may accidentally change the field type), values will be revealed line by line. Ensure the columns for latitude and longitude are being read as Decimal (double), *not* text. 
+
+<!-- Notice for the demo dataset, lat and lon (latitude and longitude) are currently being read as Text (string). Simply click where it says Text (string) and change it to Decimal (double) for both those columns. -->
+
+> * Now return to **Geometry Definition**. Ensure the X field is set to longitude and the Y field is set to latitude. This may seem counter intuitive, but consider what values change as you move towards the north or south pole. As you move up or down towards the north or south pole — in other words, as you change along the Y-axis — you are changing latitudes. If you move east to west around the globe - constituting change in the X-axis direction - you are changing longitude.
+
 <img src="./images/setup10.png" style="width:100%">
 
-zoom to them 
+<br>
+
+> * Now click **Add** at the bottom right-hand corner to add your CSV as a spatial layer to your map. Once you add the layer, the Data Source Manager will not go away, so you’ll have to close it. `public-baths` should now be added to your map canvas.
+
+> * **Zoom-to** the new layer.  
 
 <img src="./images/setup11.png" style="width:100%">
 
 
-Dont worry about default colors - we'll learn how to change change them shortly. 
+
 
 
 
@@ -176,7 +200,7 @@ Your data isn't saved _inside_ your QGIS project. Rather, the *filepath connecti
 ## Set Project CRS
 <!-- ## Project Properties -->
 
-Now if you zoom out a bit. - wonky. 
+Now if you zoom out a bit your map might look a little wonky or warped, and the parallel is not straight.  
 
 You can access the Project Properties from the the **Project** menu. Open the Project Properties and click down to **CRS**. You can see the current project CRS is set to `NAD83 / Statistics Canada Lambert`. 
 
@@ -186,20 +210,24 @@ You can access the Project Properties from the the **Project** menu. Open the Pr
 
 CRS stands for Coordinate Reference System, and describes the mathematics behind transforming a 3-dimensional Earth to fit on a 2-dimensional screen. A projection is part of the Coordinate Reference System, and is responsible for projecting a set of points from a 3-dimensional space onto a 2-dimensional plane. There are a variety of projections, each one preserving some characteristics of shape, area, distance, and direction, while distorting others. When choosing the best projection for your map, it is important to consider the content you are visualizing and the extent of the geographic area. Every spatial data layer comes with its own stored projection, often noted at the point of download. Note: If you don't set a projection at the start, your QGIS project will assume the projection of the first layer you add.
 
+<!-- still need to do-->
+You'll notice the project CRS is set to `NAD83 / Statistics Canada Lambert`. This is from the provincial layer, our first layer added. This projection works well for the entirety of Canada, but we can get more specific since we're only looking at Montréal. Change the project CRS to `NAD83 / MTM zone 8`. Much of Montréal's data is stored with this projection. 
 
-`NAD83 / Statistics Canada Lambert`. explain a bit about. this is from the provinces layer - works for entire country. 
-Why we will change to `NAD83 / MTM zone 8` - more specific. also we do this bc lots of the montreal data is stored in this projection. (when we do qgis to web we can turn this map into the web map by adding basemap and xyz - will also have to change project projection though - that is if basemap still works/allowed)
+> * Click **OK** to any transformation warnings. 
+<!-- explain why thats going on.  -->
+
+
+ <!-- also we do this bc lots of the Montréal data is stored in this projection. (when we do qgis to web we can turn this map into the web map by adding basemap and xyz - will also have to change project projection though - that is if basemap still works/allowed) -->
 
 <img src="./images/setup13.png" style="width:100%">
 
-click OK any transformation warnings. explain why thats going on. 
 
-zoom back out - paralell is straingt. 
+> * If you zoom back out you'll notice the parallel is now straight. 
 
 <img src="./images/setup14.png" style="width:100%">
 
 
-Setting the project CRS doesn’t change the stored projection of each layer, only how they are rendered ‘on the fly’ by QGIS. QGIS will reproject all the project layers ‘on the fly’ to match the project CRS. You can change the stored projection of layers with the Warp and Reproject Layer tools.
+Again, setting the project CRS doesn’t change the stored projection of each layer, only how they are rendered ‘on the fly’ by QGIS. QGIS will reproject all the project layers ‘on the fly’ to match the project CRS. You can change the stored projection of layers with the Warp and Reproject Layer tools.
 
 For more on Coordinate Reference Systems, see [here](https://ubc-library-rc.github.io/gis-georeferencing/content/projections.html) or check out our resource on [Understanding Map Projections](https://ubc-library-rc.github.io/map-projections/) for more. QGIS also has extensive documentation on [coordinate reference systems](https://docs.qgis.org/3.40/en/docs/gentle_gis_introduction/coordinate_reference_systems.html), and [pbcGIS](https://www.pbcgis.com/projection_fundamentals/) offers more background information if you're curious.
 {: .note}
@@ -234,9 +262,7 @@ Although this map has only a handful of layers, some projects require you to jug
 
  <img src="./images/setup15.png" style="width:50%">
 
-
-**SAVE YOUR PROJECT** 
-
+<br>
 
 - **Grouping Layers**  If you're ever working with numerous layers, you can create layer groups through the group icon or by right-clicking anywhere that's empty in the Layers Panel and selecting "Add Group". Once you've added and named a group, you can drag layers into it. You can move layers out of a group at any time, and right-click the group to remove or rename it. Each layers group will have its own visibility checkbox, meaning that even as you set the visibility for each individual layer within the group, only by rendering the group itself visible will any of its nested layers appear on your screen. 
 
@@ -260,12 +286,15 @@ Although this map has only a handful of layers, some projects require you to jug
 
 - **Exporting Layers** Exporting a layer essentially makes a copy of the dataset on your computer with a name, file type, and location of your choice. This can be useful if you want to make a copy of a layer, save a temporary layer as a permanent file, or save a selection as a new layer/dataset. To export a layer, simply right-click the layer, go to "Export" --> "Save Feature As...". Note that your new file will not have the same symbology, though you can copy/paste one layer's symbology to another. "Duplicating" a layer, which you can also do by right-clicking a layer in your Layers Panel, doesn't create a copy of the dataset, just adds it twice to your project. 
 
+<br>
 
+<img src="./images/setup3.png" style="width:6%;">**SAVE YOUR PROJECT** 
 
 <!-- - **Managing data from browser panel** Note that you _can_ delete data on your computer from the Browser Panel by right-clicking the layer  (deleting files) -->
 
 ## Interacting with Layers
-WHERE DOES THIS GO???  BASIC LAYER INTERACTIONS 
+WHERE DOES THIS GO??? in order of things?
+{: .warn}
 
 > <img src="./images/setupa.png" style="width:34%"> Take a moment to zoom in and out using the **Magnification tools** in your **Toolbar**.  
 
@@ -278,7 +307,7 @@ WHERE DOES THIS GO???  BASIC LAYER INTERACTIONS
 > <img src="./images/setupd.png" style="width:7%"> To stop the Identify tool, close the pop-up window and click the **Pan tool**. 
 
 
-> attribute table
+<!-- > attribute table -->
 
 <br>
 
@@ -288,12 +317,12 @@ WHERE DOES THIS GO???  BASIC LAYER INTERACTIONS
 ## Spatial Bookmarks
 Another tip, especially if you're using a single layer to make a map of different locations, is to make **spatial bookmarks**. A spatial bookmark is exactly what it sounds like: a way to bookmark a canvas extent to return to layer. You can add a spatial bookmark from the bookmark icon in the **Toolbar**, from the **View menu**, or from the Spatial Bookmark tab in your **Browser Panel**. You can then set it to your map canvas, or a layer, etc. You can then save the bookmark with a name to your project (this project alone) or to your user settings (every QGIS project you ever make and open). 
 
-<img src="./images/setup.png" style="width:100%">
+<!-- <img src="./images/setup.png" style="width:100%"> -->
 
 
 To Do
 {: .label .label-green }
-Make a spatial bookmark of ??. If you've already zoomed to the provinces layer, set your spatial bookmark extent to "Map Canvas Extent". Otherwise, be sure `x` is centered on your screen first, or set the that layer as your extent. Save to Project Bookmarks. 
+Make a spatial bookmark of `public-baths` If you've already zoomed to the provinces layer, set your spatial bookmark extent to "Map Canvas Extent". Otherwise, be sure `public-baths` are centered on your screen first, or set the that layer as your extent. Save to Project Bookmarks. 
 
 
 

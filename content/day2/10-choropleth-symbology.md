@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Choropleth Symbology
+title: 2. Choropleth Symbology
 nav_order: 3
 parent: Thematic Mapping
 ---

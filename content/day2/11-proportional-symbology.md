@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 4. Proportional Symbols
+title: 3. Proportional Symbols
 nav_order: 4
 parent: Thematic Mapping
 ---

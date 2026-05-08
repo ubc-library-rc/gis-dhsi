@@ -16,11 +16,11 @@ Another Layer Property useful to know is **Labels**. Labels allows you to add la
 
 Open the Layer Properties for `public-baths`. Navigate to **Labels** just beneath Symbology. 
 
-> - Change **No Labels** to **Single Labels**. 
+> * Change **No Labels** to **Single Labels**. 
 
 <img src="./images/labelling1.png" style="width:90%">
 
-> - Set the **Value** to `Bath Name`. This way the labels will appear as each bath's name. 
+> * Set the **Value** to `Bath Name`. This way the labels will appear as each bath's name. 
 
 <img src="./images/labelling2.png" style="width:80%">
 

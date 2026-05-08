@@ -56,6 +56,12 @@ img {
   margin: auto;
 } 
 
+.slideshow-container4 {
+  max-width: 1000px;
+  position:fixed;
+  margin: auto;
+} 
+
 
 .prev1,
 .next1 {

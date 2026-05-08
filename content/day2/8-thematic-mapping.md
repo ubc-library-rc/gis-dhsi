@@ -15,13 +15,19 @@ This afternoon, you will learn how to make 2 of the most commonly used thematic 
 
 
 
-[Exmaples of maps we will make...]
+<!-- <img src="./images/thematic1.png" style="width:100%"> -->
+<br>
+<img src="./images/thematic2.png" style="width:100%">
 
 <!-- (proportional symbol - total per ward - or occupation) -->
 
 
 <!-- how to adjust symbology - make choropleth and proportional symbol map 
 intro spatial analysis vector tools first, and then make thematic maps after?  -->
+
+<br>
+
+----
 
 
 ## Today's data
