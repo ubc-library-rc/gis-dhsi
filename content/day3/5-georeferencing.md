@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Georeferencing
-nav_order: 5
+nav_order: 4
 parent: Tools and Workflows in QGIS
 ---
 # Georeferencing Overview
@@ -19,6 +19,11 @@ What do you hope to gain from georeferencing? How might georeferencing be useful
 
 
 *Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
+
+
+show me historical map where i am example
+prepare to demo other options, David Rumsay Georeferencer; allmaps/IIIF; show me historical map where i am example; considerations copyright etc. pick something that doesnt have allmaps link
+{: .warn}
 
 <br>
 
@@ -46,6 +51,12 @@ WILL WE use map warper? IIIF?
 </details>
 
 ----
+
+
+
+use 1914 and another map  - 
+qgis documentation forthis workflow
+have them do a newer one.... 
 
 
 ## Activity: Georeference a historical map with QGIS
