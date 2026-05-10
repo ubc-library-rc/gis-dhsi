@@ -16,6 +16,12 @@ parent: Tools and Workflows in QGIS
 
 4. spreadsheet  data - alex will have gone over the day before adding CSV data, and considerations. 
 
+5. geocoding
+
+> creating layer when tracing georeferenced map
+> geolocating data (geocoders) 
+> csv 
+> link in those data tools 
 
 ---
 
