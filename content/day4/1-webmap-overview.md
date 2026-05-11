@@ -33,7 +33,7 @@ More commonly, we use this term for “born digital” maps like this cycling ma
 
 
 
-## Examples of webmaps 
+<!-- ## Examples of webmaps 
 The most basic reference web map is a basemap, contained in a viewbox with controls and an attribution at the bottom. Explore the interactive capabilities of each of the following examples.
 reference and thematic. focus on reference here. show 3 different platform - workflow options. and range of things possible. 
 
@@ -49,11 +49,13 @@ show with each platform. discuss advantages/disadvantes briefly or when we get i
 
 oh, there's also AGOL..... ? different day when we do storymaps? 
 Mention narrative mapping will be another day. 
-
+ -->
 
 
 ### why make webmaps?
-SHOW EXAMPLES OF WEBMAPS in digital humanities projects!!!! AND DESCRIBE WHY THEY ARE HELPFUL VISUALIZATIONS (Alex)
+
+Examples of webmaps in digital humanities research (ive added some from the brainstorming document) AND DESCRIBE WHY THEY ARE HELPFUL VISUALIZATIONS (Alex)
+{: .warn}
 
 
 
