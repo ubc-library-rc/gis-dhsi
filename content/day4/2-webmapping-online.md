@@ -48,8 +48,6 @@ We recommend Google as a web mapping platform for its *Google MyMaps service  on
 #### uMap Advantages and Disadvantages
 {: .no_toc}
 - uMap is very easy to use, and has ample customization options. It is an entirely web-based interface and requires no coding or prior expertise. 
-- can export to code
-- add pros and cons 
-- embed images in popups
-- more style options
-- more customizable options 
+- You can export your entire project as code and play around with it locally
+- You can embed images in pop-ups
+- There are extensive styling customization options

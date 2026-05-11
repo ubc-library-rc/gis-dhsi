@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hosting your web map 
-nav_order: 12
+nav_order: 5
 parent: Day 4
 ---
 # Hosting a webmap with GitHub

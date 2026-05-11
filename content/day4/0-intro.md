@@ -12,32 +12,26 @@ Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). W
 2. with **coding**, powered by [Leaflet](https://leafletjs.com/), and 
 3. with **QGIS**, using the [qgis2web plugin](https://plugins.qgis.org/plugins/qgis2web/).
 
-Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, we believe it important to have a basic understanding of how web maps work. To this end, we will break down the "anatomy" of a web map in a code editor in order to understand how the various components of a web map work together. By the end of the day, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
+Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, it's useful to have a general understanding of how a web map works. To this end, we will break down the "anatomy" of a web map in a code editor in order to observe how the various components of a web map work together. By the end of the day, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
 
 
 <br>
 
 #### **Morning Session** 9am - 12pm
-- Introduce and demo uMap and Google MyMaps, two online platforms for webmapping
+- Introduction to uMap and Google MyMaps, two online platforms for webmapping
 - Hands on activity 1 - small groups assigned different datasets to map using either GoogleMy Maps or uMap 
-- Anatomy of a webmap - conceptual intro to leaflet
+- Webmapping with QGIS
 
 #### **Afternoon Session** 1:30pm - 4pm
+- Anatomy of a webmap
 - Hands on with Leaflet - tinker with boilerplate map 
 - activity could be - run selection of data in qgis -> export as geojson - then wrap as javascript and add to project. multipart vs. part be aware for points. solve using centroid. 
-- qgis2plugin (webmapifying a pre-made qgis project)
 - hosting with github (make sure there's time for that)
 
 
 <br>
 
 
-Also, i want to integrate this in somehow to webmapping - its a tool from the data collector tool Digital Democracy (now "awana digital") you pointed out way back when http://lab.digital-democracy.org/code/leaflet-side-by-side/
-
-
------
-
-COULD MOVE the following content TO NEXT PAGE - ON INTRO TO WEBMAPS
 
 ## What we will make
 
@@ -96,4 +90,8 @@ The QGIS Project includes province (and water features?), data from government o
 
 
 
-
+#### Supplementary Readings and Example DH Projects
+- [Designing for discovery: using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html)
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c)
+- [Mapping Prejudice](https://mappingprejudice.umn.edu/)
+<!-- - [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/) -->

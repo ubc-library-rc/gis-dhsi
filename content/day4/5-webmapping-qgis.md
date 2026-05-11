@@ -1,9 +1,13 @@
 ---
 layout: default
 title: Webmapping with QGIS
-nav_order: 10
+nav_order: 3
 parent: Day 4
 ---
+
+I need to replace the documentation with that of a different QGIS project
+{: .warn}
+
 # Webmapping with QGIS using qgis2web plugin
 
 Want to convert your QGIS project into a dynamic and interactive webmap? There's a plugin for that! [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) allows you to seamlessly create a webmap from your project that preserves your layers *and* their symbology. This next section will guide you through turning your current QGIS project into a webmap powered by Leaflet. 
@@ -33,7 +37,7 @@ Each datapoint has a host of attribute data associated with it, as previously se
 
 
 
-CHECK MY NOTES FOR IMPORTANT THINGS TO REMEMBER HERE
+<!-- CHECK MY NOTES FOR IMPORTANT THINGS TO REMEMBER HERE -->
 
 
 ## Creating a webmap with qgis2web plugin
