@@ -99,13 +99,6 @@ See [here](https://gisgeography.com/gis-formats/) for an exhaustive list of form
 
 
 
-<br><br>
-
-
-## The DHSI course dataset
-<!--do this documentation still -->
-
-
 
 
 
