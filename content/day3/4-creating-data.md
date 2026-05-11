@@ -16,18 +16,27 @@ parent: Tools and Workflows in QGIS
 
 4. spreadsheet  data - alex will have gone over the day before adding CSV data, and considerations. 
 
-5. geocoding
+5. geocoding -- use baths csv - online geocoder with addresses? see how points match. or, have other csv prepared in folder that doesnt have lat long - see how well add in and overlay existing one. 
 
 > creating layer when tracing georeferenced map
 > geolocating data (geocoders) 
 > csv 
 > link in those data tools 
 
+http://lab.digital-democracy.org/maplibre-storymap/demo/
+
+https://github.com/digidem/maplibre-storymap
+
+
+Also, i want to integrate this in somehow to webmapping - its a tool from the data collector tool Digital Democracy (now "awana digital") you pointed out way back when http://lab.digital-democracy.org/code/leaflet-side-by-side/
+
 ---
 
-## using geojson.io 
+## geojson.io 
 
-**3. Create a point over Montreal** or UdeM
+What it is how you can use it. 
+
+**3. Create a point over UdeM** 
 Finally, we will create a point over Montreal. To do this, will use <a href="https://geojson.io/#map=2/0/20" target="_blank">geojson.io</a>, an online platform where you can click to create simple point, line, and polygon features which can then be downloaded and uploaded to a GIS. 
 
 1. Go to <a href="https://geojson.io/#map=2/0/20" target="_blank">geojson.io</a> 
