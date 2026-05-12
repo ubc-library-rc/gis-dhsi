@@ -6,16 +6,15 @@ has_children: true
 ---
 # Day 3: Tools and Workflows in QGIS + Story Maps
 
-Today will cover two distinct topics: in them morning, we will return to QGIS to explore common tools and workflows useful for map making. In the afternoon, you will be introduced to two platforms for making Story Maps, or multi-media narratives which combine text, maps, videos, timelines, and more in a website to convey spatial information in the form of an interactive story.
+Today will cover two distinct topics: in the morning, we will return to QGIS to explore common tools and workflows useful for map making. In the afternoon, you will be introduced to two platforms for making Story Maps, or multi-media narratives combining text, maps, videos, and timelines into an interactive story.
 
 
 
-## Lesson Plan 
-**Morning Session**
-- How to add a basemap to a QGIS project;
-- Common vector tools useful in map making;
-- Creating and editing spatial data; and
-- Georeferencing digitized maps using [IIIF](https://iiif.io/) and [QGIS georeferencer](https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html).
+#### **Morning Session** 9am - 12
+- Adding basemaps to a QGIS project
+- Vector Tools
+- Creating and editing spatial data
+- Georeferencing historical and digitized maps with QGIS
 
 (whatever isn't covered in the morning we can bump to the afternoon - i want to say georeferencing, but maybe a way creating and editing spatial data works with story mapping)
 {: .warn}
@@ -25,7 +24,7 @@ homework day before - take some pictures - use geo tool to track a walk???? or a
 
 <br>
 
-**Afternoon Session** 
+#### **Afternoon Session** 1:30pm - 4pm
 - Creating multi-media Story Maps using the free version of [ArcGIS StoryMaps](https://storymaps.arcgis.com/), as well as its open-source alternate, [Knightlab StoryMap](https://storymap.knightlab.com/).
 
 

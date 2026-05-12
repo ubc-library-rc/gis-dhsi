@@ -7,6 +7,9 @@ parent: Course Overview
 # Software Download and Account Creation
 {: .no_toc}
 
+not sure i need to add this page
+{: .warn}
+
 The following outlines how to download the necessary software and create accounts for the platforms we will use throughout the week. 
 
 

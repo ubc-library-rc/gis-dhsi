@@ -9,6 +9,7 @@ parent: Course Overview
 Before beginning the workshop, we'd like to acknowledge the Indigenous lands where we are located. 
 
 [add more here]
+{: .warn}
 
 <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=45.52147063303985, -73.60705710145659&key=AADlPNbKCBAepz816odRT" style="width:100%; height:400px; border:none;"></iframe>
 
