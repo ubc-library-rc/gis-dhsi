@@ -18,6 +18,7 @@ Day 2 will provide a conceptual and practical orientation to geographic informat
 - Reference Mapping 
 
 #### **Afternoon Session** 1:30pm - 4pm
+- The Attribute Table
 - Thematic Mapping
 
 
