@@ -40,7 +40,9 @@ Also need to figure out when/how to tell ppl to 1. collect cool spots for group 
 
 <br>
 
-## For Tomorrow 
+---
+
+#### For Tomorrow 
 - Review reference vs. thematic mapping
 - Ensure QGIS is downloaded and installed
 - Download and unzip the `dhsi-workshop` data folder
@@ -48,15 +50,3 @@ Also need to figure out when/how to tell ppl to 1. collect cool spots for group 
 
 
 
-<!-- ----
-#### Resources 
-- [Introduction to Mapmaking with QGIS](https://ubc-library-rc.github.io/gis-mapping-intro/)
-- [Telling Spatial Stories](https://ubc-library-rc.github.io/gis-spatial-stories/) -->
-----
-
-#### Some readings on and examples of Spatial Visualization in DH Research  
--  [special issue](https://www.tandfonline.com/toc/wmgl20/9/1-2) in the Journal of Map & Geography Libraries on Working Digitally with Historical Maps. 
-- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2): 
-- [Geocoding the Expansion of Fictional Space in Russian 19th-Century Literature](https://jcls.io/article/id/4228/)
-- [Victorian Britain Author Addresses Geocoding project](https://libguides.ucalgary.ca/c.php?g=706878&p=5030657)
-- [Old Toronto Itinerary project](https://dataforlibs.github.io/old-toronto/)

@@ -25,7 +25,6 @@ Before we turn to visualizing spatial data, we must first be able to identify da
 -----
 
 
-
 ## Raster vs. Vector Data
 There are 2 main types of spatial data: **vector** and **raster**. **Raster data** is made up of pixels arranged in a grid, whereas **vector data** is made up of vertices and the paths between them that create geometries representing real-world features. If you're working with continuous geospatial phenomena such as satellite imagery, topography, or climatic data (like rainfall or temperature), you're likely using raster data. If you’re working with points, lines, or polygons, that’s likely vector data.
 
@@ -89,11 +88,13 @@ Just like a textual data can be stored in different document formats (`.docx`, `
 
 <!-- (include pictures of each) -->
 
-**What format(s) are your data in?**
+
 
 See [here](https://gisgeography.com/gis-formats/) for an exhaustive list of formats spatial data can take. 
 {: .note}
 
+We can ask ppl what format their data is in during the worksheet activity at the end of the day
+{: .warn}
 
 
 
