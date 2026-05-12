@@ -4,6 +4,10 @@ title: Hosting your web map
 nav_order: 5
 parent: Day 4
 ---
+
+ugh ill have to update this documention also 
+{: .warn}
+
 # Hosting a webmap with GitHub
 As is, your webmap is a folder of files on your computer. You can open it locally, but no one else can access it unless you send them the folder to download to their own computer. This is where web hosting platforms come in. If you upload this folder to a cloud service then you can make the map viewable in web browsers anywhere with internet connection (and no access restrictions). 
 

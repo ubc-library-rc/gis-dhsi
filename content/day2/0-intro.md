@@ -19,8 +19,7 @@ Day 2 will provide a conceptual and practical orientation to geographic informat
 
 #### **Afternoon Session** 1:30pm - 4pm
 - Thematic Mapping
-<!-- - Activity 1: Solving spatial computation puzzles
-- Activity 2: Make a thematic map -->
+
 
 
 <br>

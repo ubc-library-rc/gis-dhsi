@@ -8,6 +8,9 @@ parent: Story Maps
 {: .no_toc}
 
 UPDATE BASED ON NEW FREE FEATURES
+Still need to go through and see what new free things there are
+{: .warn}
+
 
 <details open markdown="block">
   <summary>
@@ -203,3 +206,8 @@ Although in a real-world scenario you may wait until your project is further alo
 
 
 That's it! Now you know how ArcGIS Online StoryMaps works!
+
+
+
+#### Resources
+- [AGOL webmap](https://ubc-library-rc.github.io/gis-storymaps/content/create-a-webmap.html)

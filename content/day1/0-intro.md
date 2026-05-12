@@ -32,6 +32,12 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 - Thematic vs. Reference maps
 - Project design fundamentals + worksheet activity
 
+need to clarify small activities all around - lmk if you have thoughts
+{: .warn}
+
+Also need to figure out when/how to tell ppl to 1. collect cool spots for group webmap and 2, pictures of commute or places around town for storymap?
+{: .warn}
+
 <br>
 
 ## For Tomorrow 

@@ -7,6 +7,9 @@ parent: Tools and Workflows in QGIS
 # Georeferencing Overview
 {: .no_toc}
 
+I have to add note about where maps are from
+{: .warn}
+
 Georeferencing appends coordinate information to non-spatial data, such as images and PDFs. While historical or otherwise digitized maps represent a place, tracing geographic features such as roads, rivers, buildings, cities, and political boundaries, they cannot be read by a Geographic Information System (GIS) because the locational data for these features is not stored in a manner legible to the GIS––i.e., in latitude/longitude coordinate pairs. Georeferencing is the process of warping an image so that its geographic features match the location of those on a known geospatial layer.
 
 There are many reasons one might want to georeference a historical map, included, but not limited to the following
@@ -144,7 +147,7 @@ As you work, use the zoom and pan tools in both the main QGIS map canvas and the
 Add about 10 GCP points and then try running Georeferencer. 
 <img src="./images/geo11.png" style="width:10%;">
 
-Your map might look really strange! **Be sure to add GCPs at te edges of the digitized map, not just the middle. **
+Your map might look really strange! **Be sure to add GCPs at te edges of the digitized map, not just the middle.**
 
 
 <img src="./images/geo12.png" style="width:100%;">
@@ -174,7 +177,7 @@ You can save your GCP points if you want to come back and work on it later. You 
 When you are happy with your georeferenced map, right-click the layer in your Layers Panel and choose **Export** --> **Save As...**. 
 
 
-<img src="./images/geo15.png" style="width:90%;">
+<img src="./images/geo15.png" style="width:80%;">
 
 
 

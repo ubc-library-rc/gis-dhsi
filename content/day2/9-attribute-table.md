@@ -266,7 +266,7 @@ To get the percent French Canadian population in each census tract, we need to c
 
 <br>
 
-*1*{: .circle .circle-yellow} Using Field Calculator to create and populate a new column constitutes editing the layer and the Attribute Table. As a safeguard against messing up your data, QGIS only allows editing when "Edite mode" is toggled on. You can toggle on edit mode either by right-clicking a layer in the layers panel, or directly from the Attribute Table by clicking the pencil icon. <img src="./images/edit-mode-icon.png" style="width:7%">
+*1*{: .circle .circle-yellow} Using Field Calculator to create and populate a new column constitutes editing the layer and the Attribute Table. As a safeguard against messing up your data, QGIS only allows editing when "Edit mode" is toggled on. You can toggle on edit mode either by right-clicking a layer in the layers panel, or directly from the Attribute Table by clicking the pencil icon. <img src="./images/edit-mode-icon.png" style="width:7%">
 
 <br>
 

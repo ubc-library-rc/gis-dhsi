@@ -271,6 +271,7 @@ We must first **Reproject** the layer, giving it a PCS (projected coordinate sys
 
 
 ## spatial join?
+{: .no_toc}
 
 i think already we wont get to all these tools. maybe we can have some quiet working time to work in groups through them? 
 {: .warn}

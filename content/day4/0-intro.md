@@ -22,6 +22,9 @@ Each of these methods of web mapping has its advantages and disadvantages which 
 - Hands on activity 1 - small groups assigned different datasets to map using either GoogleMy Maps or uMap 
 - Webmapping with QGIS
 
+need to clarify activities all around
+{: .warn}
+
 #### **Afternoon Session** 1:30pm - 4pm
 - Anatomy of a webmap
 - Hands on with Leaflet - tinker with boilerplate map 
