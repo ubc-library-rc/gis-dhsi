@@ -191,41 +191,76 @@ differentiate merge, dissolve, union
 
 
 ## Select by location
-provinces contain montreal
+**[Select by location](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-by-location)** allows you to select features in 1 layer based on their spatial relationship with those in another layer using various spatial operators. 
 
-picture
+<img src="./images/tools20.png" style="width:50%">
 
-now zoom to provinces - you'll see only quebec selected
+> * Currently, our `Provinces` layer is very bulky. Let's create a shapefile of only Quebec by *selecting only provinces that **contain** the layer Montreal*.  
 
-picture
-
-right click provinces - epxort SEELCtion as quebec
-
-now we can remove giant file. 
-always best to have only as big files as need. often downloading free open source data - for whole world or country. can be cumbersome for your computer to load, and as we saw yesterday, all layers will zoom to that extent. 
-
-note we could have so easily just selected by clicking on screen and exporting, or opened attribute table and clikced on row, or even done seelct by expression where PRE = xyz. 
-
-
-
-## Select within distance
-historic public baths - within x distance to a transit stop 
-
-(not not all (any???)) of these baths still exist?
+we could think of a puzzle that uses other spatial operators
 {: .warn}
 
-you'll see you cant do this because degrees issue - thats because baths in GCS not PCS - first need to reproject. even though on the fly, coordinates stored in degrees not meters.
+<img src="./images/tools21.png" style="width:95%">
+
+<!-- Notice there are many spatial operators you could have chosen from to select by location.  -->
+
+
+> * Now zoom-to `Provinces`. You'll see only Quebec is selected and highlighted yellow. Right-click the `Provinces` layer in your Layers Panel and Export *Selected* Features as a new shapefile. Now you can remove the giant `Provinces` file. 
+
+<img src="./images/tools22.png" style="width:95%">
+
+It's always best to only have files you absolutely need in your final map. Often, downloading free and open source data from the web means downloading files for the entire world or country. These can be cumbersome for your computer to load and handle and, as you saw yesterday, all layers will initially zoom to the extent of the most geographically expansive file. 
+
+Note that we could have easily just selected Quebec from `Provinces` by using the selection toolbar, or, opened the attribute table of `Provinces` and clicked on the row for Quebec. Or, we could have even done a select by expression (like we did yesterday) to select all features where `"PRENAME"  =  'Quebec'`. 
+
+<img src="./images/selection-toolbar.png" style="width:30%">
+
+<img src="./images/tools23.png" style="width:49%"><img src="./images/tools24.png" style="width:49%">
+
+
+
+<br>
+
+## Select within distance
+Slightly different than the above tool, **[Select within distance](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-within-distance)** "creates a selection in a vector layer. Features are selected wherever they are within the specified maximum distance from the features in an additional reference layer" (QGIS). 
+
+<img src="./images/tools25.png" style="width:50%">
+
+<br>
+
+> * Let's practice by selecting all `Transit Stops` within `0.5km` of a `Historic Public Baths`. 
+
+<img src="./images/tools26.png" style="width:100%;">
+
+<br>
 
 
 ### Reproject 
-reproject public baths - to mtl mtm 8
-target = project
+However, try reversing the inputs: select all `Historic Public Baths` within `0.5km` of a `Transit Stops`. 
 
 
-now try again to select within distance .5km, selecting transit stops `by comparing` to features from reprojected (reprojected public baths)
+You'll get an error. This is because the spatial componant of layer `Historic Public Baths` is decimal degrees, which you can't run distance calculations on. 
+
+<img src="./images/tools27.png" style="width:100%;">
 
 
-<img src="./images/selectwithin2.png" style="width:100%;">
+We must first **Reproject** the layer, giving it a PCS (projected coordinate system). 
+
+> * **Reproject** `Historic Public Baths` to the **Project Projection**. 
+
+<img src="./images/tools28.png" style="width:50%;">
+
+<img src="./images/tools29.png" style="width:100%;">
+
+<br>
+
+> * Now, return to **Select within Distance** and select all Historic Public Baths using the layer `Reprojected` within `0.5km` of a `Transit Stops`. All baths should be selected. 
+
+<img src="./images/tools30.png" style="width:100%;">
+
+<img src="./images/tools31.png" style="width:100%;">
+
+
 
 (we can re create this with buffer and clip later, as a puzzle)
 {: .warn}
@@ -236,6 +271,9 @@ now try again to select within distance .5km, selecting transit stops `by compar
 
 
 ## spatial join?
+
+i think already we wont get to all these tools. maybe we can have some quiet working time to work in groups through them? 
+{: .warn}
 
 
 
@@ -254,6 +292,8 @@ Now it’s time to put everything you learned together by designing workflows to
 Consider more puzzles?? what do you think?
 {: .warn}
 
+
+- instead of using select within distance, how could you use other tools to find out (and hint creat a new layer) of bus stops x distance to a bath?
 
 - how many baths within xyz distance from metro station/stop. 
 - how might you use clip and buffer to get xyz - 
@@ -280,7 +320,10 @@ missed - calculate area (parks, eg) - did whole thing in thematic mapping about 
 
 ----
 
-#### Resources
-- [Vector Analysis]
-- [Vector Overlay]
-- []
+#### QGIS Documentation Resources
+- [Vector Spatial Analysis with Buffers](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html)
+- [Vector Overlay](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html)
+- [Vector Selections](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#vector-selection)
+- [Lesson on Spatial Queries](https://docs.qgis.org/3.44/en/docs/training_manual/spatial_databases/spatial_queries.html)
+- [Advanced Vector Analysis](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html)
+
