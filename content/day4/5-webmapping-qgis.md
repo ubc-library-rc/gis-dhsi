@@ -5,17 +5,145 @@ nav_order: 3
 parent: Day 4
 ---
 
-I need to replace the documentation with that of a different QGIS project
-{: .warn}
 
 # Webmapping with QGIS using qgis2web plugin
 
-Want to convert your QGIS project into a dynamic and interactive webmap? There's a plugin for that! [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) allows you to seamlessly create a webmap from your project that preserves your layers *and* their symbology. This next section will guide you through turning your current QGIS project into a webmap powered by Leaflet. 
+Want to convert your QGIS project into a dynamic and interactive webmap? There's a plugin for that! [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) allows you to seamlessly create a webmap from your project that preserves your layers *and* their symbology. 
+
+
+----
+
+
+## Open QGIS and Prepare the Project 
+This next section will guide you through turning your current QGIS project into a webmap powered by Leaflet. A QGIS project has been prepared for you: `dhsi-workshop/Day4/QGIS-webmapping/webmapping.qgz`. The data will look familiar. Besides the Historic Public Baths which were compiled by Alex Alisauskas, data is from Montreal's Open Data Portal. 
+
+> *  The map should already be at a good zoom. You can zoom in if you wish, or choose the preset `Webmap` Spatial Bookmark. 
+
+> * If the basemaps are not loaded properly, remove them and add your own. Include two basemaps.
+
+
+<img src="./images/qgis1.png" style="width:100%">
+
+<br>
+
+## Install qgis2web
+Install the [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) plugin. 
+
+<img src="./images/qgis2.png" style="width:50%">
+<img src="./images/qgis3.png" style="width:80%">
+
+Once installed, you'll find it under the **Web** menu at the top of your screen.
+
+
+<br>
+
+### Use qgis2web to make a webmap
+Once installed, open the **qgis2web** plugin from the **Web** menu at the top of your screen. Chose **Create web map**.
+
+<img src="./images/qgis4.png" style="width:100%">
+
+The following window will open:
+
+<img src="./images/qgis5.png" style="width:70%">
+
+
+We have to set a few things. 
+
+
+### 1. Power your webmap with Leaflet
+Change the code library powering your webmap to **Leaflet**. [Leaflet](https://leafletjs.com/) is a free and open-source code library that powers the interactivity and symbology of webmaps. 
+
+<img src="./images/qgis6.png" style="width:90%">
+
+### 2. Specify Layers and Groups
+Along the top, you'll see there are multiple tabs. **Layers and Groups** refers to everything that was in your Layers Panel. At this point, you can decide which layers are added to your webmap, whether they are visible upon initial load, and whether or not they have popups (and if so, whether the contents of these popups are labeled). 
+
+> * We will include all layers and groups in our output map.  
+> * Additionally, all layers should be visible upon initial load. 
+> * However, not all layers should have popups. 
+
+<img src="./images/qgis7.png" style="width:90%">
+
+
+> * Ensure each layer and group is checked, and set to visible. then, Keep popups on only for `Historic Public Baths` and `Community Gardens`. 
+
+<img src="./images/qgis8.png" style="width:90%">
+
+
+> * Set your Basemap a a Basemap.
+
+> * Configure pop-ups for `Historic Public Baths` and `Community Gardens` by expanding each layer and deciding which attributes you want included in pop-ups, and whether or not they should have labels. 
+If there are any attributes you don't want to show, simply choose hidden field. 
+
+<img src="./images/qgis9.png" style="width:90%">
+
+<img src="./images/qgis10.png" style="width:90%">
+
+
+
+### 3. Set Appearance
+Next, in the **Appearance** tab, you can specify whether your webmap has a title and abstract, or description. You can also indicate whether you want your Layers list, or legend, expanded or collapsed upon initial load.
+
+> * Include an *expanded* Layers List
+
+> * **Change the Template to fullscreen**. This will ensure your map takes up 100% of the screen by default, making it easier to adjust the size down the road. If we begin with it taking up only a portion of the screen, resizing becomes unnecessarily difficult. 
+
+> * We'll *keep the Extent set to the canvas-extent*. 
+
+<img src="./images/qgis11.png" style="width:90%">
+
+### 4. Export
+Set the export **folder** to the workshop subfolder, `dhsi-workshop/Daay4/QGIS-webmapping/`. Be sure to click the three dots next to "Export to folder" to designate a specific folder for the webmap to export to. When the qgis2web tool runs, it will output a separate folder containing your data as well as the associated styling. 
+
+> * Uncheck minify geojson files. The files are not that large so this is not necessary. 
+
+<img src="./images/qgis12.png" style="width:90%">
+
+> * Now, hit **export**. The run time should only be a moment as the datasets are not that large. You should get green messages if it works.
+
+<img src="./images/qgis13.png" style="width:40%">
 
 <br>
 
 
-----
+## Explore your webmap 
+
+From your computer's finder window, navigate to the workshop folder. Inside you should now see a new folder called qgis2web followed by the date. Open this folder. 
+
+Inside you will see a handful of subfolders. 
+
+<img src="./images/qgis14.png" style="width:40%">
+
+> - **css** contains the cascading style sheets responsible for the synology of your map layers. 
+> - **data** contains your data layers
+> - **images** contains any images
+> - **js** contains the javascript code which powers the interactivity of your webmap 
+> - **legend** contains your legend's icons 
+> - **markers** would contain any markers on your map 
+> - **webfonts** contains the font families of map text
+
+There is also an `index.html` document. [Html](https://www.w3schools.com/Html/), or hyper text markup language, is the language read by web browsers. Either double-click this file or right-click and choose to open it with a web browser of your choice. **Google Chrome is recommended.** (DuckDuckGo sometimes doesn't work.)
+
+Your webmap should load in a web browser:
+<img src="./images/qgis15.png" style="width:100%">
+
+<!--  
+Try interacting with your map!
+- Check and uncheck the visibility of different layers
+- Collapse and expand the layers list
+- Zoom in and zoom out; pan around
+- Click on different points and explore the pop-up information
+
+Make note of the attribution at the bottom right corner of your webmap.  -->
+
+If you want to change anything, you can always return to QGIS and re-run qgis2web. It will create a new output folder each time. Though each successive output folder will be date and timestamped, it's helpful to delete or discard deprecated folders so as to remain organized. 
+
+
+Notice the file path in your browser's search bar. You should recognize it as referencing the location of your qgis2web output's `index.html` file local to your computer. Because this map is stored on your local device, it can't be searched via the web by others. To share the map as is, you'd have to send the entire folder to someone along with instructions on how to download and open your map. In the afternoon, you will learn not just more about Leaflet, the code library powering this webmap, but how to host this map on the web so it can be accessed via a link. 
+
+
+
+
 
 <!-- ## Preparing the QGIS Project
 
@@ -32,109 +160,10 @@ First things first, let's prepare the QGIS project by doing the following:
 
 
 ### Set field visibility in Attributes Form 
-Each datapoint has a host of attribute data associated with it, as previously seen in the attribute table. In a dynamic and interactive webmap, this information will pop-up when a point is clicked. However, a lot of this information is extraneous and uncessary for the average user. To cut down on the amount of information rendered in each pop-up, we can customize which fields are visible and which ones are hidden. Technically you can do this from the qgis2web dialogue window, but it's much more difficult to get right. Thought time consuming, it may be wise to set each layer's attribute field visibility before converting your project into a webmap.  -->
+Each datapoint has a host of attribute data associated with it, as previously seen in the attribute table. In a dynamic and interactive webmap, this information will pop-up when a point is clicked. However, a lot of this information is extraneous and uncessary for the average user. To cut down on the amount of information rendered in each pop-up, we can customize which fields are visible and which ones are hidden. Technically you can do this from the qgis2web dialogue window, but it's much more difficult to get right. Thought time consuming, it may be wise to set each layer's attribute field visibility before converting your project into a webmap. 
 
 
+For two groups, Water Features and City of Toronto, keep the box checked that says Collapse if LayersList. This means that if a list of layers - legend, this feature group will be collapsed initially and viewer will have to expands if they want to see individual layers and toggle on/off.  -->
 
-
-<!-- CHECK MY NOTES FOR IMPORTANT THINGS TO REMEMBER HERE -->
-
-
-## Creating a webmap with qgis2web plugin
-
-Open the example QGIS project in your workshop folder: `DHSI-workshop-data/Day3/QGIS-webmapping/example-project.qgz`. Zoom to the group city of toronto. 
-<img src="./images/qgis1.png" style="width:100%">
-
-
-
-### 1. Open qgis2web 
-Before going on, take a moment to install the **qgis2web** plugin. Once installed, you'll find it under the **Web** menu at the top of your screen. 
-
-Once installed, open the **qgis2web** plugin from the **Web** menu at the top of your screen. Chose **Create web map**.
-
-<img src="./images/qgis2.png" style="width:100%">
-
-
-### 2. Power your webmap with Leaflet
-Change the code library powering your webmap to **Leaflet**. [Leaflet](https://leafletjs.com/) is a free and open-source code library that powers the interactivity and symbology of webmaps. 
-
-<img src="./images/qgis3.png" style="width:100%">
-
-## 3. Specify Layers and Groups
-**Layers and Groups** refers to everything that was in your Layers Panel. At this point, you can decide which layers are added to your webmap, whether they are visible upon initial load, and whether or not they have popups (and if so, whether the contents of these popups are labeled). 
-<img src="./images/qgis4.png" style="width:100%">
-
-
-We will include all layers and groups in our output map. Additionally, all layers should be visible upon initial load. However, not all layers should have popups. 
-
-> Ensure each layer and group is checked, and set to visible. then, Keep popups on only for Public art and Heritage Conservation Districts. 
-
-<img src="./images/qgis5.png" style="width:100%">
-
-For two groups, Water Features and City of Toronto, keep the box checked that says Collapse if LayersList. This means that if a list of layers - legend, this feature group will be collapsed initially and viewer will have to expands if they want to see individual layers and toggle on/off. 
-
-## 4. Configure Pop-ups
-Now, to the popups for Public Art and Heritage conservation districts. Toggle from no label. if there are any attributes you don't want to show, simply choose hidden field. 
 
 <!-- Notice that the popup fields listed are only the ones you left visible when setting field visibility. If you choose to give your popups labels, they will reflect any aliases you made. -->
-
-
-<img src="./images/qgis6.png" style="width:100%">
-
-## 5. Set Appearance
-In the **Appearance** tab, you can specify whether your webmap has a title and abstract, or description. You can also indicate whether you want your Layers list, or legend, expanded or collapsed upon initial load.
-
-**Change the Template to fullscreen**. This will ensure your map takes up 100% of the screen by default, making it easier to adjust the size down the road. If we begin with it taking up only a portion of the screen, resizing becomes unnecessarily difficult. 
-
-<img src="./images/qgis7.png" style="width:100%">
-
-## 6. Export
-It's now time to export your map. 
-Set the export **folder** to the workshop folder, but not the data subfolder. When the qgis2web tool runs, it will output a separate folder containing your data as well as the associated styling. 
-
-
-<img src="./images/qgis8.png" style="width:100%">
-
-Uncheck minify geojson files. The files are not that large so this is not necessary. 
-
-
-Now, hit **export**. The run time should only be a moment as the datasets are not that large. You should get green messages if it works.
-
-<img src="./images/qgis9.png" style="width:100%">
-
-----
-
-## Explore your webmap 
-
-From your computer's finder window, navigate to the workshop folder. Inside you should now see a new folder called qgis2web followed by the date. Open this folder. 
-
-Inside you will see a handful of subfolders. 
-
-<img src="./images/qgis10.png" style="width:100%">
-
-> - **css** contains the cascading style sheets responsible for the synology of your map layers. 
-> - **data** contains your data layers
-> - **images** contains any images
-> - **js** contains the javascript code which powers the interactivity of your webmap 
-> - **legend** contains your legend's icons 
-> - **markers** would contain any markers on your map 
-> - **webfonts** contains the font families of map text
-
-There is also an `index.html` document. [Html](https://www.w3schools.com/Html/), or hyper text markup language, is the language read by web browsers. Either double-click this file or right-click and choose to open it with a web browser of your choice. Google Chrome is recommended. (DuckDuckGo sometimes doesn't work.)
-
-Your webmap should load in a web browser:
-<img src="./images/qgis11.png" style="width:100%">
-
- 
-Try interacting with your map!
-- Check and uncheck the visibility of different layers
-- Collapse and expand the layers list
-- Zoom in and zoom out; pan around
-- Click on different points and explore the pop-up information
-
-Make note of the attribution at the bottom right corner of your webmap. 
-
-If you want to change anything, you can always return to QGIS and re-run qgis2web. It will create a new output folder each time. Though each successive output folder will be date and timestamped, it's helpful to delete or discard deprecated folders so as to remain organized. 
-
-
-Notice the file path in your browser's search bar. You should recognize it as referencing the location of your qgis2web output's `index.html` file local to your computer. Because this map is stored on your local device, it can't be searched via the web by others. To share the map as is, you'd have to send the entire folder to someone along with instructions on how to download and open your map. **The next page will guide you through making this map accessible via the web.**

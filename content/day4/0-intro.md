@@ -8,9 +8,9 @@ has_children: true
 
 Today we will explore web maps (aka webmaps) and web mapping (aka webmapping). Web maps are a means of dynamically and interactively visualizing geospatial data. Today, you will learn how to create web maps in 3 different ways: 
 
-1. **online**, through platforms such as [uMap](https://umap.openstreetmap.fr/en/) and [Google MyMaps](https://www.google.com/maps/about/mymaps/), 
-2. with **coding**, powered by [Leaflet](https://leafletjs.com/), and 
-3. with **QGIS**, using the [qgis2web plugin](https://plugins.qgis.org/plugins/qgis2web/).
+1. **online**, through platforms such as [uMap](https://umap.openstreetmap.fr/en/) and [Google MyMaps](https://www.google.com/maps/about/mymaps/);
+2. in **QGIS**, using the [qgis2web plugin](https://plugins.qgis.org/plugins/qgis2web/); and
+3. with **code**, powered by [Leaflet](https://leafletjs.com/).
 
 Each of these methods of web mapping has its advantages and disadvantages which we will discuss. Moreover, while we emphasize that web mapping can be done entirely online without any coding necessary, it's useful to have a general understanding of how a web map works. To this end, we will break down the "anatomy" of a web map in a code editor in order to observe how the various components of a web map work together. By the end of the day, you will be equipped with the fundamental knowledge and skills to begin web mapping on your own. 
 
@@ -29,7 +29,7 @@ need to clarify activities all around
 - Anatomy of a webmap
 - Hands on with Leaflet - tinker with boilerplate map 
 - activity could be - run selection of data in qgis -> export as geojson - then wrap as javascript and add to project. multipart vs. part be aware for points. solve using centroid. 
-- hosting with github (make sure there's time for that)
+- Hosting with github (make sure there's time for that)
 
 
 <br>
@@ -41,6 +41,9 @@ need to clarify activities all around
 Below are examples of webmap made with uMap, Google MyMaps, Leaflet, and QGIS.
 
 <br>
+
+Need to swap out webmapping w qgis one
+{: .warn}
 
 <iframe src="./reference/leaflet-example.html" style="width:100%; height:520px; border:none;"> </iframe>
 <sub>[View in Full Screen](./reference/leaflet-example.html)</sub> 
