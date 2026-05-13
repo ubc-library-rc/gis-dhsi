@@ -11,6 +11,9 @@ parent: Course Overview
 resources
 considerations  -->
 
+clearly i need to organize this still:/
+{: .warn}
+
 <details open markdown="block">
   <summary>
     Resources for...
@@ -21,6 +24,33 @@ considerations  -->
 </details>
 
 ----
+
+
+#### Some readings on and examples of Spatial Visualization in DH Research  
+-  [special issue](https://www.tandfonline.com/toc/wmgl20/9/1-2) in the Journal of Map & Geography Libraries on Working Digitally with Historical Maps. 
+- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2): 
+- [Geocoding the Expansion of Fictional Space in Russian 19th-Century Literature](https://jcls.io/article/id/4228/)
+- [Victorian Britain Author Addresses Geocoding project](https://libguides.ucalgary.ca/c.php?g=706878&p=5030657)
+- [Old Toronto Itinerary project](https://dataforlibs.github.io/old-toronto/)
+
+
+
+
+## QGIS Resources 
+{: .no_toc} 
+QGIS itself has extensive online documentation, including a robust [User Guide](https://docs.qgis.org/3.44/en/docs/user_manual/index.html) *and* [Training Manual](https://docs.qgis.org/3.44/en/docs/training_manual/index.html). 
+    
+QGIS also has a vibrant user community, with answers to nearly any question you might have only a web search away. Many helpful tutorial demonstrations can be found on Youtube. For instance, [CWU Geography](https://www.youtube.com/@cwugeography3290) offers especially clear and helpful content, but there are many, many others. 
+
+The best way to learn QGIS is through the experience that comes with hands-on practice. QGIS has with a medium learning curve, especially if you’ve never used a GIS before. However, don’t let this dissuade you! The abundance of QGIS-official and unofficial documentation means you can tailer your learning experience to your interests and the specific needs of your project.
+
+
+
+<!-- - [Intro to Map Production with QGIS](https://ubc-library-rc.github.io/gis-intro-qgis/)
+- [Reference Mapping with QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/)
+- [Thematic Mapping with QGIS]( https://ubc-library-rc.github.io/gis-thematic-mapping/)
+- [Tools and Workflows in QGIS](https://ubc-library-rc.github.io/gis-tools-workflows/).
+- [Plugins with QGIS](https://ubc-library-rc.github.io/gis-plugins-qgis/) -->
 
 
 
