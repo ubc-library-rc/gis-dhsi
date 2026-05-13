@@ -34,7 +34,7 @@ Remember, if you don't see the **Processing** menu at the top of your screen, yo
 ## Clip
 The first tool we'll use is **[Clip](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip)**, one of the most frequently used tools. Like a cookie cutter, Clip takes an Input layer (the cookie *dough*) and an Overlay layer (the cookie *cutter*), clipping the Input to the extent of the Overlay. 
 
-Let's practice Clipping Transit Stops to Montreal. As we can see, there are a few stops outside the city limit as outlined by our current shapefile of Montreal. 
+Let's practice Clipping Transit Stops to Montréal. As we can see, there are a few stops outside the city limit as outlined by our current shapefile of Montréal. 
 
 <img src="./images/tools2.png" style="width:100%;">
 
@@ -52,7 +52,7 @@ Since we're just practicing, we can leave the output as a temporary layer. Remem
 <img src="./images/tools4.png" style="width:100%;">
 
 > * Now run the tool. Ignore any warning saying "No spatial index exists for the input layer"; this is how the data came. 
-> * Close the tool (it might have jumped behind your main QGIS interface), and return to your map view. Toggle off `Transit Stops` for a moment so you can see Clip layer alone. You'll notice there are no longer any stops outside Montreal. 
+> * Close the tool (it might have jumped behind your main QGIS interface), and return to your map view. Toggle off `Transit Stops` for a moment so you can see Clip layer alone. You'll notice there are no longer any stops outside Montréal. 
 
 <img src="./images/tools5.png" style="width:100%;">
 
@@ -79,7 +79,7 @@ Let's buffer `300 meters` around `Green Space`.
 
 <img src="./images/tools8.png" style="width:100%;">
 
-If you return to the Map Canvas, you can see there are distinct areas without many green spaces. More specifically, without green spaces in the dataset. If you toggle off the layers for Montreal and Provinces and zoom in, you'll see that while areas around the airport are indeed lacking greenspaces, there are greenspaces on Open Street Map not part of Montreal's Green Space dataset. (Reasons...)
+If you return to the Map Canvas, you can see there are distinct areas without many green spaces. More specifically, without green spaces in the dataset. If you toggle off the layers for Montréal and Provinces and zoom in, you'll see that while areas around the airport are indeed lacking greenspaces, there are greenspaces on Open Street Map not part of Montréal's Green Space dataset. (Reasons...)
 
 <img src="./images/tools9.png" style="width:100%;">
 
@@ -128,7 +128,7 @@ Open the **Difference** tool under Vector Overlay.
 
 
 ## Dissolve 
-**[Dissolve](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve)** takes multiple features within 1 layer and dissolves the boundaries between them. As it stands, the shapefile for Montreal has 34 distinct neighborhoods. When symbolizing the layer for our reference map earlier, we were unable to get rid of these lines. Perhaps you don't want these lines visible. Dissolve will remove the differentiation; *however, as an important caveat, the resulting layer will no longer have 34 distinct features in the attribute table*. 
+**[Dissolve](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve)** takes multiple features within 1 layer and dissolves the boundaries between them. As it stands, the shapefile for Montréal has 34 distinct neighborhoods. When symbolizing the layer for our reference map earlier, we were unable to get rid of these lines. Perhaps you don't want these lines visible. Dissolve will remove the differentiation; *however, as an important caveat, the resulting layer will no longer have 34 distinct features in the attribute table*. 
 
 > * Open the **Dissolve** tool under **Vector geometry**
 

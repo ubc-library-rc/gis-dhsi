@@ -7,10 +7,11 @@ parent: Story Maps
 # Create an ArcGIS Online StoryMap
 {: .no_toc}
 
-UPDATE BASED ON NEW FREE FEATURES
-Still need to go through and see what new free things there are
+Still need to go through and see what new free things there are - thinking we can leave this page here but link to Esri's documentation and just sort of vibe the interface if/when we demo...
 {: .warn}
 
+
+[Getting Started with ArcGIS StoryMaps](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4)
 
 <details open markdown="block">
   <summary>
@@ -34,8 +35,7 @@ Alternatively, you can create a new StoryMap from the ArcGIS Online homepage by 
 
 
 
-
-The theme of our demo StoryMap is everyday navigations in Vancouver. However, feel free to use your own locations in your own geography or here in Montreal. The focus is less on creating a cohesive, polished story and more on introducing you to the interface.
+The theme of our demo StoryMap is everyday navigations in Vancouver. However, feel free to use your own locations in your own geography or here in Montréal. The focus is less on creating a cohesive, polished story and more on introducing you to the interface.
 
 <br>
 

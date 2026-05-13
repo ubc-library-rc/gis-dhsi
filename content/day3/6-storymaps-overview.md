@@ -7,12 +7,22 @@ parent: Day 3
 # Story Maps: making multimedia narratives
 {: .no_toc}
 
-Narrative maps use multimedia to tell a story that moves (often linearly) through specified locations. Narrative maps bring the visiter on a dynamic spatial journey. Examples of stories that could be told with a narrative map include timelines, travels, and voyages.
+Story Maps bring the visiter on a dynamic spatial journey, using multimedia to tell a story that moves (often linearly) through specified locations. Examples of stories that could be told with a narrative map include timelines, travels, and voyages.
 
-- combined with webmaps etc. embedded in website. 
-- here introduce two platforms that directly make storymap - dont need website or hosting platform of your own.
+#### DH Example Projects using Story Maps
+Examples of stories that could be told with a narrative map include timelines, travels, and voyages.
 
-AGOL Storymaps, KnightLab (focus on this)
+relevance to DH?
+{: .warn}
+
+- [Mapping Lost Rivers](https://newsinteractives.cbc.ca/features/2024/daylighting-rivers/)
+- See [main page](https://www.lostrivers.ca/)
+- [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/) (Click *on* the arrow).
+- knightlab examples 
+
+
+Story Maps take the form of a website, often combining images, text, video, and static or interactive maps. While you could add multimedia to a website of your own, this afternoon we'll introduce you to 2 platforms that will host a Story Map for you. 
+
 
 
 <details open markdown="block">
@@ -25,13 +35,6 @@ AGOL Storymaps, KnightLab (focus on this)
 </details>
 
 
-#### DH Example Projects using Story Maps
-- [Mapping Lost Rivers](https://newsinteractives.cbc.ca/features/2024/daylighting-rivers/)
-- See [main page](https://www.lostrivers.ca/)
-- [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/) (Click *on* the arrow).
-- knightlab examples 
-
-
 ----
 
 ## ArcGIS Storymaps
@@ -39,7 +42,7 @@ AGOL Storymaps, KnightLab (focus on this)
 
 ### Understanding the ArcGIS Online platform  
 {: .no_toc}
-As an online platform, ArcGIS StoryMap is part of Esri's larger ArcGIS Online suite of proprietary tools. ArcGIS Online is a cloud-based software that allows you to create and organize geospatial projects, which can come in the form of spatial narratives, data files created with desktop GIS applications, interactive web maps, dashboards, and more. Today's workshop will focus on the StoryMaps application, as well as the online mapping tool which we will use to make an interactive map we will then embed in our StoryMap. Understanding the workflow required to upload spatial data into ArcGIS online and create a basic visualization via the online mapping tools is an advantageous skill to have. Furthermore, any map you wish to include in your StoryMap, be it static or dynamic, must be prepared yourself. The only maps you can make from within StoryMaps are "map tours" where locations are selected to correspond to text and/or multimedia documentation. 
+As an online platform, ArcGIS StoryMap is part of Esri's larger ArcGIS Online suite of proprietary tools. ArcGIS Online is a cloud-based software that allows you to create and organize geospatial projects, which can come in the form of spatial narratives, data files created with desktop GIS applications, interactive web maps, dashboards, and more. Our focus will be on the StoryMaps application, as well as the online mapping tool which we will use to make an interactive map we will then embed in our StoryMap. Understanding the workflow required to upload spatial data into ArcGIS online and create a basic visualization via the online mapping tools is an advantageous skill to have. Furthermore, any map you wish to include in your StoryMap, be it static or dynamic, must be prepared yourself. The only maps you can make from within StoryMaps are "map tours" where locations are selected to correspond to text and/or multimedia documentation. 
 
 
 ### Why Choose ArcGIS Online?
@@ -91,16 +94,19 @@ If you have privileges to create content, you can add many types of content as i
 
 [Knightlab StoryMap JS](https://storymap.knightlab.com/) is a free and open-source alternative to ArcGIS Storymaps. It is incredibly easy to use and can handle a variety of multimedia. You can also create a timeline with Knightlab [Timeline](https://timeline.knightlab.com/).
 
+
+
+
+
 discuss specific to digital humanities 
-
-[Displaying a Georeferenced Map in KnightLab’s StoryMap JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
-
+{: .warn}
 
 
 #### Examples 
 {: .no_toc} 
+- [Hieronymous Bosch: The Garden of Earthly Delights](https://storymap.knightlab.com/examples/bosch-garden/)
 - [Find the drift](https://uploads.knightlab.com/storymapjs/b238a6d62c46c28699e948c1e9d7abc7/findthedrift/index.html) 
-- [Monitering Canada's deforestation](https://ca.nfis.org/ndms/ndms_overview_eng.html) 
+<!-- - [Monitering Canada's deforestation](https://ca.nfis.org/ndms/ndms_overview_eng.html)  -->
 - [Ancient Rome in Chicago](https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/783a09de8300e1b5f74b99b99acb08ef/ancient-rome-in-chicago/index.html) 
 
 #### Resources for working with Knightlab StoryMap
@@ -112,9 +118,20 @@ discuss specific to digital humanities
 - [Tutorial](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js) on displaying a georeferenced map on knightlab 
 - [Tutorial for making storymap with Knightlab Storymap JS - Barnard](https://github.com/dhc-barnard/tutorials/blob/master/StoryMapJS.md)
 - [Tutorial for making timeline with Knightlab Timeline JS - Barnard](https://github.com/dhc-barnard/tutorials/blob/master/TimelineJS.md)
+- [Displaying a Georeferenced Map in KnightLab’s StoryMap JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
 
+
+again - not sure what to put in resources dump page or on each relevent intro page?
+{: .warn}
 
 ----
 ### TimeMapper
+{: .no_toc}
+
 [TimeMapper](https://timemapper.okfnlabs.org/) is another free and open source platform for creating timeline spreadsheet data. TimeMapper is useful if the map is more auxiliary to the timeline. See this [example](https://timemapper.okfnlabs.org/adamrabinowitz/archaeowinetimeliner). Purdue University has a [tutorial](https://library.pfw.edu/timemapper) if this is a tool you're interested in learning. 
+
+### Timeline - different than time mapper? 
+
+also - [timeline](http://timeline.knightlab.com/) 
+eg [timeline example](https://timeline.knightlab.com/examples/user-interface/index.html)
 
