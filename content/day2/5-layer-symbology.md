@@ -7,13 +7,9 @@ parent: Reference Mapping
 # Layer Symbology
 {: .no_toc} 
 
-Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't dwell on all the project properties today, but notice you can learn more information about the layer here, including where it's stored on your computer, and its projection, or CRS. 
+Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't cover all the project properties today, but notice you can learn more about each layer here, including where it's stored on your computer and its CRS, including its projection. 
 
-
-**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black & White. Keep this in mind. For now, we'll map in color. See the [QGIS Lesson on Symbology](https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/symbology.html) for more. 
-
-
-As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. Before we compose our map for export, let's take some time to modify our layers' symbology to create a more polished looking map.
+**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black & White. Keep this in mind. For now, we'll map in color. See the [QGIS Lesson on Symbology](https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/symbology.html) for more.
 
 
 
@@ -29,9 +25,10 @@ As they are, the layers we've added to our map canvas aren't particularly aesthe
 ----
 
 
-## Changing Layer Symbology
+# Changing Layer Symbology
+As they are, the layers we've added to our map canvas aren't particularly aesthetic, nor is foreground adequately differentiated from background. Before we compose our map for export, let's take some time to modify our layers' symbology to create a more polished looking map.
 
-### 1. Increase the size/color/icon of Public Baths
+## Increase the size/color/icon of Public Baths
 
 Let's begin by changing the size of our points representing historic public baths across Montreal. The default symbology when the layer was added renders them quite small and hard to see. Let's increase the size of these points.
 
@@ -40,8 +37,7 @@ To Do
 {: .label .label-green }
 Open the Properties for the layer `public-baths`, and navigate to **Symbology**. 
 
-> - Click down to **Simple Marker**. 
-> - Here you can increase the size of your points, change the fill color (the color of the point itself), or add a stroke color (outline). (Line features will only have a stroke.)
+> Click down to **Simple Marker**. Here you can increase the size of your points, change the fill color (the color of the point itself), or add a stroke color (outline). (Line features will only have a stroke.)
 
 
 <img src="./images/symbol1.png" style="width:100%">
@@ -49,7 +45,7 @@ Open the Properties for the layer `public-baths`, and navigate to **Symbology**.
 
 <br>
 
-If you want to use a stylized/specific icon to demarcate your points, switch the **Symbol layer type** from "Simple Marker" to "SVG Marker". SVGs are scalable vector graphics. 
+If you want to use a stylized/specific icon to demarcate your points, switch the **Symbol layer type** from "Simple Marker" to "SVG Marker". SVGs are scalable vector graphics. You can then choose from a range of loaded icons, or [add your own](https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html). 
 
 <img src="./images/symbol2.png" style="width:90%">
 
@@ -58,11 +54,11 @@ If you want to use a stylized/specific icon to demarcate your points, switch the
 
 <img src="./images/symbol3.png" style="width:80%">
 
-> You can then choose from a range of loaded icons, or [add your own](https://docs.qgis.org/3.44/en/docs/user_manual/style_library/style_manager.html). 
+
 <br>
 
 
-### 2. Change water feature color 
+## Change water feature color 
 Now let's update the color of the water features. Unlike points, these are polygon features. However, they similarly will have a "fill" color we can change. 
 
 
@@ -89,7 +85,9 @@ If you want to make your map in Black & White, change the Color Model from RGB t
 <br>
 
 ### Tip: Copy and Pasting Symbology
-- **Copy/Paste Symbology** Right-click the layer whose symbology you want to copy in the Layers Panel, go to "Styles" --> "Copy Style" --> "Symbology". Then right-click the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
+<!-- {: .no_toc}  -->
+
+You can **Copy/Paste Symbology** by right-clicking the layer whose symbology you want to copy in the Layers Panel, going to "Styles" --> "Copy Style" --> "Symbology", then right-clicking the target layer, and go to "Styles" --> "Paste Style" --> "Symbology".
 
 > - Copy and paste symbology until all water features are the same color.
 
@@ -158,7 +156,7 @@ function showSlides3(n) {
 
 
 
-### Categorized Symbology
+## Categorized Symbology
 
 The symbology style for any given vector layer can be Single, Categorized, or Graduated. So far, we've been using Single Symbol symbology. This means that each layer will have a single symbology, or color/outline.
 

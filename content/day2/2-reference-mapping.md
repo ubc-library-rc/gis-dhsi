@@ -12,9 +12,9 @@ As a reminder, **reference maps** show the lay of the land, such as the geograph
 Like any map, reference maps should have at minimum an explanatory title, north arrow, scale, legend, map author and data source statement. If there are only one or two data layers which are intuitively symbolized and clearly marked, a legend is sometimes unnecessary.
 
 
-In what follows you will be guided in gathering data, adding it to a QGIS project and managing layers, and finally, creating a map for export. 
+In what follows you will be guided through gathering data, adding your data to a QGIS project, managing data layers, and creating a reference map for export. Below you can find some examples of reference maps made with the data we'll be using. 
 
-----
+
 <img src="./images/baths-map4.png" style="width:60%">
 
 <img src="./images/baths-map1.png" style="width:60%">

@@ -48,12 +48,12 @@ Finally, you can adjust the labels' placement around a point by going down to **
 
 <br>
 
+might write more on this or just cut out
+{: .warn}
 
+While more comprehensive design work on your map can be managed in an illustration software like Inkscape or Adobe Illustrator, with some time and patience, a great deal of customization can be done right within QGIS. For example, categorizing features and styling their labels differently. 
 
-
-<!-- While more comprehensive design work on your map can be managed in an illustration software like Inkscape or Adobe Illustrator, with some time and patience, a great deal of customization can be done right within QGIS. For example, categorizing features and styling their labels differently. 
-
-Leader lines etc.  -->
+Leader lines etc. 
 
 
 

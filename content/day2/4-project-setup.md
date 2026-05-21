@@ -8,12 +8,8 @@ parent: Reference Mapping
 {: .no_toc}
 
 
-Before we begin mapping, let's take a moment to familiarize ourselves with the QGIS interface by way of project set-up. QGIS can be opened by opening a prepared QGIS project file, or simply by launching the application. This morning we'll start from scratch so that you can practice setting up a project as you would in the real world.  
+Before we begin mapping, let's take a moment to familiarize ourselves with the QGIS interface by way of project set-up. QGIS can be opened by opening a prepared QGIS project file, or simply by launching the application. **This morning we'll start from scratch so that you can practice setting up a project as you would in the real world.**  
 
-
- <!-- ?? For today, a nearly-blank project has been prepared for you. (Tomorrow you'll learn to create and save a project from scratch.) -->
-
-<!-- Navigate to `dhsi-workshop/Day 2`. Inside you will find a file called `QGIS-hands-on.qgz` as well as a subfolder of `data`. It's best practice to save your QGIS projects to the folder where you keep your data for the project. Once you save your project to your computer, you'll notice the file extension is `.qgz`. Learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).  -->
 
 <details open markdown="block">
   <summary>
@@ -32,41 +28,33 @@ Before we begin mapping, let's take a moment to familiarize ourselves with the Q
 
 <br>
 
-**Launch the QGIS application now!** Click new empty project to begin. 
-<!-- If you have successfully downloaded and installed QGIS, the application should open and look like this: -->
-
-
+>   **Launch the QGIS application now!** If you have successfully downloaded and installed QGIS, the application should open and look like this:
 
 
 <img src="./images/setup0.png" style="width:100%">
 
+>  **Click new empty project to begin.** 
+
 
 <br>
 
-<!-- To Do
-{: .label .label-green } -->
-To save your project, navigate to the `Project` Menu at the stop of your screen and go down to "Save". Just like with documents in a text editor, you can also "Save As" to save your project as a new file, thus creating multiple back-up versions of an original.  It is important to regularly save your project while working in case QGIS crashes. Remember, what is saved is your styling etc., the data is elsewhere. 
 
-- Save this project to the folder `dhsi-workshop/Day3/reference-mapping` as `reference-mapping_YOURNAME.qgz`. Be sure to change the file extension to .qgz.  You can learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).
+To save your project, navigate to the `Project` Menu at the stop of your screen and go down to "Save". Just like with documents in a text editor, you can also "Save As" to save your project as a new file, thus creating multiple back-up versions of an original.  It is important to regularly save your project while working in case QGIS crashes. 
 
-
+>  Save this project to the folder `dhsi-workshop/Day3/reference-mapping` as `reference-mapping_YOURNAME.qgz`. Be sure to change the file extension to .qgz. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).
 
 <img src="./images/setup1.png" style="width:100%">
+<br>
+
+<img src="./images/setup2.png" style="width:80%">
 
 <br>
 
-
-
-<img src="./images/setup2.png" style="width:85%">
-
-<br>
-
-Note: moving forwards, you can also use the save icon in your **Toolbar** to save your project regularly.
-
-<img src="./images/setup3.png" style="width:6%">
+Moving forwards, you can also use the save icon in your **Toolbar** to save your project regularly. <img src="./images/setup3.png" style="width:6%">
 
 
 <br>
+
 
 ## Navigate the Graphical User Interface (GUI) 
 <img src="./images/setup4.png" style="width:100%">
@@ -159,29 +147,27 @@ Your map canvas has zoomed out to the "Extent" of most geographically expansive 
 ## Loading CSV data to QGIS
 Tabular data stored in CSV (comma separated value) files can be uploaded to a GIS and rendered spatial so long as latitude and longitude are given in two distinct columns and their values stored as numbers. *Tabular data must be in a CSV file format with latitude and longitude stored as numbers in two separate columns before uploading to QGIS.* 
 
-Would you like to demo this?
-{: .warn}
 
-> * From the **Layer** menu at the top of your screen, go to **Add Layer** -> **Add delimited text layer…**
+>  From the **Layer** menu at the top of your screen, go to **Add Layer** -> **Add delimited text layer…**
 
 <img src="./images/setup9.png" style="width:100%">
 
 
-> * The Data Source Manager will open. Click the three dots beside File name to navigate to `public-baths.csv` and select it.
+>  The Data Source Manager will open. Click the three dots beside File name to navigate to `public-baths.csv` and select it.
 
-> * Change **Geometry Definition** to Point Coordinates. Now look below to the Sample Data section. This gives a preview of your dataset. The data is difficult to see because you cannot expand it, but scroll horizontally until you reach the last two fields (or whichever fields contain your personal data’s latitude and longitude). If you scroll vertically (I recommend using the up & down arrows, otherwise you may accidentally change the field type), values will be revealed line by line. Ensure the columns for latitude and longitude are being read as Decimal (double), *not* text. 
+>  Change **Geometry Definition** to Point Coordinates. Now look below to the Sample Data section. This gives a preview of your dataset. The data is difficult to see because you cannot expand it, but scroll horizontally until you reach the last two fields (or whichever fields contain your personal data’s latitude and longitude). If you scroll vertically (I recommend using the up & down arrows, otherwise you may accidentally change the field type), values will be revealed line by line. Ensure the columns for latitude and longitude are being read as Decimal (double), *not* text. 
 
 <!-- Notice for the demo dataset, lat and lon (latitude and longitude) are currently being read as Text (string). Simply click where it says Text (string) and change it to Decimal (double) for both those columns. -->
 
-> * Now return to **Geometry Definition**. Ensure the X field is set to longitude and the Y field is set to latitude. This may seem counter intuitive, but consider what values change as you move towards the north or south pole. As you move up or down towards the north or south pole — in other words, as you change along the Y-axis — you are changing latitudes. If you move east to west around the globe - constituting change in the X-axis direction - you are changing longitude.
+>  Now return to **Geometry Definition**. Ensure the X field is set to longitude and the Y field is set to latitude. This may seem counter intuitive, but consider what values change as you move towards the north or south pole. As you move up or down towards the north or south pole — in other words, as you change along the Y-axis — you are changing latitudes. If you move east to west around the globe - constituting change in the X-axis direction - you are changing longitude.
 
 <img src="./images/setup10.png" style="width:100%">
 
 <br>
 
-> * Now click **Add** at the bottom right-hand corner to add your CSV as a spatial layer to your map. Once you add the layer, the Data Source Manager will not go away, so you’ll have to close it. `public-baths` should now be added to your map canvas.
+>  Now click **Add** at the bottom right-hand corner to add your CSV as a spatial layer to your map. Once you add the layer, the Data Source Manager will not go away, so you’ll have to close it. `public-baths` should now be added to your map canvas.
 
-> * **Zoom-to** the new layer.  
+>  **Zoom-to** the new layer.  
 
 <img src="./images/setup11.png" style="width:100%">
 
@@ -194,10 +180,27 @@ Would you like to demo this?
 Your data isn't saved _inside_ your QGIS project. Rather, the *filepath connections* are saved, as well as any modifications to symbology made to the layers in QGIS. When mapping in QGIS, it's important to keep track of where the data you're working with is stored. If you move your data, QGIS won't know where to look for it and a red exclamation mark will appear in the Layers Panel. You can click on this warning to tell QGIS where the data is now stored. 
 {: .note}
 
-<br><Br>
+<br>
 
 
-## Set Project CRS
+
+## Interacting with Layers
+
+- <img src="./images/setupa.png" style="width:34%"> Take a moment to zoom in and out using the **Magnification tools** in your **Toolbar**.  
+
+
+- <img src="./images/setupb.png" style="width:7%;"> Use the **Identify tool** to look up xyz of xyz. To use the Identify tool, click the tool icon in the **Toolbar**, then click on any neighborhood polygon. 
+
+- <img src="./images/setupc.png" style="width:7%"> To stop the Identify tool, close the pop-up window and click the **Pan tool**.
+
+
+
+<br>
+
+
+
+
+## Set the Project CRS
 <!-- ## Project Properties -->
 
 Now if you zoom out a bit your map might look a little wonky or warped, and the parallel is not straight.  
@@ -213,7 +216,8 @@ CRS stands for Coordinate Reference System, and describes the mathematics behind
 <!-- still need to do-->
 You'll notice the project CRS is set to `NAD83 / Statistics Canada Lambert`. This is from the provincial layer, our first layer added. This projection works well for the entirety of Canada, but we can get more specific since we're only looking at Montréal. Change the project CRS to `NAD83 / MTM zone 8`. Much of Montréal's data is stored with this projection. 
 
-> * Click **OK** to any transformation warnings. 
+>  Click **OK** to any transformation warnings. 
+
 <!-- explain why thats going on.  -->
 
 
@@ -233,7 +237,7 @@ For more on Coordinate Reference Systems, see [here](https://ubc-library-rc.gith
 {: .note}
 
 
-<br><Br>
+<br>
 
 
 ## Managing Layers
@@ -291,27 +295,6 @@ Although this map has only a handful of layers, some projects require you to jug
 <img src="./images/setup3.png" style="width:6%;">**SAVE YOUR PROJECT** 
 
 <!-- - **Managing data from browser panel** Note that you _can_ delete data on your computer from the Browser Panel by right-clicking the layer  (deleting files) -->
-
-## Interacting with Layers
-WHERE DOES THIS GO??? in order of things?
-{: .warn}
-
-> <img src="./images/setupa.png" style="width:34%"> Take a moment to zoom in and out using the **Magnification tools** in your **Toolbar**.  
-
-
-> <img src="./images/setupb.png" style="width:7%;"> Use the **Identify tool** to look up xyz of xyz. To use the Identify tool, click the tool icon in the **Toolbar**, then click on any neighborhood polygon. 
-
-<img src="./images/setupc.png" style="width:7%"> 
-
-
-> <img src="./images/setupd.png" style="width:7%"> To stop the Identify tool, close the pop-up window and click the **Pan tool**. 
-
-
-<!-- > attribute table -->
-
-<br>
-
-
 
 
 ## Spatial Bookmarks

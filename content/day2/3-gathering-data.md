@@ -12,9 +12,11 @@ Yesterday, you learned about spatial data and where to find it. Today, we'll pra
 <!-- In the morning, we will practice making a reference map of Montréal's historic public bath houses. In the afternoon, we'll work with pre-prepared historic data from the public history project *[Montréal, l’avenir du passé (MAP)]([Montréal, l’avenir du passé (MAP)](https://mun.ca/mapm/fra/accueil_cadre.html))* (*Montréal, The Future of the Past*) to create thematic maps visualizing demographic data from the 1880s. Tomorrow we'll return to the data used this morning as we explore common tools and workflows in QGIS.  -->
 
 
-This morning, we'll acquaint ourselves with the QGIS interface by making a reference map of historic public bath houses in Montréal. However, to give this dataset – put together by Alex Alisauskas — some context, we'll need some spatial data representing geographic features: the city of Montréal, Canadian provinces, urban green spaces, and water features. We could add a lot more to this list, but for today let's keep it simple. 
+We'll acquaint ourselves with the QGIS interface by making a reference map of historic public bath houses in Montréal. However, to give this dataset – put together by Alex Alisauskas — some context, we'll need some more spatial data representing relevant geographic features: the city of Montréal, Canadian provinces, urban green spaces, and water features. We could add a lot more to this list, but for today, let's keep it simple. 
 
-If you look in the `dhsi-workshop/Day2` folder you'll see subfolders for both this morning and this afternoon. Inside `dhsi-workshop/Day2/reference-mapping` you'll see one shapefile file for the city of Montréal. This is a slightly edited version of the urban agglomerations boundary file provided by both the [City of Montréal data portal](https://donnees.Montréal.ca/dataset/limites-administratives-agglomeration) and the Government of Canada. However, there is no other data besides a backup-data folder. Because in the real world data is seldom provided neatly packaged, we'll begin by guiding you in downloading and synthesizing vector data geographic data from multiple online sources.
+If you look inside the `dhsi-workshop/Day2` folder you'll see subfolders for both this morning and this afternoon. Inside `dhsi-workshop/Day2/reference-mapping` you'll see one shapefile for the city of Montréal (remember, shapefiles have multiple "sidecar" files, so 1 shapefile might appear as a handful of files all named the same thing but with different extensions). This shapefile is a slightly edited version of the Administrative Boundaries of the urban agglomerations of Montreal file, provided by both the [City of Montréal data portal](https://donnees.Montréal.ca/dataset/limites-administratives-agglomeration) and the [Government of Canada](https://open.canada.ca/data/en/dataset/9797a946-9da8-41ec-8815-f6b276dec7e9). However, there is no other data provided (besides a backup-data folder in case). 
+
+**Because in the real world data is seldom provided neatly packaged, we'll begin this morning's lesson by guiding you in downloading and synthesizing vector data from multiple online sources.**
 
 
 ----
@@ -22,15 +24,16 @@ If you look in the `dhsi-workshop/Day2` folder you'll see subfolders for both th
 
 
 
-## Montréal Historic Bath Houses
+## Montréal's Historic Public Bath Houses
+Our data layer will be <a href="https://docs.google.com/spreadsheets/d/11GN2Al7_QNFpcOxBhjVXv0KuP-yv44F1zQZ1KxIE7EM/edit?gid=0#gid=0" target="_blank">Montréal's Historic Public Bath Houses</a>, a dataset created by Alex Alisauskas. Recalling yesterday's discussion of vector data formatting, Alex will now introduce the dataset and explain her process and considerations for making it. Then, she will guide us in exporting it as a `.csv` file called `public-baths`. 
 
-- [Montréal Public Baths](https://docs.google.com/spreadsheets/d/11GN2Al7_QNFpcOxBhjVXv0KuP-yv44F1zQZ1KxIE7EM/edit?gid=0#gid=0)
-Although there is a lot of spatial data available for download that with some modification (using tools and workflows largely introduced tomorrow) can suit a variety of mapping purposes, you will doubtless run into situations where you have to create your own data. For example, maybe you want to plot significant sites visited by the protagonist of a novel, or the opera houses frequented by a notable musician. Recalling yesterday's discussion of vector data formatting, Alex will now introduce the dataset and explain her process and considerations for making it. Then, she will guide us in exporting it as a `.csv` file called `public-baths`. 
+be prepared to demo this! - if you want more screenshots for your demo just pop them in a drive folder
+{: .warn}
+
 
 <img src="./images/gathering0.png" style="width:100%">
 
-be prepared to demo this
-{: .warn}
+
  
 <br>
 
@@ -42,10 +45,10 @@ We will download the following shapefiles as contextual data:
 2. Water features, both the [Hydrography for the wider Montréal Metro Area](https://donnees.Montréal.ca/dataset/hydrographie-communaute-metropolitaine-Montréal) *as well as* [Hydrography for Montréal agglomerations](https://donnees.Montréal.ca/dataset/hydrographie); and 
 3. [Parks and Green Spaces](https://donnees.Montréal.ca/dataset/grands-parcs-parcs-d-arrondissements-et-espaces-publics)
 
-Move each dataset you download to `dhsi-workshop/Day2/reference-mapping` and, if it's a zip file, *unzip it* there. You will notice very quickly the varying degrees of data management — for instance, provinces are named `lpr_000b21a_e` and green spaces are in a folder simply called `shapefile`. 
-<!-- Keep this in mind when you create your own data or work on your own project.  -->
-If you have any trouble downloading the data, we've created a `backup-data` folder with all the necessary files zipped. Just be sure to unzip the files before trying to use them. 
+Move each dataset you download to `dhsi-workshop/Day2/reference-mapping` and, if it's a zip file, *unzip it* there. You will notice very quickly the varying degrees of data management — for instance, provinces are named `lpr_000b21a_e` and green spaces are in a folder simply called `shapefile`. Keep this in mind when you create your own data or work on your own project.
 
+If you have any trouble downloading the data, we've created a `backup-data` folder with all the necessary files zipped. Just be sure to unzip the files before trying to use them. 
+{: .note}
 
 
 
@@ -61,7 +64,7 @@ We'll download [provincial boundaries](https://www12.statcan.gc.ca/census-recens
 <br>
 
 ### 2. Download Water Features
-We'll download two sets of water features from the City of Montréal's data portal, one for the [City of Montréal](https://donnees.Montréal.ca/dataset/hydrographie) and one for the [Montréal Metro area](https://donnees.Montréal.ca/dataset/hydrographie-communaute-metropolitaine-Montréal). Use the same process for each. MAKE SURE YOU DOWNLOAD `.SHP` for both — they are listed in different orders for each file. 
+We'll download two sets of water features from the City of Montréal's data portal, one for the [City of Montréal](https://donnees.Montréal.ca/dataset/hydrographie) and one for the [Montréal Metro area](https://donnees.Montréal.ca/dataset/hydrographie-communaute-metropolitaine-Montréal). Use the same process for each. **Make sure you download the shapefile (`.SHP`) for both — the shapefiles are listed in different orders for each dataset.**
 
 
 <img src="./images/gathering3.png" style="width:100%">
@@ -69,7 +72,7 @@ We'll download two sets of water features from the City of Montréal's data port
 <br>
 <img src="./images/gathering4.png" style="width:100%">
 
-
+<br>
 
 
 ### 3. Download Green Spaces
@@ -81,7 +84,7 @@ We'll download [Parks and Green Spaces](https://donnees.Montréal.ca/dataset/gra
 
 <br>
 
-BE SURE TO MOVE ALL COMPRESSED FOLDERS TO `dhsi-workshop/Day2/reference-mapping` AND UNZIP EVERYTHING. 
+Be sure to move all downloads into the folder `dhsi-workshop/Day2/reference-mapping` and unzip any compressed files. 
 {: .warn}
 <!-- stop and make sure everyone has. - have them confer with small groups.  -->
 

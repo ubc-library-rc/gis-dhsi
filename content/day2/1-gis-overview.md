@@ -35,18 +35,20 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 [QGIS](https://qgis.org/) is a popular desktop GIS software, and considered a free and open source software (FOSS) with a very active developer community. Take a moment to browse their website.
 
 ## QGIS Advantages  ⇡
-- QGIS is free and open source, meaning you can download it directly from the web to your personal computer. 
-- QGIS runs on Windows, Mac, and Linux operating systems, meaning you don't need a specific kind of device to use it. (Some proprietary and costly software, such as ArcGIS, only run on Windows computers making it difficult to use without specialized equipment.) 
-- QGIS has extensive online documentation, including a comprehensive official [User Guide](https://docs.qgis.org/3.40/en/docs/user_manual/index.html) *and* [Training Manual](https://docs.qgis.org/3.40/en/docs/training_manual/index.html), as well as numerous YouTube and internet resources/tutorials created by users like you. 
-- QGIS has an intuitive interface which can be customized by the user. 
+- QGIS is free and open source, meaning you can download it directly from the web to your personal computer and view its source code. 
+- QGIS runs on Windows, Mac, and Linux operating systems, meaning you don't need a specific kind of device to use it. (Some proprietary and costly software, such as ArcGIS, only runs on Windows.) 
+- QGIS has extensive online documentation, including a comprehensive official [User Guide](https://docs.qgis.org/3.40/en/docs/user_manual/index.html) *and* [Training Manual](https://docs.qgis.org/3.40/en/docs/training_manual/index.html). 
 - QGIS has an active development and user communities, meaning people are constantly posing and answering questions on platforms such as Reddit,  StackExchange, and YouTube. This makes troubleshooting a whole lot easier. There is also an annual [QGIS User Conference](https://uc2026.qgis.org/activities/)!
+- QGIS has an intuitive and customizable interface. While navigating any new application can be overwhelming, QGIS has a lot less going on visually than ArcGIS Pro making it quite a good starting place for  newcomers to GIS. 
 - QGIS has a robust [plugin](https://plugins.qgis.org/) repository for extended functionality. This means the application you download to begin with doesn't contain every single tool available, just the necessary and commonly used ones. 
 
+<!-- Additionally, its active user community means there are numerous YouTube and internet resources/tutorials created by users like you.  -->
+
 ## QGIS Disadvantages ⇣
-- Most recent features can be buggy, which is why we recommend always downloading the latest Long Term Release, often small hyperlink below main download button. 
-- Plugins lack standardized documentation as they are largely user-community developed and contributed
+- Most recent features can be buggy, which is why we recommend always downloading the latest Long Term Release.
+- Plugins lack standardized documentation as they are largely user-community developed and contributed.
 - Troubleshooting often amounts to searching the web, though this is an important skill to have as a cartographer. 
-- Not ideal for more elaborate spatial analysis or network analysis workflows. 
+- Performing more elaborate analysis workflows in QGIS requires more expertise, while in ArcGIS, tools and documentation for such work can be more user-friendly.
 
 
 

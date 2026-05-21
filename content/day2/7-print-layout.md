@@ -147,15 +147,18 @@ Add a north arrow.
 
 <img src="./images/layout11b.png" style="width:100%">
 
-If you scroll down to "Image Rotation" in Item Properties, you will notice there's an option to choose either Grid North or True North. Grid North is relative to the projection used, whereas True North, like the name implies, is a fixed geographic location. According to [QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/print_composer/composer_items/composer_image.html), **Grid north** is the direction of a grid line which is parallel to the central meridian of the national/local grid, whereas **True north** is direction of a meridian of longitude. You can try changing - for the localization we're looking at it won't matter. 
-<!-- There is also Magnetic North, which is Earth's magnetic pole and which shifts slightly. Depending on what projection is used and whereabouts your map is zoomed in to (near a pole or the equator; showing a large geographic area vs. a small one), which north orientation choose will be more or less important. Today's workshop won't go into the specifics, but Grid North is generally okay for maps not close to either poles and which cover a large area. [Read more on north arrows here](https://docs.os.uk/more-than-maps/geographic-data-visualisation/guide-to-cartography/north-arrows). -->
-<!-- The [central meridian](https://gisgeography.com/central-meridian/) is where the 2-dimensional surface that's wrapped around the globe in a projection intersects with that globe. If your mapped area is around a central meridian, which is likely if you're using a UTM projection (in a specific Zone) or otherwise projection that's specifically designed for your region because of it's central meridian, then you can go ahead and use Grid North. If your map is centered on a region near the north (or south) pole, you might be better served using Truth North as that will angle the north arrow along the lines of longitude.  
+
+If you scroll down to "Image Rotation" in Item Properties, you will notice there's an option to choose either Grid North or True North. Grid North is relative to the projection used, whereas True North, like the name implies, is a fixed geographic location. According to [QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/print_composer/composer_items/composer_image.html), **Grid north** is the direction of a grid line which is parallel to the central meridian of the national/local grid, whereas **True north** is direction of a meridian of longitude. You can try changing it - at the scale we're interested in it won't matter. 
 {: .note}
--->
+
+<!-- 
+There is also Magnetic North, which is Earth's magnetic pole and which shifts slightly. Depending on what projection is used and whereabouts your map is zoomed in to (near a pole or the equator; showing a large geographic area vs. a small one), which north orientation choose will be more or less important. Today's workshop won't go into the specifics, but Grid North is generally okay for maps not close to either poles and which cover a large area. [Read more on north arrows here](https://docs.os.uk/more-than-maps/geographic-data-visualisation/guide-to-cartography/north-arrows).  The [central meridian](https://gisgeography.com/central-meridian/) is where the 2-dimensional surface that's wrapped around the globe in a projection intersects with that globe. If your mapped area is around a central meridian, which is likely if you're using a UTM projection (in a specific Zone) or otherwise projection that's specifically designed for your region because of it's central meridian, then you can go ahead and use Grid North. If your map is centered on a region near the north (or south) pole, you might be better served using Truth North as that will angle the north arrow along the lines of longitude.  
+{: .note}
+ -->
 
 
 
-
+<br>
 
 ### 4. Add a Title and Data Source.
 
@@ -222,10 +225,12 @@ To change the names or remove items from the legend, In the Legend Items section
 ## Export your map
 You can export your map as an image, PDF, or scalable vector graphic (`.svg`) from the Print Layout toolbar, or from the Layout menu. You can also print your map directly from QGIS. 
 
+When exporting as an image or PDF, you will be prompted to enter the resolution. I recommend increasing the resolution to at least 450dpi, otherwise your map will be blurry. 
+
 <img src="./images/export-map-icons.png" style="width:39%">
 <img src="./images/layout20.png" style="width:100%">
 
-When exporting as an image or PDF, you will be prompted to enter the resolution. I recommend increasing the resolution to at least 450dpi, otherwise your map will be blurry. 
+<br>
 
 **Congratulations! You've just made a map!**
 
