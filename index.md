@@ -34,7 +34,7 @@ This course provides a gentle introduction to mapping and spatial visualization 
 
 
 
-**Lily Demet** is a PhD student in Geography at the University of British Columbia studying everyday spatial practices of navigating the city. Their recent projects include <a href="https://dx.doi.org/10.14288/1.0445244" target="_blank">"Making space for deep mapping: rendering theory as practice"</a>, a research-creation thesis which experiments with digital methods for theorymaking, and <a href="https://ica-abs.copernicus.org/articles/10/57/2025/ica-abs-10-57-2025-relations.html" target="_blank">Deep mapping cartography's limits: the artfulness of rendering spatial practice</a>, an effort towards bringing process philosophy and mapping into conversation. Lily is also an artist and cartographer, and teaches tools for spatial visualisation at the university library. 
+**Lily Demet** is a PhD student in Geography at the University of British Columbia studying everyday spatial practices of navigating the city. Their recent projects include <a href="https://dx.doi.org/10.14288/1.0445244" target="_blank">"Making space for deep mapping: rendering theory as practice"</a>, a research-creation thesis which experiments with digital methods for theorymaking, and <a href="https://ica-abs.copernicus.org/articles/10/57/2025/ica-abs-10-57-2025-relations.html" target="_blank">Deep mapping cartography's limits: the artfulness of rendering spatial practice</a>, an effort towards bringing process philosophy and mapping into conversation. Lily is also an artist and cartographer, and teaches tools for spatial visualization at the university library. 
 
 
 <br>
