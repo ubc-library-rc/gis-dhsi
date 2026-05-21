@@ -3,7 +3,8 @@
 
 :heavy_exclamation_mark: This workshop is in development and not yet complete. :heavy_exclamation_mark:    
 
-Description: Website resource for a 2026 Digital Humanities Summer Institute course, developed and taught by Lily Demet and Alex Alisauskas. 
+Description: Website resource for a course on spatial visualization, developed and taught by Lily Demet and Alex Alisauskas at the Digital Humanities Summer Institute in 2026.
+
 
 Link to workshop: [https://ubc-library-rc.github.io/gis-dhsi/](https://ubc-library-rc.github.io/gis-dhsi/)
 
