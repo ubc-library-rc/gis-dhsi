@@ -151,3 +151,19 @@ The Label feature lets you add labels for various elements on your map. Click en
 
 ## Add Sketch 
 You can add add points, or draw lines, shapes, etc. with the Add Sketch function. This can be useful to highlight map features manually. Any sketch elements you add will create a new layer with those elements.
+
+<br><br>
+
+## Finalizing your StoryMap for Publication
+Now it's time to add the maps we just created with the online mapping tool to our StoryMap. 
+
+### Add Web Maps to StoryMap
+Return to your StoryMap and add a **map** content block. Choose the map you just made.
+
+### Add Swipe
+A **Swipe** content block allows you to compare two images, static maps, or even two web maps. Swipe is great to show changes over time.
+
+![slider](./images/slider-20250220.png)
+
+Each map on the swipe is a separate we bmap. You will have to create a separate web map highlighting the features you want to include. For instance, you will have to create a map for 1980s bike routes and one for 2000s bikeroutes. You can easily do this with the filter option on webmaps.
+
