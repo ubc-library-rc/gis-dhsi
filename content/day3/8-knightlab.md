@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Knightlab StoryMap
-nav_order: 2
+nav_order: 3
 parent: Story Maps
 ---
 # Create a KnightLab StoryMap
