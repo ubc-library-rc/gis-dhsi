@@ -4,33 +4,31 @@ title: Data Wrangling
 nav_order: 1
 parent: What is Spatial Data?
 ---
-# Data Wrangling (or call it Creating+editing data or data preparation)
+# Data Wrangling
 {: .no_toc}
+
+?? (or call it Creating+editing data or data preparation)
+{: .warn}
+
+<details open markdown="block">
+  <summary>
+    On this page:
+  </summary>
+  {: .text-delta }
+ - TOC
+{:toc}
+</details>
+----
+
+<!-- 3. Creating and editing spatial data (shapefiles, geojson.io; csv prep; geolocating); and -->
+
+## Creating a set of points/lines/polygons freehand with geojson.io 
+[short description of possible scenearios in which you'd have to do this - pull from responses]
+Handy tool - geojson.io - what it does - now that you know geojson data ---
+
 
 1. create point/polygon/line in geojson.io
 
-
-4. spreadsheet  data - alex will have gone over the day before adding CSV data, and considerations. 
-
-5. geocoding -- use baths csv - online geocoder with addresses? see how points match. or, have other csv prepared in folder that doesnt have lat long - see how well add in and overlay existing one. 
-
-
-
-> creating layer when tracing georeferenced map
-> geolocating data (geocoders) 
-> csv 
-> link in those data tools 
-
-http://lab.digital-democracy.org/maplibre-storymap/demo/
-
-https://github.com/digidem/maplibre-storymap
-
-
-Also, i want to integrate this in somehow to webmapping - its a tool from the data collector tool Digital Democracy (now "awana digital") you pointed out way back when http://lab.digital-democracy.org/code/leaflet-side-by-side/
-
----
-
-## geojson.io 
 
 What it is how you can use it. 
 
@@ -48,3 +46,35 @@ Finally, we will create a point over Montreal. To do this, will use <a href="htt
 4. Once you click, you will notice some geoJSON code appears on the right-hand panel. This is the geoJSON that stores a single point. Click **Save** in the upper left-hand corner, and save your new point layer as either a `geojson` (notice, however, you can save as a shapefile or another file format as well). Once the file is downloaded, ***move it to your `dhsi-worshop/Day2/reference-mapping` folder. You may need to rename it to `montreal` rather than `map.geojson` which is the default. 
 <img src="./images/geojson-save_20251113.png" style="width:100%">
 
+
+<br>
+
+## Preparing spreadsheet data....
+
+spreadsheet  data - alex will have gone over the day before adding CSV data, and considerations. 
+
+
+
+## Geocoding
+
+5. geocoding -- use baths csv - online geocoder with addresses? see how points match. or, have other csv prepared in folder that doesnt have lat long - see how well add in and overlay existing one. 
+
+
+> different to georeferencing which we'll cover at length in day 3... 
+> also - note interoperability and also some platforms require certain types of data
+
+
+
+
+## Data collection tools
+- [Terrastories](https://terrastories.app/) and [Awana Digital ](https://awana.digital/mapeo) are two great resources for collecting place-based data on the go.
+- Survey 124
+- Your phone - geocoordinates... apps?
+- others?
+
+
+
+<!-- > creating layer when tracing georeferenced map
+> geolocating data (geocoders) 
+> csv 
+> link in those data tools  -->
