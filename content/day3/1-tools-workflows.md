@@ -11,8 +11,9 @@ This morning's lesson will address the following:
 
 1. How to add a basemap to a QGIS project;
 2. Common vector tools useful in map making;
-3. Creating and editing spatial data (shapefiles, geojson.io; csv prep; geolocating); and
-4. Georeferencing.
+3. Georeferencing.
+
+<!-- 3. Creating and editing spatial data (shapefiles, geojson.io; csv prep; geolocating); and -->
 
 We will be working in a "sandbox" QGIS project. Such a project to play around in has been created for you and can be found in the folder `dhsi-workshop/Day3/tools-and-workflows`. **Open it now**.
 

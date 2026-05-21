@@ -11,16 +11,12 @@ Today will cover two distinct topics: in the morning, we will return to QGIS to 
 
 
 #### **Morning Session** 9am - 12
-- Adding basemaps to a QGIS project
-- Vector Tools
-- Creating and editing spatial data
-- Georeferencing historical and digitized maps with QGIS
+- How to add a basemap to a QGIS project
+- Common vector tools useful in map making
+- Georeferencing
 
-(whatever isn't covered in the morning we can bump to the afternoon - i want to say georeferencing, but maybe a way creating and editing spatial data works with story mapping)
-{: .warn}
+<!-- 3. Creating and editing spatial data (shapefiles, geojson.io; csv prep; geolocating); and -->
 
-homework day before - take some pictures - use geo tool to track a walk???? or at lunch if needed! 
-{: .warn}
 
 <br>
 
@@ -30,7 +26,13 @@ homework day before - take some pictures - use geo tool to track a walk???? or a
 
 <br>
 
+homework day before - take some pictures - use geo tool to track a walk???? or at lunch if needed! 
+{: .warn}
 
+
+
+<!-- We will be working in a "sandbox" QGIS project. Such a project to play around in has been created for you and can be found in the folder `dhsi-workshop/Day3/tools-and-workflows`. **Open it now**.
+ -->
 
 <!-- I'm debating cutting the Intro Page "Tools and Workflows" (directly after this) because while it convienently nests the related pages, it also obscures them and it might be nice for ppl to be able to more easily see whats covered this day (since its such a motly assortment)
 {: .warn}

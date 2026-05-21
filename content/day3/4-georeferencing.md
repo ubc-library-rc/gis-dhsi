@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Georeferencing
-nav_order: 4
+nav_order: 3
 parent: Tools and Workflows in QGIS
 ---
 # Georeferencing Overview

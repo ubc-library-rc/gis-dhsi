@@ -3,6 +3,7 @@ layout: default
 title: Story Maps
 nav_order: 4
 parent: Day 3
+has_children: true
 ---
 # Story Maps: making multimedia narratives
 {: .no_toc}
