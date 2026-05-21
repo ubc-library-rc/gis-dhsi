@@ -25,6 +25,7 @@ This course provides a gentle introduction to mapping and spatial visualization 
 | Thursday | **Web Mapping** | Day 4 will concern web mapping, that is, making dynamic, interactive maps that are hosted on the web and can be shared with others via a link. You will learn how to create web maps in 2 different manners: (1) online, through platforms such as [uMap](https://umap.openstreetmap.fr/en/) and [Google MyMaps](https://www.google.com/maps/about/mymaps/), and (2) with code powered by [Leaflet](https://leafletjs.com/).
 | Friday | **Wrap-up** | Our last day together will provide a space to wrap-up projects, ask questions, and review skills learned. 
 
+<br>
 
 
 ## Instructor Bios
@@ -33,8 +34,7 @@ This course provides a gentle introduction to mapping and spatial visualization 
 
 
 
-**Lily Demet** is a PhD student in Geography at the University of British Columbia studying everyday spatial practices of navigating the city. Their recent projects include ["Making space for deep mapping: rendering theory as practice"](https://dx.doi.org/10.14288/1.0445244), a research-creation thesis which experiments with digital methods for theorymaking. Lily is also an artist and cartographer, and teaches mapping and GIS through the university library. 
-
+**Lily Demet** is a PhD student in Geography at the University of British Columbia studying everyday spatial practices of navigating the city. Their recent projects include <a href="https://dx.doi.org/10.14288/1.0445244" target="_blank">"Making space for deep mapping: rendering theory as practice"</a>, a research-creation thesis which experiments with digital methods for theorymaking, and <a href="https://ica-abs.copernicus.org/articles/10/57/2025/ica-abs-10-57-2025-relations.html" target="_blank">Deep Mapping Cartography's Limits: The Artfulness of Rendering Spatial Practice</a>, an effort towards bringing process philosophy into conversation with mapping. Lily is also an artist and cartographer, and teaches tools for spatial visualisation at the university library. 
 
 
 <br>
