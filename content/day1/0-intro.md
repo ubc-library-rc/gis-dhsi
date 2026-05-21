@@ -26,28 +26,27 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 - Participant introductions + project descriptions
 <!-- - Lecture and guided discussion on spatial visualization in/for digital humanities research -->
 
+<br>
 
 #### **Afternoon Session** 1:30pm - 4pm
 - Lecture and guided discussion on spatial visualization in/for digital humanities research
 - Thematic vs. Reference maps
 - Intro to Project Design
 - Spatial Data wrangling/preparation (overview + activity)
+<!-- - Project design fundamentals + worksheet activity -->
+
+<br>
 
 need to make sure still this order make sense conceptually - as in no information needed for context before it comes up in our order
 {: .warn}
 
-<!-- - Project design fundamentals + worksheet activity -->
 
 
 
+<!-- need to clarify small activities all around - lmk if you have thoughts - Also need to figure out when/how to tell ppl to 1. collect cool spots for group webmap and 2, pictures of commute or places around town for storymap?
+{: .warn} -->
 
-need to clarify small activities all around - lmk if you have thoughts
-{: .warn}
 
-Also need to figure out when/how to tell ppl to 1. collect cool spots for group webmap and 2, pictures of commute or places around town for storymap?
-{: .warn}
-
-<br>
 
 ---
 
@@ -55,7 +54,6 @@ Also need to figure out when/how to tell ppl to 1. collect cool spots for group 
 - Review Project Design Worksheet and fill in what you can
 - Spatialize your data if you want to map with it tomorrow 
 - Ensure QGIS is downloaded and installed
-- Download and unzip the `dhsi-workshop` data folder
 
 
 
