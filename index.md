@@ -34,41 +34,40 @@ This course provides a gentle introduction to mapping and spatial visualization 
 
 
 
-**Lily Demet** is a PhD student in Geography at the University of British Columbia studying everyday spatial practices of navigating the city. Their recent projects include <a href="https://dx.doi.org/10.14288/1.0445244" target="_blank">"Making space for deep mapping: rendering theory as practice"</a>, a research-creation thesis which experiments with digital methods for theorymaking, and <a href="https://ica-abs.copernicus.org/articles/10/57/2025/ica-abs-10-57-2025-relations.html" target="_blank">Deep Mapping Cartography's Limits: The Artfulness of Rendering Spatial Practice</a>, an effort towards bringing process philosophy into conversation with mapping. Lily is also an artist and cartographer, and teaches tools for spatial visualisation at the university library. 
+**Lily Demet** is a PhD student in Geography at the University of British Columbia studying everyday spatial practices of navigating the city. Their recent projects include <a href="https://dx.doi.org/10.14288/1.0445244" target="_blank">"Making space for deep mapping: rendering theory as practice"</a>, a research-creation thesis which experiments with digital methods for theorymaking, and <a href="https://ica-abs.copernicus.org/articles/10/57/2025/ica-abs-10-57-2025-relations.html" target="_blank">Deep mapping cartography's limits: the artfulness of rendering spatial practice</a>, an effort towards bringing process philosophy and mapping into conversation. Lily is also an artist and cartographer, and teaches tools for spatial visualisation at the university library. 
 
 
 <br>
 
 ## In preparation for the course
-While we will be providing sample projects to work from, we welcome you to bring your own projects, data and ideas to work on throughout the week. In May, we will circulate a survey about your experience with mapping, and goals for the course. Please take a moment to respond so that we can best prepare to support you. 
+To prepare for the course, please download the following data and software, and create free user accounts for the various mapping platforms we will use. Additionally, please bring your own personal computer. 
 
-To prepare for the course, please download the following data and software, and create free user accounts for the various mapping platforms we will use. Additionally, please bring your own personal computer.  
+While we will be providing sample projects to work from, we welcome you to bring your own projects, data and ideas to work on throughout the week. 
 
 
 <!-- *1*{: .circle .circle-yellow} -->
-1. **[Download QGIS](https://qgis.org/download/)** Please come with the latest version of QGIS downloaded and installed on your personal computer. QGIS is a free and open-source geographic information system (GIS) that runs on Windows, Mac, and Linux operating systems. 
+* *1*{: .circle .circle-green} **[Download QGIS](https://qgis.org/download/)** Please come with the latest version of QGIS downloaded and installed on your personal computer. QGIS is a free and open-source geographic information system (GIS) that runs on Windows, Mac, and Linux operating systems. 
 
-2.  Additionally, please **download and install the code editor [Visual Studio Code](https://code.visualstudio.com/)**. This will enable you to swiftly and efficiently make web maps.  
- While this course will involve some basic HTML, no previous coding experience is required.
-
-
-3.  **Download and unzip the workshop data folder** below. This will be available on the course website in May. You will receive an email when the course website and data are ready to download. Download it to a location on your physical computer, such as Desktop or Downloads, *not OneDrive*. This item is quite large, so please download to an external thumbdrive if needed. 
-
-[Download Data](https://drive.google.com/file/d/1OEY0dqCtHREt6dWWH_6paQB6C9mDdarS/view?usp=share_link){: .btn .btn-blue}
+* *2*{: .circle .circle-green} Additionally, please **download and install the code editor [Visual Studio Code](https://code.visualstudio.com/)**. This will enable you to swiftly and efficiently make web maps. While this course will involve some basic HTML, no previous coding experience is required.
 
 
-4. **Create a free account for the various platforms we will use.**
-- [ArcGIS Online StoryMaps](https://storymaps.arcgis.com/) See [here](https://ubc-library-rc.github.io/gis-storymaps/account-setup.html) for documentation on creating a public/free account. If your institution subscribes to ArcGIS, you can use the subscription version but ensure you have access through your institution. 
-- [KnightLab StoryMap](https://storymap.knightlab.com/) (click MAKE A STORYMAP and you will be prompted to sign in/sign up)
-- [uMap](https://umap.openstreetmap.fr/en/) uMap is a free and open-source platform that allows you to create web maps using OpenStreetMap (OSM) data. 
-- [GitHub](https://github.com/signup) GitHub is an internet hosting service that allows you to upload files into a repository, or project folder, where they can be shared and collaboratively tracked and edited by a team. This makes it quite popular amongst code developers. We will use GitHub to host our web maps! 
-- Finally, if you don't already have a Google account, go ahead and create one if you want to have the option of using Google MyMaps.
-
-5. Review course overview page. 
-
-6. Complete the short survey we will circulate in May to tell us about your experience mapping and project background!
+* *3*{: .circle .circle-green}  **[Download and unzip the workshop data folder](https://drive.google.com/file/d/1OEY0dqCtHREt6dWWH_6paQB6C9mDdarS/view?usp=share_link)** below. This will be available on the course website in May. You will receive an email when the course website and data are ready to download. Download it to a location on your physical computer, such as Desktop or Downloads, *not OneDrive*. This item is quite large, so please download to an external thumbdrive if needed. 
+> [Download Data](https://drive.google.com/file/d/1OEY0dqCtHREt6dWWH_6paQB6C9mDdarS/view?usp=share_link){: .btn .btn-blue}
 
 
+* *4*{: .circle .circle-green} **Create free accounts for the various platforms we will use.**
+    - [ArcGIS Online StoryMaps](https://storymaps.arcgis.com/) See [here](https://ubc-library-rc.github.io/gis-storymaps/account-setup.html) for documentation on creating a public/free account. If your institution subscribes to ArcGIS, you can use the subscription version but ensure you have access through your institution. 
+    - [KnightLab StoryMap](https://storymap.knightlab.com/) (click MAKE A STORYMAP and you will be prompted to sign in/sign up)
+    - [uMap](https://umap.openstreetmap.fr/en/) uMap is a free and open-source platform that allows you to create web maps using OpenStreetMap (OSM) data. 
+    - [GitHub](https://github.com/signup) GitHub is an internet hosting service that allows you to upload files into a repository, or project folder, where they can be shared and collaboratively tracked and edited by a team. This makes it quite popular amongst code developers. We will use GitHub to host our web maps! 
+    - Finally, if you don't already have a Google account, go ahead and create one if you want to have the option of using Google MyMaps.
+
+* *5*{: .circle .circle-green} Review course overview page. 
+
+* *6*{: .circle .circle-green} Tell us about your experience mapping and project background! Please take a moment to complete the [short survey](https://ubc.ca1.qualtrics.com/jfe/form/SV_2iwThgTdyalpWCO) circulated in May so that we can best prepare to support you.
+
+
+<br>
 
 ### Site Acknowledgements
 This workshop was authored by [Lily Demet](https://geog.ubc.ca/profile/lily-crandall-oral/) and Alex Alisauskas, and taught at the 2026 [Digital Humanities Summer Institute](https://dhsi.org/).
@@ -78,5 +77,5 @@ Site template adapted from the [just-the-docs](https://github.com/pmarsceill/jus
 Copyright: UBC Library Research Commons, [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 
-<p style="margin-top:90px"></p>
+<p style="margin-top:70px"></p>
 <p style="color:grey; font-size:13px">This extended workshop was authored by Lily Demet and Alex Alisauskas, and taught at the 2026 Digital Humanities Summer Institute.</p>
