@@ -153,3 +153,6 @@ Copy the link and return to your repo code. In the **About** section at the top 
 
 
 <br>
+
+I just need to add note as to how you'd format the index file if uploading qgis project - or link to that page
+{: .warn}

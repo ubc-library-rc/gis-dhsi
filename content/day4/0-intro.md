@@ -38,7 +38,7 @@ need to clarify activities all around
 
 ## What we will make
 
-Below are examples of webmap made with uMap, Google MyMaps, Leaflet, and QGIS.
+Below are examples of webmap made with uMap, Google MyMaps, and Leaflet. 
 
 <br>
 
@@ -63,9 +63,9 @@ Need to swap out webmapping w qgis one
 <sub>[See full screen](//umap.openstreetmap.fr/en/map/toronto-public-art_1377239?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true#11/43.72/-79.42)</sub>   
 
 <br>
-
+<!-- 
 <iframe src="https://lilydemet.github.io/qgis2web-example-map/" style="width:100%; height:520px; border:none;"> </iframe>
-<sub>[View GitHub repo](https://github.com/lilydemet/qgis2web-example-map)</sub>   
+<sub>[View GitHub repo](https://github.com/lilydemet/qgis2web-example-map)</sub>    -->
 
 
 ## Before the day (or make this reminder at end of day 2)
@@ -86,8 +86,8 @@ We will webmap using data primarily from the [City of Toronto's open data portal
 - [City Wards](https://open.toronto.ca/dataset/city-wards/)
 - [Regional Municipal Boundary](https://open.toronto.ca/dataset/regional-municipal-boundary/)
 
-
-The QGIS Project includes province (and water features?), data from government of canada as well as - ?? from natural earth data. Data from The Government of Canada is licensced under the Open Government Licence - Canada; Data from [Natural Earth](https://www.naturalearthdata.com/) is [public domain](https://www.naturalearthdata.com/about/terms-of-use/) and therefore free to use.  
+<!-- 
+The QGIS Project includes province (and water features?), data from government of canada as well as - ?? from natural earth data. Data from The Government of Canada is licensced under the Open Government Licence - Canada; Data from [Natural Earth](https://www.naturalearthdata.com/) is [public domain](https://www.naturalearthdata.com/about/terms-of-use/) and therefore free to use.   -->
 
 
 
