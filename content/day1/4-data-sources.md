@@ -21,12 +21,12 @@ This page outlines some places to look for data.
 </details>
 ----
 
-TAILOR THIS PAGE DIGITAL HUMANITIES SOURCES
+TAILOR THIS PAGE DIGITAL HUMANITIES SOURCES - do you have more suggestions?
 {: .warn}
 
 ### Historical Data
 - [Borealis](https://borealisdata.ca/dataverse/HGIS?q=&types=dataverses%3Adatasets&sort=dateSort&order=desc&page=1)
-- MORE?? say more on this
+
 
 
 

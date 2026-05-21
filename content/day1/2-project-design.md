@@ -8,7 +8,7 @@ parent: Day 1
 # Fundamentals of Project Design 
 <!-- *How do I tell spatial stories with my data? What tools best suit my audience, skillset, resources, and timeframe?* Answering these questions involves project design.  -->
 
-we'll just go over this (you'd be welcome to present this as the librarian!!) and intro the worksheet - then, say we'll discuss data a bit more now. 
+Would you like to discuss this as well as the lecture and maps overview? 
 {: .warn}
 
 Project design encompasses all the decisions you'll make in order to bring your project to fruition. 
@@ -94,26 +94,18 @@ If your project is web-based or interactive, it will likely need maintenance to 
 
 - Are you relying on data or basemaps from a provider or through an API call/link/etc.? Consider how you will ensure you can continue to access this data and what plan you will have for data/link checking long-term.
 
-- Are you creating an interactive spatial visualization like a webmap or storymap? Ensure that you will have ongoing access to be able to update the spatial visualization project. 
+- Are you creating an interactive spatial visualization like a webmap or StoryMap? Ensure that you will have ongoing access to be able to update the spatial visualization project. 
 
 
 - Interactive projects can be trickier to archive and/or preserve. Consider how you might want to preserve the experience (screenshots, individual elements saved, etc.).
 
 
-- Do you have an institutional subscriptions/access to any platforms or software you are using? Might you change institutions or positions? Projects like Storymaps can be tricky to switch between institutional accounts, or from an institutional account to a free license, so consider long-term access to softwares/platforms as well before starting your project. Consider open source options you might use. 
+- Do you have an institutional subscriptions/access to any platforms or software you are using? Might you change institutions or positions? Projects like StoryMaps can be tricky to switch between institutional accounts, or from an institutional account to a free license, so consider long-term access to softwares/platforms as well before starting your project. Consider open source options you might use. 
 
 
 
 
 
 
-<!-- ----
-## Project design activity (30 minutes) 
-> Take 10 minutes to work through the worksheet. 
-> Write and share with group your objectives if you have a project in mind. then, share one constraint or something
-> questions, reminders for tomorrow, etc. 
-
-We need to structure these activities - maybe something to discuss during our in person pre-dhsi meeting. 
-{: .warn} -->
 
 
