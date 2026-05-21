@@ -10,6 +10,8 @@ parent: Day 1
 or call it Data preparation - im still developing the below so feel free to contribute thoughts/text/resources
 {: .warn}
 
+Although there is a lot of spatial data available for download that with some modification (using tools and workflows largely introduced tomorrow) can suit a variety of mapping purposes, you will doubtless run into situations where you have to create your own data. For example, maybe you want to plot significant sites visited by the protagonist of a novel, or the opera houses frequented by a notable musician. 
+
 Demo some management and prep practices - then give structured work time for those who want to use their data for reference mapping to make sure its prepared. includes format as well as spatial componants properly organized into separate columns. ...
 
 get a sense of ppls data formats from survey results 
