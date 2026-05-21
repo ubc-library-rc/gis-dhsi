@@ -1,12 +1,15 @@
 ---
 layout: default
 title: Project Design 
-nav_order: 3
+nav_order: 2
 parent: Day 1
 ---
 
 # Fundamentals of Project Design 
 <!-- *How do I tell spatial stories with my data? What tools best suit my audience, skillset, resources, and timeframe?* Answering these questions involves project design.  -->
+
+we'll just go over this (you'd be welcome to present this as the librarian!!) and intro the worksheet - then, say we'll discuss data a bit more now. 
+{: .warn}
 
 Project design encompasses all the decisions you'll make in order to bring your project to fruition. 
 <!-- This can be a daunting and overwhelming process. We've broken it down into 4 steps, and provided questions to ask yourself at each step in order to clarify your project.  -->
@@ -104,13 +107,13 @@ If your project is web-based or interactive, it will likely need maintenance to 
 
 
 
-----
+<!-- ----
 ## Project design activity (30 minutes) 
 > Take 10 minutes to work through the worksheet. 
 > Write and share with group your objectives if you have a project in mind. then, share one constraint or something
 > questions, reminders for tomorrow, etc. 
 
 We need to structure these activities - maybe something to discuss during our in person pre-dhsi meeting. 
-{: .warn}
+{: .warn} -->
 
 

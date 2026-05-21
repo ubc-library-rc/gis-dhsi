@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Sources
-nav_order: 1
+nav_order: 2
 parent: What is Spatial Data?
 ---
 # Data Sources

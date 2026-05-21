@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Reference vs. Thematic
-nav_order: 2
+nav_order: 1
 parent: Day 1
 ---
 # Thematic vs. Reference maps 
 
 
-More text on HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH.
+need text on HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH. you're welcome to present this page in conjunction with your lecture...
 {: .warn}
 
 

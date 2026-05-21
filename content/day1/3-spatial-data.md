@@ -1,12 +1,11 @@
 ---
 layout: default
 title: What is Spatial Data?
-nav_order: 1
+nav_order: 3
 parent: Day 1
 has_children: true
 ---
 # What is Spatial Data?
-
 
 Spatial data, sometimes called 'geospatial data', is data that contains locational information, most often *coordinate points*. Just like text documents require specific software to open and edit them, spatial data require certain software to open, view, analyze, and modify them. This course will introduce you to different tools and platforms for working with spatial data. The main kind of software for visualizing, analyzing, and modifying spatial data is Geographic Information System, or a GIS. Additionally, there are browser-based platforms for uploading and visualizing spatial data. We will talk more about GIS tomorrow, and online platforms later in the week. 
 
