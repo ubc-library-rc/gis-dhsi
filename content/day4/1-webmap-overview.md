@@ -8,9 +8,9 @@ parent: Day 4
 # What is a web map? 
 {: .no_toc}
 
-  Web maps are dynamic, interactive maps that are hosted on the web and can be shared to others via a link. Web maps are ubiquitous in our everyday: for example, you likely use a web map on your phone to navigate around the city, track an online order, ride, or bus, and check the weather forecast near you. 
+Web maps are dynamic, interactive maps that are hosted on the web and can be shared to others via a link. Web maps are ubiquitous in our everyday: for example, you likely use a web map on your phone to navigate around the city, track an online order, ride, or bus, and check the weather forecast near you. 
 
- Web maps differ from digital maps, which are simply static maps derived from a computer and produced/published/stored in a digital format (such as an image or PDF). (The term "born digital" is often used to describe these kind of maps.) Examples of digital maps include scans of historical maps, or maps embedded online as graphics. 
+Web maps differ from digital maps, which are simply static maps derived from a computer and produced/published/stored in a digital format (such as an image or PDF). (The term "born digital" is often used to describe these kind of maps.) Examples of digital maps include scans of historical maps, or maps embedded online as graphics. 
  
 In contrast, **Web maps can be identified based on some key characteristics:**
 
@@ -20,42 +20,20 @@ In contrast, **Web maps can be identified based on some key characteristics:**
 - **Often rely on web and mobile technology** For example, Google Maps' navigation algorithm that helps you find directions or search for coffee shops around town, or [TransLink's trip planner](https://tripplanning.translink.ca/?_gl=1*do70tz*_gcl_au*MTE4ODAwNjQwMi4xNzc0NTM2MjI4*_ga*NTk3MDM0MTU4LjE3NzQ1MzYyMjg.*_ga_2559ZWBT54*czE3NzQ1MzYyMjgkbzEkZzAkdDE3NzQ1MzYyMjgkajYwJGwwJGgxMjIzNTI0NjM1*_fplc*QXl5T2dCWXpBbDBnU0pxMVI5SENtZjFoanY3N2NuMGlhTm9CVzBFTTdCM1pRWEh2MTBlSWt2dXBIUzZPN1ZMZkVEaiUyRkI3RVdpTWt3eGFpT2clMkZDJTJGNE9tUVJRZ0Y4WGpPM2YweGV2c2hjSERvYUg5cjEyUElKT2VSOVczZGxnJTNEJTNE#/app/tripplanning) (which seems also to use Google's routing algorithm). For app builders, web maps might provide a method for routing to locations using a mobile device’s geolocation features. 
 
 
-
-<!-- 
-## Digital vs. Web Maps
-The term digital map is used quite often, but what does it mean? Wikipedia describes “Digital Mapping” as “The process by which a collection of data is compiled and formatted into a virtual image.” However, there are some crucial distinctions between digital maps and web maps.
-
-### Digital Maps
-A *digital map* is a map that was somehow derived from a computer. Sometimes we use this term to refer to paper maps which are scanned and reformatted into digital images, like this old map of Vancouver:
-
-
-More commonly, we use this term for “born digital” maps like this cycling map from the City of Vancouver. This map was likely constructed with geospatial data and a Geographic Information System (GIS), and published as a PDF (although there are some paper copies out there). It visualizes cycling infrastructure at a static scale and dimension. -->
+The most basic web map is a basemap, contained in a viewbox with controls and an attribution at the bottom. However, you can add point, line, and polygon vector data, customize pop-ups, and even create thematic web maps. 
 
 
 
-<!-- ## Examples of webmaps 
-The most basic reference web map is a basemap, contained in a viewbox with controls and an attribution at the bottom. Explore the interactive capabilities of each of the following examples.
-reference and thematic. focus on reference here. show 3 different platform - workflow options. and range of things possible. 
+### Webmaps in DH research
 
-OR, PUT EXAMPLES OF MAPS WE WILL CREATE HERE. 
+- [The Polyrhythm Project](https://polyrhythm.humdrum.org/overview/) created [maps](https://polyrhythm.humdrum.org/maps/) for their [Corpus](https://maps.polyrhythm.humdrum.org/corpus/), [Composers](https://maps.polyrhythm.humdrum.org/composers/#4/49.43/10.40), and [Timeline](https://maps.polyrhythm.humdrum.org/timeline/).
+- Article on [using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html)
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c)
+- [Mapping Prejudice](https://mappingprejudice.umn.edu/)
 
-plain basemap. 
-
-single point/marker
-
-or single data layer.
-
-show with each platform. discuss advantages/disadvantes briefly or when we get into it. 
-
-oh, there's also AGOL..... ? different day when we do storymaps? 
-Mention narrative mapping will be another day. 
- -->
-
-
-### why make webmaps?
-
-Examples of webmaps in digital humanities research (ive added some from the brainstorming document) AND DESCRIBE WHY THEY ARE HELPFUL VISUALIZATIONS (Alex)
+other xamples of webmaps in digital humanities research AND text DESCRIBing WHY THEY ARE HELPFUL VISUALIZATIONS (Alex). 
 {: .warn}
+
 
 
 
