@@ -15,49 +15,35 @@ parent: Day 4
 Leaflet consists of JavaScript and CSS code libraries which power the ways your web browser interprets and interacts with geospatial data & displays colors and style. For instance, when you double click a map to zoom in, Leaflet is at work. When you add data to your map, Leaflet assigns it a default color. And because Leaflet is open-source, the code is hugely customizable and extensible. This means you can re-mix the code all you want — which you will do in this workshop. [Here are some examples](https://leafletjs.com/plugins.html) of Leaflet-based plugins to give you some idea of the variety of added functionality that comes from the community of developers.
 
 
-<!-- ```html
+```html
 <html>
 
 <head>
-
-  <title>Boilerplate</title>
+  <title>Leaflet map</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
 </head>
 
 <body>
-
   <div id="mapid" style="height: 100%;"></div>
-
   <script>
-   
-   var mymap = L.map('mapid').setView([45.50, -73.58], 13);
-
-   var Stadia_Outdoors = L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.{ext}', {
-	minZoom: 0,
-	maxZoom: 20,
-	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	ext: 'png'
-}).addTo(mymap);
-
-
+    var mymap = L.map('mapid').setView([45.50, -73.58], 13);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(mymap);
   </script>
-
 </body>
 
 </html>
+```
 
-``` -->
 
 ## In a browser
-Take a look at this basic Leaflet map example. You can zoom in, pan around, etc. It’s meant to be displayed in your internet browser or a mobile application, so it loads and responds to you quickly.
+Take a look at this basic Leaflet map example. You can zoom in, pan around, etc. It’s meant to be displayed in your internet browser or a mobile application, so it loads and responds quickly.
 
 <iframe src="./reference/basic-map.html" style="width:100%; height:520px; border:none;"> </iframe>
 
