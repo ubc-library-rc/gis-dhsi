@@ -15,9 +15,15 @@ In your browser window, you should see a map that looks like this:
 
 <img src="./images/leaflet2.png" style="width:100%">
 
-Keep this browser tab open - we’ll return to it in the next section.
 
----- 
+
+**Take a moment to explore the boilerplate web map in your browser.**
+
+<!-- Keep this browser tab open - we’ll return to it in the next section.
+
+----  -->
+
+<br>
 
 ## Map Tiles
 **Map tiles** are squares of geographic data that are loaded to your frame of view whenever you zoom or pan your map. Each tile is 256px by 256px (traditionally a .png image at roughly 20-40kb each), making them quick to load over an internet connection. These tiles provide a geographic reference for other data layers that you might add later (we'll get to that in a minute). You've probably noticed them if you've had choppy internet connection and had to wait for data to load:
@@ -43,6 +49,8 @@ Here's the map tile grid for **zoom level 13 over Vancouver**:
 ![tiles](/img/vanzoom13.png)
 -->
 
+<br>
+
 ## Tile Servers
 
 You might be thinking: **_Where are all these tiles loading from?_** Well, there are services that render these tiles for consumption. The main two are Google and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Tile_servers), but there are many others.
@@ -53,6 +61,8 @@ Here are some interesting styles for the tile covering the south part of UBC Cam
 
 ![tiles](./images/dark.png) ![tiles](./images/fire.png) ![tiles](./images/otd.png)
 ![tiles](./images/pio.png) ![tiles](./images/stm.png) ![tiles](./images/wtc.jpeg)
+
+<br>
 
 ## Raster and Vector Tiles
 

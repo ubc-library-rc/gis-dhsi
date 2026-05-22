@@ -6,8 +6,10 @@ parent: Hands on with Leaflet
 ---
 
 # Map Boilerplate
-Now that we've seen what the boilerplate basemap for this workshop looks like, let’s explore the code behind it. Return to VS Code (your code editor). Double click `boilerplate.html ` in the Explorer panel to open it. The contents of your boilerplate should look like this: 
+A [boilerplate](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/) is a chunk of code that can be used as-is in multiple contexts and often provides the basis for more advanced operations. The boilerplate code for this workshop renders a basemap which we will tinker with and add to in order to build an dynamic cluster map. It’s important that you don’t lose any of this code, and that it remains in its original structure and arrangement. Beyond this workshop, before you experiment with it on your own it's a good idea to make a copy of the original code to refer back to.
 
+Now that we've seen what the boilerplate basemap for this workshop looks like, let’s explore the code behind it. Return to VS Code (your code editor). The contents of your boilerplate should look like this: 
+<!-- Double click `boilerplate.html ` in the Explorer panel to open it. -->
 
 ```html
 <html>
@@ -28,12 +30,7 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
 
   <!--Add links to Leaflet MarkerCluster here-->
 
-
-
   <!--Add scripts that link to data sources here-->
-
-
-
 
 </head>
 
@@ -41,30 +38,22 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
   <!-- Your map's HTML container -->
   <div id="mapid" style="height: 100%;"></div>
 
-
   <script>
-
     // Initialize your map
     var mymap = L.map('mapid').setView( [45.65, -73.58], 9);
-
 
     //Load your tile layer
     var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mymap);
 
-
     // Add marker(s) here
 
-
     // Add point layer here
-
-    
+  
     // Add polygon layer here
 
-
   </script>
-
 
 </body>
 
@@ -72,10 +61,10 @@ Now that we've seen what the boilerplate basemap for this workshop looks like, l
 
 ```
 
-A [boilerplate](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/) is a chunk of code that can be used as-is in multiple contexts and often provides the basis for more advanced operations. The boilerplate code for this workshop renders a basemap which we will tinker with and add to in order to build an dynamic cluster map. It’s important that you don’t lose any of this code, and that it remains in its original structure and arrangement. Beyond this workshop, before you experiment with it on your own it's a good idea to make a copy of the original code to refer back to.
+
 
 ## Anatomy of an HTML document 
-The HTML document is split into two main sections: the <code>head</code> and the <code>body</code>. Each of these sections are contained within opening < tags > and closing </ tags >. Notice that because the document is in HTML format, everything is contained within the html tag.
+The HTML document is split into two main sections: the <code>head</code> and the <code>body</code>. Each of these sections are contained within opening < tags > and closing </ tags >. Notice that because the document is in HTML format, everything is contained within the html tag. *Everything you add to the boilerplate during this workshop will be within the script tags.*
 
 ```html
 <html>
@@ -108,7 +97,7 @@ The HTML document is split into two main sections: the <code>head</code> and the
 </html>
 ```
 
-Everything you add to the boilerplate during this workshop will be within the script tags.
+
 
 ---
 

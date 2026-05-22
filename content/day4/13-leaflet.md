@@ -30,12 +30,11 @@ Now let's add a point layer representing Public Art. In VS Code, open the file `
 
  -  **Note:** While the data was downloaded from Toronto's Open Data portal in `.geojson` format, you'll notice the filetype is `.js`. This is because the entire geoJSON dataset was "wrapped as a JavaScript variable". This allows us to reference the dataset as the variable `art` in our web map HTML document. To "wrap a geoJSON dataset as a variable", all that was done was to add `var art = ` was added to the beginning of the dataset, and then the dataset was "Saved as" a JavaScript file type. 
 
-<br>
 
 
 Though data layers are more complex than single markers, we add them in a similar manner: by creating a new variable holding the values for the geoJSON feature(s).    
 
-To add a point layer of Public Art to your web map of Toronto, copy and paste the following line of code below your marker(s), where the comment says ` // Add point layer here`.
+To add a point layer of Public Art to your web map of Toronto, copy and paste the following line of code below your marker(s), where the comment says `// Add point layer here`.
 
 Copy/paste
 {: .label .label-purple}
@@ -43,7 +42,7 @@ Copy/paste
 L.geoJson(art).addTo(mymap);
 ```    
 
-At first, nothing will show up. This is because we need to do one more thing. We need to **link all datasets referenced in the head element** of the web map. Copy and paste the following code at the very end of your web map's `<head>` element underneath the comment `  <!--Add scripts that link to data sources here-->`. 
+At first, nothing will show up. This is because we need to do one more thing. We need to **link all datasets referenced in the head element** of the web map. Copy and paste the following code at the very end of your web map's `<head>` element underneath the comment `<!--Add scripts that link to data sources here-->`. 
 
 Copy/paste
 {: .label .label-purple}
@@ -63,7 +62,7 @@ Notice the data source we added in the `<head>` element locates the dataset in `
 
 <br>
 
-----
+
 
 
 ## Adding a polygon layer
@@ -77,7 +76,7 @@ Copy/paste
 <script src="./heritage-conservation-districts.js" charset="utf-8"></script>
 ```
 <br>
-Then, add `parks` as a data layer in the `<script>` element below your marker and point layer:
+Then, add `heritage` as a data layer in the `<script>` element below your marker and point layer:
 
 Copy/paste
 {: .label .label-purple}
@@ -97,9 +96,9 @@ If you find it busy, you can always remove the `L.geoJson(heritage).addTo(mymap)
 
 
 ## Styling Layers
-Perhaps you want to change the way parks polygons are styled. For example, we could change them to be a solid color such as green. This way, they'd stand out against the basemap. 
+Perhaps you want to change the way heritage districts polygons are styled. For example, we could change them to be a solid color such as green. This way, they'd stand out against the basemap. 
 
-to change the styling of a polygon data layer, we will 1) write a *function* that styles a specific layer, in this case `parks`, and 2) add our new style as an option to that data layer. A *function* in programming is a block of code that does some specific task, like a mini program. In your web map HTML boilerplate document, replace the line of code for parks with the following:
+to change the styling of a polygon data layer, we will (1) write a *function* that styles a specific layer, in this case `heritage`, and (2) add our new style as an option to that data layer. A *function* in programming is a block of code that does some specific task, like a mini program. In your web map HTML boilerplate document, replace the line of code for heritage districts with the following:
 
 ```js
     L.geoJson(heritage, {style: style}).addTo(mymap);

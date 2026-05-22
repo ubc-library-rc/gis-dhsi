@@ -37,7 +37,7 @@ First things first, let's add a single marker to our map. We will add a marker f
 
 To Do
 {: .label .label-green }
-Add a Leaflet marker by copy/pasting the following code into the <code>script</code> element of your map boilerplate HTML document, just under the code for map tiles. 
+Add a Leaflet marker by copy/pasting the following code into the <code>script</code> element of your map boilerplate HTML document, just under the code for map tiles. Notice that when adding markers with Leaflet, coordinate pairs *must* be arranged as [`latitude`, `longitude`].
 
 Copy/paste
 {: .label .label-purple }
@@ -49,10 +49,11 @@ You should see something like this:
 <img src="./images/leaflet6.png" style="width:100%">
 
 
-If you'd like, you can zoom your map in a bit - maybe up to 12. Notice also. x and y reversed now. 
+If you'd like, you can zoom your map in by changing the zoom level to **level 12**.   
 
 
-You can add popup information by adusting the code slightly: 
+You can add popup information by adjusting the code slightly:
+ 
 Copy/paste
 {: .label .label-purple }
 ```js

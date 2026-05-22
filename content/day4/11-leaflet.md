@@ -7,7 +7,8 @@ parent: Hands on with Leaflet
 
 # Map Parameters: A closer look at the script
 <br>
-The interaction seen in web maps is powered by [JavaScript](https://www.w3schools.com/Js/). There are JavaScript libraries for ALL SORTS of things, and we’re using Leaflet as a foundation for our maps. However you can add customization to your map so that it can do just about anything.
+
+The interaction seen in web maps is powered by [JavaScript](https://www.w3schools.com/Js/). There are JavaScript libraries for *all sorts* of things, and we’re using [Leaflet](https://leafletjs.com/) as a foundation for our maps. However you can add customization to your map so that it can do just about anything.
 
 In the last few pages, we got to see the boilerplate basemap in action, learned about the map tiles that are dynamically loaded zoom in and out, and familiarized ourselves with the anatomy of the HTML document that's powering this interactivity. Now, let's take a closer look at the script element to understand how the boilerplate basemap works. 
 
@@ -61,6 +62,8 @@ Modify the coordinate pair so your map loads over Toronto. If Live Server is ena
 
 If you don't see a map like the one above, undo your edit in your source code editor (**ctl + z**), and, when it's working again, save (**ctl + s**). Then, try again making sure your code syntax is exactly as shown:
 
+Copy/paste
+{: .label .label-purple }
 ```js
  var mymap = L.map('mapid').setView([43.69, -79.39], 9);
 ```
@@ -81,12 +84,14 @@ You should see this if you save and refresh your map:
 
 If you don't see a map like the one above, undo your edit in your source code editor (**ctl + z**), and, when it's working again, save (**ctl + s**). Then, try again making sure your code syntax is exactly as shown:
 
+Copy/paste
+{: .label .label-purple }
 ```js
   var mymap = L.map('mapid').setView([43.69, -79.39], 12);
 ```
 
 
-## Change Base Map
+## Change the Tile Layer, aka Basemap
 
 Suppose we want our data to stand out from the green base map more than it does now. One thing we can do is change the source of the map tiles to one that has a more appropriate style for our blue data. As mentioned earlier, there are several out-of-the-box options to choose from with a variety of different styles. [This page lists a number of different map tile sources](https://leaflet-extras.github.io/leaflet-providers/preview/), and provides the text to paste into our map document for each one (minus the important <code>.addTo(mymap)</code> which needs to be inserted before the final semi-colon). **some of these sources require an access token or api-key, so you won't be able to use them unless you sign up for an account**. 
 
@@ -98,7 +103,8 @@ To Do
 {: .label .label-green }
 Experiment with different basemaps! If you don't know where to start or keep getting a syntax error, try copying one of the code blocks below and replacing the existing map tile variable in your HTML document with it.
 
-
+Copy/paste
+{: .label .label-purple }
 ```js
 var OpenStreetMap_HOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
       maxZoom: 19,
@@ -134,7 +140,7 @@ var Stadia_StamenTonerLite = L.tileLayer('https://tiles.stadiamaps.com/tiles/sta
     }).addTo(mymap);
 ```     -->
 
-If it all went as planned, you should see the new basemap rendered by your browser. 
+If all went as planned, you should see the new basemap rendered by your browser. 
 
 
 <img src="./images/leaflet5.png" style="width:100%">
