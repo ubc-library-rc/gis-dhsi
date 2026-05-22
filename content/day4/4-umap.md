@@ -53,19 +53,18 @@ Use the **Search location** tool to search for Toronto. This will center your ba
 <img src="./images/umap7.png" style="width:100%">
 <br><br>
 
-<br>
 
 **The toolbar on the right allows you to add and manipulate data.** The first three tools allow you to add markers, lines, and polygons directly to your map. If you just want a few shapes or drop-pins, no need to create a data layer elsewhere first. However, if you *have* datasets you want to add to the map, you can upload them.
 
 
-
+<br>
 
 
 ## Adding Data Layers
 
 Use the **Importa data** tool <img src="./images/umap9.png" style="width:5%"> to add datasets to your map. 
 
-> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `DHSI-workshop-data/Day3/Online-webmapping/`. 
+> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `DHSI-workshop-data/Day3/online-webmapping/`. 
 
 Notice that the drop-down menu of "Choose the format" indicates what formats are acceptable for upload. Many more than in Google MyMaps! So, while geoJSON layers were provided for you, you could re-use the CSV and KML files from Google MyMaps if you'd like. 
 
@@ -79,11 +78,15 @@ Once uploaded, **save your draft** again.
 ## Manage Layers
 
 You can manage your layers, including toggling their visibility, updating their symbology, and configuring their pop-ups from the **Manage layers** tool in the right-hand toolbar. 
+
 <img src="./images/umap12.png" style="width:100%">
 
-The eyeball icon allows you to toggle layer visibility. The table icon allows you to view the tabular data associated with each layer. The magnifying glass icon allows you to zoom to a layer's extent. The pencil icon allows you to edit a layer. Finally, the trashcan allows you to remove a layer altogether. You are also able to add a new layer. 
-
 <img src="./images/umap13.png" style="width:50%">
+
+The **eyeball icon** allows you to toggle layer visibility. The **table icon** allows you to view the tabular data associated with each layer. The **magnifying glass icon** allows you to zoom to a layer's extent. The **pencil icon** allows you to edit a layer. Finally, the **trashcan icon** allows you to remove a layer altogether. You are also able to add a new layer. 
+
+<br>
+
 
 ### Layer Properties 
 
@@ -96,9 +99,7 @@ Open the **Layer Properties** of the Public Art layer.
 
 You can change the type of layer - that is, how your (point) layer is rendered - from default to clustered or heatmap. Proportional symbol isn't a good option as none of the attributes of public art have a size or quantity value. To create a choropleth map, you would need to be working on a polygon layer. 
 
-Let's change to clustered. You can then adjust the clustering radius. 
-
-Collapse cluster settings. 
+> Let's change this map to **clustered**. You can then adjust the clustering radius. When you're finished, collapse the cluster settings. 
 
 
 Now, expand **Shape properties**. Here, you can customize the icon color *and* shape. Remember to **Save your map**.
@@ -115,12 +116,15 @@ Under Interaction options, expand the option **Popup content template**. If you 
 
 <img src="./images/umap17a.png" style="width:50%">
 
-<img src="./images/umap17.png" style="width:50%">
+<img src="./images/umap17.png" style="width:100%">
 
 
 <br>
 Then, if you wanted to bold the Title and add a label to the Artist, you could update your pop-up entry to the following:
-<img src="./images/umap17b.png" style="width:50%">
+
+<img src="./images/umap17b.png" style="width:80%">
+
+> Add as many fields to your pop-up as you'd like. For instance, you could add description. Then, **practice updating heritage districts**. 
 
 <!-- {{{ImageURL}}}
 [[{link_url}|{{{ImageURL}}}]]  -->
@@ -140,12 +144,14 @@ Artist: {Artist}
 
 
 
-Add as many fields to your pop-up as you'd like. For instance, you could add description. Then, practice updating heritage districts. 
-
 
 ## Updating Basemap 
-You can customoize your tile layers
+You can also customize your "tile layers" or basemap. Choose a basemap that doesn't overwhelm your data layers. Remember - visual hierarchy applies to webmapping too! 
+
 <img src="./images/umap20.png" style="width:100%">
+
+
+<br>
 
 ## Saving and Sharing your uMap
 
@@ -160,5 +166,6 @@ Then, head to the share icon in the left-hand menu.
 
  Here you can get the link to share your map with others, the iframe information to embed it in another website, or even download the full code and data package of your map. That's the power of open-source! 
 
+*Congratulations on making a webmap with uMap!*
 
-- share, embed, download - customomize embed too. 
+<!-- - share, embed, download - customomize embed too.  -->
