@@ -6,7 +6,7 @@ parent: Day 4
 ---
 
 
-# Webmapping with QGIS using qgis2web plugin
+# Webmapping with QGIS
 With the time we have left, you are welcome to practice making a webmap of your own. However, we will also briefly demonstrate how to turn a QGIS project into a dynamic and interactive webmap using the [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) plugin. This plugin allows you to seamlessly create a webmap from your project that preserves your layers *and* their symbology. See the [qgis2web wiki](https://qgis2web.github.io/qgis2web/) for additional documentation. 
 
 We have prepared a QGIS project and data for you. Find and open it from the folder `dhsi-workshop/Day4/QGIS-webmapping`. 

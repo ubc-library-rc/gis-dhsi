@@ -48,11 +48,11 @@ Once you've made an account, go to **Repositories**.
 ## 3. Upload files to your repository
 {: .no_toc}
 
-IMPORTANT: We will be uploading the ***contents*** of the `Leaflet-webmapping` subfolder only. Not the entire folder. ***See below if you are uploading an entire folder, such as is the case when hosting a webmap made with qgis2web***.
+IMPORTANT: We will be uploading the ***contents*** of the `leaflet-webmapping` subfolder only. Not the entire folder. ***See below if you are uploading an entire folder, such as is the case when hosting a webmap made with qgis2web***.
 
 <!-- before uploading your webmap folder, delete the numbers trailing the name so that the folder is now named only `qgis2web`.  -->
 
-> - Drag and drop the ***contents*** of the `Leaflet-webmapping` subfolder. 
+> - Drag and drop the ***contents*** of the `leaflet-webmapping` subfolder. 
 
 <img src="./images/host3a.png" style="width:100%">
 <img src="./images/host3b.png" style="width:100%">
