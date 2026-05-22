@@ -5,9 +5,6 @@ nav_order: 5
 parent: Day 4
 ---
 
-ugh ill have to update this documention also 
-{: .warn}
-
 # Hosting a webmap with GitHub
 As is, your webmap is a folder of files on your computer. You can open it locally, but no one else can access it unless you send them the folder to download to their own computer. This is where web hosting platforms come in. If you upload this folder to a cloud service then you can make the map viewable in web browsers anywhere with internet connection (and no access restrictions). 
 
@@ -19,9 +16,8 @@ If you have a website and access to local server, that's an option too. However,
 4. Create an index file
 5. Generate a GitHub page
 
-Let's take this step by step...
+----
 
-<br>
 
 ## 1. Create a Github account
 {: .no_toc}
@@ -49,10 +45,10 @@ Once you've made an account, go to **Repositories**.
 > <img src="./images/host2.png" style="width:80%">
 
 
-## 3. Upload your webmap folder to your repository
+## 3. Upload files to your repository
 {: .no_toc}
 
-IMPORTANT: We will be uploading the ***contents*** of the `Leaflet-webmapping` subfolder only. 
+IMPORTANT: We will be uploading the ***contents*** of the `Leaflet-webmapping` subfolder only. Not the entire folder. ***See below if you are uploading an entire folder, such as is the case when hosting a webmap made with qgis2web***.
 
 <!-- before uploading your webmap folder, delete the numbers trailing the name so that the folder is now named only `qgis2web`.  -->
 
@@ -72,9 +68,9 @@ You should now see your file in your repository:
 <img src="./images/host4.png" style="width:100%">
 
 
-<br>
 
-## 4. Create index file
+
+## 4. Create an **`index.html`** file
 {: .no_toc}
 Since you can upload all sorts of files and code documents to GitHub, in order for it to render your map as the default landing page when you generate a website from this repository, we need to rename `boilerplate.html` to `index.html`. 
 
@@ -86,31 +82,33 @@ At the top, rename the file to `index.html`. BE SURE TO KEEP THE FILE EXTENSION 
 
 <img src="./images/host5b.png" style="width:100%">
 
-Then, **commit your changes** with the default message `Rename boilerplate.html to index.html`. Return to the code view of your repository by clicking `webmapping`. 
+Then, **commit your changes** with the default message `Renamed boilerplate.html to index.html`. Return to the code view of your repository by clicking `webmapping`. 
 
-<!-- Go to **Add file** and this time select **+Create new file**. Copy and paste the below code into the file:
+### NOTE: If your map already has an index file. 
+If your map is already contained in an index file, you'll have to *create a new, non-nested `index.html` file and embed your map inside it*. Create a new file, give it the name of `index.html`, and include the following code, adjusting for the appropriate filepath. Then commit. 
 
+
+Copy/Paste
+{: .label .label-purple }
 ```html
 <!DOCTYPE HTML>
 <head>
     <title>workshop webmap</title>
-    </head>
+</head>
 
 <body>
-<iframe src="./index.html" style="width:100%; height:700px; border:none;"></iframe>
+<iframe src="./qgis2webFOLDER-NAME/index.html" style="width:100%; height:700px; border:none;"></iframe>
 </body>
 </html>
 ``` 
 
-Give the file name `index.html` and commit.
--->
 
 
 <br>
 
-## 5. Make a Github page from the index file
+## 5. Run Github Pages
 {: .no_toc}
-[Github Pages](https://pages.github.com/) allow you to create a little website from a code repository. The non-nested index.html file of your repository will be the landing page of your site. I say non-nested because you have another index.html file inside your qgis2web folder. In the step above, we embedded this inside the main index.html file.
+[Github Pages](https://pages.github.com/) allow you to create a little website from a code repository. The highest level `index.html` file will be the landing page for your website. This is why it was important to rename our boilerplate to `index.html`, and also why it is important to create a new, non-nested `index.html` when uploading an entire folder. 
 
 To activate Github Pages, go to your repository's **Settings**. 
 
@@ -145,7 +143,9 @@ Click **visit site** to open the link in a new window.
 
 <img src="./images/host10.png" style="width:100%">
 
-One last step:
+<br>
+
+### One last step
 Copy the link and return to your repo code. In the **About** section at the top right, add this link so that visitors to your repository can also access your website. 
 
 
@@ -154,5 +154,4 @@ Copy the link and return to your repo code. In the **About** section at the top 
 
 <br>
 
-I just need to add note as to how you'd format the index file if uploading qgis project - or link to that page
-{: .warn}
+*Congratulations! Your webmap is now hosted and sharable!*
