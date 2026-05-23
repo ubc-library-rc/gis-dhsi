@@ -24,8 +24,7 @@ This map is from <em>Native Land Digital</em>. Please take a moment to explore [
 - [Mapping as tacit representations of the colonial gaze](https://read.uolpress.co.uk/read/mapping-crisis/section/6a57b97b-411f-425b-8ccd-091baa80625a){:target="_blank"}
 - [Whose Land](https://www.whose.land/en/about){:target="_blank"}
 - [Decolonizing maps is a process that addresses the biases, inaccuracies, and colonial perspectives inherent in many cartographic representations.](https://nitep.educ.ubc.ca/january-08-2024-decolonizing-maps-addresses-the-biases-inaccuracies-and-colonial-perspectives-inherent-in-many-cartographic-representations/){:target="_blank"}
+<!-- - [Place in Research: Theory, Methodology, and Methods](https://www.researchgate.net/publication/281831514_Place_in_Research_Theory_Methodology_and_Methods)
+- Indigenous in the City -->
 
 
-- that map - maine
-
-see xyz page for more on critical cartography
