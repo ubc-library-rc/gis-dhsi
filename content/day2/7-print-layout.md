@@ -7,10 +7,10 @@ parent: Reference Mapping
 # Create a map: Print Layout
 {: .no_toc}
 
-Once you are satisfied with your layer symbology, it’s time to create a **Print Layout**. A Print Layout in QGIS is like a drawing board where you add the map you created, as well as other elements like a north arrow, legend, scale bar, text boxes, and other marginalia. You can create multiple Print Layouts per QGIS project. By giving each Print Layout you make a unique name, and saving it (and your QGIS project) regularly, you can return to a Print Layout from the at any time (from the Project menu –> Layouts) and continue working.
+Once you are satisfied with your layer symbology, it’s time to create a **Print Layout**. A Print Layout in QGIS is like a drawing board where you add the map you created, as well as other elements like a north arrow, legend, scale bar, text boxes, and other marginalia. You can create multiple Print Layouts per QGIS project. By giving each Print Layout a unique name and saving it (and your QGIS project) regularly, you can return to a Print Layout at any time (from the Project menu –> Layouts) and continue working.
 
 
-See he QGIS User Guide here for a comprehensive introduction to the [QGIS Print Layout](https://docs.qgis.org/3.40/en/docs/training_manual/map_composer/map_composer.html).
+See the [QGIS User Guide](https://docs.qgis.org/3.44/en/docs/user_manual/index.html){:target="_blank"} here for a comprehensive introduction to the <a href="https://docs.qgis.org/3.44/en/docs/training_manual/map_composer/map_composer.html" target="_blank">QGIS Print Layout</a>.
 
 
 <details open markdown="block">
@@ -25,12 +25,15 @@ See he QGIS User Guide here for a comprehensive introduction to the [QGIS Print 
 
 ## Create a new Print Layout
 
-To Do
-{: .label .label-green } 
-Create a new **Print Layout** by going the Project menu, and down to "New Print Layout". Call it "Public Baths".
-<img src="./images/layout1.png" style="width:100%">
+<!-- To Do
+{: .label .label-green }  -->
+> Create a new **Print Layout** by going the Project menu, and down to "New Print Layout". Call it "Public Baths".
+
 Alternatively, you can click the Print Layout icon in the Toolbar. 
 <img src="./images/layout2.png" style="width:5%">
+
+<img src="./images/layout1.png" style="width:100%">
+
 
 This will open the **Print Layout** window. It looks quite similar to the main QGIS interface, so be careful not to edit the wrong thing. Notice, too, that once you've clicked into the Print Layout window, the menu at the top of your screen changes. 
 
@@ -44,9 +47,10 @@ To change the dimensions of the page, go to "Page Properties..." by right-clicki
 <img src="./images/layout4.png" style="width:100%">
 
 
-To Do
-{: .label .label-green }
-Let's set the page dimensions for today's map to be **A4**. And, let's change the orientation to **Portrait** to better accommodate the extend of our data. To change the dimensions, click the **Size** drop-down options and select "A4". 
+<!-- To Do
+{: .label .label-green } -->
+
+> Let's set the page dimensions for today's map to be **A4**. And, let's change the orientation to **Portrait** to better accommodate the extend of our data. To change the dimensions, click the **Size** drop-down options and select "A4". 
 
 <img src="./images/layout5.png" style="width:100%">
 
@@ -63,33 +67,43 @@ At minimum, apart from the map itself, a Print Layout should have a title, scale
 We can add items using the icons on the left-hand vertical toolbar, but I find these difficult to interpret. For this reason, I default to adding items from the **Add Items menu**. 
 
 
-<img src="./images/layout6.png" style="width:65%">
+<img src="./images/layout6.png" style="width:75%">
 
 
 *Note: If you don't see the Print Layout menu at the top of your screen, make sure you've clicked into Print Layout. If you click back into your main QGIS project, the menu at the top of your screen will change correspondingly.*
-<!-- 
 
-decide whether to make this full like [Reference Mapping documentation o](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on5.html)r abridged like [Thematic mapping documentation. ](https://ubc-library-rc.github.io/gis-thematic-mapping/content/hands-on6.html) -->
+<br>
 
 
-### 1. Add the map
+### **Add the map**
 First things first, let’s add the map we made to our Print Layout. Click on “Add Map” from the Add Items menu. Your curser should turn into a crosshair when hovered over the page whitespace. Drag diagonally across your Print Layout page, corner to corner.
 
 
 <img src="./images/layout7.png" style="width:100%">
 
-> You might have to adjust symbol and text size accordingly in the Layer Properties of `public-baths` in the main QGIS interface. Once done, you can click the refresh icon in your Print Layout view and the print layout will update. Click save to save your work thus far. 
-<img src="./images/refresh-icon.png" style="width:7%">
 
+You might have to adjust symbol and text size accordingly in the Layer Properties of `public-baths` in the main QGIS interface. Once done, you can click the refresh icon in your Print Layout view and the print layout will update. Click save to save your work thus far. <img src="./images/refresh-icon.png" style="width:5%; display:block">
 
 
 Once you add an item to your Print Layout, it will also show up in your **Items** list. The Items list is similar to your Layers Panel, but for the Print Layout. Click on any item in your Items list to view and modify its properties.
 
+See here for documentation on adding multiple maps to create [insets](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on10.html){:target="_blank"}.
+
+<!--would be cool if i could show how to add multiple maps - insets-->
+<br>
+
+### Adjust the map in Print Layout
+{: .no_toc}
+
+- <img src="./images/move-content-icon.png" style="width:7%">
+To move your map around within the frame itself, use the **Move item content** tool from the left-hand toolbar. 
+
+- <img src="./images/select-content-icon.png" style="width:7%">
+To select, resize, or move content like the map itself, use the **Move/Select item** tool.
 
 
-You’ll notice that Montreal might not take up the full page; in other words, it’s rather zoomed out. To zoom in, the most reliable method is simply to change its scale. We can do this from the **Item Properties**. You can activate an Item’s properties simply by clicking it in the Items list, and then looking at the Properties panel below it. Note: You’ll likely have to scroll to modify many of the properties, and resize your Items panel to reach the dropdowns.
+You’ll notice that Montréal might not take up the full page; in other words, it’s rather zoomed out. To zoom in, the most reliable method is simply to change its scale. We can do this from the **Item Properties**. You can activate an Item’s properties simply by clicking it in the Items list, and then looking at the Properties panel below it. Note: You’ll likely have to scroll to modify many of the properties, and resize your Items panel to reach the dropdowns.
 
-item map properties picture
 
 
 The scale number, `81153` in the demo screen, is the denominator in a fraction `1:81153`. This means 1 unit on the map represents `81,153`units in the real world. To zoom in, we want to reduce the denominator so that the fraction is a larger number, and 1 unit on the map corresponds to a smaller, more localized area in the real world. When in doubt, simply increase or decrease the scale number substantially to gauge which direction you need to go in. For this map, something like `45,000` should work.
@@ -100,19 +114,11 @@ The scale number, `81153` in the demo screen, is the denominator in a fraction `
 <img src="./images/layout9.png" style="width:100%">
 
 <br>
-
-
-- <img src="./images/move-content-icon.png" style="width:7%">
-To move your map around within the frame itself, use the **Move item content** tool from the left-hand toolbar. 
-
-- <img src="./images/select-content-icon.png" style="width:7%">
-To select, resize, or move content like the map itself, use the **Move/Select item** tool.
-
 <br>
 
 
 
-### 2. Add a scalebar
+###  **Add a scalebar**
 
 Now that we've set the scale of our map, let's add a scalebar to the Print Layout. Just like above, you can add a scalebar from the **Add Item** menu at the top of your screen. (Remember, if you don't see this menu bar, make sure you're clicked into the Print Layout window.) Again, to add the scalebar item to your Print Layout, draw a small rectangle with your cursor. 
 
@@ -137,9 +143,9 @@ To customize the symbology of your scalebar as well as its lettering, scroll dow
 
 <br>
 
-### 3. Add a north arrow
+### **Add a north arrow**
 
-Add a north arrow. 
+> Add a north arrow. 
 
 <img src="./images/layout11.png" style="width:100%">
 
@@ -160,26 +166,38 @@ There is also Magnetic North, which is Earth's magnetic pole and which shifts sl
 
 <br>
 
-### 4. Add a Title and Data Source.
+### **Add a Neatline**
+
+The border around your map frame is called a **neatline**. You can add a neatline by turning on the **Frame** option of your map item, and then styling it. Be sure to click back into your Map item in order to expose this item's properties. 
+
+<img src="./images/layout16.png" style="width:100%">
+
+<!-- Note - alighing map to horizontal and vertical center if need be.  -->
+
+<br>
+
+
+### **Add Text: Title, Data Source, Map Author**
 
 Although you can add a title and other labels to your map based on layer attributes in the main QGIS interface, you can also add individual text labels, including place names as well as titles and attributes/data sources to the Print Layout via the Add Labels item. 
 
-Go ahead and add a label for this map such as "Montreal's Historic Public Baths". To increase the font size and spacing, scroll down in the Item properties and click on Appearance. You can increase the spacing to stretch a title label across the extent of a feature. 
+Go ahead and add a label for this map such as "Montréal's Historic Public Baths". To increase the font size and spacing, scroll down in the Item properties and click on Appearance. You can increase the spacing to stretch a title label across the extent of a feature. 
 
 <img src="./images/layout12.png" style="width:100%">
 
 
-You can up the size, font, and color by going to FONT under the Appearance option. 
+You can up the size, font, and color by going to **FONT** under the **Appearance** option. 
 
 <img src="./images/layout12a.png" style="width:100%">
 
-You can click over to add a buffer. My go to when color mapping for screen is a semi transparent buffer in the same color as the background. 
+You can click over to add a buffer. 
+> Visual hierarchy tip: add a semi-transparent buffer around the title in the same color as the background. 
 
 <img src="./images/layout12b.png" style="width:100%">
 
 <br><br>
 
-At the bottom of your map, just above the neatline, it's customary to include the map author and data sources. This can be added as a label. The sources for this map are the City of Montreal and the Government of Canada, as well as Alex Alisauskas. 
+At the bottom of your map, just above the neatline, it's customary to include the map author and data sources. This can be added as a label. The sources for this map are the City of Montréal and the Government of Canada, as well as Alex Alisauskas. 
 
 
 <!-- 
@@ -193,19 +211,11 @@ All labels horizontal, with one exception for rivers and roadways which can foll
 
 <br>
 
-### 5. Add a Neatline
-
-The border around your map frame is called a **neatline**. You can add a neatline by turning on the **Frame** option of your map item, and then styling it. Be sure to click back into your Map item in order to expose this item's properties. 
-
-<img src="./images/layout16.png" style="width:100%">
-
-<!-- Note - alighing map to horizontal and vertical center if need be.  -->
-
-<br>
 
 
 
-### 6. Legend
+
+### **Add a Legend**
 We don't need a legend here but if you were to add one, you'd add it from the Add Items menu. 
 
 <img src="./images/layout17.png" style="width:100%">
@@ -233,6 +243,7 @@ When exporting as an image or PDF, you will be prompted to enter the resolution.
 <br>
 
 **Congratulations! You've just made a map!**
+
 
 Before you close your QGIS project, **save your Print Layout** and your Project too.
 
