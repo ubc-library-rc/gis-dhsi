@@ -109,6 +109,7 @@ discuss specific to digital humanities
 - [Find the drift](https://uploads.knightlab.com/storymapjs/b238a6d62c46c28699e948c1e9d7abc7/findthedrift/index.html) 
 <!-- - [Monitering Canada's deforestation](https://ca.nfis.org/ndms/ndms_overview_eng.html)  -->
 - [Ancient Rome in Chicago](https://s3.amazonaws.com/uploads.knightlab.com/storymapjs/783a09de8300e1b5f74b99b99acb08ef/ancient-rome-in-chicago/index.html) 
+- [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/) (*Click* on the arrow)
 
 #### Resources for working with Knightlab StoryMap
 {: .no_toc}

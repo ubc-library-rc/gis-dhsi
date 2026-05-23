@@ -9,9 +9,10 @@ has_children: true
 
 This morning's lesson will address the following:
 
-1. How to add a basemap to a QGIS project;
-2. Common vector tools useful in map making;
-3. Georeferencing.
+1. How to add a basemap to a QGIS project
+2. Common vector tools useful in map making
+3. Using Time Controller to display temporal events
+4. Georeferencing
 
 <!-- 3. Creating and editing spatial data (shapefiles, geojson.io; csv prep; geolocating); and -->
 

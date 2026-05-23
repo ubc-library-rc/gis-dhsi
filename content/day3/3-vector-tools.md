@@ -34,6 +34,8 @@ Remember, if you don't see the **Processing** menu at the top of your screen, yo
 ## Clip
 The first tool we'll use is **[Clip](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip)**, one of the most frequently used tools. Like a cookie cutter, Clip takes an Input layer (the cookie *dough*) and an Overlay layer (the cookie *cutter*), clipping the Input to the extent of the Overlay. 
 
+Clip helps identify a set of points from a larger dataset within a particular area. It is a useful tool for highlighting a particular smaller extent of your map and its features, or for clipping a certain area of interest or historical period etc. 
+
 Let's practice Clipping Transit Stops to Montréal. As we can see, there are a few stops outside the city limit as outlined by our current shapefile of Montréal. 
 
 <img src="./images/tools2.png" style="width:100%;">
@@ -57,16 +59,16 @@ Since we're just practicing, we can leave the output as a temporary layer. Remem
 <img src="./images/tools5.png" style="width:100%;">
 
 
-I need to finish this
-Clip is useful for xyz..... 
-Notice how you could clip - selected features etc. 
-{: .warn}
+
+
 
 <br>
 
 
 ## Buffer
-**[Buffer](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html)** is probably the second most used/useful tool. Like the name implies, buffer creates a new layer that buffers a distance around points, lines, or polygons, and includes the area of the feature(s) buffered. 
+**[Buffer](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html)** is probably the second most used/useful tool. Like the name implies, buffer creates a new layer that buffers a distance around points, lines, or polygons, and includes the area of the feature(s) buffered. Buffer is therefore useful for determining spatial proximity but defining a distance zone around features. For example, you could use Buffer areas prone to flooding around a water feature, or to determine a radio signal’s geographic influence or the area of a neighborhood disturbed by construction sounds.
+
+
 
 Find the Buffer tool under **Vector Geometry**.
 
@@ -79,7 +81,7 @@ Let's buffer `300 meters` around `Green Space`.
 
 <img src="./images/tools8.png" style="width:100%;">
 
-If you return to the Map Canvas, you can see there are distinct areas without many green spaces. More specifically, without green spaces in the dataset. If you toggle off the layers for Montréal and Provinces and zoom in, you'll see that while areas around the airport are indeed lacking greenspaces, there are greenspaces on Open Street Map not part of Montréal's Green Space dataset. (Reasons...)
+If you return to the Map Canvas, you can see there are distinct areas without many green spaces. More specifically, without green spaces in the dataset. If you toggle off the layers for Montréal and Provinces and zoom in, you'll see that while areas around the airport are indeed lacking green spaces, there are green spaces on Open Street Map not part of Montréal's Green Space dataset. 
 
 <img src="./images/tools9.png" style="width:100%;">
 
@@ -91,8 +93,7 @@ One more thing in Buffer to be aware of is the option to **Dissolve**. Currently
 
 <img src="./images/tools10.png" style="width:100%;">
 
-i need to write - why this is useful, and why buffer useful. can you think of ways/examples these tools are useful for DH research/map making??
-{: .warn}
+
 
 <!-- Buffer around mtl - could clip batch water.  -->
 
@@ -197,8 +198,8 @@ differentiate merge, dissolve, union
 
 > * Currently, our `Provinces` layer is very bulky. Let's create a shapefile of only Quebec by *selecting only provinces that **contain** the layer Montreal*.  
 
-we could think of a puzzle that uses other spatial operators
-{: .warn}
+<!-- we could think of a puzzle that uses other spatial operators
+{: .warn} -->
 
 <img src="./images/tools21.png" style="width:95%">
 
@@ -261,12 +262,12 @@ We must first **Reproject** the layer, giving it a PCS (projected coordinate sys
 <img src="./images/tools31.png" style="width:100%;">
 
 
-
+<!-- 
 (we can re create this with buffer and clip later, as a puzzle)
-{: .warn}
+{: .warn} -->
 
 
-
+<!-- 
 <br>
 
 
@@ -274,7 +275,7 @@ We must first **Reproject** the layer, giving it a PCS (projected coordinate sys
 {: .no_toc}
 
 i think already we wont get to all these tools. maybe we can have some quiet working time to work in groups through them? 
-{: .warn}
+{: .warn} -->
 
 
 

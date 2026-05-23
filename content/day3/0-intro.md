@@ -13,10 +13,10 @@ Today will cover two distinct topics: in the morning, we will return to QGIS to 
 #### **Morning Session** 9am - 12
 - How to add a basemap to a QGIS project
 - Common vector tools useful in map making
+- Using Time Controller to display temporal events
 - Georeferencing
 
 
-<br>
 
 #### **Afternoon Session** 1:30pm - 4pm
 - Creating multi-media Story Maps using the free version of [ArcGIS StoryMaps](https://storymaps.arcgis.com/), as well as its open-source alternate, [Knightlab StoryMap](https://storymap.knightlab.com/).
@@ -24,8 +24,7 @@ Today will cover two distinct topics: in the morning, we will return to QGIS to 
 
 <br>
 
-homework day before - take some pictures - use geo tool to track a walk???? or at lunch if needed! 
-{: .warn}
+
 
 
 

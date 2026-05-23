@@ -26,21 +26,21 @@ can you think of others?
 *Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
 
 
-show me historical map where i am example// prepare to demo other options, [David Rumsey Georeferencer](https://www.davidrumsey.com/view/georeferencer); allmaps/IIIF; show me historical map where i am example; considerations copyright etc. pick something that doesnt have allmaps link
+show me historical map where i am example// prepare to demo other options, [David Rumsey Georeferencer](https://www.davidrumsey.com/view/georeferencer){:target="_blank"}; allmaps/IIIF; show me historical map where i am example; considerations copyright etc. pick something that doesnt have allmaps link
 {: .warn}
 
 <br>
 
 (maybe move this to the resource page?? but could be good to have some examples here - and every day - of DH projects that use whatever we're talking about...)
 Here are some examples of and literature on Georeferencing in the Digital Humanities
-- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c)
-- [special issue](https://www.tandfonline.com/toc/wmgl20/9/1-2) in the Journal of Map & Geography Libraries on Working Digitally with Historical Maps. 
-- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2)
-- [resource tutorial](https://geospatialhistorian.wordpress.com/lessons/)
-- [Georeferencing in QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis)
-- [georeferencing in arcgis](https://geospatialhistorian.wordpress.com/lessons/arcgis-lesson-4-digitizing/)
-- [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis)
-- [intro to map warper ](https://programminghistorian.org/en/lessons/introduction-map-warper)
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
+- [special issue](https://www.tandfonline.com/toc/wmgl20/9/1-2){:target="_blank"} in the Journal of Map & Geography Libraries on Working Digitally with Historical Maps. 
+- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
+- [resource tutorial](https://geospatialhistorian.wordpress.com/lessons/){:target="_blank"}
+- [Georeferencing in QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis){:target="_blank"}
+- [georeferencing in arcgis](https://geospatialhistorian.wordpress.com/lessons/arcgis-lesson-4-digitizing/){:target="_blank"}
+- [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis){:target="_blank"}
+- [intro to map warper ](https://programminghistorian.org/en/lessons/introduction-map-warper){:target="_blank"}
 
 
 
@@ -64,9 +64,10 @@ Here are some examples of and literature on Georeferencing in the Digital Humani
 
 > * When Georeferencing with QGIS, you'll want to set the project projection to that which you want your georeferenced map to be in. We'll address CRSs more shortly. 
 
+<br>
 
 ### 1. Open Georeferencer
-If you drag and drop the map `Carte du Port 1914` into QGIS, nothing happens. This is because we need to open the QGIS **[Georeferencer](https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html)** tool. This can be found in the **Layer menu** at the top of your screen. 
+If you drag and drop the map `Carte du Port 1914` into QGIS, nothing happens. This is because we need to open the QGIS **[Georeferencer](https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html){:target="_blank"}** tool. This can be found in the **Layer menu** at the top of your screen. 
 
 <img src="./images/geo1.png" style="width:50%;">
 
@@ -78,6 +79,7 @@ If you drag and drop the map `Carte du Port 1914` into QGIS, nothing happens. Th
 The Georeferencer window has its own toolbar. Take a minute to hover over each icon to learn what they do. The Zoom and Pan buttons work the same as those on the main QGIS interface.
 
 
+<br>
 
 ### 2. Load Source Layer
 **Source Layer** is what the digitized map you want to georeference is called. Load `Carte du Port 1914` into the Georeferencer. 
@@ -101,6 +103,7 @@ You should now see the historical map loaded to the Georeferencer canvas.
 5. Layer, thus appending locative information to the Source Layer
 6. Assess error; Adjust; Save georeferenced image -->
 
+<br>
 
 ### 3. Set Transformation Settings
 **Transformation Settings** tell QGIS how to georeference the image. Open Transformation Settings by clicking the gear icon.
@@ -114,6 +117,8 @@ Select the following settings:
 
 > * The **Transformation type** determines how the pixels of your Source Layer are shifted so as to warp to match a projection. The Target CRS should be the project CRS (Coordinate Reference System) and the projection you wish to georeference your historical map in. QGIS should automatically save the output georeferenced image to the same folder as it currently is stored in and append “modified” to its file name. We’ll use **Nearest Neighbor** as our resampling method since we don’t want to assign new values to the image pixels.
 <!-- If this has not automatically occurred, save the output to the DHSI workshop folder for Day 3/Tools-and-workflows as `Carte-du-Port-1914_modified.tif` (or whichever map you are choosing to georeference). -->
+
+<br>
 
 ### 4. Add control points
 The points matched between the two layers are called **Ground Control Points (GCPs)**. When choosing a map to georeference (**Source Layer**) and geospatial reference layer(s) (**Target Layer**), it is important to ensure there are clear GCPs. GCPs may be physical geographic features, such as river bends, coastlines, or lake boundaries. GCPs may be infrastructural features such as the intersection of two roads or political boundaries or meridian lines. In any case, it is important to consider whether the geographic location of a potential GCP may have changed in the time since the historical map was rendered. These changes will matter more or less depending on the scale of the Source Layer. Most likely, your GCPs will be mix of features.
@@ -180,6 +185,7 @@ When you are happy with your georeferenced map, right-click the layer in your La
 <img src="./images/geo15.png" style="width:80%;">
 
 
+<br>
 
 ### Assessing Error
 In the Georeferencer Window table the column dX, dY and Residual refer to error. You may notice little red lines on your Source layer around the GCP point. These are the error vectors visualizing dX and dY. The longer the line, the greater the error. For this exercise, the error should be small and you can ignore the lines. If you get any really long ones, double check that your GCPs match. The error is likely the result of misplacing the GCP on your target layer.
