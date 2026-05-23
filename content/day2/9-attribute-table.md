@@ -26,7 +26,7 @@ If you haven't already, launch the `thematic-mapping.qgz` project in the folder 
 
 <br>
 
-> * To open a layer's attribute table, right-click the layer in the Layers Panel and go to "Open Attribute Table". **Open the Attribute Table for `census1881`.
+> To open a layer's attribute table, right-click the layer in the Layers Panel and go to "Open Attribute Table". **Open the Attribute Table for `census1881`**.
 
 <img src="./images/table2.png" style="width:100%">
 
@@ -43,7 +43,7 @@ Note that there are several attributes (columns) that describe each feature (row
 <img src="./images/table3.png" style="width:90%">
 
 <br>
-The column headings are called **Attributes**. Each column is called a **Field** and each row is called a **Feature**. Each feature corresponds to one point on your map. (If you were looking at the attribute table of `vanHoods`, each feature would correspond to a polygon, and so on.) At the top of the Attribute Table you can see there are 111,208 features, or census returns, in this dataset. Each feature, or person, has multiple attributes, including the `NOM_NAME` and `AGE`, `OCCUPATION` and `RELIGION`. Sometimes cell values will be `NULL` meaning the feature contains no information for a given value. For instance, not all individuals entered an occupation. 
+The column headings are called **Attributes**. Each column is called a **Field** and each row is called a **Feature**. Each feature corresponds to one point on your map. (If you were looking at the attribute table of `lots`, each feature would correspond to a polygon, and so on.) At the top of the Attribute Table you can see there are 111,208 features, or census returns, in this dataset. Each feature, or person, has multiple attributes, including the `NOM_NAME` and `AGE`, `OCCUPATION` and `RELIGION`. Sometimes cell values will be `NULL` meaning the feature contains no information for a given value. For instance, not all individuals entered an occupation. 
 
 
 
@@ -54,8 +54,8 @@ Notice that text values are left-justified whereas numerical values are right-ju
 
 
 You can order Features in descending or ascending order by clicking on the attribute. 
-- Click `AGE` to sort all Features from youngest to oldest. (Null will appear first; scroll past these to reach infants.) Click `AGE` again to sort from tallest to shortest. 
-- Click `OCCUPATION` to sort the trees in alphabetical order. 
+> - Click `AGE` to sort all Features from youngest to oldest. (Null will appear first; scroll past these to reach infants.) Click `AGE` again to sort from tallest to shortest. 
+> - Click `OCCUPATION` to sort the occupations in alphabetical order. 
 
 On the bottom-right hand corner there are two icons allowing you to toggle between "Table View" (your current view) and "Form View". Form view will show you a summary of all a feature's attributes. 
 
@@ -72,7 +72,7 @@ At the top of the Attribute Table you'll see some tools. Let's take a closer loo
 
 
 ## Selecting by Attribute
-Selections are different than using the **Identify tool** to highlight a feature and expose its attributes. Selections select a set of features in the Attribute Table. Once attributes are thus selected, you can edit them, export them, or perform more analysis. 
+Selections are different than using the Identify tool to highlight a feature and expose its attributes. Selections select a set of features in the Attribute Table. Once attributes are thus selected, you can edit them, export them, or perform more analysis. 
 
 There are many ways to make selections in QGIS. 
 - You may **manually select** features from the map canvas using the **Selection Toolbar** <img src="./images/selection-toolbar.png" style="width:30%; display:inline">;
@@ -87,7 +87,7 @@ There are many ways to make selections in QGIS.
 run selections for bakers from all 3 demographic layers, then from businesses to find bakeries???  -->
 
 
-We will be using historic data for Montreal to visualize the spatial distribution and density of French Canadians according to the 1881 census. So, we want to select just those identified as French Canadian from this dataset. There are a couple different ways we could run this query: we could select all individuals who have an origin listed as French (and derivatives such as xyz), or we could select those whose ethnicity `ETH` is french canadian (`FC` or `fc`). To make our lives simpler we will do the latter. 
+We will be using historic data for Montréal to visualize the spatial distribution and density of French Canadians according to the 1881 census. So, we want to select just those identified as French Canadian from this dataset. There are a couple different ways we could run this query: we could select all individuals who have an origin listed as French (and derivatives such as xyz), or we could select those whose ethnicity `ETH` is french canadian (`FC` or `fc`). To make our lives simpler we will do the latter. 
 
 
 *1*{: .circle .circle-yellow} From the Attribute Table of `census1881`, click on the **Select features using an expression** button.
@@ -165,7 +165,7 @@ Click Okay. The new layer should be created and automatically added with a new d
 <br>
 
 ## Count points in polygon 
-Since our goal is to create a thematic map that visualizes the spatial distribution of French Canadians in historic Montreal, we need to find out how many French Canadians filled out a census in each census tract.  While we could count up the many, *many* points by hand, this would take a long time and could introduce human error. Instead, we will use QGIS vector analysis tools to do the counting for us. Tomorrow we will go into more detail about tools and workflows in QGIS. Today we will use 2 tools: Count points in polygon and, later on for our proportional symbol map, Centroids. 
+Since our goal is to create a thematic map that visualizes the spatial distribution of French Canadians in historic Montréal, we need to find out how many French Canadians filled out a census in each census tract.  While we could count up the many, *many* points by hand, this would take a long time and could introduce human error. Instead, we will use QGIS vector analysis tools to do the counting for us. Tomorrow we will go into more detail about tools and workflows in QGIS. Today we will use 2 tools: Count points in polygon and, later on for our proportional symbol map, Centroids. 
 
 
 There are two main ways to access spatial analysis tools in QGIS: 1. through the **Vector** menu and 2. through the **Toolbox** located in the **Processing** menu.
@@ -178,7 +178,7 @@ If you don't see the **Processing** menu at the top of your screen, you may have
  
 
 
-*1*{: .circle .circle-yellow} In the Processing Toolbox, search for the QGIS tool called **Count points in polygons**. It will be nested under **Vector analysis**. This tool will count the number of points (French Canadians) in each polygon (Historic Montreal census tracts), and append the total to each census tract in `census_tracts` as a new attribute.
+*1*{: .circle .circle-yellow} In the Processing Toolbox, search for the QGIS tool called **Count points in polygons**. It will be nested under **Vector analysis**. This tool will count the number of points (French Canadians) in each polygon (Historic Montréal census tracts), and append the total to each census tract in `census_tracts` as a new attribute.
 
 In the tool window, select the following inputs:
 
@@ -266,7 +266,7 @@ To get the percent French Canadian population in each census tract, we need to c
 
 <br>
 
-*1*{: .circle .circle-yellow} Using Field Calculator to create and populate a new column constitutes editing the layer and the Attribute Table. As a safeguard against messing up your data, QGIS only allows editing when "Edit mode" is toggled on. You can toggle on edit mode either by right-clicking a layer in the layers panel, or directly from the Attribute Table by clicking the pencil icon. <img src="./images/edit-mode-icon.png" style="width:7%">
+*1*{: .circle .circle-yellow} Using Field Calculator to create and populate a new column constitutes editing the layer and the Attribute Table. As a safeguard against messing up your data, QGIS only allows editing when "Edit mode" is toggled on. You can toggle on edit mode either by right-clicking a layer in the layers panel, or directly from the Attribute Table by clicking the pencil icon. <img src="./images/edit-mode-icon.png" style="width:5%">
 
 <br>
 
@@ -277,7 +277,7 @@ Once you've toggled on editing mode, more tools will become available in the Att
 
 
 
-*2*{: .circle .circle-yellow} Open the **Field Calculator** by clicking on the abacus icon <img src="./images/edit-mode-icon.png" style="width:7%">. The Field Calculator window is similar in format to Select by Expression, but here we build an expression to populate a new or existing column. In Field Calculator, you can calculate the area of features, run mathematical operations between columns (as we will do), or update or reformat an existing column. 
+*2*{: .circle .circle-yellow} Open the **Field Calculator** by clicking on the abacus icon <img src="./images/edit-mode-icon.png" style="width:5%">. The Field Calculator window is similar in format to Select by Expression, but here we build an expression to populate a new or existing column. In Field Calculator, you can calculate the area of features, run mathematical operations between columns (as we will do), or update or reformat an existing column. 
 
 
 - We want to create a new field (but *not* a virtual one). 
@@ -293,12 +293,12 @@ Now, to build the expression, expand **Fields and Values** like before. Build an
 
 <br>
 
-Now click **OK** and return to the Attribute Table. You will see a new field.
+> Now click **OK** and return to the Attribute Table. You will see a new field.
 
 <br>
 
 
-*3*{: .circle .circle-yellow} Before moving on, you MUST save your edits and toggle *off* editing mode. First, click the <img src="./images/save-edits-icon.png" style="width:7%">, then click the pencil icon again. 
+*3*{: .circle .circle-yellow} Before moving on, you MUST save your edits and toggle *off* editing mode. First, click the <img src="./images/save-edits-icon.png" style="width:5%">, then click the pencil icon again. 
 
 <img src="./images/calculator3.png" style="width:100%">
 

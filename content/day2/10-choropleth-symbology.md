@@ -79,6 +79,4 @@ Then, click **Apply** to see your map change. Only after clicking **Classify** a
 
 ---
 
-Congratulations! You've made a choropleth map!
-
----
+***Congratulations! You've made a choropleth map!***

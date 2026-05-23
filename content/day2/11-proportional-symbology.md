@@ -13,10 +13,10 @@ Now, let's use symbols visualize total population in each census tract. The map 
 
 ----
 
-## 1. Convert polygons to points 
+## Convert polygons to points 
 You can make proportional symbol maps in QGIS simply by applying a **graduated symbology** to a *point layer*, where each point represents a standard geographic area *and contains the value of interest*. 
 
-*1*{: .circle .circle-yellow} In the **Processing Toolbox**, search for the tool called **Centroids**. It should be under **Vector Geometry**. 
+In the **Processing Toolbox**, search for the tool called **Centroids**. It should be under **Vector Geometry**. 
 
 Run the **Centroids** tool with the following parameters:
 
@@ -33,7 +33,9 @@ Run the **Centroids** tool with the following parameters:
 
 <br>
 
-*2*{: .circle .circle-yellow} If not automatically added to your map, load `total-pop`. Open the layer **Symbology**. 
+## Adjust Symbology to Graduated by Size
+
+If not automatically added to your map, load `total-pop`. Open the layer **Symbology**. 
 
 - Change the symbology type to **Graduated**.
 - Set the **Value** to `total-pop`.
@@ -58,5 +60,8 @@ Then, hit **Classify** and **Apply**. Then close the Properties window and retur
 
 <br>
 
-Again, this is messy but just to show workflow. 
+<!-- Again, this is messy but just to show workflow.  -->
+
+
+Bonus [heatmap tutorial](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on13.html)
 
