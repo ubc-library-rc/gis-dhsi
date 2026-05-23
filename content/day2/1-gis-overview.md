@@ -22,7 +22,7 @@ A Geographic Information System (GIS) works with data that is tied to a location
 3. **Infrastructure (management)** - Server and web resources that manage, curate, and distribute collections of spatial data. While Esri offers Server web services with ArcGIS Online, many [open source GIS servers](https://mapscaping.com/open-source-gis-servers/) are out there.  -->
 
 
-There are a variety of GIS available, some proprietary like Esri ArcGIS, and others free and open source like [OpenJUMP](http://www.openjump.org/), [GRASS](https://grass.osgeo.org/), and [QGIS](https://qgis.org/). [Free and open source software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software) means you can download and use it for free, as well as view and modify the software's source code. For this reason, this DHSI workshop will center free and open source software wherever possible. Any propriety tools and platforms introduced will be free to use. 
+There are a variety of GIS available, some proprietary like Esri ArcGIS, and others free and open source like [OpenJUMP](http://www.openjump.org/){:target="_blank"}, [GRASS](https://grass.osgeo.org/){:target="_blank"}, and [QGIS](https://qgis.org/){:target="_blank"}. [Free and open source software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"} means you can download and use it for free, as well as view and modify the software's source code. For this reason, this DHSI workshop will center free and open source software wherever possible. Any propriety tools and platforms introduced will be free to use. 
 
 
 
@@ -32,15 +32,15 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 
 <img src="./images/QGIS-logo.png" style="width:30%">
 
-[QGIS](https://qgis.org/) is a popular desktop GIS software, and considered a [free and open source software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software) with a very active developer community. 
+[QGIS](https://qgis.org/){:target="_blank"} is a popular desktop GIS software, and considered a [free and open source software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"} with a very active developer community. 
 
 ## QGIS Advantages  ⇡
 - QGIS is free and open source, meaning you can download it directly from the web to your personal computer and view its source code. 
 - QGIS runs on Windows, Mac, and Linux operating systems, meaning you don't need a specific kind of device to use it. (Some proprietary and costly software, such as ArcGIS, only runs on Windows.) 
-- QGIS has extensive online documentation, including a comprehensive official [User Guide](https://docs.qgis.org/3.40/en/docs/user_manual/index.html) *and* [Training Manual](https://docs.qgis.org/3.40/en/docs/training_manual/index.html). 
-- QGIS has an active development and user communities, meaning people are constantly posing and answering questions on platforms such as Reddit,  StackExchange, and YouTube. This makes troubleshooting a whole lot easier. There is also an annual [QGIS User Conference](https://uc2026.qgis.org/activities/)!
+- QGIS has extensive online documentation, including a comprehensive official [User Guide](https://docs.qgis.org/3.40/en/docs/user_manual/index.html){:target="_blank"} *and* [Training Manual](https://docs.qgis.org/3.40/en/docs/training_manual/index.html){:target="_blank"}. 
+- QGIS has an active development and user communities, meaning people are constantly posing and answering questions on platforms such as Reddit,  StackExchange, and YouTube. This makes troubleshooting a whole lot easier. There is also an annual [QGIS User Conference](https://uc2026.qgis.org/activities/){:target="_blank"}!
 - QGIS has an intuitive and customizable interface. While navigating any new application can be overwhelming, QGIS has a lot less going on visually than ArcGIS Pro making it quite a good starting place for  newcomers to GIS. 
-- QGIS has a robust [plugin](https://plugins.qgis.org/) repository for extended functionality. This means the application you download to begin with doesn't contain every single tool available, just the necessary and commonly used ones. 
+- QGIS has a robust [plugin](https://plugins.qgis.org/){:target="_blank"} repository for extended functionality. This means the application you download to begin with doesn't contain every single tool available, just the necessary and commonly used ones. 
 
 <!-- Additionally, its active user community means there are numerous YouTube and internet resources/tutorials created by users like you.  -->
 

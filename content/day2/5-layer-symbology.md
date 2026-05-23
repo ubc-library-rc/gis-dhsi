@@ -9,7 +9,7 @@ parent: Reference Mapping
 
 Just as the QGIS Project had Project Properties, each layer has properties of its own. To view a layer's properties, right-click the layer in the Layers Panel and go to "Properties..." at the bottom. We won't cover all the project properties today, but notice you can learn more about each layer here, including where it's stored on your computer and its CRS, including its projection. 
 
-**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black & White. Keep this in mind. For now, we'll map in color. See the [QGIS Lesson on Symbology](https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/symbology.html) for more.
+**Symbology** governs the outline and color fill of points, lines, and polygons. Depending on the audience and publisher of your reference map, you might have constraints such as Black & White. Keep this in mind. For now, we'll map in color. See the [QGIS Lesson on Symbology](https://docs.qgis.org/3.44/en/docs/training_manual/basic_map/symbology.html){:target="_blank"} for more.
 
 
 
@@ -226,9 +226,9 @@ function showSlides(n) {
  
 
 
-> [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) is a fantastic resource for generating customized color palettes. 
+> [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3){:target="_blank"} is a fantastic resource for generating customized color palettes. 
 
-> Remember that a lot comes down to subjective decisions and color is perceived differently by everyone. What's more, it's important to consider coloring for colorblindness so that individual elements can be distinguished by people who are colorblind. See the website [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40) for colorblind-friendly palettes. 
+> Remember that a lot comes down to subjective decisions and color is perceived differently by everyone. What's more, it's important to consider coloring for colorblindness so that individual elements can be distinguished by people who are colorblind. See the website [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40{:target="_blank"} for colorblind-friendly palettes. 
 
 
 
@@ -374,11 +374,11 @@ While there is more to Visual Hierarchy, that is enough to get you started. Take
 
 #### Other resources for Visual Hierarchy
 {: .no_toc}
-- [GIS&T Body of Knowledge](https://gistbok-topics.ucgis.org/CV-03-007)  on Visual Hierarchy
-- [Axis Maps guide to Lettering](https://www.axismaps.com/guide/labeling)
-- Book chapter on [Cartographic design process](https://colorado.pressbooks.pub/makingmaps/chapter/cartographic-design-process/)
-- [The Routledge Handbook of Mapping and Cartography](https://www.taylorfrancis.com/books/edit/10.4324/9781315736822/routledge-handbook-mapping-cartography-alexander-kent-peter-vujakovic) (Search it via UBC Library for free online access as UBC student, staff, or faculty)
-- [CartoGIS Lesson on Visual Hierarchy](https://cartogis.readthedocs.io/en/latest/lectures/Lecture-2.html)
-- [Color in cartographic symbolization](https://mgimond.github.io/Spatial/symbolizing-features.html)
-- [9 Tips for Visual Hierarchy](https://www.maplibrary.org/1362/visual-hierarchy-in-complex-maps-techniques-and-tips/)
+- [GIS&T Body of Knowledge](https://gistbok-topics.ucgis.org/CV-03-007){:target="_blank"}  on Visual Hierarchy
+- [Axis Maps guide to Lettering](https://www.axismaps.com/guide/labeling){:target="_blank"}
+- Book chapter on [Cartographic design process](https://colorado.pressbooks.pub/makingmaps/chapter/cartographic-design-process/){:target="_blank"}
+- [The Routledge Handbook of Mapping and Cartography](https://www.taylorfrancis.com/books/edit/10.4324/9781315736822/routledge-handbook-mapping-cartography-alexander-kent-peter-vujakovic){:target="_blank"} (Search it via UBC Library for free online access as UBC student, staff, or faculty)
+- [CartoGIS Lesson on Visual Hierarchy](https://cartogis.readthedocs.io/en/latest/lectures/Lecture-2.html){:target="_blank"}
+- [Color in cartographic symbolization](https://mgimond.github.io/Spatial/symbolizing-features.html){:target="_blank"}
+- [9 Tips for Visual Hierarchy](https://www.maplibrary.org/1362/visual-hierarchy-in-complex-maps-techniques-and-tips/){:target="_blank"}
 
