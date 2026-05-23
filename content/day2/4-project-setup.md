@@ -105,13 +105,6 @@ There are a couple ways to add data to your map canvas:
 - **Drag and drop** files from your data folder directly onto your map canvas. This method is not recommended as it can easily lead to data disorganization. >>> see what it looks like Data - discussed previously. 
 
 
-<!-- This is what folder looks like from folder view. remember, `.shp` file what we want.  -->
-
- 
-
-<!-- - note on file and folder naming - part of the process! -->
-
-
 To Do
 {: .label .label-green }
 
@@ -161,6 +154,8 @@ Tabular data stored in CSV (comma separated value) files can be uploaded to a GI
 
 >  Now return to **Geometry Definition**. Ensure the X field is set to longitude and the Y field is set to latitude. This may seem counter intuitive, but consider what values change as you move towards the north or south pole. As you move up or down towards the north or south pole — in other words, as you change along the Y-axis — you are changing latitudes. If you move east to west around the globe - constituting change in the X-axis direction - you are changing longitude.
 
+> Scroll down and set the `Date opened` field to **Date data** format.
+
 <img src="./images/setup10.png" style="width:100%">
 
 <br>
@@ -170,10 +165,6 @@ Tabular data stored in CSV (comma separated value) files can be uploaded to a GI
 >  **Zoom-to** the new layer.  
 
 <img src="./images/setup11.png" style="width:100%">
-
-
-
-
 
 
 
@@ -189,7 +180,7 @@ Your data isn't saved _inside_ your QGIS project. Rather, the *filepath connecti
 - <img src="./images/setupa.png" style="width:34%"> Take a moment to zoom in and out using the **Magnification tools** in your **Toolbar**.  
 
 
-- <img src="./images/setupb.png" style="width:7%;"> Use the **Identify tool** to look up xyz of xyz. To use the Identify tool, click the tool icon in the **Toolbar**, then click on any neighborhood polygon. 
+- <img src="./images/setupb.png" style="width:7%;">To use the Identify tool, click the tool icon in the **Toolbar**, then, with the layer of interested highlighted in your Layers Panel, click on any feature. This will pull up the tabular data associated with that feature (the "row" in the Attribute Table). Use the **Identify tool** to look up the neighborhood names of the layer for Montréal. 
 
 - <img src="./images/setupc.png" style="width:7%"> To stop the Identify tool, close the pop-up window and click the **Pan tool**.
 
@@ -243,7 +234,7 @@ For more on Coordinate Reference Systems, see [here](https://ubc-library-rc.gith
 ## Managing Layers
 Although this map has only a handful of layers, some projects require you to juggle more than 10 layers. Having strategies to stay organized is therefore important. Additionally, layers that cover the entire earth are quite large and require lots of processing power to load anew each time you pan and zoom around your map canvas. Best practice is therefore to "hide" or "turn off" layers you aren't using so as not to slow your computer down. Below are some tips to stay organized.
 
-- **Rendering order** Note that we added layers to our project in a very specific order. This is because QGIS will render layers from the top down, meaning the layers to the top of your Layers Panel list will sit above the layers below. We added the aerial photo last so it could bee seen above the other layers. You can reorder your layers at any time by dragging them up or down. 
+- **Rendering order** Note that we added layers to our project in a very specific order. This is because QGIS will render layers from the top down, meaning the layers to the top of your Layers Panel list will sit above the layers below. We added the provinces layer first so it wouldn't cover up all subsequent layers. You can reorder your layers at any time by dragging them up or down. 
 
      > Drag `public-baths` to the bottom of your layers. See how it disappears? Now drag it all the way to the top. 
      > Drag green spaces just below it. 
@@ -271,7 +262,7 @@ Although this map has only a handful of layers, some projects require you to jug
 - **Grouping Layers**  If you're ever working with numerous layers, you can create layer groups through the group icon or by right-clicking anywhere that's empty in the Layers Panel and selecting "Add Group". Once you've added and named a group, you can drag layers into it. You can move layers out of a group at any time, and right-click the group to remove or rename it. Each layers group will have its own visibility checkbox, meaning that even as you set the visibility for each individual layer within the group, only by rendering the group itself visible will any of its nested layers appear on your screen. 
 
 
-> Practice creating a group for all water features and moving them into it. Drag group up to the top just below public baths. 
+> Practice creating a group for all water features and moving them into it. Drag group up to the top just below `public-baths`. 
 
  <img src="./images/setup16.png" style="width:50%">
    

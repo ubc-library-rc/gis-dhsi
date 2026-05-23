@@ -6,7 +6,7 @@ parent: Day 2
 ---
 # Geographic Information Systems (GIS)
 
-**GIS** is an abbreviation for **G**eographic **I**nformation **S**ystem. A nice description of GIS that provides a bit of relevancy comes from QGIS's [*A Gentle Introduction to GIS*](https://docs.qgis.org/3.10/en/docs/gentle_gis_introduction/introducing_gis.html):
+**GIS** is an abbreviation for **G**eographic **I**nformation **S**ystem. A nice description of GIS that provides a bit of relevancy comes from QGIS's <a href="https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/introducing_gis.html" target="_blank">*A Gentle Introduction to GIS*</a>:
 
   >*Just as we use a word processor to write documents and deal with words on a computer, we can use a GIS application to deal with spatial information on a computer*
 
@@ -32,7 +32,7 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 
 <img src="./images/QGIS-logo.png" style="width:30%">
 
-[QGIS](https://qgis.org/) is a popular desktop GIS software, and considered a free and open source software (FOSS) with a very active developer community. Take a moment to browse their website.
+[QGIS](https://qgis.org/) is a popular desktop GIS software, and considered a [free and open source software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software) with a very active developer community. 
 
 ## QGIS Advantages  ⇡
 - QGIS is free and open source, meaning you can download it directly from the web to your personal computer and view its source code. 
@@ -53,3 +53,4 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 
 
 
+<!-- Whereas yesterday you learned about spatial data and where to find it, today you'll practice gathering, loading, and symbolizing spatial data. -->
