@@ -193,8 +193,9 @@ In the Georeferencer Window table the column dX, dY and Residual refer to error.
 
 
 #### Georeferencing Resources
-- [Georeferencing Historical Maps with QGIS](https://ubc-library-rc.github.io/gis-georeferencing/)
-- [Georeferencing with KnightLab](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
+- [Georeferencing Historical Maps with QGIS](https://ubc-library-rc.github.io/gis-georeferencing/){:target="_blank"}
+- [Georeferencing with KnightLab](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js){:target="_blank"}
+- [Georeferencing Tutorial by GeoRealm](https://www.geographyrealm.com/georeference-map-qgis/){:target="_blank"}
 
 
 
