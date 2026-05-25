@@ -310,5 +310,10 @@ You are now setup to begin mapping! Be sure to **SAVE YOUR PROJECT** before cont
 
 
 
+#### Resources for Project Setup
+- [QGIS GUI comprehensive documentation](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#qgis-gui)
+- [QGIS Configuration](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#)
+- [QGIS Project Properties](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#project-properties)
+
 
 

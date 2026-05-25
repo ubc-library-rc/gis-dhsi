@@ -23,3 +23,7 @@ In what follows you will be guided through gathering data, adding your data to a
 <img src="./images/baths-map2.png" style="width:60%">
 
 
+<br><Br>
+
+#### Resources for Reference Mapping
+- Want to go through this tutorial again but with different example data? Check out UBC Library's [Mapping for Academic Publication (Reference Mapping)](https://ubc-library-rc.github.io/gis-reference-mapping/) workshop. 

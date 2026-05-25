@@ -50,6 +50,16 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 - Troubleshooting often amounts to searching the web, though this is an important skill to have as a cartographer. 
 - Performing more elaborate analysis workflows in QGIS requires more expertise, while in ArcGIS, tools and documentation for such work can be more user-friendly.
 
+#### QGIS Resources 
+{: .no_toc} 
+QGIS itself has extensive online documentation, including a robust [User Guide](https://docs.qgis.org/3.44/en/docs/user_manual/index.html) *and* [Training Manual](https://docs.qgis.org/3.44/en/docs/training_manual/index.html). 
+    
+QGIS also has a vibrant user community, with answers to nearly any question you might have only a web search away. Many helpful tutorial demonstrations can be found on Youtube. For instance, [CWU Geography](https://www.youtube.com/@cwugeography3290) offers especially clear and helpful content, but there are many, many others. 
+
+The best way to learn QGIS is through the experience that comes with hands-on practice. QGIS has with a medium learning curve, especially if you’ve never used a GIS before. However, don’t let this dissuade you! The abundance of QGIS-official and unofficial documentation means you can tailer your learning experience to your interests and the specific needs of your project.
+
+
+
 
 
 

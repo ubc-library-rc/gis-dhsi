@@ -64,4 +64,6 @@ Then, hit **Classify** and **Apply**. Then close the Properties window and retur
 
 
 Bonus [heatmap tutorial](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on13.html)
+[Cartograms](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on14.html) 
 
+- Another UBC Research Common's [tutorial on Proportional Symbol Mapping](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on12.html){:target="_blank"}, including guide to sizing proportional symbols by hand in an illustration software

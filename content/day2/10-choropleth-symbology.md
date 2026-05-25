@@ -80,3 +80,9 @@ Then, click **Apply** to see your map change. Only after clicking **Classify** a
 ---
 
 ***Congratulations! You've made a choropleth map!***
+
+
+#### Resources for Choropleth Mapping
+- [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
+-  [Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/)
+[Axis Map's guide to Data Classification](https://www.axismaps.com/guide/data-classification){:target="_blank"}

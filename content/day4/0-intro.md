@@ -29,7 +29,7 @@ Hands on activity 1 - small groups assigned different datasets to map using eith
 
 #### **Afternoon Session** 1:30pm - 4pm
 - The Anatomy of a Webmap
-- Hands on with Leaflet
+- Hands on with [Leaflet](https://leafletjs.com/)
 - Hosting your webmap online with [GitHub](https://github.com/) 
 
 
@@ -96,13 +96,8 @@ The QGIS Project includes province (and water features?), data from government o
 
 
 
-<!-- #### Supplementary Readings and Example DH Projects
+#### Resources and Examples for Webmapping in DH Research
 - [Designing for discovery: using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html)
 - [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c)
-- [Mapping Prejudice](https://mappingprejudice.umn.edu/)
+- The [Mapping Prejudice Project](https://mappingprejudice.umn.edu/)
 
-
-#### Other Resources
-
-im beginning to think we should just add resources to the intro pages of each day....
-{: .warn} -->
