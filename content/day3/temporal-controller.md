@@ -6,3 +6,6 @@ parent: Tools and Workflows in QGIS
 ---
 # Creating a Temporal Controller
 {: .no_toc}
+
+Description and use case.
+{: .warn}
