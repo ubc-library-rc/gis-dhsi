@@ -7,14 +7,17 @@ parent: Story Maps
 # Create a Web Map with ArcGIS Online 
 {: .no_toc}
 
-i ported the content in as all one page but i can absolutely break it up just like it is in the [og website](https://ubc-library-rc.github.io/gis-storymaps/content/create-a-webmap.html)... lmk what makes the most sense for teaching/demo-ing 
-{: .warn}
+<!-- i ported the content in as all one page but i can absolutely break it up just like it is in the [og website](https://ubc-library-rc.github.io/gis-storymaps/content/create-a-webmap.html)... lmk what makes the most sense for teaching/demo-ing 
+{: .warn} -->
 
 An ArcGIS web map is an interactive display of geographic information that you can use to tell stories and answer questions. If you want to include any dynamic maps that include layer data in your StoryMap, you will need to create it through ArcGIS Online first. 
 
 Note that the public account and organization account have different user interfaces and functions. The public account does not have access to some functions, including any spatial analysis tools.
 
 <br>
+
+The following documentation uses data on Vancouver commuters. This data can be found in the folder `dhsi-workshop/Day3/storymaps/`. However, inside that folder you will also find data on [public pools from the City of Montréal](https://donnees.montreal.ca/en/dataset/piscines-municipales){:target="_blank"}. You are encouraged to practice mapping using this data. 
+{: .note}
 
 
 <details open markdown="block">
@@ -48,7 +51,7 @@ Today we will work with commuter data from the city of Vancouver. Adding data re
 <br>
 
 ## Find Data 
-The [Vancouver Open Data Portal](https://opendata.vancouver.ca/pages/home/) is an excellent source for a variety of municipal data, including geographic data layers such as points, lines and polygons (vector data), and aerial imagery (raster data). 
+<!-- The [Vancouver Open Data Portal](https://opendata.vancouver.ca/pages/home/) is an excellent source for a variety of municipal data, including geographic data layers such as points, lines and polygons (vector data), and aerial imagery (raster data).  -->
 
 As long as the data you are looking at has a geographic element, you can download it. When downloading from the "Export" tab, make sure to download it as a **GeoJSON** file. This will ensure we can add it as a layer to your ArcGIS Online webmap. 
 
@@ -60,7 +63,7 @@ In the sidebar menu of your ArcGIS Online map, click on **Layers**, then on clic
 
 To Do
 {: .label .label-purple}
-You will find the sample data for this workshop already prepared for you in the workshop folder in the subfolder `geospatial-data`. Take a moment to add each file as a layer to your ArcGIS Online webmap and play around with features.
+You will find the sample data for this workshop already prepared for you in `dhsi-workshop/Day3/storymaps`. Take a moment to add each file as a layer to your ArcGIS Online webmap and play around with features.
 
 > - `Vancouver_Commuter_2016.geojson` is a polygon layer with commuter data from the 2016 census joined to local area boundaries (aka neighborhoods).
 
