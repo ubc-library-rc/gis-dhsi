@@ -18,7 +18,7 @@ If you look inside the `dhsi-workshop/Day2` folder you'll see subfolders for bot
 
 
 ## Montréal's Historic Public Bath Houses
-Our data layer will be <a href="https://docs.google.com/spreadsheets/d/11GN2Al7_QNFpcOxBhjVXv0KuP-yv44F1zQZ1KxIE7EM/edit?gid=0#gid=0" target="_blank">Montréal's Historic Public Bath Houses</a>, a dataset created by Alex Alisauskas. Recalling yesterday's discussion of vector data formatting, Alex will now introduce the dataset and explain her process and considerations for making it. Then, she will guide us in exporting it as a `.csv` file called `public-baths`. 
+Our data layer will be <a href="https://docs.google.com/spreadsheets/d/11GN2Al7_QNFpcOxBhjVXv0KuP-yv44F1zQZ1KxIE7EM/edit?usp=sharing" target="_blank">Montréal's Historic Public Bath Houses</a>, a dataset created by Alex Alisauskas. Recalling yesterday's discussion of vector data formatting, Alex will now introduce the dataset and explain her process and considerations for making it. Then, she will guide us in exporting it as a `.csv` file called `public-baths`. 
 
 
 
