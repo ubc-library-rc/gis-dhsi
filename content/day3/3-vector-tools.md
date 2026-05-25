@@ -20,7 +20,7 @@ This page will introduce some common **vector tools** and spatial analysis workf
 </details>
 
 
-As you saw yesterday, vector tools can be searched for in the **Processing [Toolbox](https://docs.qgis.org/3.44/en/docs/user_manual/processing/toolbox.html)**. They can also be accessed from the **Vector menu** at the top of your screen, and are grouped by task: Geoprocessing, Geometry, Analysis, Research, and Data Management. For today, let's open the **Toolbox** back up and use it to search for tools common to map making. 
+As you saw yesterday, vector tools can be searched for in the **Processing [Toolbox](https://docs.qgis.org/3.44/en/docs/user_manual/processing/toolbox.html){:target="_blank"}**. They can also be accessed from the **Vector menu** at the top of your screen, and are grouped by task: Geoprocessing, Geometry, Analysis, Research, and Data Management. For today, let's open the **Toolbox** back up and use it to search for tools common to map making. 
 
 <img src="./images/tools1.png" style="width:100%">
 
@@ -32,7 +32,7 @@ Remember, if you don't see the **Processing** menu at the top of your screen, yo
 
 
 ## Clip
-The first tool we'll use is **[Clip](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip)**, one of the most frequently used tools. Like a cookie cutter, Clip takes an Input layer (the cookie *dough*) and an Overlay layer (the cookie *cutter*), clipping the Input to the extent of the Overlay. 
+The first tool we'll use is **[Clip](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip){:target="_blank"}**, one of the most frequently used tools. Like a cookie cutter, Clip takes an Input layer (the cookie *dough*) and an Overlay layer (the cookie *cutter*), clipping the Input to the extent of the Overlay. 
 
 Clip helps identify a set of points from a larger dataset within a particular area. It is a useful tool for highlighting a particular smaller extent of your map and its features, or for clipping a certain area of interest or historical period etc. 
 
@@ -66,7 +66,7 @@ Since we're just practicing, we can leave the output as a temporary layer. Remem
 
 
 ## Buffer
-**[Buffer](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html)** is probably the second most used/useful tool. Like the name implies, buffer creates a new layer that buffers a distance around points, lines, or polygons, and includes the area of the feature(s) buffered. Buffer is therefore useful for determining spatial proximity but defining a distance zone around features. For example, you could use Buffer areas prone to flooding around a water feature, or to determine a radio signal’s geographic influence or the area of a neighborhood disturbed by construction sounds.
+**[Buffer](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html){:target="_blank"}** is probably the second most used/useful tool. Like the name implies, buffer creates a new layer that buffers a distance around points, lines, or polygons, and includes the area of the feature(s) buffered. Buffer is therefore useful for determining spatial proximity but defining a distance zone around features. For example, you could use Buffer areas prone to flooding around a water feature, or to determine a radio signal’s geographic influence or the area of a neighborhood disturbed by construction sounds.
 
 
 
@@ -104,7 +104,7 @@ One more thing in Buffer to be aware of is the option to **Dissolve**. Currently
 
 
 ## Difference
-**[Difference](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#difference)** is like a spatial subtraction. Again, it will create a new layer so you don't have to worry about permanently altering your existing data (the correlate tool in ArcGIS, Erase, does just that). 
+**[Difference](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#difference){:target="_blank"}** is like a spatial subtraction. Again, it will create a new layer so you don't have to worry about permanently altering your existing data (the correlate tool in ArcGIS, Erase, does just that). 
 
 > * Zoom in to the Lachine Canal. 
 > * Toggle on and off the 1st grouped Water Feature layer called `CARTO_DRA_BASSIN`. 
@@ -129,7 +129,7 @@ Open the **Difference** tool under Vector Overlay.
 
 
 ## Dissolve 
-**[Dissolve](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve)** takes multiple features within 1 layer and dissolves the boundaries between them. As it stands, the shapefile for Montréal has 34 distinct neighborhoods. When symbolizing the layer for our reference map earlier, we were unable to get rid of these lines. Perhaps you don't want these lines visible. Dissolve will remove the differentiation; *however, as an important caveat, the resulting layer will no longer have 34 distinct features in the attribute table*. 
+**[Dissolve](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve){:target="_blank"}** takes multiple features within 1 layer and dissolves the boundaries between them. As it stands, the shapefile for Montréal has 34 distinct neighborhoods. When symbolizing the layer for our reference map earlier, we were unable to get rid of these lines. Perhaps you don't want these lines visible. Dissolve will remove the differentiation; *however, as an important caveat, the resulting layer will no longer have 34 distinct features in the attribute table*. 
 
 > * Open the **Dissolve** tool under **Vector geometry**
 
@@ -150,7 +150,7 @@ Open the **Difference** tool under Vector Overlay.
 
 
 ## Merge
-Writes QGIS: **[Merge](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#merge-vector-layers)** "Combines multiple vector layers of the same geometry type into a single one." 
+Writes QGIS: **[Merge](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#merge-vector-layers){:target="_blank"}** "Combines multiple vector layers of the same geometry type into a single one." 
 
 Merge can be a useful tool to manage your data. For example, we currently have 3 layers grouped together visualizing water features. To make life easier, we could just merge them all together. 
 
@@ -192,7 +192,7 @@ differentiate merge, dissolve, union
 
 
 ## Select by location
-**[Select by location](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-by-location)** allows you to select features in 1 layer based on their spatial relationship with those in another layer using various spatial operators. 
+**[Select by location](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-by-location){:target="_blank"}** allows you to select features in 1 layer based on their spatial relationship with those in another layer using various spatial operators. 
 
 <img src="./images/tools20.png" style="width:50%">
 
@@ -223,7 +223,7 @@ Note that we could have easily just selected Quebec from `Provinces` by using th
 <br>
 
 ## Select within distance
-Slightly different than the above tool, **[Select within distance](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-within-distance)** "creates a selection in a vector layer. Features are selected wherever they are within the specified maximum distance from the features in an additional reference layer" (QGIS). 
+Slightly different than the above tool, **[Select within distance](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-within-distance){:target="_blank"}** "creates a selection in a vector layer. Features are selected wherever they are within the specified maximum distance from the features in an additional reference layer" (QGIS). 
 
 <img src="./images/tools25.png" style="width:50%">
 
@@ -323,9 +323,10 @@ missed - calculate area (parks, eg) - did whole thing in thematic mapping about 
 ----
 
 #### QGIS Documentation Resources
-- [Vector Spatial Analysis with Buffers](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html)
-- [Vector Overlay](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html)
-- [Vector Selections](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#vector-selection)
-- [Lesson on Spatial Queries](https://docs.qgis.org/3.44/en/docs/training_manual/spatial_databases/spatial_queries.html)
-- [Advanced Vector Analysis](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html)
+{: .no_toc}
+- [Vector Spatial Analysis with Buffers](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html){:target="_blank"}
+- [Vector Overlay](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html){:target="_blank"}
+- [Vector Selections](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#vector-selection){:target="_blank"}
+- [Lesson on Spatial Queries](https://docs.qgis.org/3.44/en/docs/training_manual/spatial_databases/spatial_queries.html){:target="_blank"}
+- [Advanced Vector Analysis](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html){:target="_blank"}
 
