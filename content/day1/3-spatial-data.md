@@ -3,7 +3,6 @@ layout: default
 title: What is Spatial Data?
 nav_order: 3
 parent: Day 1
-has_children: true
 ---
 # What is Spatial Data?
 
@@ -29,6 +28,7 @@ There are 2 main types of spatial data: **vector** and **raster**. **Raster data
 
 
 ### Vector Data
+{: .no_toc}
 Each vector dataset will contain *either* points, lines, or polygons. However, a dataset can include multiple features (multiple points, *or* multiple lines, *or* multiple polygons). For example, below are a handful of vector datasets, including Vancouver neighborhoods (polygons), city blocks (polygons), restaurants (points) and streets (lines). A Geographic Information System (GIS) allows you to add multiple datasets, layering them on top of each other in order to run calculations between them to answer spatial questions. For instance, in a GIS, you could load in the below datasets and then use vector analysis tools to learn how many restaurants are within a 5 kilometer radius of a given city block, or the square area of each neighborhood.
 
 <img src="./images/vector-data-ex1.png" style="width:48%"> 
@@ -47,6 +47,7 @@ Each vector dataset will contain *either* points, lines, or polygons. However, a
 
 
 ### Raster Data
+{: .no_toc}
 Rasters, on the other hand, can generally only store one value per pixel. This value could be a color representing different kinds of topography (think of the whites, greens, and browns representing different elevations in the image below) or the quantity of something like rainfall, temperature, or distance. Multiple rasters *can* be overlaid to generate a multi-part raster, but generally, each pixel of a single raster can store one value meaning your raster is showing one variable. You can also do math between raster layers, or run boolean operations to isolate all pixels that do or do not meet certain criteria. An example of this is Suitability Analysis, where multiple rasters are created, each representing the where a single criteria is met; then, these rasters are overlaid to visualize areas of high suitability (such as habitat). 
 
 Below is are three examples of raster data: topography, aerial imagery, and historical rainfall for the month of February (averaged 1970-2000) from [WorldClim](https://worldclim.org/data/index.html), an excellent database of freely available historical climate data. 
@@ -85,9 +86,47 @@ Just like a textual data can be stored in different document formats (`.docx`, `
 - If your data's locative information is in the form of text — for example, country/city names or street addresses — this can be made legible to a GIS with a few extra steps (see [geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html)). You may have to create new columns and populate them with coordinate information.  
 
 
+<br><br>
+
+## Data Sources
+Now that you understands what spatial data is and the different formats it comes in, you may be wondering *Where, then, do you find spatial data?* Maybe you already have some, maybe you’re still searching. A lot of spatial data is accessible via the internet, albeit under different licenses.
+
+### Historical Data and DH Specific Data Sources
+{: .no_toc}
+- [Borealis](https://borealisdata.ca/dataverse/HGIS?q=&types=dataverses%3Adatasets&sort=dateSort&order=desc&page=1){:target="_blank"}
+- [National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/){:target="_blank"}
 
 
 
+### Libraries, Municipal portals, and Governmental agencies 
+{: .no_toc}
+Municipal and governmental agencies local to your project are also great places to begin looking. For example, see for Vancouver the [Vancouver Open Data Portal](https://opendata.vancouver.ca/pages/home/){:target="_blank"}, [Data BC](https://catalogue.data.gov.bc.ca/){:target="_blank"} for Provincial data, and [Natural Resources Canada](https://natural-resources.canada.ca/science-data/data-analysis/geoca){:target="_blank"} or [here](https://natural-resources.canada.ca/science-data/data-analysis/geospatial-data-tools-services/geospatial-data-tools-services){:target="_blank"} for national resource data. Many Canadian cities have their own municipal open data source, though downloading the data will be different depending on the platform used by each city. 
+
+### Free and open source context layers
+{: .no_toc}
+[Natural Earth](https://www.naturalearthdata.com/downloads/){:target="_blank"}, which we will use today, provides  free, public domain raster and vector data at a global scale. For example, you can download country and state outlines (and from various state-based perspectives), rivers/lakes/reservoirs, oceans and coastlines, and landmasses. You can also download hillshade data from Natural Earth whose symbology you can adjust in QGIS to show topography. This makes it an excellent resource for simple reference mapping for academic publication.
+
+
+### World (historical) data
+{: .no_toc}
+The [Humanitarian Data Exchange](https://data.humdata.org/){:target="_blank"} contains lots of useful global data. [WorldClim](https://worldclim.org/){:target="_blank"} publishes historical climate data such as precipitation and temperature, which you can download as raster datasets. For free and open-source infrastructural data, see [Open Street Maps (OSM)](https://www.openstreetmap.org/#map=11/49.2151/-123.0393){:target="_blank"}. Refer to our [Plugins in QGIS Workshop](https://ubc-library-rc.github.io/gis-plugins-qgis/content/extracting-osm-data.html){:target="_blank"} for a demonstration of how to extract and download OSM data or use it as a basemap for your maps. 
+
+### Satellite Imagery
+{: .no_toc}
+Satellite imagery can often be downloaded directly from providers. For example, download Sentinel data from the [Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE){:target="_blank"}. If you're using QGIS, the [SRTM-Downloader](https://plugins.qgis.org/plugins/SRTM-Downloader/){:target="_blank"} plugin is a handy tool to download NASA data for a specific area of interest directly from within your GIS interface. If you are a UBC student, staff, or faculty, you can [request a Planet account](https://researchcommons.library.ubc.ca/planet-imagery/){:target="_blank"} to gain access to much more imagery. Refer to our [Project Design workshop and resource](https://ubc-library-rc.github.io/gis-spatial-stories/content/resources-for-data-assembly.html){:target="_blank"} for important considerations as you search, download, store, and use data.
+
+
+### Creating your own
+{: .no_toc}
+Finally, you can always create your own vector layers, or create new shapefiles within a GIS by tracing existing data. We will discuss data creation and editing further on another day. 
+
+If you are working with historical or physical maps and want to digitize them or otherwise create spatial data using them as template, see our workshop on [georeferencing](../day3/4-georeferencing.md){:target="_blank"} for more. We will discuss georeferencing more later in the week. 
+
+
+#### Data Finding Guides
+{: .no_toc}
+- [Concordia's Guide](https://www.concordia.ca/library/guides/geospatial-data/geodata.html){:target="_blank"}
+- [Tufts resource on Geospatial Humanities](https://sites.tufts.edu/digitalhumanities/geospatialhumanities/){:target="_blank"}
 
 
 
