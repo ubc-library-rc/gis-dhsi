@@ -3,3 +3,4 @@ _site
 .vscode
 .jekyll-cache/
 /outtakes.md
+/todo.md
