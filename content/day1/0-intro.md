@@ -12,41 +12,52 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 <br> 
 
 #### **Morning Session** 11am - 12pm
-- Course overview + instructor introductions
-- Participant introductions + project descriptions
+- Course Overview + Instructor Introductions
+- Participant Introductions
 
-<br>
 
 #### **Afternoon Session** 1:30pm - 4pm
-- Lecture and guided discussion on spatial visualization in/for digital humanities research
+- Lecture on Spatial Visualization in/for Digital Humanities Research
 - Thematic vs. Reference maps
 - Project Design Fundamentals 
 - Intro to Spatial Data 
-<!-- - Project design fundamentals + worksheet activity -->
 
-<br>
 
-need to make sure still this order make sense conceptually and in terms of teaching 
+confirm this afternoon order make sense conceptually and in terms of teaching 
 {: .warn}
 
 
-
-
-<!-- need to clarify small activities all around - lmk if you have thoughts - Also need to figure out when/how to tell ppl to 1. collect cool spots for group webmap and 2, pictures of commute or places around town for storymap?
-{: .warn} -->
-
-
-
----
-
-#### For Tomorrow 
-- Review Project Design Worksheet and fill in what you can
-- Spatialize your data if you want to map with it tomorrow 
-- Ensure QGIS is downloaded and installed
+<br>
+<br>
 
 
 
+#### Before Tomorrow 
+1. Review the Project Design Worksheet and fill in what you can
+2. Spatialize your data if you want to map with it tomorrow 
+3. Review and complete pre-workshop tasks outlined in the [website landing page](.../index.html#in-preparation-for-the-course){:target="_blank"}
 
-<!-- hw - think about project design tonight
-helpful - 1 off live on web not mantaining it or OS or i dont wanna use GIS  -->
+<br>
+<br>
+
+
+#### Some readings on Spatial Visualization in DH Research  
+-  Special Issue in the Journal of Map & Geography Libraries on [Working Digitally with Historical Maps](https://www.tandfonline.com/toc/wmgl20/9/1-2){:target="_blank"}
+- Special issue in the Journal of Spatial Humanities and Libraries on [Spatial Humanities: Perspectives from the Library](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
+- [Towards the Spatial Analysis of Vague and Imaginary Place and Space: Evolving the Spatial Humanities through Medieval Romance](https://www.tandfonline.com/doi/full/10.1080/15420353.2017.1307302){:target="_blank"}
+- Lessons and tutorials from the [Programming Historian](https://programminghistorian.org/en/lessons/?topic=mapping){:target="_blank"}
+- Lessons and tutorials from [The Geospatial Historian](https://geospatialhistorian.wordpress.com/){:target="_blank"}
+- [Designing for discovery: using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html){:target="_blank"}
+- [Hands-On Data Visualization](https://handsondataviz.org/){:target="_blank"} documentation by Jack Dougherty & Ilya Ilyankou
+
+
+#### Examples of Spatial Visualization in DH Research
+- [Geocoding the Expansion of Fictional Space in Russian 19th-Century Literature](https://jcls.io/article/id/4228/){:target="_blank"}
+- [Victorian Britain Author Addresses Geocoding project](https://libguides.ucalgary.ca/c.php?g=706878&p=5030657){:target="_blank"}
+- [Old Toronto Itinerary project](https://dataforlibs.github.io/old-toronto/){:target="_blank"}
+- [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/){:target="_blank"} (*Click* on the arrow)
+- The [Mapping Prejudice Project](https://mappingprejudice.umn.edu/){:target="_blank"}
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
+
+
 
