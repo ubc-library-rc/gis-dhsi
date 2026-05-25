@@ -7,9 +7,6 @@ parent: Tools and Workflows in QGIS
 # Georeferencing Overview
 {: .no_toc}
 
-I have to add note about where maps are from
-{: .warn}
-
 Georeferencing appends coordinate information to non-spatial data, such as images and PDFs. While historical or otherwise digitized maps represent a place, tracing geographic features such as roads, rivers, buildings, cities, and political boundaries, they cannot be read by a Geographic Information System (GIS) because the locational data for these features is not stored in a manner legible to the GIS––i.e., in latitude/longitude coordinate pairs. Georeferencing is the process of warping an image so that its geographic features match the location of those on a known geospatial layer.
 
 There are many reasons one might want to georeference a historical map, included, but not limited to the following
@@ -25,6 +22,10 @@ can you think of others?
 
 *Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
 
+
+#### Examples of Georeferencing in DH Research
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
+- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
 
 show me historical map where i am example// prepare to demo other options, [David Rumsey Georeferencer](https://www.davidrumsey.com/view/georeferencer){:target="_blank"}; allmaps/IIIF; show me historical map where i am example; considerations copyright etc. pick something that doesnt have allmaps link
 {: .warn}
@@ -182,11 +183,11 @@ In the Georeferencer Window table the column dX, dY and Residual refer to error.
 
 
 
-#### Resources and Examples for Georeferencing in DH Research
+
+#### Resources for Georeferencing in DH Research
 - [Georeferencing Historical Maps with QGIS](https://ubc-library-rc.github.io/gis-georeferencing/){:target="_blank"}
 - [Georeferencing with KnightLab](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js){:target="_blank"}
 - [Georeferencing Tutorial by GeoRealm](https://www.geographyrealm.com/georeference-map-qgis/){:target="_blank"}
-- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
 - Special issue in the Journal of Map & Geography Libraries on [Working Digitally with Historical Maps](https://www.tandfonline.com/toc/wmgl20/9/1-2){:target="_blank"} 
 - [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
 - [Tutorial from the Geospatial Historian](https://geospatialhistorian.wordpress.com/lessons/){:target="_blank"}
