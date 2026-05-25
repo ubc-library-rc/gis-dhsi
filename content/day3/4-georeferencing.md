@@ -31,16 +31,6 @@ show me historical map where i am example// prepare to demo other options, [Davi
 
 <br>
 
-(maybe move this to the resource page?? but could be good to have some examples here - and every day - of DH projects that use whatever we're talking about...)
-Here are some examples of and literature on Georeferencing in the Digital Humanities
-- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
-- [special issue](https://www.tandfonline.com/toc/wmgl20/9/1-2){:target="_blank"} in the Journal of Map & Geography Libraries on Working Digitally with Historical Maps. 
-- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
-- [resource tutorial](https://geospatialhistorian.wordpress.com/lessons/){:target="_blank"}
-- [Georeferencing in QGIS 2.0](https://programminghistorian.org/en/lessons/georeferencing-qgis){:target="_blank"}
-- [georeferencing in arcgis](https://geospatialhistorian.wordpress.com/lessons/arcgis-lesson-4-digitizing/){:target="_blank"}
-- [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis){:target="_blank"}
-- [intro to map warper ](https://programminghistorian.org/en/lessons/introduction-map-warper){:target="_blank"}
 
 
 
@@ -192,10 +182,18 @@ In the Georeferencer Window table the column dX, dY and Residual refer to error.
 
 
 
-#### Georeferencing Resources
+#### Resources and Examples for Georeferencing in DH Research
 - [Georeferencing Historical Maps with QGIS](https://ubc-library-rc.github.io/gis-georeferencing/){:target="_blank"}
 - [Georeferencing with KnightLab](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js){:target="_blank"}
 - [Georeferencing Tutorial by GeoRealm](https://www.geographyrealm.com/georeference-map-qgis/){:target="_blank"}
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
+- Special issue in the Journal of Map & Geography Libraries on [Working Digitally with Historical Maps](https://www.tandfonline.com/toc/wmgl20/9/1-2){:target="_blank"} 
+- [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
+- [Tutorial from the Geospatial Historian](https://geospatialhistorian.wordpress.com/lessons/){:target="_blank"}
+- [Georeferencing in ArcGIS](https://geospatialhistorian.wordpress.com/lessons/arcgis-lesson-4-digitizing/){:target="_blank"}
+- [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis){:target="_blank"}
+- [Intro to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper){:target="_blank"}
+
 
 
 
