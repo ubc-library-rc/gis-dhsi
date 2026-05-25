@@ -17,10 +17,6 @@ This page outlines common workflows and considerations — whether you are creat
 
 
 
-<!-- Demo some management and prep practices - then give structured work time for those who want to use their data for reference mapping to make sure its prepared. includes format as well as spatial componants properly organized into separate columns. ...
-{: .warn} -->
-
-
 
 <details open markdown="block">
   <summary>
@@ -90,33 +86,24 @@ Alex - feel free to note in the Google Doc your considerations/tips/suggestions 
 {: .warn}
 
 
-Generally, for data to be spatial and therefore legible to the variety of tools and platforms we'll introduce, data needs to have coordinate data organized into two distinct columns: latitude and longitude. 
+Generally, for data to be spatial and therefore legible to the variety of tools and platforms we'll introduce this week, it needs to include coordinates organized into two distinct columns: latitude and longitude. 
 
-
-If you're beginning with data formatted in a spreadsheet, you'll either have latent spatial information or none at all. By 'latent spatial information' we're referring to columns that contain information such as place names, addresses, countries, cities, or even descriptive text detailing voyages, places, or spacetimes. 
+If you're beginning with data formatted in a spreadsheet, you'll either have latent spatial information or none at all. By 'latent spatial information' we're referring to columns that contain information such as place names, addresses, countries, cities, or even descriptive text detailing places, voyages, or otherwise spacetimes. 
 
 If no locational information is present whatsoever, can it be deduced? Do you know where each feature is or whether there are relevant locations associated with each feature? If so, great! If not, perhaps your data simply isn't spatial. 
 
-If latent spatial information is present, you'll need to turn it into coordinate points. Depending on the number of features in your dataset, this might be more or less time consuming. If there are only a handful of features and your goal is to plot these as *points*, you can simply xyz..
+If latent spatial information is present, you'll need to turn it into coordinates. Depending on the number of features in your dataset, this might be more or less time consuming. If there are only a handful of features and your goal is to plot these as *points*, you can simply use a different platform to match the location mentioned to an exact coordinate point, then copy and paste that into your spreadsheet (remembering to give latitude and longitude separate columns). 
 
-One straightforward way to do this is sim
+One straightforward way to do this is to use Google Maps. In Google Maps, you can either look up locations or turn on Satellite View to visually find them. Then, right-click on the map and click the coordinate pair that pops up to copy it to your clipboard. You can then paste these coordinates into your spreadsheet (remembering to give latitude and longitude separate columns). 
+
+are we demo-ing this? Should i write documentation? 
+{: .warn}
+
+One important thing to consider, however, is where on the map points are depends on the coordinate reference system in which these points are created and stored. That is, the coordinate pair representing the precise location of your accommodations here in Montreal as viewed in Google Maps might be meters or kilometers away if uploaded to a map whose coordinate reference system was different from that of Google Maps. Coordinate points taken from Google Maps will be stored in `WGS84`. 
 
 
 
-
-
-
-one column for each lat long
-stored as numbers
-
-  data is formatted as a spreadsheet, it either 
-Two scenarios - latent or none at all
-
-if you have none...
-
-if you have -- addresses, or towns, cities, countries, or maybe even in more text such as description of location or intersection etc. maybe even includes details of time period or how location is different than it is today. 
-
-if you have - depending on how many there are, could just do by hand. or, if you know locations or they are exact coordinates you simply haven't added - such as archeological dig sites or locations relevent to a story or historical figure. 
+Note that from the spreadsheet side, you can only add *point* data. If you want to trace georeferenced historical maps or create line/polygon features, either use Geojson.io introduced above, or work within QGIS to create shapefiles. The documentation to do this is included under [Tools and Workflows](../day3/1-tools-workflows.md){:target="_blank"}, but will not be taught this week.
 
 
 
@@ -124,17 +111,6 @@ if you have - depending on how many there are, could just do by hand. or, if you
 <!-- example - you have a csv with locations but cities or provinces or addresses, not coordinate points.. a couple options. 1 - do by hand... 
 
 spreadsheet  data - alex will have gone over the day before adding CSV data, and considerations.  -->
-
-
-### Adding coordinates using Google Maps
-{: .no_toc}
-
-
-
-One important thing to consider, however, is where on earth points are depends on coordinate reference system used. that is, if you have coordinates saved from xyz - what datum are they in? if you're copy and pasting from google maps - must import to qgis etc as wgs 84 - and then transform if you want. a point at intersection of xyz might appear meters or kilometers away in a different projection. 
-
-
-
 
 
 <br>
@@ -161,9 +137,17 @@ geocoding -- use baths csv - online geocoder with addresses? see how points matc
 
 
 ## Tracing georeferenced features in QGIS - creating spatial files
-add documentation - but really this is a workflow - won't cover in presentation but could be good to have, especially since i never added it to the Refernce Mapping Additional Content section... 
+Describe what it is and why
 
 
+The documentation to do this is included under [Tools and Workflows](../day3/1-tools-workflows.md){:target="_blank"}, but will not be taught this week.
+
+
+oh also editing..../digitizing shapefiles.. if there's time
+
+
+do you agree it's wise to add this documentation - I never added it to our RC workshop on  Reference Mapping in the Additional Content section, so good to have even if we don't go over here. 
+{: .warn}
 
 <br><br>
 
