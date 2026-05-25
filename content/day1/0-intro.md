@@ -52,12 +52,16 @@ confirm this afternoon order make sense conceptually and in terms of teaching
 
 
 #### Examples of Spatial Visualization in DH Research
+- [Mapping the Black Digital and Public Humanities](https://sites.lib.jmu.edu/mappingbdph/){:target="_blank"}
+- 
 - [Geocoding the Expansion of Fictional Space in Russian 19th-Century Literature](https://jcls.io/article/id/4228/){:target="_blank"}
 - [Victorian Britain Author Addresses Geocoding project](https://libguides.ucalgary.ca/c.php?g=706878&p=5030657){:target="_blank"}
 - [Old Toronto Itinerary project](https://dataforlibs.github.io/old-toronto/){:target="_blank"}
 - [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/){:target="_blank"} (*Click* on the arrow)
 - The [Mapping Prejudice Project](https://mappingprejudice.umn.edu/){:target="_blank"}
 - [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
+- [Hidden Florence](https://hiddenflorence.org/){:target="_blank"}
+- The [Italian-Canadian Foodways Map](https://dhn.utoronto.ca/project/dh-italian-canadian-foodways-project/){:target="_blank"} project
 
 
 

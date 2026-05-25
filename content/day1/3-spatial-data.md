@@ -123,11 +123,11 @@ Finally, you can always create your own vector layers, or create new shapefiles 
 If you are working with historical or physical maps and want to digitize them or otherwise create spatial data using them as template, see our workshop on [georeferencing](../day3/4-georeferencing.md){:target="_blank"} for more. We will discuss georeferencing more later in the week. 
 
 
-#### Data Finding Guides
+#### Resources for Finding and Working with Spatial Data
 {: .no_toc}
+- [Working with Spatial Data](https://projects.lincolnmullen.com/spatial-workshop/spatial-data){:target="_blank"} by Lincoln Mullen
 - [Concordia's Guide](https://www.concordia.ca/library/guides/geospatial-data/geodata.html){:target="_blank"}
 - [Tufts resource on Geospatial Humanities](https://sites.tufts.edu/digitalhumanities/geospatialhumanities/){:target="_blank"}
-
 
 
 
