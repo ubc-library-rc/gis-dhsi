@@ -182,3 +182,8 @@ Finally, below your layers, there is an option to change your Basemap from a sel
 When you're ready to share your map, simply click the Share option at the top of your layers. You will be prompted to adjust the visibility settings, and given a shortened link to your new Google MyMap!
 
 
+<br>
+
+#### Resources for working with Google Maps
+- Tutorial on [Google Maps and Google Earth](https://programminghistorian.org/en/lessons/googlemaps-googleearth) from the [Programming Historian](https://programminghistorian.org/en/lessons/?topic=mapping)
+- Tutorial on [Point Map with Google My Maps](https://handsondataviz.org/mymaps.html) from [Hands-On Data Visualization](https://handsondataviz.org/) by Jack Dougherty & Ilya Ilyankou
