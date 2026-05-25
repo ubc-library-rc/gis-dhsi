@@ -20,3 +20,7 @@ There are 4 basic component to a web map: **Tiles**, **Data**, **Style**, and **
 Because this is quite busy, you will also learn how to use Leaflet to cluster a point layer. 
 
 <iframe src="./reference/art-and-heritage-clustered.html" style="width:100%; height:520px; border:none;"> </iframe>
+
+
+
+<br>

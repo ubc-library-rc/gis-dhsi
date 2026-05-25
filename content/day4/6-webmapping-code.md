@@ -62,3 +62,20 @@ Take a look at this basic Leaflet map example. You can zoom in, pan around, etc.
  - You'll need to work with code in a code editor. This can introduce a semi-steep learning curve, but you can truly create a basic webmap in a few hours with no prior knowledge. 
  - You'll need a place to store your map and map data. Github can work. Think about how you'll be displaying your end product. Will it be embedded on a website? 
 <!--could do a tutorial thats like lets make a map and add data to github and make github page-->
+
+<br>
+
+#### Resources for Webmapping with Leaflet
+- UC Davis tutorial on [Building web maps with Leaflet](https://ucdavisdatalab.github.io/workshop_web_maps/){:target="_blank"} 
+- You may want to add a legend or title, cluster data, or further style your map. While [Leaflet Docs](https://leafletjs.com/reference.html){:target="_blank"} and [Leaflet Tutorials](https://leafletjs.com/examples.html){:target="_blank"} document how to do much of this, there is a wealth of documentation online from people tweaking given code to meet their specific needs. So, if you have something specific in mind, we recommend you do an internet search to see what's out there you could draw inspiration (and often code) from. 
+- [Adding a popup to Leaflet](https://ucdavisdatalab.github.io/workshop_web_maps/add-a-popup.html){:target="_blank"}
+- [Customizing icons in Leaflet](https://leafletjs.com/examples/custom-icons/){:target="_blank"}
+- [Creating a choropleth map with Leaflet](https://leafletjs.com/examples/choropleth/){:target="_blank"}
+- [Grouping layers](https://leafletjs.com/examples/layers-control/){:target="_blank"}
+- [Creating heatmaps with Leaflet](https://leafletjs.com/plugins.html#heatmaps){:target="_blank"}
+- [Leaflet plugins](https://leafletjs.com/plugins.html){:target="_blank"} offer extended functionality, making leaflet hugely customizable. Below are some plugins to give you some idea of the variety of added functionality that comes from the community of developers. 
+- Tutorial on [adding side panels/menus to a Leaflet web map](https://unbam.github.io/Leaflet.SlideMenu/){:target="_blank"}; See [here](https://github.com/noerw/leaflet-sidebar-v2){:target="_blank"} for another example.
+- [Overlay layers control](https://leafletjs.com/examples/layers-control/){:target="_blank"}
+
+
+
