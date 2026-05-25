@@ -7,11 +7,14 @@ parent: Story Maps
 # Create an ArcGIS Online StoryMap
 {: .no_toc}
 
+ArcGIS Online is frequently changing what tools are available under a Free License. View their tutorial on [Getting Started with ArcGIS StoryMaps](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4) for the most up-to-date documentation.
+
+<!-- 
 Still need to go through and see what new free things there are - thinking we can leave this page here but link to Esri's documentation and just sort of vibe the interface if/when we demo...
-{: .warn}
+{: .warn} -->
 
 
-[Getting Started with ArcGIS StoryMaps](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4)
+
 
 <details open markdown="block">
   <summary>
@@ -191,6 +194,8 @@ All the way at the bottom of your StoryMap you can add Credits and Attributions.
 {: .no_toc}
 Although in a real-world scenario you may wait until your project is further along before publishing a first version, let's practice publishing now. (If you don't want to publish your work you can also just preview it to see what it would look like.)
 
+<br>
 
-That's it! Now you know how ArcGIS Online StoryMaps works!
+
+*That's it! Now you know how ArcGIS Online StoryMaps works!*
 
