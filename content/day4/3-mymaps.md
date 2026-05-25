@@ -19,7 +19,7 @@ nav_order: 1
 -----
 
 ## Creating and naming a new map
-1. Go to [Google MyMaps](https://www.google.com/maps/d/u/0/). Create and/or login to your Google Account. 
+1. Go to [Google MyMaps](https://www.google.com/maps/d/u/0/){:target="_blank"}. Create and/or login to your Google Account. 
 <img src="./images/mymaps0.png" style="width:100%">
 <br><br>
 
@@ -185,5 +185,5 @@ When you're ready to share your map, simply click the Share option at the top of
 <br>
 
 #### Resources for working with Google Maps
-- Tutorial on [Google Maps and Google Earth](https://programminghistorian.org/en/lessons/googlemaps-googleearth) from the [Programming Historian](https://programminghistorian.org/en/lessons/?topic=mapping)
-- Tutorial on [Point Map with Google My Maps](https://handsondataviz.org/mymaps.html) from [Hands-On Data Visualization](https://handsondataviz.org/) by Jack Dougherty & Ilya Ilyankou
+- Tutorial on [Google Maps and Google Earth](https://programminghistorian.org/en/lessons/googlemaps-googleearth){:target="_blank"} from the [Programming Historian](https://programminghistorian.org/en/lessons/?topic=mapping){:target="_blank"}
+- Tutorial on [Point Map with Google My Maps](https://handsondataviz.org/mymaps.html){:target="_blank"} from [Hands-On Data Visualization](https://handsondataviz.org/){:target="_blank"} by Jack Dougherty & Ilya Ilyankou
