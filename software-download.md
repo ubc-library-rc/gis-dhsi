@@ -4,12 +4,9 @@ title: Download Software
 nav_order: 2
 parent: Course Overview
 ---
-# Software Download and Account Creation
-{: .no_toc}
-
-not sure i need to add this page
-{: .warn}
-
+<!-- # Software Download and Account Creation
+{: .no_toc} -->
+<!-- 
 The following outlines how to download the necessary software and create accounts for the platforms we will use throughout the week. 
 
 
@@ -23,7 +20,7 @@ The following outlines how to download the necessary software and create account
 {:toc}
 </details>
 
-----
+---- -->
 
 ## Downloading & Installing QGIS
 
@@ -67,7 +64,7 @@ If you're working on a MacOS and get the message: _"QGIS-LTR can’t be opened b
 <img src="./content/images/download-error_20230123.png" style="height:450px; width:500px;">
 
 
-
+<!-- 
 ## Downloading Workshop Data Folder
 
 
@@ -125,4 +122,4 @@ A free account on ArcGIS online does not allow you to do any spatial analysis on
 
 
 
-
+ -->
