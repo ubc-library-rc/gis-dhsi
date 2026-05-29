@@ -38,7 +38,7 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 <br>
 
 
-#### Some readings on Spatial Visualization in DH Research  
+#### Some readings and resources on Spatial Visualization in DH Research  
 -  Special Issue in the Journal of Map & Geography Libraries on [Working Digitally with Historical Maps](https://www.tandfonline.com/toc/wmgl20/9/1-2){:target="_blank"}
 - Special issue in the Journal of Spatial Humanities and Libraries on [Spatial Humanities: Perspectives from the Library](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
 - [Towards the Spatial Analysis of Vague and Imaginary Place and Space: Evolving the Spatial Humanities through Medieval Romance](https://www.tandfonline.com/doi/full/10.1080/15420353.2017.1307302){:target="_blank"}
@@ -46,6 +46,7 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 - Lessons and tutorials from [The Geospatial Historian](https://geospatialhistorian.wordpress.com/){:target="_blank"}
 - [Designing for discovery: using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html){:target="_blank"}
 - [Hands-On Data Visualization](https://handsondataviz.org/){:target="_blank"} documentation by Jack Dougherty & Ilya Ilyankou
+- [Tufts resource on Geospatial Humanities](https://sites.tufts.edu/digitalhumanities/geospatialhumanities/){:target="_blank"}
 
 
 #### Examples of Spatial Visualization in DH Research

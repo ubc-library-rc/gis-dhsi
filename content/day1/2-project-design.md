@@ -8,8 +8,6 @@ parent: Day 1
 # Fundamentals of Project Design 
 <!-- *How do I tell spatial stories with my data? What tools best suit my audience, skillset, resources, and timeframe?* Answering these questions involves project design.  -->
 
-Would you like to discuss this as well as the lecture and maps overview? 
-{: .warn}
 
 Project design encompasses all the decisions you'll make in order to bring your project to fruition. Because this can be a daunting and overwhelming process, we've broken it down into 5 steps with questions to ask yourself at each. Designing a digital humanities project involving spatial visualization requires (1) articulating your objectives, (2) identifying constraints, (3) determining an output, (4) assembling resources, and (5) considering project maintenance and preservation. These five steps are nonlinear, and you will likely iterate through them multiple times. 
 

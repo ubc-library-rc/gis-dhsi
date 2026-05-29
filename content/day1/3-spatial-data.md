@@ -24,7 +24,9 @@ Before we turn to visualizing spatial data, we must first be able to identify da
 
 
 ## Raster vs. Vector Data
-There are 2 main types of spatial data: **vector** and **raster**. **Raster data** is made up of pixels arranged in a grid, whereas **vector data** is made up of vertices and the paths between them that create geometries representing real-world features. If you're working with continuous geospatial phenomena such as satellite imagery, topography, or climatic data (like rainfall or temperature), you're likely using raster data. If you’re working with points, lines, or polygons, that’s likely vector data.
+There are 2 main types of spatial data: **vector** and **raster**. 
+
+**Raster data** is made up of pixels arranged in a grid, whereas **vector data** is made up of vertices and the paths between them that create geometries representing real-world features. If you're working with continuous geospatial phenomena such as satellite imagery, topography, or climatic data (like rainfall or temperature), you're likely using raster data. If you’re working with points, lines, or polygons, that’s likely vector data.
 
 
 ### Vector Data
@@ -113,21 +115,21 @@ The [Humanitarian Data Exchange](https://data.humdata.org/){:target="_blank"} co
 
 ### Satellite Imagery
 {: .no_toc}
-Satellite imagery can often be downloaded directly from providers. For example, download Sentinel data from the [Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE){:target="_blank"}. If you're using QGIS, the [SRTM-Downloader](https://plugins.qgis.org/plugins/SRTM-Downloader/){:target="_blank"} plugin is a handy tool to download NASA data for a specific area of interest directly from within your GIS interface. If you are a UBC student, staff, or faculty, you can [request a Planet account](https://researchcommons.library.ubc.ca/planet-imagery/){:target="_blank"} to gain access to much more imagery. Refer to our [Project Design workshop and resource](https://ubc-library-rc.github.io/gis-spatial-stories/content/resources-for-data-assembly.html){:target="_blank"} for important considerations as you search, download, store, and use data.
+Satellite imagery can often be downloaded directly from providers. For example, download Sentinel data from the [Copernicus Browser](https://browser.dataspace.copernicus.eu/?zoom=5&lat=50.16282&lng=20.78613&demSource3D=%22MAPZEN%22&cloudCoverage=30&dateMode=SINGLE){:target="_blank"}. If you're using QGIS, the [SRTM-Downloader](https://plugins.qgis.org/plugins/SRTM-Downloader/){:target="_blank"} plugin is a handy tool to download NASA data for a specific area of interest directly from within your GIS interface. If you are a UBC student, staff, or faculty, you can [request a Planet account](https://researchcommons.library.ubc.ca/planet-imagery/){:target="_blank"} to gain access to much more imagery. 
 
 
 ### Creating your own
 {: .no_toc}
 Finally, you can always create your own vector layers, or create new shapefiles within a GIS by tracing existing data. We will discuss data creation and editing further on another day. 
 
-If you are working with historical or physical maps and want to digitize them or otherwise create spatial data using them as template, see our workshop on [georeferencing](../day3/4-georeferencing.md){:target="_blank"} for more. We will discuss georeferencing more later in the week. 
+If you are working with historical or physical maps and want to digitize them or otherwise create spatial data using them as template, you might need to use a georeferencer. We will discuss [georeferencing](../day3/4-georeferencing.md){:target="_blank"} more later in the week. 
 
 
 #### Resources for Finding and Working with Spatial Data
 {: .no_toc}
 - [Working with Spatial Data](https://projects.lincolnmullen.com/spatial-workshop/spatial-data){:target="_blank"} by Lincoln Mullen
-- [Concordia's Guide](https://www.concordia.ca/library/guides/geospatial-data/geodata.html){:target="_blank"}
-- [Tufts resource on Geospatial Humanities](https://sites.tufts.edu/digitalhumanities/geospatialhumanities/){:target="_blank"}
+- [Concordia's Guide to geospatial data](https://www.concordia.ca/library/guides/geospatial-data/geodata.html){:target="_blank"}
+
 
 
 
