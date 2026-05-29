@@ -25,12 +25,3 @@ Today will cover two distinct topics: in the morning, we will return to QGIS to 
 <br>
 
 
-
-
-
-<!-- We will be working in a "sandbox" QGIS project. Such a project to play around in has been created for you and can be found in the folder `dhsi-workshop/Day3/tools-and-workflows`. **Open it now**.
- -->
-
-<!-- I'm debating cutting the Intro Page "Tools and Workflows" (directly after this) because while it convienently nests the related pages, it also obscures them and it might be nice for ppl to be able to more easily see whats covered this day (since its such a motly assortment)
-{: .warn}
- -->

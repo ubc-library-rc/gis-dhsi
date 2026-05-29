@@ -24,6 +24,7 @@ In the morning, you'll make a reference map of Montréal's historic public bath 
 - The Attribute Table
 - Thematic Mapping with QGIS
 
+<br>
 
 
 
