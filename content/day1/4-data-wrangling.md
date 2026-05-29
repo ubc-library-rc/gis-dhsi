@@ -121,6 +121,14 @@ Geocoding is a process by which addresses are given coordinate locations, thus a
 You can geocode with QGIS, a free and open-source geographic information system (GIS) which will be introduced tomorrow. See [UBC Library's tutorial on geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html) and [UCSC resource to geocoding](https://guides.library.ucsc.edu/DS/Resources/QGIS) for geocoding with QGIS. Additionally, [GeoCoding](https://plugins.qgis.org/plugins/GeoCoding/) is another QGIS plugin specific to finding addresses or reverse geocoding. 
 
 
+You don't need to geocode in a GIS! If you aren't using a GIS for any other portion of your project, consider using an online geocoder like [BC Address Geocoder](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geocoder) or [geocodio](https://www.geocod.io/free-geocoding/), or explore more free and paid options [here](https://gisgeography.com/geocoders/).
+
+
+<!-- #### Resources for Geocoding
+- [Geocoding in QGIS](https://programminghistorian.org/en/lessons/geocoding-qgis) Tutorial by the Programming Historian. 
+- See [UBC Library's tutorial on geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html) and [UCSC resource to geocoding](https://guides.library.ucsc.edu/DS/Resources/QGIS) for geocoding with QGIS.
+- Additionally, [GeoCoding](https://plugins.qgis.org/plugins/GeoCoding/) is another QGIS plugin specific to finding addresses or reverse geocoding. 
+-  -->
 
 <br>
 
