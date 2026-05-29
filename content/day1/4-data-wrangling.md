@@ -145,13 +145,15 @@ do you agree it's wise to add this documentation - I never added it to our RC wo
 <br><br>
 
 ## Resources for Data Collection and Preparation
-- [Terrastories](https://terrastories.app/), a tool by [Awana Digital](https://awana.digital/mapeo), is a great resource for collecting place-based data on the go.
-- [ArcGIS Survey 124](https://survey123.arcgis.com/) allows you to collect surveys with spatial information. 
-- [Creating a new shapefiles in QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on8.html)
-- [Considerations for downloading data](https://ubc-library-rc.github.io/gis-spatial-stories/content/resources-for-data-assembly.html) 
-- [Geocoding in QGIS](https://programminghistorian.org/en/lessons/geocoding-qgis)
-- Tutorial on [Spreadsheet Skills](https://handsondataviz.org/spreadsheet.html) from [Hands-On Data Visualization](https://handsondataviz.org/) by Jack Dougherty & Ilya Ilyankou 
+- [Terrastories](https://terrastories.app/){:target="_blank"}, a tool by [Awana Digital](https://awana.digital/mapeo){:target="_blank"}, is a great resource for collecting place-based data on the go.
+- [ArcGIS Survey 124](https://survey123.arcgis.com/){:target="_blank"} allows you to collect surveys with spatial information. 
+- [Creating a new shapefiles in QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on8.html){:target="_blank"}
+- [Considerations for downloading data](https://ubc-library-rc.github.io/gis-spatial-stories/content/resources-for-data-assembly.html){:target="_blank"} 
+- [Geocoding in QGIS](https://programminghistorian.org/en/lessons/geocoding-qgis){:target="_blank"}
+- Tutorial on [Spreadsheet Skills](https://handsondataviz.org/spreadsheet.html){:target="_blank"} from [Hands-On Data Visualization](https://handsondataviz.org/){:target="_blank"} by Jack Dougherty & Ilya Ilyankou 
 <!-- - [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis) -->
+- [Working with Spatial Data](https://projects.lincolnmullen.com/spatial-workshop/spatial-data){:target="_blank"} by Lincoln Mullen
+
 
 
 
