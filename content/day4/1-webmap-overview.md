@@ -24,17 +24,22 @@ The most basic web map is a basemap, contained in a viewbox with controls and an
 
 
 
-### Webmaps in DH research
+### Web maps in DH research
 
-- [The Polyrhythm Project](https://polyrhythm.humdrum.org/overview/) created [maps](https://polyrhythm.humdrum.org/maps/) for their [Corpus](https://maps.polyrhythm.humdrum.org/corpus/), [Composers](https://maps.polyrhythm.humdrum.org/composers/#4/49.43/10.40), and [Timeline](https://maps.polyrhythm.humdrum.org/timeline/).
-- Article on [using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html)
-- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c)
-- [Mapping Prejudice](https://mappingprejudice.umn.edu/)
+- [The Polyrhythm Project](https://polyrhythm.humdrum.org/overview/){:target="_blank"} created [maps](https://polyrhythm.humdrum.org/maps/){:target="_blank"} for their [Corpus](https://maps.polyrhythm.humdrum.org/corpus/){:target="_blank"}, [Composers](https://maps.polyrhythm.humdrum.org/composers/#4/49.43/10.40){:target="_blank"}, and [Timeline](https://maps.polyrhythm.humdrum.org/timeline/){:target="_blank"}.
+- Article on [using web maps in the digital humanities](https://dhq.digitalhumanities.org/vol/19/4/000819/000819.html){:target="_blank"}
+- [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
+- [Mapping Prejudice](https://mappingprejudice.umn.edu/){:target="_blank"}
 
 other xamples of webmaps in digital humanities research AND text DESCRIBing WHY THEY ARE HELPFUL VISUALIZATIONS (Alex). 
 {: .warn}
 
 
+
+
+<!-- 
+#### Critical Cartography Readings specific to Web/google maps
+- [Digital territories: Google maps as a political technique in the re-making of urban informality](https://journals.sagepub.com/doi/10.1177/0263775818766069){:target="_blank"} -->
 
 
 

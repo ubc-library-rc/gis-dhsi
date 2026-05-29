@@ -76,11 +76,11 @@ Below are examples of webmap made with uMap, Google MyMaps, and Leaflet.
 ## Data
 We will be working from the `dhsi-workshop/Day3` folder. Inside, you will see today's data further organized into 3 subfolders relevant to webmapping online, webmapping with Leaflet, and webmapping with QGIS respectively.
 
-We will webmap using data on [Public Art](https://open.toronto.ca/dataset/public-art/) and [Heritage Conservation Districts](https://open.toronto.ca/dataset/heritage-conservation-districts/) from the [City of Toronto's open data portal](https://open.toronto.ca/catalogue/). This data is licensed under the [Open Government Licence - Toronto](https://open.toronto.ca/open-data-licence/), meaning we can modify and adapt the data! The datasets have been reformatted to be legible to the various tools and platforms we will work with today. The QGIS project and data you'll recognize from our reference mapping in Day 2. We've also included an additional dataset of [community gardens](https://donnees.montreal.ca/fr/dataset/jardins-communautaires) from the City of Montreal open data portal.  
+We will webmap using data on [Public Art](https://open.toronto.ca/dataset/public-art/){:target="_blank"} and [Heritage Conservation Districts](https://open.toronto.ca/dataset/heritage-conservation-districts/){:target="_blank"} from the [City of Toronto's open data portal](https://open.toronto.ca/catalogue/){:target="_blank"}. This data is licensed under the [Open Government Licence - Toronto](https://open.toronto.ca/open-data-licence/){:target="_blank"}, meaning we can modify and adapt the data! The datasets have been reformatted to be legible to the various tools and platforms we will work with today. The QGIS project and data you'll recognize from our reference mapping in Day 2. We've also included an additional dataset of [community gardens](https://donnees.montreal.ca/fr/dataset/jardins-communautaires){:target="_blank"} from the City of Montreal open data portal.  
 
 
-activity ADD GREEN SPACES OR SOMETHING ELSE TO FOLDER AS GEOJSON SO THEY CAN WRAP AS VARIABLE ETC... or have them download from web
-{: .warn}
+<!-- activity ADD GREEN SPACES OR SOMETHING ELSE TO FOLDER AS GEOJSON SO THEY CAN WRAP AS VARIABLE ETC... or have them download from web
+{: .warn} -->
 
 <!-- - [Green Spaces](https://open.toronto.ca/dataset/green-spaces/)
 - [City Wards](https://open.toronto.ca/dataset/city-wards/)
