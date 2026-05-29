@@ -194,6 +194,7 @@ In the Georeferencer Window table the column dX, dY and Residual refer to error.
 - [Georeferencing in ArcGIS](https://geospatialhistorian.wordpress.com/lessons/arcgis-lesson-4-digitizing/){:target="_blank"}
 - [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis){:target="_blank"}
 - [Intro to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper){:target="_blank"}
+- [Tufts Map Warper Tutorial](https://history2016.doingdh.org/map-warper-tutorial/){:target="_blank"}
 
 
 
