@@ -21,6 +21,8 @@ For the Temporal Controller plugin/tool to work, it needs to pull from a date fi
 If you are creating your own spreadsheet/CSV, try to ensure this happens when you are creating data by properly formatting the cells. However, if you are using data from elsewhere or you forgot to do so, there are ways to ensure that your date field is formatted as a date within QGIS using the Field Calculator in the Attribute Table or Properties.
 
 
+## Making a Map with Temporal Controller
+
 *1*{: .circle .circle-purple} Open the Properties box of the Historic Public Baths layer and click Manage Fields button. 
 
 <img src="./images/TemporalController1.png" style="width:100%;">
