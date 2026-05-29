@@ -120,17 +120,6 @@ Geocoding is a process by which addresses are given coordinate locations, thus a
 
 You can geocode with QGIS, a free and open-source geographic information system (GIS) which will be introduced tomorrow. See [UBC Library's tutorial on geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html) and [UCSC resource to geocoding](https://guides.library.ucsc.edu/DS/Resources/QGIS) for geocoding with QGIS. Additionally, [GeoCoding](https://plugins.qgis.org/plugins/GeoCoding/) is another QGIS plugin specific to finding addresses or reverse geocoding. 
 
-However, you don't need to geocode in a GIS! If you aren't using a GIS for any other portion of your project, consider using an online geocoder like [BC Address Geocoder](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geocoder) or [geocodio](https://www.geocod.io/free-geocoding/), or explore more free and paid options [here](https://gisgeography.com/geocoders/).
-
-
-<!-- 
-
-### Geocoding demo 
-{: .no_toc}
-geocoding -- use baths csv - online geocoder with addresses? see how points match. or, have other csv prepared in folder that doesnt have lat long - see how well add in and overlay existing one. 
-> different to georeferencing which we'll cover at length in day 3... 
-> also - note interoperability and also some platforms require certain types of data -->
-
 
 
 <br>
@@ -159,3 +148,7 @@ do you agree it's wise to add this documentation - I never added it to our RC wo
 - [Geocoding in QGIS](https://programminghistorian.org/en/lessons/geocoding-qgis)
 - Tutorial on [Spreadsheet Skills](https://handsondataviz.org/spreadsheet.html) from [Hands-On Data Visualization](https://handsondataviz.org/) by Jack Dougherty & Ilya Ilyankou 
 <!-- - [Creating New Vector Layers in QGIS 2.0](https://programminghistorian.org/en/lessons/vector-layers-qgis) -->
+
+
+
+
