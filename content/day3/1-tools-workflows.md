@@ -11,10 +11,11 @@ This morning's lesson will address the following:
 
 1. How to add a basemap to a QGIS project
 2. Common vector tools useful in map making
-3. Using Time Controller to display temporal events
-4. Georeferencing
+3. Georeferencing historical maps
+4. Displaying temporal events using Time Controller
+5. Creating radial flow maps
 
-There are also additional pages documenting tools and workflows we will not necessarily demonstrate but which you may find useful. 
+<!-- There are also additional pages documenting tools and workflows we will not necessarily demonstrate but which you may find useful.  -->
 
 
 <Br>
