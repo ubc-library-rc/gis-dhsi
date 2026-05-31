@@ -10,9 +10,9 @@ Before beginning the workshop, we’d like to acknowledge that we are meeting th
 
 Within the context of our workshop, it is particularly important to acknowledge the Indigenous lands and worldviews that exist on the place we are gathering, and the role that mapping and cartography have played in the colonial project that has undermined these perspectives. As Rose-Redwood et al. write:
 
->> “As a political technology, mapping has long played a key role in the world-making practices of colonialism through the appropriation, demarcation, naming, and partitioning of territory as part of the process of colonization and the assertion of imperial rule over peoples and places (Akerman 2009; Edney 1997; Huggan 1989; Pickles 2004). Consequently, the cartographies of empire have been instrumental in the dispossession of Indigenous peoples of the lands they have called home since time immemorial (Craib 2017; Harley 2001; Johnson, Louis, and Pramono 2006).” (Rose-Redwood, Reuben, et al. "Decolonizing the Map: Recentering Indigenous Mappings." 
+>> “As a political technology, mapping has long played a key role in the world-making practices of colonialism through the appropriation, demarcation, naming, and partitioning of territory as part of the process of colonization and the assertion of imperial rule over peoples and places (Akerman 2009; Edney 1997; Huggan 1989; Pickles 2004). Consequently, the cartographies of empire have been instrumental in the dispossession of Indigenous peoples of the lands they have called home since time immemorial (Craib 2017; Harley 2001; Johnson, Louis, and Pramono 2006).”  
 
->> *Cartographica: The International Journal for Geographic Information and Geovisualization*, vol. 55 no. 3, 2020, p. 151-162. Project MUSE, [https://muse.jhu.edu/article/766913](https://muse.jhu.edu/article/766913){:target="_blank"}., p.152).
+>> Rose-Redwood, Reuben, et al. "Decolonizing the Map: Recentering Indigenous Mappings." *Cartographica: The International Journal for Geographic Information and Geovisualization*, vol. 55 no. 3, 2020, p. 151-162. Project MUSE, [https://muse.jhu.edu/article/766913](https://muse.jhu.edu/article/766913){:target="_blank"}., p.152.
 
 
 <br>
