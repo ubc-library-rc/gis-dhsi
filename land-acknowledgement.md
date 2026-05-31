@@ -8,7 +8,7 @@ parent: Course Overview
 
 Before beginning the workshop, we’d like to acknowledge that we are meeting throughout this week on unceded Indigenous lands. The Kanien’kehá:ka Nation is recognized as the custodians of the lands and waters on which we gather today. Tiohtià:ke/Montréal is historically known as a gathering place for many First Nations. Today, it is home to a diverse population of Indigenous and other peoples. 
 
-Within the context of our workshop, it is particularly important to acknowledge the Indigenous lands and worldviews that exist on the place we are gathering, and the role that mapping and cartography have played in the colonial project that has undermined these perspectives. As Rose-Redwood et al. write:
+Within the context of our workshop, it is particularly important to acknowledge the Indigenous lands and worldviews that exist on the place we are gathering, and the role that mapping and cartography have played in the colonial project that has undermined these perspectives. As Rose-Redwood et al. (2020) write:
 
 >> “As a political technology, mapping has long played a key role in the world-making practices of colonialism through the appropriation, demarcation, naming, and partitioning of territory as part of the process of colonization and the assertion of imperial rule over peoples and places (Akerman 2009; Edney 1997; Huggan 1989; Pickles 2004). Consequently, the cartographies of empire have been instrumental in the dispossession of Indigenous peoples of the lands they have called home since time immemorial (Craib 2017; Harley 2001; Johnson, Louis, and Pramono 2006).”  
 
