@@ -82,10 +82,6 @@ You'll see now a point has been added to the map. Not only that, the geojson for
 
 ## Preparing spreadsheet data
 
-Alex - feel free to note in the Google Doc your considerations/tips/suggestions for preparing spreadsheet data based on your expertise doing so! I'll copy that in. What's here is still very stream of consciousness.
-{: .warn}
-
-
 Generally, for data to be spatial and therefore legible to the variety of tools and platforms we'll introduce this week, it needs to include coordinates organized into two distinct columns: latitude and longitude. 
 
 If you're beginning with data formatted in a spreadsheet, you'll either have latent spatial information or none at all. By 'latent spatial information' we're referring to columns that contain information such as place names, addresses, countries, cities, or even descriptive text detailing places, voyages, or otherwise spacetimes. 
@@ -94,31 +90,42 @@ If no locational information is present whatsoever, can it be deduced? Do you kn
 
 If latent spatial information is present, you'll need to turn it into coordinates. Depending on the number of features in your dataset, this might be more or less time consuming. If there are only a handful of features and your goal is to plot these as *points*, you can simply use a different platform to match the location mentioned to an exact coordinate point, then copy and paste that into your spreadsheet (remembering to give latitude and longitude separate columns). 
 
-One straightforward way to do this is to use Google Maps. In Google Maps, you can either look up locations or turn on Satellite View to visually find them. Then, right-click on the map and click the coordinate pair that pops up to copy it to your clipboard. You can then paste these coordinates into your spreadsheet (remembering to give latitude and longitude separate columns). 
+> - When preparing latent spatial data like addresses, make sure to make a separate column for each component (i.e. number, street name, postal code). This will make your life easier as you can then assign the appropriate data type to each column to perform spatial analyses later on (text, integer). When preparing data, try to assign these data format within your spreadsheet as well. It’s possible to modify them within QGIS but it takes a bit more effort. 
+> - If you are using historic data, make sure to also try and include the associated contemporary place names; this will be necessary if you want to do any geocoding!
 
-are we demo-ing this? Should i write documentation? 
-{: .warn}
+You can find alternate place names in geographic databases, toponymic dictionaries or gazetteers. Below are some online options:
+> - [World Historical Gazetteer](https://whgazetteer.org/){:target="_blank"}
+> - [Geonames.org](http://Geonames.org){:target="_blank"}
+> - [Getty Thesaurus of Geographic Names Online](https://www.getty.edu/research/tools/vocabularies/tgn/index.html){:target="_blank"}
+> - [Finding Places in Text with the World Historical Gazetteer](https://programminghistorian.org/en/lessons/finding-places-world-historical-gazetteer) tutorial by the Programming Historian 
+> - Tutorial on [Working with Named Places: How and Why to Build a Gazetteer](https://programminghistorian.org/en/lessons/space-place-gazetteers){:target="_blank"} by the Programming Historian 
+
+
+
+### Using Google Maps to add coordinate points 
+{: .no_toc}
+
+One straightforward way to add coordinate points to your dataset is to use Google Maps. In Google Maps, you can either look up locations or turn on Satellite View to visually find them. Then, right-click on the map and click the coordinate pair that pops up to copy it to your clipboard. You can then paste these coordinates into your spreadsheet (remembering to give latitude and longitude separate columns). 
+
 
 One important thing to consider, however, is where on the map points are depends on the coordinate reference system in which these points are created and stored. That is, the coordinate pair representing the precise location of your accommodations here in Montreal as viewed in Google Maps might be meters or kilometers away if uploaded to a map whose coordinate reference system was different from that of Google Maps. Coordinate points taken from Google Maps will be stored in `WGS84`. 
 
 
 
-Note that from the spreadsheet side, you can only add *point* data. If you want to trace georeferenced historical maps or create line/polygon features, either use Geojson.io introduced above, or work within QGIS to create shapefiles. The documentation to do this is included under [Tools and Workflows](../day3/1-tools-workflows.md){:target="_blank"}, but will not be taught this week.
+Note that from the spreadsheet side, you can only add *point* data. If you want to trace georeferenced historical maps or create line/polygon features, either use Geojson.io introduced above, or work within QGIS to create shapefiles. The documentation to do this is included under [Tools and Workflows](../day3/1-tools-workflows.md){:target="_blank"}, but will not be taught this week. 
 
-
-
-
-<!-- example - you have a csv with locations but cities or provinces or addresses, not coordinate points.. a couple options. 1 - do by hand... 
-
-spreadsheet  data - alex will have gone over the day before adding CSV data, and considerations.  -->
 
 
 <br>
 
 ## Geocoding
-Geocoding is a process by which addresses are given coordinate locations, thus allowing them to be manipulated in a GIS. In other words, geocoding transforms tabular data into spatial data. Reverse Geocoding is when you begin with a set of geolocated points (coordinates) and use a tool to get the street addresses of each point. 
+Geocoding is a process by which addresses are given coordinate locations, thus allowing them to be manipulated in a GIS. In other words, geocoding transforms tabular data into spatial data. Reverse Geocoding is when you begin with a set of geolocated points (coordinates) and use a tool to get the street addresses of each point. Geocoding is rarely completely accurate. You will need to double check your data and potentially make modifications.
 
-You can geocode with QGIS, a free and open-source geographic information system (GIS) which will be introduced tomorrow. See [UBC Library's tutorial on geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html){:target="_blank"} and [UCSC resource to geocoding](https://guides.library.ucsc.edu/DS/Resources/QGIS){:target="_blank"} for geocoding with QGIS. Additionally, [GeoCoding](https://plugins.qgis.org/plugins/GeoCoding/){:target="_blank"} is another QGIS plugin specific to finding addresses or reverse geocoding. 
+You can geocode with QGIS, a free and open-source geographic information system (GIS) which will be introduced tomorrow. QGIS has several plugins you can use for geocoding:
+> - [Easycoder](https://plugins.qgis.org/plugins/easy_geocoder/){:target="_blank"} allows you to select a CSV file, and then produces a layer with coordinate data that is loaded directly into your QGIS project.
+> - [All Geocoders at Once](https://plugins.qgis.org/plugins/all_geocoders_at_once/){:target="_blank"} includes 20 geocoding services (both free and those that require an API key). It requires you to have a layer added to your QGIS project to work from, and it will create a new layer with coordinate points. This means you may have to perform a spatial join to connect this coordinate data layer to your existing layer.
+> - Additionally, [GeoCoding](https://plugins.qgis.org/plugins/GeoCoding/){:target="_blank"} is another QGIS plugin specific to finding addresses or reverse geocoding. 
+> - See [UBC Library's tutorial on geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html){:target="_blank"} and [UCSC resource to geocoding](https://guides.library.ucsc.edu/DS/Resources/QGIS){:target="_blank"} for geocoding with QGIS. 
 
 
 You don't need to geocode in a GIS! If you aren't using a GIS for any other portion of your project, consider using an online geocoder like [BC Address Geocoder](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/location-services/geocoder){:target="_blank"} or [geocod.io](https://www.geocod.io/free-geocoding/){:target="_blank"}, or explore more free and paid options [here](https://gisgeography.com/geocoders/){:target="_blank"}.
