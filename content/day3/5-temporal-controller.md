@@ -4,7 +4,7 @@ title: Time Controller Maps
 nav_order: 4
 parent: Tools and Workflows in QGIS
 ---
-# Creating a Temporal Controller
+# Time Controller Maps
 {: .no_toc}
 
 Digital Humanists often want to incorporate a temporal visualization to their spatial projects or data. [Temporal Controller](https://ubc-library-rc.github.io/gis-dhsi/content/day3/temporal-controller.html){:target="_blank"} is a built-in QGIS plugin which allows you to animate your map elements over time. You can then export these images to create a `.gif` or other animation for your project.
