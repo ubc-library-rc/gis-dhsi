@@ -15,20 +15,16 @@ There are many reasons one might want to georeference a historical map, included
 - to make comparison calculations
 - to serve as reference for creating shapefiles for spatial analysis or reference mapping
 
-can you think of others?
-{: .warn}
-
 <!-- What do you hope to gain from georeferencing? How might georeferencing be useful in your area of research?  -->
 
 *Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
+
 
 
 #### Examples of Georeferencing in DH Research
 - [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
 - [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
 
-show me historical map where i am example// prepare to demo other options, [David Rumsey Georeferencer](https://www.davidrumsey.com/view/georeferencer){:target="_blank"}; allmaps/IIIF; show me historical map where i am example; considerations copyright etc. pick something that doesnt have allmaps link
-{: .warn}
 
 <br>
 
@@ -45,6 +41,33 @@ show me historical map where i am example// prepare to demo other options, [Davi
 </details>
 
 ----
+
+## Online Georeferencing Tools
+Today we will be working with QGIS to georeference a historical map. However, there are several georeferencing tools that you can use online to both visualize and export georeferenced maps.
+
+### **[Allmaps](https://allmaps.org/){:target="_blank"}**
+Allmaps is a platform that allows you to curate, georeference, and explore maps that are available online in IIIF format. The platform uses the IIIF manifest to render the map and allow you perform various functions on it like annotations or georeferencing. It can be useful for visualizing, but exporting options are limited unless you have advanced coding knowledge (however it does export to Leaflet).
+
+
+You can georeference a IIIF map by using Allmaps Editor using the map’s IIIF url: [https://editor.allmaps.org/](https://editor.allmaps.org/){:target="_blank"}
+
+> Let’s test Allmaps with this map of Montreal from the Norman B. Levanthal Map & Education Center: [https://www.digitalcommonwealth.org/search/commonwealth:4m90fh85z](https://www.digitalcommonwealth.org/search/commonwealth:4m90fh85z){:target="_blank"}
+
+> **[Allmaps Here](https://here.allmaps.org/){:target="_blank"}** is a way to find iiif maps based on your current location.
+
+<br>
+
+### **[MapWarper](https://mapwarper.net/){:target="_blank"}**
+[MapWarper](https://mapwarper.net/){:target="_blank"} is another open-source platform that allows you to find and create georeferenced maps. You create an account, and can upload a map to georeference it, and then download the georeferenced map as a geotiff. Note however, that you should not upload maps that are under copyright.
+
+
+
+
+
+
+
+
+<br>
 
 
 ## Activity: Georeference with QGIS
