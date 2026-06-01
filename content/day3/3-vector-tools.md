@@ -291,20 +291,16 @@ i think already we wont get to all these tools. maybe we can have some quiet wor
 
 Now it’s time to put everything you learned together by designing workflows to answer spatial questions. Using the tools above, think through how you might solve for the following…
 
-Consider more puzzles?? what do you think?
-{: .warn}
 
+1. Instead of using the tool "Select within distance", how could you use clip and buffer to find out the number of bus stops within 50 meters of a historic public bath?
+2. How might you find areas of Montreal not within 500 meters of a park?
+3. What other spatial questions could you answer about the data you have with the tools you now know?
 
-- instead of using select within distance, how could you use other tools to find out (and hint creat a new layer) of bus stops x distance to a bath?
-
-- how many baths within xyz distance from metro station/stop. 
-- how might you use clip and buffer to get xyz - 
-
-need to have done merge here already? 
+<!-- need to have done merge here already? 
 difference - parks - merged water features, so water can go below land thus show land outline
-or can just do the jour
+or can just do the jour -->
 
-MTL - buffered bus stops or parks to see areas not within xyz distance. 
+
 
 
 <!-- ----

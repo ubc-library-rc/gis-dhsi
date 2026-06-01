@@ -14,12 +14,12 @@ Today will cover two distinct topics: in the morning, we will return to QGIS to 
 - How to add a basemap to a QGIS project
 - Common vector tools useful in map making
 - Using Time Controller to display temporal events
+- Creating Radial Flow maps
 - Georeferencing
 
 
-
 #### **Afternoon Session** 1:30pm - 4pm
-- Creating multi-media Story Maps using the free version of [ArcGIS StoryMaps](https://storymaps.arcgis.com/), as well as its open-source alternate, [Knightlab StoryMap](https://storymap.knightlab.com/).
+- Creating multi-media Story Maps using [ArcGIS StoryMaps](https://storymaps.arcgis.com/){:target="_blank"}, as well as its open-source alternate, [Knightlab StoryMap](https://storymap.knightlab.com/){:target="_blank"}.
 
 
 <br>

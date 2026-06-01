@@ -20,13 +20,8 @@ This morning's lesson will address the following:
 
 <Br>
 
-We will be working in a "sandbox" QGIS project. Such a project to play around in has been created for you and can be found in the folder `dhsi-workshop/Day3/tools-and-workflows`. **Open it now**.
-
-<!-- <img src="sandbox.png" style="width:100%"> -->
+We will be working in a "sandbox" QGIS project. A sandbox is a project with an assortment of data made for you to play around with. Navigate to the project `sandbox.qgz` inside the folder`dhsi-workshop/Day3/tools-and-workflows` and **Open it now**.
 
 
-<!-- The sandbox QGIS project you'll recognize as including data from our reference mapping exercise. This way, you can see how vector tools come in handy for  will return to reference mapping data and qgis project - see how some tools come in handy for analyzing, modifying, and visualizing spatial data.
-In what follows -  introduce common vector tools in QGIS, particularly those relevant to (reference) mapping. we will return to reference mapping data and qgis project - see how some tools come in handy for analyzing, modifying, and visualizing spatial data.  
-
-also whaling data???-->
+You'll notice most of the sandbox data is from our reference mapping lesson. Additionally, there is transit data from the City of Montreal. Inside the `data` folder but not loaded to the map is more data you can practice with. 
 

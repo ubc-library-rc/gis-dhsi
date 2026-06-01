@@ -17,14 +17,16 @@ There are many reasons one might want to georeference a historical map, included
 
 <!-- What do you hope to gain from georeferencing? How might georeferencing be useful in your area of research?  -->
 
-*Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
 
-
+<br>
 
 #### Examples of Georeferencing in DH Research
 - [Don Valley Historical Map Project](https://utoronto.maps.arcgis.com/apps/webappviewer/index.html?id=6055c7fbccdf44ac911a4e13b34a825c){:target="_blank"}
 - [Journal issue on Spatial Humanities and libraries](https://www.tandfonline.com/toc/wmgl20/19/1-2){:target="_blank"}
 
+
+
+*Note that georeferencing is not geocoding. Geocoding is when you have a tabular dataset with street addresses and you use a GIS to geolocate the data as coordinate points.*
 
 <br>
 
@@ -42,26 +44,22 @@ There are many reasons one might want to georeference a historical map, included
 
 ----
 
-## Online Georeferencing Tools
+# Online Georeferencing Tools
 Today we will be working with QGIS to georeference a historical map. However, there are several georeferencing tools that you can use online to both visualize and export georeferenced maps.
 
-### **[Allmaps](https://allmaps.org/){:target="_blank"}**
-Allmaps is a platform that allows you to curate, georeference, and explore maps that are available online in IIIF format. The platform uses the IIIF manifest to render the map and allow you perform various functions on it like annotations or georeferencing. It can be useful for visualizing, but exporting options are limited unless you have advanced coding knowledge (however it does export to Leaflet).
-
-
-You can georeference a IIIF map by using Allmaps Editor using the map’s IIIF url: [https://editor.allmaps.org/](https://editor.allmaps.org/){:target="_blank"}
+### Allmaps
+**[Allmaps](https://allmaps.org/){:target="_blank"}** is a platform that allows you to curate, georeference, and explore maps that are available online in IIIF format. The platform uses the IIIF manifest to render the map and allow you perform various functions on it like annotations or georeferencing. It can be useful for visualizing, but exporting options are limited unless you have advanced coding knowledge (however it does export to Leaflet).
+- You can georeference a IIIF map by using Allmaps Editor using the map’s IIIF url: [https://editor.allmaps.org/](https://editor.allmaps.org/){:target="_blank"}
+- [Allmaps Here](https://here.allmaps.org/){:target="_blank"} is a way to find IIIF maps based on your current location.
 
 > Let’s test Allmaps with this map of Montreal from the Norman B. Levanthal Map & Education Center: [https://www.digitalcommonwealth.org/search/commonwealth:4m90fh85z](https://www.digitalcommonwealth.org/search/commonwealth:4m90fh85z){:target="_blank"}
 
-> **[Allmaps Here](https://here.allmaps.org/){:target="_blank"}** is a way to find iiif maps based on your current location.
-
-<br>
-
-### **[MapWarper](https://mapwarper.net/){:target="_blank"}**
-[MapWarper](https://mapwarper.net/){:target="_blank"} is another open-source platform that allows you to find and create georeferenced maps. You create an account, and can upload a map to georeference it, and then download the georeferenced map as a geotiff. Note however, that you should not upload maps that are under copyright.
 
 
 
+
+### MapWarper
+**[MapWarper](https://mapwarper.net/){:target="_blank"}** is another open-source platform that allows you to find and create georeferenced maps. You create an account, and can upload a map to georeference it, and then download the georeferenced map as a geotiff. Note however, that you should not upload maps that are under copyright.
 
 
 
@@ -70,7 +68,7 @@ You can georeference a IIIF map by using Allmaps Editor using the map’s IIIF u
 <br>
 
 
-## Activity: Georeference with QGIS
+# Georeferencing with QGIS
 
 > * In the `sandbox.qgz` project, turn off all layers except an OSM basemap. (Add an OSM basemap now if you don't already have one loaded.) The layers that you'll match to the digitized map are called **Target Layers**. 
 
@@ -80,7 +78,7 @@ You can georeference a IIIF map by using Allmaps Editor using the map’s IIIF u
 
 <br>
 
-### 1. Open Georeferencer
+## 1. Open Georeferencer
 If you drag and drop the map `Carte du Port 1914` into QGIS, nothing happens. This is because we need to open the QGIS **[Georeferencer](https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html){:target="_blank"}** tool. This can be found in the **Layer menu** at the top of your screen. 
 
 <img src="./images/geo1.png" style="width:50%;">
@@ -95,7 +93,7 @@ The Georeferencer window has its own toolbar. Take a minute to hover over each i
 
 <br>
 
-### 2. Load Source Layer
+## 2. Load Source Layer
 **Source Layer** is what the digitized map you want to georeference is called. Load `Carte du Port 1914` into the Georeferencer. 
 
 <img src="./images/geo4.png" style="width:80%;">
@@ -119,7 +117,7 @@ You should now see the historical map loaded to the Georeferencer canvas.
 
 <br>
 
-### 3. Set Transformation Settings
+## 3. Set Transformation Settings
 **Transformation Settings** tell QGIS how to georeference the image. Open Transformation Settings by clicking the gear icon.
 <img src="./images/geo5.png" style="width:80%;">
 
@@ -134,7 +132,7 @@ Select the following settings:
 
 <br>
 
-### 4. Add control points
+## 4. Add control points
 The points matched between the two layers are called **Ground Control Points (GCPs)**. When choosing a map to georeference (**Source Layer**) and geospatial reference layer(s) (**Target Layer**), it is important to ensure there are clear GCPs. GCPs may be physical geographic features, such as river bends, coastlines, or lake boundaries. GCPs may be infrastructural features such as the intersection of two roads or political boundaries or meridian lines. In any case, it is important to consider whether the geographic location of a potential GCP may have changed in the time since the historical map was rendered. These changes will matter more or less depending on the scale of the Source Layer. Most likely, your GCPs will be mix of features.
 
 To get started adding GCPs, click the Add Points tool. Beside it you'll also see there are tools to delete and move points. 
@@ -161,7 +159,7 @@ As you work, use the zoom and pan tools in both the main QGIS map canvas and the
 
 <br> 
 
-### 5. Try running georeferencer 
+## 5. Try running georeferencer 
 
 Add about 10 GCP points and then try running Georeferencer. 
 <img src="./images/geo11.png" style="width:10%;">
@@ -172,26 +170,29 @@ Your map might look really strange! **Be sure to add GCPs at te edges of the dig
 <img src="./images/geo12.png" style="width:100%;">
 
 
-Add a few more control points, and then run the Georeferencer again. 
+Add a few more control points, and then run the Georeferencer again. **For this map, 15-20 points should be plenty.** Note that each time you run the georeferencer, a new layer will be created. 
 
 <img src="./images/geo13.png" style="width:100%;">
 
 
-For this map, 15-20 points should be plenty. 
-
-Note that each time you run the georeferencer, a new layer will be created. 
-
-> * Adjust the transparency of your new layer under Layer Properties --> Transparency. 
 
 
-### 8. Save your GCP Points
+
+
+>  Adjust the transparency of your new layer under Layer Properties --> Transparency. 
+
+<img src="./images/geo16.png" style="width:100%;">
+
+<br>
+
+## 8. Save your GCP Points
 
 You can save your GCP points if you want to come back and work on it later. You can also upload a file of saved GCP points. 
 
 <img src="./images/geo14.png" style="width:10%;">
 
 
-### 9. Save georeferenced map as a GeoTiff
+## 9. Save georeferenced map as a GeoTiff
 
 When you are happy with your georeferenced map, right-click the layer in your Layers Panel and choose **Export** --> **Save As...**. 
 

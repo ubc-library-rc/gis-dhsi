@@ -19,12 +19,12 @@ A basemap is helpful to give spatial context to your data layers—both as you'r
 ## Adding basemaps from web plugin
 {: .no_toc}
 
-While your out-of-the-box QGIS applicaiton will have a few basemap options under the XYZ tab of your Browser Panel, you can access way more with a plugin. [QGIS Plugins](https://plugins.qgis.org/) are user developed tools that extend QGIS functionality beyond the basics. There are two popular plugins for webmap libraries called QuickMapServices and OpenLayers. The following documentation will show you how to install the QuickMapServices plugin, add basemaps to your QGIS project, and create and export a map using one of them. 
+While your out-of-the-box QGIS applicaiton will have a few basemap options under the XYZ tab of your Browser Panel, you can access way more with a plugin. [QGIS Plugins](https://plugins.qgis.org/){:target="_blank"} are user developed tools that extend QGIS functionality beyond the basics. There are two popular plugins for webmap libraries called QuickMapServices and OpenLayers. The following documentation will show you how to install the QuickMapServices plugin, add basemaps to your QGIS project, and create and export a map using one of them. 
 
 
 ### 1. Install Plugin
 {: .no_toc}
-[QGIS plugins](https://plugins.qgis.org/) are user developed tools that extend QGIS functionality beyond the basics. To access basemaps, we'll first install the QuickMapServices plugin. Click on the **Plugin** menu at the top of your screen and select **Manage and Install Plugins...**
+[QGIS plugins](https://plugins.qgis.org/){:target="_blank"} are user developed tools that extend QGIS functionality beyond the basics. To access basemaps, we'll first install the QuickMapServices plugin. Click on the **Plugin** menu at the top of your screen and select **Manage and Install Plugins...**
 
 <img src="./images/basemap1.png" style="width:80%">
 
@@ -38,7 +38,7 @@ In the dialogue box that opens, select **All** as a search category on the left 
 ### 2. Load Basemap
 {: .no_toc}
 
-Now go to the **Web** menu at the top of your screen. You should see the QuickMapServices plugin. You will see an array of basemap options. Select OpenStreetMap as your basemap. Like QGIS, [Open Street Map (OSM)](https://www.openstreetmap.org/about) is open source and user developed. 
+Now go to the **Web** menu at the top of your screen. You should see the QuickMapServices plugin. You will see an array of basemap options. Select OpenStreetMap as your basemap. Like QGIS, [Open Street Map (OSM)](https://www.openstreetmap.org/about){:target="_blank"} is open source and user developed. 
 
 
 
@@ -73,12 +73,13 @@ Explore adding other basemaps as well. For instance, **Esri's satellite imagery 
 
 <br><br>
 
-If you cannot find the plugin "Next GIS Quick Map Services" only "Quick Map Services" or there appear not to be as many basemap options, you may be working on a prior version of QGIS. That's okay! Refer to [this page](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on6.html) for documentation on how to add basemaps that matches your QGIS version. 
+If you cannot find the plugin "Next GIS Quick Map Services" only "Quick Map Services" or there appear not to be as many basemap options, you may be working on a prior version of QGIS. That's okay! Refer to [this page](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on6.html){:target="_blank"} for documentation on how to add basemaps that matches your QGIS version. 
 {: .note}
 
-<!-- ### Making a map from a basemap
+<br>
+
+### Making a map from a basemap
 {: .no_toc}
 
 To use a basemap as your final reference map, simply turn off or remove all other layers. Create a new Print Layout and add your map. Be sure to include a source statement at the bottom. Be sure to check the license of any basemap before using it for academic publication. 
 
-<img src="./images/basemap7.jpeg" style="width:50%"> -->
