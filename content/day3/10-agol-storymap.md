@@ -7,12 +7,7 @@ parent: Story Maps
 # Create an ArcGIS Online StoryMap
 {: .no_toc}
 
-ArcGIS Online is frequently changing what tools are available under a Free License. View their tutorial on [Getting Started with ArcGIS StoryMaps](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4) for the most up-to-date documentation.
-
-<!-- 
-Still need to go through and see what new free things there are - thinking we can leave this page here but link to Esri's documentation and just sort of vibe the interface if/when we demo...
-{: .warn} -->
-
+ArcGIS Online is frequently changing what tools are available under a Free License. View their tutorial on [Getting Started with ArcGIS StoryMaps](https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4){:target="_blank"} for the most up-to-date documentation.
 
 
 
@@ -29,7 +24,7 @@ Still need to go through and see what new free things there are - thinking we ca
 
 ## 1. Create a new StoryMap
 
-After creating a free ArcGIS Online Public Account, navigate to [storymaps.arcgis.com/stories](https://storymaps.arcgis.com/stories) and **Sign In**. Click **Create story**. You'll notice there is an option to either Start from scratch or "Quick start" using one of the provided templates. Sidecars and map tours are elements that can be added to any StoryMap, so for the purposes of this workshop, select **Start from scratch**.
+After creating a free ArcGIS Online Public Account, navigate to [storymaps.arcgis.com/stories](https://storymaps.arcgis.com/stories){:target="_blank"} and **Sign In**. Click **Create story**. You'll notice there is an option to either Start from scratch or "Quick start" using one of the provided templates. Sidecars and map tours are elements that can be added to any StoryMap, so for the purposes of this workshop, select **Start from scratch**.
 
 
 <img src="./images/agol1.png" style="width:100%">
@@ -43,7 +38,7 @@ The theme of our demo StoryMap is everyday navigations in Vancouver. However, fe
 <br>
 
 ## 2. Explore the interface 
-Go ahead and give your StoryMap the title: `Navigating Vancouver`. You'll notice a little paintbrush and palette icon appears, allowing you to center or justify the header block. Feel free to add a subtitle and descriptive text, as well as your name. You can also add a cover image or video. If you choose to do so, browse and upload a file from `dhsi-workshop/Day3/Storymaps`. (If you haven't moved your own images into the workshop folder, this is a reminder to do so. The purpose of keeping your files together is simply to keep you organized.)
+Go ahead and give your StoryMap the title: `Navigating Vancouver`. You'll notice a little paintbrush and palette icon appears, allowing you to center or justify the header block. Feel free to add a subtitle and descriptive text, as well as your name. You can also add a cover image or video. If you choose to do so, browse and upload a file from `dhsi-workshop/Day3/storymaps`. (If you haven't moved your own images into the workshop folder, this is a reminder to do so. The purpose of keeping your files together is simply to keep you organized.)
 
 <br>
 
@@ -126,7 +121,7 @@ Immersive content allows you to create guided tours where text and images elabor
 
 First things first, add a **text** content block to explain what this StoryMap is about. Highlight your text and experiment with the different styling options. 
 
-Add an **image** from `storymaps-workshop` folder — either your own or one provided. Notice you can dictate whether the image sits to the left or right of your text, or takes up the width of the screen. Clicking the gear icon, you can give the image an attribution and alt text. 
+Add an **image** from the `storymaps` folder — either your own or one provided. Notice you can dictate whether the image sits to the left or right of your text, or takes up the width of the screen. Clicking the gear icon, you can give the image an attribution and alt text. 
 
 Also note that there is a size limit to the media you can upload on the public account. If you plan on uploading a lot of rasters to your Content, you may need to resize them. Additionally, if you have long videos it's recommended you upload them to another platform, like YouTube, and embed them via links. This won't take up any space on your account.
 

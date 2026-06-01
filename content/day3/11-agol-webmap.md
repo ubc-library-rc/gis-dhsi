@@ -74,7 +74,7 @@ You will find the sample data for this workshop already prepared for you in `dhs
 <br>
 
 ## Add Data from the Living Atlas
-You can also add data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/), a large collection of geographic information compiled and created by Esri.
+You can also add data from the [Living Atlas](https://livingatlas.arcgis.com/en/home/){:target="_blank"}, a large collection of geographic information compiled and created by Esri.
 
 Click on **Layers**, then click on the **Add** button.
 
@@ -126,7 +126,7 @@ You can enable aggregation on your map.
 ![clustering](./images/clustering_20250220.png)
 
 
-Spatial aggregation is one method for visualizing high-density data. Read more about best practices for [visualizing high-density data](https://doc.arcgis.com/en/arcgis-online/reference/best-practices-high-density-data.htm).
+Spatial aggregation is one method for visualizing high-density data. Read more about best practices for [visualizing high-density data](https://doc.arcgis.com/en/arcgis-online/reference/best-practices-high-density-data.htm){:target="_blank"}.
 
 <br>
 
