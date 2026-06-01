@@ -66,9 +66,6 @@ Other reference maps include road atlases, hiking maps (handheld or web-based, l
 # Thematic Maps
 Another kind of map is a thematic map. Writes [Statistics Canada](https://www150.statcan.gc.ca/n1/pub/92-195-x/2021001/other-autre/theme/theme-eng.htm){:target="_blank"}: “A thematic map shows the spatial distribution of one or more specific data themes for standard geographic areas.” 
 
-Some text describing how each kind is useful in DH research - OR, just include in your lecture??
-{: .warn}
-
 
 ## Choropleth maps
 
