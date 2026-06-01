@@ -6,7 +6,7 @@ has_children: true
 ---
 # Day 1: Introduction to spatial visualization in/for digital humanities research
 
-Welcome! Today we will introduce key ideas and critical methods in cartography and geographic information science, and, discuss how maps, as spatial representations, function in digital scholarship and humanities research. We will talk about spatial data and how to find, download, and properly format data for use in various spatial visualization platforms. Finally, we will provide a project design worksheet to structure your learning throughout the week. 
+Welcome! Today we will introduce key ideas and critical methods in cartography and geographic information science, and, discuss how maps, as spatial representations, function in digital scholarship and humanities research. In the afternoon, we will talk about spatial data and how to find, download, and properly format data for use in various spatial visualization platforms. Finally, we will provide a project design worksheet to structure your learning throughout the week.
 
 
 <br> 
@@ -29,7 +29,7 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 
 
 
-#### Before Tomorrow 
+#### **Before Tomorrow** 
 1. Review the Project Design Worksheet and fill in what you can
 2. Spatialize your data if you want to map with it tomorrow 
 3. Review and complete pre-workshop tasks outlined in the [website landing page](https://ubc-library-rc.github.io/gis-dhsi/#in-preparation-for-the-course){:target="_blank"}
