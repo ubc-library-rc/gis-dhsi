@@ -37,12 +37,11 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 ## QGIS Advantages  ⇡
 - QGIS is free and open source, meaning you can download it directly from the web to your personal computer and view its source code. 
 - QGIS runs on Windows, Mac, and Linux operating systems, meaning you don't need a specific kind of device to use it. (Some proprietary and costly software, such as ArcGIS, only runs on Windows.) 
-- QGIS has extensive online documentation, including a comprehensive official [User Guide](https://docs.qgis.org/3.40/en/docs/user_manual/index.html){:target="_blank"} *and* [Training Manual](https://docs.qgis.org/3.40/en/docs/training_manual/index.html){:target="_blank"}. 
+- QGIS has extensive online documentation, including a comprehensive official [User Guide](https://docs.qgis.org/3.44/en/docs/user_manual/index.html){:target="_blank"} *and* [Training Manual](https://docs.qgis.org/3.44/en/docs/training_manual/index.html){:target="_blank"}. 
 - QGIS has an active development and user communities, meaning people are constantly posing and answering questions on platforms such as Reddit,  StackExchange, and YouTube. This makes troubleshooting a whole lot easier. There is also an annual [QGIS User Conference](https://uc2026.qgis.org/activities/){:target="_blank"}!
 - QGIS has an intuitive and customizable interface. While navigating any new application can be overwhelming, QGIS has a lot less going on visually than ArcGIS Pro making it quite a good starting place for  newcomers to GIS. 
-- QGIS has a robust [plugin](https://plugins.qgis.org/){:target="_blank"} repository for extended functionality. This means the application you download to begin with doesn't contain every single tool available, just the necessary and commonly used ones. 
+- QGIS has a robust [plugin](https://plugins.qgis.org/){:target="_blank"}{:target="_blank"} repository for extended functionality. This means the application you download to begin with doesn't contain every single tool available, just the necessary and commonly used ones. 
 
-<!-- Additionally, its active user community means there are numerous YouTube and internet resources/tutorials created by users like you.  -->
 
 ## QGIS Disadvantages ⇣
 - Most recent features can be buggy, which is why we recommend always downloading the latest Long Term Release.
@@ -52,7 +51,7 @@ There are a variety of GIS available, some proprietary like Esri ArcGIS, and oth
 
 #### QGIS Resources 
 {: .no_toc} 
-QGIS itself has extensive online documentation, including a robust [User Guide](https://docs.qgis.org/3.44/en/docs/user_manual/index.html) *and* [Training Manual](https://docs.qgis.org/3.44/en/docs/training_manual/index.html). 
+QGIS itself has extensive online documentation, including a robust [User Guide](https://docs.qgis.org/3.44/en/docs/user_manual/index.html){:target="_blank"} *and* [Training Manual](https://docs.qgis.org/3.44/en/docs/training_manual/index.html){:target="_blank"}. 
     
 QGIS also has a vibrant user community, with answers to nearly any question you might have only a web search away. Many helpful tutorial demonstrations can be found on Youtube. For instance, [CWU Geography](https://www.youtube.com/@cwugeography3290) offers especially clear and helpful content, but there are many, many others. 
 

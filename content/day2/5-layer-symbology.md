@@ -145,7 +145,7 @@ Before you begin adjusting your symbology, take a moment to establish which elem
 ## Color 
 {: .no_toc}
 
-You can create a background/foreground contrast with color by modifying a color's value (its lightness or darkness) or its saturation (how vibrant or faded it appears). *Bright*, *saturated*, and *dark* colors jump forwards, whereas pale and desaturated hues fade to the back. (When working in Black & White, think about your grayscale as a palette in and of itself.) 
+You can create a background/foreground contrast with color by modifying a color's value (its lightness or darkness) or its saturation (how vibrant or faded it appears). *Bright*, *saturated*, and *dark* colors jump forwards, whereas pale and desaturated hues fade to the back. (When working in Black & White, think about your greyscale as a palette in and of itself.) 
 
 When using light vs. dark colors to establish a visual hierarchy between foreground and background, you can *either* choose for your focus elements to be much darker or much lighter. This is especially the case if there are multiple elements that need to be foregrounded. If combining multiple elements with similar values, you can use saturation to make the foreground stand out. For example, symbolize contextual features with greys and the main feature with a color.  
 
@@ -228,7 +228,7 @@ function showSlides(n) {
 
 > [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3){:target="_blank"} is a fantastic resource for generating customized color palettes. 
 
-> Remember that a lot comes down to subjective decisions and color is perceived differently by everyone. What's more, it's important to consider coloring for colorblindness so that individual elements can be distinguished by people who are colorblind. See the website [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40{:target="_blank"} for colorblind-friendly palettes. 
+> Remember that a lot comes down to subjective decisions and color is perceived differently by everyone. What's more, it's important to consider coloring for colorblindness so that individual elements can be distinguished by people who are colorblind. See the website [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40){:target="_blank"} for colorblind-friendly palettes. 
 
 
 

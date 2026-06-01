@@ -62,8 +62,10 @@ Then, hit **Classify** and **Apply**. Then close the Properties window and retur
 
 <!-- Again, this is messy but just to show workflow.  -->
 
+<br>
 
-Bonus [heatmap tutorial](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on13.html)
-[Cartograms](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on14.html) 
+#### Resources for Proportional Symbol Mapping
+- [Axis Map's guide to Proportional Symbols](https://www.axismaps.com/guide/proportional-symbols){:target="_blank"}
+- Another UBC Research Common's [tutorial on Proportional Symbol Mapping](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on12.html){:target="_blank"}, including guide to sizing proportional symbols by hand in an illustration software.
+- [Perceptual Scaling of Map Symbols](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/){:target="_blank"} by John Krygier.
 
-- Another UBC Research Common's [tutorial on Proportional Symbol Mapping](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on12.html){:target="_blank"}, including guide to sizing proportional symbols by hand in an illustration software

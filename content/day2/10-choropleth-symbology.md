@@ -57,7 +57,7 @@ Then, click **Apply** to see your map change. Only after clicking **Classify** a
 
 <br>
 
-*7*{: .circle .circle-yellow} While the default classification mode is set to Equal Count (Quantile), you can choose amongst different classification modes. Classification modes determine how the distribution of data are grouped or “classified”, and therefore which values are associated with which colors. Read more about different classification modes [here](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm).
+*7*{: .circle .circle-yellow} While the default classification mode is set to Equal Count (Quantile), you can choose amongst different classification modes. Classification modes determine how the distribution of data are grouped or “classified”, and therefore which values are associated with which colors. Read more about different classification modes [here](https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/data-classification-methods.htm){:target="_blank"}.
 
 
 - Change the classification **Mode** to **Natural Breaks (Jenks)**. Then hit **Apply**. 
@@ -83,6 +83,7 @@ Then, click **Apply** to see your map change. Only after clicking **Classify** a
 
 
 #### Resources for Choropleth Mapping
-- [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html)
--  [Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/)
-[Axis Map's guide to Data Classification](https://www.axismaps.com/guide/data-classification){:target="_blank"}
+- [Telling the Truth - Data classification](http://uxblog.idvsolutions.com/2011/10/telling-truth.html){:target="_blank"}
+- [Better Breaks Define Your Map’s Purpose](https://www.esri.com/arcgis-blog/products/arcgis-online/mapping/better-breaks-define-your-maps-purpose/){:target="_blank"}
+- [Axis Map's guide to Data Classification](https://www.axismaps.com/guide/data-classification){:target="_blank"}
+- Axis Map's guide to [Univariate vs Multivariate Maps](https://www.axismaps.com/guide/multivariate-vs-univariate){:target="_blank"}

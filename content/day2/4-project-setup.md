@@ -41,7 +41,7 @@ Before we begin mapping, let's take a moment to familiarize ourselves with the Q
 
 To save your project, navigate to the `Project` Menu at the stop of your screen and go down to "Save". Just like with documents in a text editor, you can also "Save As" to save your project as a new file, thus creating multiple back-up versions of an original.  It is important to regularly save your project while working in case QGIS crashes. 
 
->  Save this project to the folder `dhsi-workshop/Day3/reference-mapping` as `reference-mapping_YOURNAME.qgz`. Be sure to change the file extension to .qgz. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html).
+>  Save this project to the folder `dhsi-workshop/Day3/reference-mapping` as `reference-mapping_YOURNAME.qgz`. Be sure to change the file extension to .qgz. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.34/en/docs/user_manual/appendices/qgis_file_formats.html){:target="_blank"}.
 
 <img src="./images/setup1.png" style="width:100%">
 <br>
@@ -224,7 +224,7 @@ You'll notice the project CRS is set to `NAD83 / Statistics Canada Lambert`. Thi
 
 Again, setting the project CRS doesn’t change the stored projection of each layer, only how they are rendered ‘on the fly’ by QGIS. QGIS will reproject all the project layers ‘on the fly’ to match the project CRS. You can change the stored projection of layers with the Warp and Reproject Layer tools.
 
-For more on Coordinate Reference Systems, see [here](https://ubc-library-rc.github.io/gis-georeferencing/content/projections.html){:target="_blank"} or check out our resource on [Understanding Map Projections](https://ubc-library-rc.github.io/map-projections/){:target="_blank"} for more. QGIS also has extensive documentation on [coordinate reference systems](https://docs.qgis.org/3.40/en/docs/gentle_gis_introduction/coordinate_reference_systems.html){:target="_blank"}, and [pbcGIS](https://www.pbcgis.com/projection_fundamentals/){:target="_blank"} offers more background information if you're curious.
+For more on Coordinate Reference Systems, see [here](https://ubc-library-rc.github.io/gis-georeferencing/content/projections.html){:target="_blank"} or check out our resource on [Understanding Map Projections](https://ubc-library-rc.github.io/map-projections/){:target="_blank"} for more. QGIS also has extensive documentation on [coordinate reference systems](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/coordinate_reference_systems.html){:target="_blank"}, and [pbcGIS](https://www.pbcgis.com/projection_fundamentals/){:target="_blank"} offers more background information if you're curious.
 {: .note}
 
 
@@ -311,9 +311,9 @@ You are now setup to begin mapping! Be sure to **SAVE YOUR PROJECT** before cont
 
 
 #### Resources for Project Setup
-- [QGIS GUI comprehensive documentation](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#qgis-gui)
-- [QGIS Configuration](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#)
-- [QGIS Project Properties](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#project-properties)
+- [QGIS GUI comprehensive documentation](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#qgis-gui){:target="_blank"}
+- [QGIS Configuration](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#){:target="_blank"}
+- [QGIS Project Properties](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#project-properties){:target="_blank"}
 
 
 

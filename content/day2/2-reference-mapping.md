@@ -26,4 +26,6 @@ In what follows you will be guided through gathering data, adding your data to a
 <br><Br>
 
 #### Resources for Reference Mapping
-- Want to go through this tutorial again but with different example data? Check out UBC Library's [Mapping for Academic Publication (Reference Mapping)](https://ubc-library-rc.github.io/gis-reference-mapping/) workshop. 
+- Want to go through this tutorial again but with different example data? Check out UBC Library's [Mapping for Academic Publication (Reference Mapping)](https://ubc-library-rc.github.io/gis-reference-mapping/){:target="_blank"} workshop. 
+- [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3){:target="_blank"} is a fantastic resource for generating customized color palettes. 
+- [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40){:target="_blank"} for colorblind-friendly palettes.

@@ -96,26 +96,20 @@ You'll notice when you open the QGIS project for today that the files for contex
 
 
 #### Resources for Thematic Mapping
-- [Axis Map's Guide](https://www.axismaps.com/guide)
-- [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
-- Coloring for Colorblindess 
-- Another UBC Research Common's [tutorial on Proportional Symbol Mapping](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on12.html){:target="_blank"}, including guide to sizing proportional symbols by hand in an illustration software
-- [Axis Map's guide to Data Classification](https://www.axismaps.com/guide/data-classification){:target="_blank"}
-- [Perceptual Scaling of Map Symbols](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/){:target="_blank"} by John Krygier
-
-- making insets - ref mapping
-
-
-
-#### Resources for Thematic Mapping
+- [Axis Map's Guide](https://www.axismaps.com/guide){:target="_blank"}
+- [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3){:target="_blank"} is a fantastic resource for generating customized color palettes. 
+- [Coloring for Colorblindness](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40){:target="_blank"} for colorblind-friendly palettes.
 - [Axis Map's guide to Choropleth Maps](https://www.axismaps.com/guide/choropleth){:target="_blank"}
 - [Axis Map's guide to Proportional Symbols](https://www.axismaps.com/guide/proportional-symbols){:target="_blank"}
 - [Axis Map's guide to Dot Density Maps](https://www.axismaps.com/guide/dot-density){:target="_blank"}
 - [Axis Map's guide to Cartograms](https://www.axismaps.com/guide/cartograms){:target="_blank"}
 - Axis Map's guide to [Univariate vs Multivariate Maps](https://www.axismaps.com/guide/multivariate-vs-univariate){:target="_blank"}
-- [Perceptual Scaling of Map Symbols](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/){:target="_blank"} by John Krygier
-- Another UBC Research Common's [tutorial on Proportional Symbol Mapping](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on12.html){:target="_blank"}, including guide to sizing proportional symbols by hand in an illustration software
+- [Perceptual Scaling of Map Symbols](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/){:target="_blank"} by John Krygier.
+- Another UBC Research Common's [tutorial on Proportional Symbol Mapping](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on12.html){:target="_blank"}, including guide to sizing proportional symbols by hand in an illustration software.
 - [Axis Map's guide to Data Classification](https://www.axismaps.com/guide/data-classification){:target="_blank"}
+- UBC Research Commons tutorial on making [Heatmaps with QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on13.html){:target="_blank"}
+- UBC Research Commons tutorial on making [Cartograms with QGIS](https://ubc-library-rc.github.io/gis-reference-mapping/content/hands-on14.html){:target="_blank"}
+
 
 
 

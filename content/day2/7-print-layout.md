@@ -154,7 +154,7 @@ To customize the symbology of your scalebar as well as its lettering, scroll dow
 <img src="./images/layout11b.png" style="width:100%">
 
 
-If you scroll down to "Image Rotation" in Item Properties, you will notice there's an option to choose either Grid North or True North. Grid North is relative to the projection used, whereas True North, like the name implies, is a fixed geographic location. According to [QGIS](https://docs.qgis.org/3.40/en/docs/user_manual/print_composer/composer_items/composer_image.html), **Grid north** is the direction of a grid line which is parallel to the central meridian of the national/local grid, whereas **True north** is direction of a meridian of longitude. You can try changing it - at the scale we're interested in it won't matter. 
+If you scroll down to "Image Rotation" in Item Properties, you will notice there's an option to choose either Grid North or True North. Grid North is relative to the projection used, whereas True North, like the name implies, is a fixed geographic location. According to [QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/print_composer/composer_items/composer_image.html){:target="_blank"}, **Grid north** is the direction of a grid line which is parallel to the central meridian of the national/local grid, whereas **True north** is direction of a meridian of longitude. You can try changing it - at the scale we're interested in it won't matter. 
 {: .note}
 
 <!-- 

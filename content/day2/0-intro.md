@@ -15,8 +15,7 @@ In the morning, you'll make a reference map of Montréal's historic public bath 
 
 #### **Morning Session** 9am - 12pm
 - Conceptual and Practical Introduction to QGIS
-<!-- - Practical introduction to QGIS -->
-- Downloading Data from the web
+- Downloading data from the web and adding it to a QGIS project
 - Reference Mapping with QGIS
 
 

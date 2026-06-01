@@ -7,7 +7,7 @@ parent: Thematic Mapping
 # The Attribute Table
 {: .no_toc}
 
-The **Attribute Table** is where you can view the tabular data associated with vector datasets. Here, you can query your data by running complex selections, directly edit individual features, and perform mathematical operations on your layers. See the [QGIS documentation on working with the attribute table](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/attribute_table.html) for more.
+The **Attribute Table** is where you can view the tabular data associated with vector datasets. Here, you can query your data by running complex selections, directly edit individual features, and perform mathematical operations on your layers. See the [QGIS documentation on working with the attribute table](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html){:target="_blank"} for more.
 
 <details open markdown="block">
   <summary>
@@ -260,7 +260,7 @@ Click Okay in this window, and then OK in the Joins Layer Property. Open the att
 
 
 ## Field Calculator 
-Our final step in the is to calculate the percentage French Canadian population in each census tract. As QGIS writes, the **[Field Calculator](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#using-the-field-calculator)** "allows you to perform calculations on the basis of existing attribute values or defined functions, for instance, to calculate length or area of geometry features. The results can be used to update an existing field, or written to a new field (that can be a virtual one)."
+Our final step in the is to calculate the percentage French Canadian population in each census tract. As QGIS writes, the **[Field Calculator](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#using-the-field-calculator){:target="_blank"}** "allows you to perform calculations on the basis of existing attribute values or defined functions, for instance, to calculate length or area of geometry features. The results can be used to update an existing field, or written to a new field (that can be a virtual one)."
 
 To get the percent French Canadian population in each census tract, we need to calculate (French Canadians / Total population) * 100. Let's add a column to our attribute table that performs this calculation using Field Calculator. 
 
