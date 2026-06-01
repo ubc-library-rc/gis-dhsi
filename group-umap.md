@@ -38,9 +38,16 @@ Below you can find step-by-step documentation for adding a point to the group ma
 
 <img src="./content/images/group3.png" style="width:100%">
 
-Once searched, click on the marker icon that prompts you to "Add this place to my map". In the "Feature Properties" side-panel that opens, scroll down and add a description in the **Comments** field. (Add any image credits you wish here as well.)
+Once searched, click on the marker icon that prompts you to "Add this place to my map". 
+
+<img src="./content/images/group4.png" style="width:100%">
+
+
+In the "Feature Properties" side-panel that opens, scroll down and add a description in the **Comments** field. (Add any image credits you wish here as well.)
 
 Then, paste the Google Drive link to your relevant image in the **ImageURL** field. 
+
+<img src="./content/images/group5.png" style="width:100%">
 
 Close the "Feature Properties" side-panel.
 
@@ -48,11 +55,28 @@ Close the "Feature Properties" side-panel.
 
 *4*{: .circle .circle-green} All the points we add are part of a single data layer called "Points of Interest". If you accidentally closed the panel early, or want to add more information to your point, you can do so by opening the data table for "Points of Interest" and editing it directly. 
 
+To do this, open the "Manage layers" tool from the right-hand toolbar. 
+
+<img src="./content/images/group6.png" style="width:100%">
+
+Then open the table. 
+
+<img src="./content/images/group7.png" style="width:100%">
 
 
 
+Double click a field to edit it directly. 
 
 
+<br>
+
+*5*{: .circle .circle-green} **Save your work** in the top right-hand corner. Notice you may get an error if someone else is actively contributing to the map at the same time. Try not to override someone else's edits. Additionally, please be sure to close your browser tab once you are done contributing. We have tried to reduce conflicts by staggering our additions through asynchronous contributions. 
+
+<img src="./content/images/group9.png" style="width:100%">
+
+
+
+<!-- 
 
 Note that you can also add a marker directly to the map using the "Add Marker" tool in the right-hand panel. 
 
@@ -62,13 +86,10 @@ Note that you can also add a marker directly to the map using the "Add Marker" t
 *4*{: .circle .circle-green} 
 
 
-- save. notice you may get error if someone else is editing. wait for them to finish or save and return. try not to override someone. that being said, close tab when done. we've tried to douncut this by staggering additions by having you add asyncrhoneously throuhout the week. 
 
 
 > zoom to layer and save. 
 
 
 
-- teach thursday but if you want to start adding - welcome to - how to add images → add new field, upload image link  - then upload image to drive - make edit all and then link? could make google drive collective for them…
-
-
+ -->
