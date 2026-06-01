@@ -5,10 +5,6 @@ nav_order: 1
 has_children: true
 ---
 
-
-This course website is still in progress. Please await an email from the course instructors before downloading or browsing the material. 
-{: .warn}
-
 # Spatial Visualization in/for Digital Humanities Research
 This course provides a gentle introduction to mapping and spatial visualization for storytelling in the digital humanities. Rather than focusing on a particular software or technical workflow, we will introduce a variety of mapping tools while evaluating their respective affordances and limitations. Short lectures and demonstrations will be paired with hands-on exercises and collaborative problem solving, as well as discussions of emerging research areas in cartography and digital mapping. By the end of this course, participants will be aware of the breadth of spatial visualizations possible in digital humanities work, recognize their applicability, and have practical experience making maps. The structure and pacing of this course is geared towards an audience of geospatial novices to intermediate mappers. You do not need any technical skills coming into this workshop — just a sense of curiosity about how you can explore space and place through your work!
 
@@ -19,9 +15,9 @@ This course provides a gentle introduction to mapping and spatial visualization 
 
 | Day | Topics | Tools/Learning Outcomes
 | --- | --- | ---
-| Monday | **Introduction to Spatial Visualization** | On Day 1, we will introduce key ideas and critical methods in cartography and geographic information science, and, discuss how maps, as spatial representations, function in digital scholarship and humanities research. In the afternoon, we will talk about spatial data and how to find, download, and properly format data for use in various spatial visualization platforms. Finally, we will provide a project design worksheet to structure your learning throughout the week.
-| Tuesday | **Mapping with QGIS** | Day 2 will provide a conceptual  and practical orientation to geographic information systems (GIS), a software often used to analyze, modify, and visualize spatial data. You will develop familiarity with [QGIS](https://qgis.org/){:target="_blank"}{:target="_blank"}  — a free and open-source GIS — by making both reference maps and thematic maps visualizing historical data of Montréal.
-| Wednesday | **Tools and Workflows in QGIS + Story Maps** | The morning of Day 3 will be spent further exploring common tools and workflows in QGIS. You will learn how to add basemaps to your QGIS project, georeference historical maps, and perform vasic vector analysis. In the afternoon, we will pivot to "Story Maps" — interactive websites that combine multimedia, narrative, and spatial visualizations. You will have the chance to create a Story Map using the free version of [ArcGIS StoryMaps](https://storymaps.arcgis.com/), as well as its open-source alternate, [Knightlab StoryMap](https://storymap.knightlab.com/){:target="_blank"}. 
+| Monday | **Introduction to Spatial Visualization** | On Day 1, we will introduce key ideas and critical methods in cartography and geographic information science (GIS), and, discuss how maps, as spatial representations, function in digital scholarship and humanities research. In the afternoon, we will talk about spatial data and how to find, download, and properly format data for use in various spatial visualization platforms. Finally, we will provide a project design worksheet to structure your learning throughout the week.
+| Tuesday | **Mapping with QGIS** | Day 2 will provide a conceptual  and practical orientation to geographic information systems (GIS), a software often used to analyze, modify, and visualize spatial data. You will develop familiarity with [QGIS](https://qgis.org/){:target="_blank"}  — a free and open-source GIS — by making both reference maps and thematic maps visualizing historical data of Montréal.
+| Wednesday | **Tools and Workflows in QGIS + Story Maps** | The morning of Day 3 will be spent further exploring common tools and workflows in QGIS. You will learn how to add basemaps to your QGIS project, georeference historical maps, generate time series and radial flow maps, and perform basic vector analysis. In the afternoon, we will pivot to "Story Maps" — interactive websites that combine multimedia, narrative, and spatial visualizations. You will have the chance to create a Story Map using the free version of [ArcGIS StoryMaps](https://storymaps.arcgis.com/){:target="_blank"}, as well as its open-source alternate, [Knightlab StoryMap](https://storymap.knightlab.com/){:target="_blank"}. 
 | Thursday | **Web Mapping** | Day 4 will concern web mapping, that is, making dynamic, interactive maps that are hosted on the web and can be shared with others via a link. You will learn how to create web maps in 2 different manners: (1) online, through platforms such as [uMap](https://umap.openstreetmap.fr/en/){:target="_blank"} and [Google MyMaps](https://www.google.com/maps/about/mymaps/){:target="_blank"}, and (2) with code powered by [Leaflet](https://leafletjs.com/){:target="_blank"}. 
 | Friday | **Wrap-up** | Our last day together will provide a space to wrap-up projects, ask questions, and review skills learned. 
 
@@ -52,7 +48,7 @@ While we will be providing sample projects to work from, we welcome you to bring
 
 
 * *3*{: .circle .circle-green}  **[Download and unzip the workshop data folder](https://drive.google.com/file/d/1OEY0dqCtHREt6dWWH_6paQB6C9mDdarS/view?usp=share_link){:target="_blank"}** below. This will be available on the course website in May. You will receive an email when the course website and data are ready to download. Download it to a location on your physical computer, such as Desktop or Downloads, *not OneDrive*. This item is quite large, so please download to an external thumbdrive if needed. 
-> [Download Data](https://drive.google.com/file/d/1OEY0dqCtHREt6dWWH_6paQB6C9mDdarS/view?usp=share_link){: .btn .btn-blue}
+> [Download Data](https://drive.google.com/file/d/1OEY0dqCtHREt6dWWH_6paQB6C9mDdarS/view?usp=share_link){:target="_blank"}{: .btn .btn-blue}
 
 
 * *4*{: .circle .circle-green} **Create free accounts for the various platforms we will use.**
@@ -70,7 +66,7 @@ While we will be providing sample projects to work from, we welcome you to bring
 <br>
 
 ### Site Acknowledgements
-This workshop was authored by [Lily Demet](https://geog.ubc.ca/profile/lily-crandall-oral/){:target="_blank"} and Alex Alisauskas, and taught at the 2026 [Digital Humanities Summer Institute](https://dhsi.org/){:target="_blank"}.
+This workshop was authored by [Lily Demet](https://geog.ubc.ca/profile/lily-crandall-oral/){:target="_blank"} and Alex Alisauskas, and taught at the 2026 [Digital Humanities Summer Institute](https://dhsi.org/){:target="_blank"} in Montréal, Canada.
 
 Site template adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs){:target="_blank"} Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill){:target="_blank"} and available under the [MIT License](http://opensource.org/licenses/MIT){:target="_blank"}
 
@@ -78,4 +74,4 @@ Copyright: UBC Library Research Commons, [Creative Commons Attribution 4.0 licen
 
 
 <p style="margin-top:70px"></p>
-<p style="color:grey; font-size:13px">This extended workshop was authored by Lily Demet and Alex Alisauskas, and taught at the 2026 Digital Humanities Summer Institute.</p>
+<p style="color:grey; font-size:13px">This extended workshop was authored by Lily Demet and Alex Alisauskas, and taught at the 2026 Digital Humanities Summer Institute in Montréal, Canada.</p>
