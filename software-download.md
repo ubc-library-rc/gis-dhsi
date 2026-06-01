@@ -28,7 +28,7 @@ QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site
 
 To Do
 {: .label .label-green }
-Install QGIS for your operating system. From [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html), select your computer's operating system from the drop-down menu. 
+Install QGIS for your operating system. From [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html){:target="_blank"}, select your computer's operating system from the drop-down menu. 
 
 
 
