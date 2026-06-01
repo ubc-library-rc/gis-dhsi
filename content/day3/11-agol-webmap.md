@@ -7,8 +7,7 @@ parent: Story Maps
 # Create a Web Map with ArcGIS Online 
 {: .no_toc}
 
-<!-- i ported the content in as all one page but i can absolutely break it up just like it is in the [og website](https://ubc-library-rc.github.io/gis-storymaps/content/create-a-webmap.html)... lmk what makes the most sense for teaching/demo-ing 
-{: .warn} -->
+
 
 An ArcGIS web map is an interactive display of geographic information that you can use to tell stories and answer questions. If you want to include any dynamic maps that include layer data in your StoryMap, you will need to create it through ArcGIS Online first. 
 
