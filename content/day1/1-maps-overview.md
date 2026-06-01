@@ -7,10 +7,6 @@ parent: Day 1
 # Thematic vs. Reference maps 
 
 
-need text on HOW MAPS FUNCTION IN DIGITAL HUMANITIES RESEARCH. you're welcome to present this page in conjunction with your lecture...
-{: .warn}
-
-
 Maps can be physical or digital, static or interactive. However, there are 2 broad categories spatial visualizations can be categorized into: ***reference maps*** and ***thematic maps***. Reference maps are descriptive, showing “the lay of the land”, whereas thematic maps render the results of spatial analysis. 
 Later in the week you'll also be introduced to multimedia narratives that use (often reference) maps and spatial data to tell an interactive story using a web-based platform. 
 
@@ -44,12 +40,12 @@ Satellite imagery
 Other reference maps include road atlases, hiking maps (handheld or web-based, like AllTrails), pocket atlases, or transport specific maps such as the below cycling map of Vancouver and Montréal. The reference map most often used in your everyday is likely Google Maps.
 
 <img src="./images/reference-map-ex4.jpeg" style="width:100%">
-<sub><sup>[Vancouver cycling map](https://vancouver.ca/streets-transportation/cycling-routes-maps-and-trip-planner.aspx)</sup></sub>     
+<sub><sup>[Vancouver cycling map](https://vancouver.ca/streets-transportation/cycling-routes-maps-and-trip-planner.aspx){:target="_blank"}</sup></sub>     
 
 
 
 <img src="./images/reference-map-ex5.png" style="width:100%">
-<sub><sup>[Vélo Québec Bikeways map](https://www.velo.qc.ca/en/toolkitssss/greater-montreal-bikeway-map/)</sup></sub>   
+<sub><sup>[Vélo Québec Bikeways map](https://www.velo.qc.ca/en/toolkitssss/greater-montreal-bikeway-map/){:target="_blank"}</sup></sub>   
 
 
 

@@ -6,10 +6,12 @@ parent: Day 1
 ---
 # What is Spatial Data?
 
-Spatial data, sometimes called 'geospatial data', is data that contains locational information, most often *coordinate points*. Just like text documents require specific software to open and edit them, spatial data require certain software to open, view, analyze, and modify them. This course will introduce you to different tools and platforms for working with spatial data. The main kind of software for visualizing, analyzing, and modifying spatial data is Geographic Information System, or a GIS. Additionally, there are browser-based platforms for uploading and visualizing spatial data. We will talk more about GIS tomorrow, and online platforms later in the week. 
+Spatial data, sometimes called 'geospatial data', is data that contains locational information, most often *coordinate points*. Just like text documents require specific software to open and edit them, spatial data require certain software to open, view, analyze, and modify them. 
 
+This course will introduce you to different tools and platforms for working with spatial data. The main kind of software for visualizing, analyzing, and modifying spatial data is Geographic Information System, or a GIS. Additionally, there are browser-based platforms for uploading and visualizing spatial data. We will talk more about GIS tomorrow, and online platforms later in the week. 
 
-Before we turn to visualizing spatial data, we must first be able to identify data as spatial. It is important to understand the different forms spatial data take and how to make data legible to different mapping platforms. Outside this workshop, you will not always be given pre-prepared data that's stored in the appropriate format for the task at hand. Rather, it is most likely you will be downloading data from the web or creating and combining new data — all of which requires knowledge of data types and file formats.  
+Before we turn to visualizing spatial data, we must first be able to identify data as spatial. It is important to understand the different forms spatial data take and how to make data legible to different mapping platforms. Outside this workshop, you will not always be given pre-prepared data that's stored in the appropriate format for the task at hand. Rather, it is most likely you will be downloading data from the web or creating and combining new data — all of which requires knowledge of data types and file formats. 
+ 
 
 <details open markdown="block">
   <summary>
@@ -21,7 +23,6 @@ Before we turn to visualizing spatial data, we must first be able to identify da
 </details>
 
 -----
-
 
 ## Raster vs. Vector Data
 There are 2 main types of spatial data: **vector** and **raster**. 
@@ -52,7 +53,7 @@ Each vector dataset will contain *either* points, lines, or polygons. However, a
 {: .no_toc}
 Rasters, on the other hand, can generally only store one value per pixel. This value could be a color representing different kinds of topography (think of the whites, greens, and browns representing different elevations in the image below) or the quantity of something like rainfall, temperature, or distance. Multiple rasters *can* be overlaid to generate a multi-part raster, but generally, each pixel of a single raster can store one value meaning your raster is showing one variable. You can also do math between raster layers, or run boolean operations to isolate all pixels that do or do not meet certain criteria. An example of this is Suitability Analysis, where multiple rasters are created, each representing the where a single criteria is met; then, these rasters are overlaid to visualize areas of high suitability (such as habitat). 
 
-Below is are three examples of raster data: topography, aerial imagery, and historical rainfall for the month of February (averaged 1970-2000) from [WorldClim](https://worldclim.org/data/index.html), an excellent database of freely available historical climate data. 
+Below is are three examples of raster data: topography, aerial imagery, and historical rainfall for the month of February (averaged 1970-2000) from [WorldClim](https://worldclim.org/data/index.html){:target="_blank"}, an excellent database of freely available historical climate data. 
 
 
 
@@ -74,18 +75,18 @@ Below is are three examples of raster data: topography, aerial imagery, and hist
 <br>
 
 ## File Extensions
-Just like a textual data can be stored in different document formats (`.docx`, `.pdf`, `.txt`, `.rtf`, etc.), spatial data can be stored in different formats too. The file extensions of spatial data give us clues about the kind of data we're working with. Although the nuance of file formats might seem too detail oriented for an introduction to reference mapping, being aware of different spatial data types and formats will help you know what to download and troubleshoot why something may not be opening/working. If you have no prior experience with spatial data, this may be quite overwhelming right now. However, with a little bit of practical experience under your belt file formatting will quickly become common sense to you. See [here](https://gisgeography.com/gis-formats/) for an exhaustive list of formats spatial data can take. 
+Just like a textual data can be stored in different document formats (`.docx`, `.pdf`, `.txt`, `.rtf`, etc.), spatial data can be stored in different formats too. The file extensions of spatial data give us clues about the kind of data we're working with. Although the nuance of file formats might seem too detail oriented for an introduction to reference mapping, being aware of different spatial data types and formats will help you know what to download and troubleshoot why something may not be opening/working. If you have no prior experience with spatial data, this may be quite overwhelming right now. However, with a little bit of practical experience under your belt file formatting will quickly become common sense to you. See [here](https://gisgeography.com/gis-formats/){:target="_blank"} for an exhaustive list of formats spatial data can take. 
 
-**Raster data** will often be [TIF](https://en.wikipedia.org/wiki/TIFF) (aka TIFF) file and have the extension `.tif` or `.tiff`. Raster data may also be in an ASCII text file, with the extension `.asc`, or a compressed raster file formats. 
+**Raster data** will often be [TIF](https://en.wikipedia.org/wiki/TIFF){:target="_blank"} (aka TIFF) file and have the extension `.tif` or `.tiff`. Raster data may also be in an ASCII text file, with the extension `.asc`, or a compressed raster file formats. 
 
 **Vector data** come in more diverse file formats: 
 - The Shapefile is an industry standard format with the extension `.shp` (and a host of "sidecar files" — be sure to keep them all together). Vector data downloaded in a shapefile format will almost always need to be unzipped before use. Shapefiles store data in binary. Therefore, shapefiles are not legible to human eyes and can only be opened and visualized by a GIS. 
-- GeoJSON, on the other hand, stores vector data in `.geojson` files that can be opened (and edited) in a code editor or online in [geojson.io](https://geojson.io/). From there, geoJSON can easily be parsed with human eyes.
+- GeoJSON, on the other hand, stores vector data in `.geojson` files that can be opened (and edited) in a code editor or online in [geojson.io](https://geojson.io/){:target="_blank"}. From there, geoJSON can easily be parsed with human eyes.
 - Spatial data might even be stored in an excel sheet or a `.csv` file. 
 - KML, or Keyhole Markup Language, is particular to Google Earth and Google Maps and doesn't work well in a GIS. This is why, when using Google platforms, you'll need to upload your data in either `.kml` or `.csv` format. 
 - If your data does not have an explicit spatial component, but includes place names or addresses, with a little work, this can be made legible to tools and platforms designed to read spatial data. Also note that historical data might come in the form of a scanned map that will need to be "georeferenced", or projected into a 2-dimensional coordinate space. Additionally, in a GIS, you can convert raster data to vector data and vector data to raster data, and extract raster values to a vector dataset.
 <!-- doesnt mean its not spatial data, just that the spatial componant isn't legible (yet) to tools/platforms/software designed to read in spatial data.  -->
-- If your data's locative information is in the form of text — for example, country/city names or street addresses — this can be made legible to a GIS with a few extra steps (see [geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html)). You may have to create new columns and populate them with coordinate information.  
+- If your data's locative information is in the form of text — for example, country/city names or street addresses — this can be made legible to a GIS with a few extra steps (see [geocoding](https://ubc-library-rc.github.io/gis-plugins-qgis/content/geocoding.html){:target="_blank"}). You may have to create new columns and populate them with coordinate information.  
 
 
 <br><br>

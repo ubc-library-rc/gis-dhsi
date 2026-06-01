@@ -13,7 +13,8 @@ Welcome! Today we will introduce key ideas and critical methods in cartography a
 
 #### **Morning Session** 11am - 12pm
 - Course Overview + Instructor Introductions
-- Participant Introductions
+- Participant Introductions 
+- Introduce [Group Project](https://ubc-library-rc.github.io/gis-dhsi/group-umap.html){:target="_blank"}
 
 
 #### **Afternoon Session** 1:30pm - 4pm

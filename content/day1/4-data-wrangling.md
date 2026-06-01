@@ -7,8 +7,6 @@ parent: Day 1
 # Data Wrangling
 {: .no_toc}
 
-or call it Data preparation - im still developing the below so feel free to contribute thoughts/text/resources
-{: .warn}
 
 Although there is a lot of spatial data available for download which, with some modification (using tools and workflows largely introduced tomorrow), can suit a variety of mapping purposes, you will doubtless run into situations where you have to create your own data. For example, maybe you want to plot significant sites visited by the protagonist of a novel, or the opera houses frequented by a notable musician. 
 
@@ -132,7 +130,7 @@ You don't need to geocode in a GIS! If you aren't using a GIS for any other port
 
 
 
-
+<!-- 
 <br>
 
 
@@ -147,7 +145,7 @@ oh also editing..../digitizing shapefiles.. if there's time
 
 
 do you agree it's wise to add this documentation - I never added it to our RC workshop on  Reference Mapping in the Additional Content section, so good to have even if we don't go over here. 
-{: .warn}
+{: .warn} -->
 
 <br><br>
 
