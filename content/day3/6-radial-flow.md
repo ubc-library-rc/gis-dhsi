@@ -13,8 +13,8 @@ Today we are going to be working with a selection of data that has been adapted 
 
 To create a radial flow map you need a layer that contains coordinates for both origin and destination. We have also prepared the data to create a count of the number of voyages by destination from London using the “Statistics by Category” tool, and then joining and cleaning up data to create a new simplified layer. Feel free to ask about how to do this!
 
-<!--FIX-->
-Open the XXX.qgz project. The main point layer is a dataset of counts of voyages to various locations from London. We are going to create a Radial Flow map that shows the movement from London to these locations, and visualizes the intensity of the route. Right now, the destination points have been loaded as coordinates.
+
+Open the `RadialFlow_BSFWCountData.qgz` project. (The project and data is in a folder called `RadialFlow` inside `Day3/tools-and-workflows`.) The main point layer is a dataset of counts of voyages to various locations from London. We are going to create a Radial Flow map that shows the movement from London to these locations, and visualizes the intensity of the route. Right now, the destination points have been loaded as coordinates.
 
 
 <BR>
@@ -37,9 +37,9 @@ Open the XXX.qgz project. The main point layer is a dataset of counts of voyages
 
 > Select Great Circle as the line (this will create an arced line) and click Use Point Geometry for the line starting point if you want a point to appear at the origin.
 
->For starting field X, select Port_X, and for starting field Y, select Port_Y.
+>For starting field X, select `Port_X`, and for starting field Y, select `Port_Y`.
 
->For Ending X Field select, Destination_X, and for Ending Y Field, select Destination_Y.
+>For Ending X Field select, `Destination_X`, and for Ending Y Field, select `Destination_Y`.
 
 >Click both show starting and ending point if you want these to appear.
 
