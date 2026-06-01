@@ -53,9 +53,9 @@ Here's the map tile grid for **zoom level 13 over Vancouver**:
 
 ## Tile Servers
 
-You might be thinking: **_Where are all these tiles loading from?_** Well, there are services that render these tiles for consumption. The main two are Google and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Tile_servers), but there are many others.
+You might be thinking: **_Where are all these tiles loading from?_** Well, there are services that render these tiles for consumption. The main two are Google and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Tile_servers){:target="_blank"}, but there are many others.
 
-You might also be thinking: **_Can I customize my own tiles to make them look cool?_** You can, with services like [Mapbox Studio](https://www.mapbox.com/mapbox-studio/). Or you can [set up your own server](https://medium.com/@Nithanaroy/create-your-own-tile-server-and-map-client-5f7515fff28) to render your own. But these options are both way beyond the scope of this workshop, so for now, don't worry about it. There are several out-of-the-box options to make your map tiles look sleek.
+You might also be thinking: **_Can I customize my own tiles to make them look cool?_** You can, with services like [Mapbox Studio](https://www.mapbox.com/mapbox-studio/){:target="_blank"}. Or you can [set up your own server](https://medium.com/@Nithanaroy/create-your-own-tile-server-and-map-client-5f7515fff28){:target="_blank"} to render your own. But these options are both way beyond the scope of this workshop, so for now, don't worry about it. There are several out-of-the-box options to make your map tiles look sleek.
 
 Here are some interesting styles for the tile covering the south part of UBC Campus at zoom level 13:
 
@@ -68,4 +68,4 @@ Here are some interesting styles for the tile covering the south part of UBC Cam
 
 Another thing to understand about map tiles is that there are both raster and vector tiles. Raster tiles have been around longer, and so are a little simpler to tinker with when beginning to web map. That's why we're using raster tiles for this workshop. Features and attributes on raster tiles are static because such tiles are just images.
 
-Vector tiles contain vector data like feature names and other attribute data. While they have been around for several years, they are still newer and faster, and offer more customization options than raster tiles. These tiles are rendered as soon as your browser requests them from a tile server, freeing us from discrete zoom levels and map orientation. To learn more about vector tiles, we recommend Mapbox's [Vector Tiles Introduction](https://docs.mapbox.com/data/tilesets/guides/vector-tiles-introduction/).
+Vector tiles contain vector data like feature names and other attribute data. While they have been around for several years, they are still newer and faster, and offer more customization options than raster tiles. These tiles are rendered as soon as your browser requests them from a tile server, freeing us from discrete zoom levels and map orientation. To learn more about vector tiles, we recommend Mapbox's [Vector Tiles Introduction](https://docs.mapbox.com/data/tilesets/guides/vector-tiles-introduction/){:target="_blank"}.

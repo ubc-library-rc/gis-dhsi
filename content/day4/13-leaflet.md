@@ -57,7 +57,7 @@ Your web map should now look something like this:
 
 <br>
 
-Notice the data source we added in the `<head>` element locates the dataset in `./public-art.js`. The `./` preceding the filename denotes a relative path. A [relative path](https://www.w3schools.com/html/html_filepaths.asp) is a path to a file that is in the same folder as your HTML document. If your data were stored in downloads, for instance, the source link would look like `src="./downloads/public-art.js"`. If your data were stored on a server or hosted by an external web source, as are the CSS and Javascript, the source link would direct the web browser reading and rendering your map's HTML document to that address. 
+Notice the data source we added in the `<head>` element locates the dataset in `./public-art.js`. The `./` preceding the filename denotes a relative path. A [relative path](https://www.w3schools.com/html/html_filepaths.asp){:target="_blank"} is a path to a file that is in the same folder as your HTML document. If your data were stored in downloads, for instance, the source link would look like `src="./downloads/public-art.js"`. If your data were stored on a server or hosted by an external web source, as are the CSS and Javascript, the source link would direct the web browser reading and rendering your map's HTML document to that address. 
 {: .note}
 
 <br>
@@ -113,7 +113,7 @@ to change the styling of a polygon data layer, we will (1) write a *function* th
     }
 ```
 
-There, we have created a style function that looks at every feature in the `heritage` layer and gives it a `fillColor` of `#5E3A85`, which is the [HEX code for purple](https://www.google.com/search?q=hex+color+picker&oq=hex+color+picker&aqs=chrome..69i57j35i39j0i67i131i433j0i67i433j0i433i512j0i67j0i512j0i131i433i512j0i512l2.1699j0j7&sourceid=chrome&ie=UTF-8). `color` dictates the color of each feature's outline, and `weight` is the thickness of those outlines. `fillOpacity` is the transparency of the shading, where 0 is completely transparent and 1 is completely solid. Take a moment to play around with the color of the heritage districts.
+There, we have created a style function that looks at every feature in the `heritage` layer and gives it a `fillColor` of `#5E3A85`, which is the [HEX code for purple](https://www.google.com/search?q=hex+color+picker&oq=hex+color+picker&aqs=chrome..69i57j35i39j0i67i131i433j0i67i433j0i433i512j0i67j0i512j0i131i433i512j0i512l2.1699j0j7&sourceid=chrome&ie=UTF-8){:target="_blank"}. `color` dictates the color of each feature's outline, and `weight` is the thickness of those outlines. `fillOpacity` is the transparency of the shading, where 0 is completely transparent and 1 is completely solid. Take a moment to play around with the color of the heritage districts.
 <br>
 
  <img src="./images/leaflet12.png" style="width:100%">

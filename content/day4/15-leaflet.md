@@ -9,9 +9,9 @@ Clustering aggregates point data for certain zoom levels, generalizing otherwise
 
 <iframe src="./reference/art-and-heritage-clustered.html" style="width:100%; height:520px; border:none;"> </iframe>
 
-Rather than devise the code to cluster a dataset yourself, all you need to do is add some additional code libraries to your map. While you could download the [Leaflet.markercluster plugin](https://github.com/Leaflet/Leaflet.markercluster) directly to your computer/workshop data folder and link it locally just like you link your datasets, it's far easier to simply link the relevant libraries in the `<head>` element of your map HTML document. Remember, this is how we powered our map with Leaflet to begin with. After adding the **Leaflet.markercluster** libraries, we will then use this function to cluster our dataset.
+Rather than devise the code to cluster a dataset yourself, all you need to do is add some additional code libraries to your map. While you could download the [Leaflet.markercluster plugin](https://github.com/Leaflet/Leaflet.markercluster){:target="_blank"} directly to your computer/workshop data folder and link it locally just like you link your datasets, it's far easier to simply link the relevant libraries in the `<head>` element of your map HTML document. Remember, this is how we powered our map with Leaflet to begin with. After adding the **Leaflet.markercluster** libraries, we will then use this function to cluster our dataset.
 
-For more documentation on Leaflet.markercluster, see [here](http://leaflet.github.io/Leaflet.markercluster/). 
+For more documentation on Leaflet.markercluster, see [here](http://leaflet.github.io/Leaflet.markercluster/){:target="_blank"}. 
 
 
 
@@ -56,4 +56,4 @@ Copy/paste
 
 <br>
 
-Congratulations! That's it! Your point layer should now be clustered. 
+*Congratulations! That's it! Your point layer should now be clustered.*

@@ -75,7 +75,7 @@ Alternatively, you can search for a place in the search bar, then choose to add 
 
 ## Importing Data 
 
-Now, let's upload a dataset to the Untitled layer. To do so, click on the **Import** button. When you hover over it, you'll notice it says you can only import data from a CSV file, spreadsheet, or KML. Import `public-art.csv` from the course data folder. It will be in the folder `dhsi-workshop/Day3/online-webmapping`.
+Now, let's upload a dataset to the Untitled layer. To do so, click on the **Import** button. When you hover over it, you'll notice it says you can only import data from a CSV file, spreadsheet, or KML. Import `public-art.csv` from the course data folder. It will be in the folder `dhsi-workshop/Day4/online-webmapping`.
 
 <img src="./images/mymap-demo5.png" style="width:40%; padding-left: 20px;">
 

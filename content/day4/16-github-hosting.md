@@ -8,7 +8,7 @@ parent: Day 4
 # Hosting a webmap with GitHub
 As is, your webmap is a folder of files on your computer. You can open it locally, but no one else can access it unless you send them the folder to download to their own computer. This is where web hosting platforms come in. If you upload this folder to a cloud service then you can make the map viewable in web browsers anywhere with internet connection (and no access restrictions). 
 
-If you have a website and access to local server, that's an option too. However, if not, [GitHub](https://github.com/) is a low-barrier solution. GitHub is an internet hosting service that allows you to upload files into a repository, or project folder, where they can be shared and collaboratively tracked and edited by a team. This makes it quite popular amongst code developers. Conventionally, you'd work between your local computer and the web account, tracking changes as you go with *git*, a file control software. (See the Research Common's [introduction to git and GitHub](https://ubc-library-rc.github.io/intro-git/) for more.) However, we can work directly and exclusively from the web interface. The steps to host your dynamic on the web using GitHub are as follows:
+If you have a website and access to local server, that's an option too. However, if not, [GitHub](https://github.com/){:target="_blank"} is a low-barrier solution. GitHub is an internet hosting service that allows you to upload files into a repository, or project folder, where they can be shared and collaboratively tracked and edited by a team. This makes it quite popular amongst code developers. Conventionally, you'd work between your local computer and the web account, tracking changes as you go with *git*, a file control software. (See the Research Common's [introduction to git and GitHub](https://ubc-library-rc.github.io/intro-git/){:target="_blank"} for more.) However, we can work directly and exclusively from the web interface. The steps to host your dynamic on the web using GitHub are as follows:
 
 1. Create a free GitHub account
 2. Make a new repository 
@@ -21,7 +21,7 @@ If you have a website and access to local server, that's an option too. However,
 
 ## 1. Create a Github account
 {: .no_toc}
-Go to [github.com](https://github.com/) and create a free Github account. 
+Go to [github.com](https://github.com/){:target="_blank"} and create a free Github account if you haven't already. 
 
 
 ## 2. Make a new repository
@@ -108,7 +108,7 @@ Copy/Paste
 
 ## 5. Run Github Pages
 {: .no_toc}
-[Github Pages](https://pages.github.com/) allow you to create a little website from a code repository. The highest level `index.html` file will be the landing page for your website. This is why it was important to rename our boilerplate to `index.html`, and also why it is important to create a new, non-nested `index.html` when uploading an entire folder. 
+[Github Pages](https://pages.github.com/){:target="_blank"} allow you to create a little website from a code repository. The highest level `index.html` file will be the landing page for your website. This is why it was important to rename our boilerplate to `index.html`, and also why it is important to create a new, non-nested `index.html` when uploading an entire folder. 
 
 To activate Github Pages, go to your repository's **Settings**. 
 

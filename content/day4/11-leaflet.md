@@ -8,7 +8,7 @@ parent: Hands on with Leaflet
 # Map Parameters: A closer look at the script
 <br>
 
-The interaction seen in web maps is powered by [JavaScript](https://www.w3schools.com/Js/). There are JavaScript libraries for *all sorts* of things, and we’re using [Leaflet](https://leafletjs.com/) as a foundation for our maps. However you can add customization to your map so that it can do just about anything.
+The interaction seen in web maps is powered by [JavaScript](https://www.w3schools.com/Js/){:target="_blank"}. There are JavaScript libraries for *all sorts* of things, and we’re using [Leaflet](https://leafletjs.com/){:target="_blank"} as a foundation for our maps. However you can add customization to your map so that it can do just about anything.
 
 In the last few pages, we got to see the boilerplate basemap in action, learned about the map tiles that are dynamically loaded zoom in and out, and familiarized ourselves with the anatomy of the HTML document that's powering this interactivity. Now, let's take a closer look at the script element to understand how the boilerplate basemap works. 
 
@@ -93,7 +93,7 @@ Copy/paste
 
 ## Change the Tile Layer, aka Basemap
 
-Suppose we want our data to stand out from the green base map more than it does now. One thing we can do is change the source of the map tiles to one that has a more appropriate style for our blue data. As mentioned earlier, there are several out-of-the-box options to choose from with a variety of different styles. [This page lists a number of different map tile sources](https://leaflet-extras.github.io/leaflet-providers/preview/), and provides the text to paste into our map document for each one (minus the important <code>.addTo(mymap)</code> which needs to be inserted before the final semi-colon). **some of these sources require an access token or api-key, so you won't be able to use them unless you sign up for an account**. 
+Suppose we want our data to stand out from the green base map more than it does now. One thing we can do is change the source of the map tiles to one that has a more appropriate style for our blue data. As mentioned earlier, there are several out-of-the-box options to choose from with a variety of different styles. [This page lists a number of different map tile sources](https://leaflet-extras.github.io/leaflet-providers/preview/){:target="_blank"}, and provides the text to paste into our map document for each one (minus the important <code>.addTo(mymap)</code> which needs to be inserted before the final semi-colon). **some of these sources require an access token or api-key, so you won't be able to use them unless you sign up for an account**. 
 
     
 The boilerplate basemap works well for this workshop, but try playing around with different tile layers. 

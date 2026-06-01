@@ -7,7 +7,7 @@ parent: Day 4
 
 
 # Webmapping with QGIS
-With the time we have left, you are welcome to practice making a webmap of your own. However, we will also briefly demonstrate how to turn a QGIS project into a dynamic and interactive webmap using the [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) plugin. This plugin allows you to seamlessly create a webmap from your project that preserves your layers *and* their symbology. See the [qgis2web wiki](https://qgis2web.github.io/qgis2web/) for additional documentation. 
+With the time we have left, you are welcome to practice making a webmap of your own. However, we will also briefly demonstrate how to turn a QGIS project into a dynamic and interactive webmap using the [qgis2web](https://plugins.qgis.org/plugins/qgis2web/){:target="_blank"} plugin. This plugin allows you to seamlessly create a webmap from your project that preserves your layers *and* their symbology. See the [qgis2web wiki](https://qgis2web.github.io/qgis2web/){:target="_blank"} for additional documentation. 
 
 We have prepared a QGIS project and data for you. Find and open it from the folder `dhsi-workshop/Day4/QGIS-webmapping`. 
 
@@ -27,7 +27,7 @@ This next section will guide you through turning your current QGIS project into 
 <br>
 
 ## Install qgis2web
-Install the [qgis2web](https://plugins.qgis.org/plugins/qgis2web/) plugin. 
+Install the [qgis2web](https://plugins.qgis.org/plugins/qgis2web/){:target="_blank"} plugin. 
 
 <!-- Once installed, you'll find it under the **Web** menu at the top of your screen. -->
 
@@ -54,7 +54,7 @@ The following window will open:
 
 
 ### **1. Power your webmap with Leaflet**
-At the very bottom of the window, change the code library powering your webmap to **Leaflet**. [Leaflet](https://leafletjs.com/) is a free and open-source code library that powers the interactivity and symbology of webmaps. 
+At the very bottom of the window, change the code library powering your webmap to **Leaflet**. [Leaflet](https://leafletjs.com/){:target="_blank"} is a free and open-source code library that powers the interactivity and symbology of webmaps. 
 
 <img src="./images/qgis6.png" style="width:90%">
 
@@ -132,7 +132,7 @@ Inside you will see a handful of subfolders.
 > - **markers** would contain any markers on your map 
 > - **webfonts** contains the font families of map text
 
-There is also an `index.html` document. [HTML](https://www.w3schools.com/Html/), or hyper text markup language, is the language read by web browsers. Either double-click this file or right-click and choose to open it with a web browser of your choice. **Google Chrome is recommended.** (DuckDuckGo sometimes doesn't work.)
+There is also an `index.html` document. [HTML](https://www.w3schools.com/Html/){:target="_blank"}, or hyper text markup language, is the language read by web browsers. Either double-click this file or right-click and choose to open it with a web browser of your choice. **Google Chrome is recommended.** (DuckDuckGo sometimes doesn't work.)
 
 Your webmap should load in a web browser:
 <img src="./images/qgis15.png" style="width:100%">

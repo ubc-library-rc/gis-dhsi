@@ -6,7 +6,7 @@ parent: Hands on with Leaflet
 ---
 
 # Map Boilerplate
-A [boilerplate](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/) is a chunk of code that can be used as-is in multiple contexts and often provides the basis for more advanced operations. The boilerplate code for this workshop renders a basemap which we will tinker with and add to in order to build an dynamic cluster map. It’s important that you don’t lose any of this code, and that it remains in its original structure and arrangement. Beyond this workshop, before you experiment with it on your own it's a good idea to make a copy of the original code to refer back to.
+A [boilerplate](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/){:target="_blank"} is a chunk of code that can be used as-is in multiple contexts and often provides the basis for more advanced operations. The boilerplate code for this workshop renders a basemap which we will tinker with and add to in order to build an dynamic cluster map. It’s important that you don’t lose any of this code, and that it remains in its original structure and arrangement. Beyond this workshop, before you experiment with it on your own it's a good idea to make a copy of the original code to refer back to.
 
 Now that we've seen what the boilerplate basemap for this workshop looks like, let’s explore the code behind it. Return to VS Code (your code editor). The contents of your boilerplate should look like this: 
 <!-- Double click `boilerplate.html ` in the Explorer panel to open it. -->
@@ -102,6 +102,6 @@ The HTML document is split into two main sections: the <code>head</code> and the
 ---
 
  **Version Releases** 
- In the `<head>` element of your map's HTML document you will see links to Leaflet's CSS and Javascript responsible for the styling and interactivity of your boilerplate basemap. Notice both links include `leaflet@1.9.4`. This refers to the Leaflet version. Just as your computer occasionally requires software updates, Leaflet occasionally releases updates. If your web maps ever stop working for no apparent reason, go to Leaflet's home page, [leafletjs.com](https://leafletjs.com/) and check if a new version has been released. If it has, simply update your CSS and Javascript links to match. 
+ In the `<head>` element of your map's HTML document you will see links to Leaflet's CSS and Javascript responsible for the styling and interactivity of your boilerplate basemap. Notice both links include `leaflet@1.9.4`. This refers to the Leaflet version. Just as your computer occasionally requires software updates, Leaflet occasionally releases updates. If your web maps ever stop working for no apparent reason, go to Leaflet's home page, [leafletjs.com](https://leafletjs.com/){:target="_blank"} and check if a new version has been released. If it has, simply update your CSS and Javascript links to match. 
 {: .note}    
 

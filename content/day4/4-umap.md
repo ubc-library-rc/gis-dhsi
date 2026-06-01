@@ -21,7 +21,7 @@ nav_order: 2
 
 ## Creating a new map
 
-1. Go to [umap.openstreetmap.fr/en/](https://umap.openstreetmap.fr/en/) and **Log in/Sign in**. This ensures any map/work you create will be saved so you can return to it later.<br>
+1. Go to [umap.openstreetmap.fr/en/](https://umap.openstreetmap.fr/en/){:target="_blank"} and **Log in/Sign in**. This ensures any map/work you create will be saved so you can return to it later.<br>
 <img src="./images/umap1.png" style="width:90%">
 <br><br>
 2. Click **Create a map**. <br>
@@ -64,7 +64,7 @@ Use the **Search location** tool to search for Toronto. This will center your ba
 
 Use the **Importa data** tool <img src="./images/umap9.png" style="width:5%"> to add datasets to your map. 
 
-> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `DHSI-workshop-data/Day3/online-webmapping/`. 
+> One layer at a time, add both `public-art.geojson` and `heritage-conservation-districts.geojson` from the folder `DHSI-workshop-data/Day4/online-webmapping/`. 
 
 Notice that the drop-down menu of "Choose the format" indicates what formats are acceptable for upload. Many more than in Google MyMaps! So, while geoJSON layers were provided for you, you could re-use the CSV and KML files from Google MyMaps if you'd like. 
 
