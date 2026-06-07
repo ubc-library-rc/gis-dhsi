@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Design 
-nav_order: 2
+nav_order: 3
 parent: Day 1
 ---
 
@@ -9,7 +9,7 @@ parent: Day 1
 <!-- *How do I tell spatial stories with my data? What tools best suit my audience, skillset, resources, and timeframe?* Answering these questions involves project design.  -->
 
 
-Project design encompasses all the decisions you'll make in order to bring your project to fruition. Because this can be a daunting and overwhelming process, we've broken it down into 5 steps with questions to ask yourself at each. Designing a digital humanities project involving spatial visualization requires (1) articulating your objectives, (2) identifying constraints, (3) determining an output, (4) assembling resources, and (5) considering project maintenance and preservation. These five steps are nonlinear, and you will likely iterate through them multiple times. 
+Project design encompasses all the decisions you'll make in order to bring your project to fruition. Because this can be a daunting and overwhelming process, we've broken it down into 5 steps with questions to ask yourself at each. Designing a digital humanities project involving spatial visualization requires **(1) articulating your objectives, (2) identifying constraints, (3) determining an output, (4) assembling resources, and (5) considering project maintenance and preservation.** These five steps are nonlinear, and you will likely iterate through them multiple times. 
 
 
 As you reflect on the following questions, it can be useful to write down your answers to refer to later. A **Project Design Worksheet** has been prepared for you as a Microsoft Word document as well as Rich Text Document in the `dhsi-workshop/Day1` folder. You can also view it as a [Google Doc here](https://docs.google.com/document/d/1IdlIURj7mjjMPTnb7kk7OJu-YBiiKAwXxRNMqyCmtks/edit?usp=sharing){:target="_blank"}, but please *make a copy* of it to your own Drive to work on. *This worksheet is for your own benefit, and will not be collected or assessed by the facilitators. You will also have a chance to think through these questions during the workshop, though it may be helpful to review them beforehand.*

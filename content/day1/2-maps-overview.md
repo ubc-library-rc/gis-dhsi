@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reference vs. Thematic
-nav_order: 1
+nav_order: 2
 parent: Day 1
 ---
 # Thematic vs. Reference maps 

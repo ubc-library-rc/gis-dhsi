@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Wrangling
-nav_order: 3
+nav_order: 5
 parent: Day 1
 ---
 # Data Wrangling
