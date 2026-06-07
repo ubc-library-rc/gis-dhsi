@@ -15,6 +15,10 @@ Story Maps take the form of a website, often combining images, text, video, and 
 
 
 #### DH Example Projects using Story Maps
+- [Placing Oral Histories: A Visualization of Four Syrian Refugees’ Narratives of Displacement](https://storymaps.esri.com/stories/2017/oral-histories/index.html){:target="_blank"}
+- [New Jersey Underground Railroad Stops](https://storymaps.arcgis.com/stories/320e758597bb43498b5aab8dfadd2848){:target="_blank"}
+- [Mapping George Washing Gomez](https://storymaps.arcgis.com/stories/9b45489e86954690a9ec539fcaced66f){:target="_blank"}
+- [Books, Maps and Homeplace: Public Housing in Literature](https://storymaps.arcgis.com/stories/19bf08f6fec64f769d7d3504065f8446){:target="_blank"} (See [here](https://dhq.digitalhumanities.org/vol/20/2/000853/000853.html){:target="_blank"} for an article about the project.)
 - [Mapping Lost Rivers](https://newsinteractives.cbc.ca/features/2024/daylighting-rivers/){:target="_blank"} project (see their [main page](https://www.lostrivers.ca/){:target="_blank"}).
 - [Queer Sapphic New York](https://zhangyuchun17.github.io/Hidden-Constellations/){:target="_blank"} (Click *on* the arrow).
 - [Hieronymous Bosch: The Garden of Earthly Delights](https://storymap.knightlab.com/examples/bosch-garden/){:target="_blank"}
