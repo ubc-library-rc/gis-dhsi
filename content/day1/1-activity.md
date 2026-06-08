@@ -23,6 +23,7 @@ As we are looking at these maps, consider the following questions:
 3. **[Artists in Paris: Mapping the 18th Century Art World](https://www.artistsinparis.org){:target="_blank"}** 
 4. **[Addresses of British Slave Owners](https://www.ucl.ac.uk/lbs/maps/britain/){:target="_blank"}**
 5. **[Slave Voyages](https://www.slavevoyages.org/){:target="_blank"}**
+6. **[Coming Home to Indigenous Place Names in Canada](https://umaine.edu/canam/coming-home-map/){:target="_blank"}** by Dr. Margaret Wickens Pearce
 
 <br>
 
