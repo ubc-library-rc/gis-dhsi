@@ -184,7 +184,7 @@ In the tool window, select the following inputs:
 
 - **Polygons**: `census_tracts` 
 - **Points**: `french-canadians` 
-- **Count field name**: `FC` (the name of the attribute that will store the total French Canadians for each census tract.)
+- **Count field name**: `FC` (the name of the attribute that will store the number of French Canadians for each census tract.)
 
 
 <img src="./images/table15.png" style="width:100%">
@@ -228,13 +228,17 @@ wait no do later - all as part of prop. symbol map activity
 <br> 
 
 ## Joins 
-Now we have two polygon layers of census tracts, `fc-count` and `total-count`, which contain information of total French Canadians and Total Population (according to the 1881 Canadian census) respectively. Since we want to visualize not simply the *number* of French Canadians per census tract, but rather the percent French Canadians compared to the total population, we need to first join these two layers together and then perform a mathematatical operation between the columns for total French Canadians and total population.
+Now we have two polygon layers of census tracts, `fc-count` and `total-count`, which contain information for each tract on number of French Canadians and Total Population (according to the 1881 Canadian census) respectively. Since we want to visualize not simply the *number* of French Canadians per census tract, but rather the *percent* of the population that is French Canadian, we need to first join these two layers together. Then, we can perform a mathematical operation between the columns containing the count for French Canadians and the count for total population in order to calculate the percentage for each census tract. 
 
-Joins are very useful to know. Different kinds of joins - spatial joins. We will be joining `fc-count` and `total-count` by a common attribute, `CTRACT`. You can join two layers by a colomn so long as each feature has a unique value for the attribute. It's okay if the attribute is called something different in each layer (for example, if in one layer it were `CTRACT` while in the other `TRACTID`). 
+We will be joining `fc-count` and `total-count` by a common attribute, `CTRACT`. You can join two layers by a column so long as each feature has a unique value for the attribute. It's okay if the attribute is called something different in each layer (for example, if in one layer it were `CTRACT` while in the other `TRACTID`). (Joins are very useful to know. This join is called a join by attribute, but you can also join by location. )
+
+
+To Do
+{: .label .label-green }
 
 To add a join, go to the Layer Properties of the layer you want to append information *to*. Let's use `fc-count`. 
 
-Click down to Joins. You'll see there are no current joins to this layer. Click the plus icon to add a new join.
+> Click down to **Joins**. You'll see there are no current joins to this layer. Click the plus icon to add a new join.
 
 <img src="./images/joins1.png" style="width:100%">
 
@@ -244,12 +248,12 @@ A new window will pop up. This window is easily lost behind other QGIS windows.
 - Our **Join Field** will be `CTRACT`
 - Our **Target Field** will also be `CTRACT`
 
-Note that you can check on Join Fields to customize which fields join. We don't need ID or CTRACT again, so you can just click `total-pop` (or whatever you set your column to - maybe its NUMPOINTS).
+Note that you can check on Join Fields to customize which fields join. We don't need `ID` or `CTRACT` again, so you can just click `total-pop` (or whatever you set your column to - maybe it's NUMPOINTS).
 
 <img src="./images/joins2.png" style="width:65%">
 
 
-Click Okay in this window, and then OK in the Joins Layer Property. Open the attribute table of `fc-count`. You should see a new column!
+> Click Okay in this window, and then OK in the Joins Layer Property. Open the attribute table of `fc-count`. You should see a new column!
 
 <img src="./images/joins3.png" style="width:90%">
 
@@ -262,7 +266,7 @@ Click Okay in this window, and then OK in the Joins Layer Property. Open the att
 ## Field Calculator 
 Our final step in the is to calculate the percentage French Canadian population in each census tract. As QGIS writes, the **[Field Calculator](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#using-the-field-calculator){:target="_blank"}** "allows you to perform calculations on the basis of existing attribute values or defined functions, for instance, to calculate length or area of geometry features. The results can be used to update an existing field, or written to a new field (that can be a virtual one)."
 
-To get the percent French Canadian population in each census tract, we need to calculate (French Canadians / Total population) * 100. Let's add a column to our attribute table that performs this calculation using Field Calculator. 
+To get the percent French Canadian population in each census tract, we need to calculate *(French Canadians / Total population) * 100*. Let's add a column to our attribute table that performs this calculation using Field Calculator. 
 
 <br>
 
