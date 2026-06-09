@@ -56,7 +56,7 @@ We'll download [provincial boundaries](https://www12.statcan.gc.ca/census-recens
 
 ### 2. Download Water Features
 We'll download two sets of water features from the City of Montréal's data portal, one for the 
-[City of Montréal](https://donnees.montreal.ca/fr/dataset/hydrographie){:target="_blank"} *as well as* the [Montréal Metro Area](https://donnees.montreal.ca/fr/dataset/hydrographie-communaute-metropolitaine-montreal). Use the same process for each. **Make sure you download the shapefile (`.SHP`) for both — the shapefiles are listed in different orders for each dataset.**
+[City of Montréal](https://donnees.montreal.ca/fr/dataset/hydrographie){:target="_blank"} *as well as* the [Montréal Metro Area](https://donnees.montreal.ca/fr/dataset/hydrographie-communaute-metropolitaine-montreal){:target="_blank"}. Use the same process for each. **Make sure you download the shapefile (`.SHP`) for both — the shapefiles are listed in different orders for each dataset.**
 
 
 <img src="./images/gathering3.png" style="width:100%">
