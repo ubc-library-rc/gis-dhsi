@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google MyMaps demo
+title: Google MyMaps
 parent: Webmapping Online
 nav_order: 1
 ---
@@ -116,7 +116,7 @@ Right now, the drop-pins representing Public Art are uniformly styled. This mean
 
 - **Uniform style** What we have now. All points are styled the same. 
 - **Sequence of numbers** Data points are each assigned a number.
-- **Individual styles** Allows you to manually adjust the color and icon for each occurrence. After setting "Group places by" "Individual styles", simply over over any place and click the grey paint icon that appears to the right. 
+- **Individual styles** Allows you to manually adjust the color and icon for each occurrence. After setting "Group places by" to "Individual styles", simply hover over any place and click the grey paint icon that appears to the right. 
 - **Style by data column** Will assign a random color to occurrence of the column selected. 
 
 We can change the styling of a layer by clicking the paint-roller icon. 

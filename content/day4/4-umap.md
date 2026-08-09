@@ -1,6 +1,6 @@
 ---
 layout: default
-title: uMap demo
+title: uMap
 parent: Webmapping Online
 nav_order: 2
 ---
@@ -106,6 +106,7 @@ Now, expand **Shape properties**. Here, you can customize the icon color *and* s
 
 <img src="./images/umap15.png" style="width:100%">
 
+<br>
 
 ### Layer Interactivity 
 Now, expand **Interaction options**. As it stands, if you click on any public art feature, you get a pop-up with the name of the layer. Let's change this so relevant details like Title, Artist, and the artwork image appear in the popup. 
@@ -169,3 +170,7 @@ Then, head to the share icon in the left-hand menu.
 *Congratulations on making a webmap with uMap!*
 
 <!-- - share, embed, download - customomize embed too.  -->
+
+
+
+<!--for 2027 - add heatmaps etc, also add how to embed video etc-->
