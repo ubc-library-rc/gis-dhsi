@@ -94,7 +94,7 @@ If you find it busy, you can always remove the `L.geoJson(heritage).addTo(mymap)
 
  <img src="./images/leaflet11.png" style="width:100%">
 
-
+<!-- 
 ## Styling Layers
 Perhaps you want to change the way heritage districts polygons are styled. For example, we could change them to be a solid color such as green. This way, they'd stand out against the basemap. 
 
@@ -116,4 +116,4 @@ to change the styling of a polygon data layer, we will (1) write a *function* th
 There, we have created a style function that looks at every feature in the `heritage` layer and gives it a `fillColor` of `#5E3A85`, which is the [HEX code for purple](https://www.google.com/search?q=hex+color+picker&oq=hex+color+picker&aqs=chrome..69i57j35i39j0i67i131i433j0i67i433j0i433i512j0i67j0i512j0i131i433i512j0i512l2.1699j0j7&sourceid=chrome&ie=UTF-8){:target="_blank"}. `color` dictates the color of each feature's outline, and `weight` is the thickness of those outlines. `fillOpacity` is the transparency of the shading, where 0 is completely transparent and 1 is completely solid. Take a moment to play around with the color of the heritage districts.
 <br>
 
- <img src="./images/leaflet12.png" style="width:100%">
+ <img src="./images/leaflet12.png" style="width:100%"> -->

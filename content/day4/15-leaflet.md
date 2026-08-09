@@ -37,22 +37,21 @@ In the `<script>` element of your map's `<body>`, locate the codeblock that adds
 Copy/paste
 {: .label .label-purple}
 ```js
-//  add art layer as cluster group 
     var markers = L.markerClusterGroup();
 
     L.geoJSON(art, {
       onEachFeature: function (feature, layer) {
         var popupContent =
-          "<img src='" + feature.properties.ImageURL + 
-          "' width='200px'/><br><b>Title: </b>" + 
-          feature.properties.Title + 
-          "<br><b>Artist: </b>" + 
-          feature.properties.Artist
+          "<img src='" + feature.properties.ImageURL + "' style='width:200px'><br><b>Title: </b>" + feature.properties.Title + 
+                "<br><b>Artist: </b>" + feature.properties.Artist + 
+                "<br><b>Description: </b>" + feature.properties.Description
         layer.bindPopup(popupContent);
       },
     }).addTo(markers);
     markers.addTo(mymap);
 ```
+
+
 
 <br>
 
